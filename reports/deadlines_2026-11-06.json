@@ -1,0 +1,681 @@
+{
+  "title": "RH BELGIQUE | ÉCHÉANCES À 90 JOURS",
+  "slug": "deadlines",
+  "date": "2026-11-06",
+  "period": "Du 6 novembre 2026 au 4 février 2027",
+  "summary": "Échéances et dates d'application RH belges du 6 novembre 2026 au 4 février 2027 : indexation CP 200 avec premier plafonnement en centimes, jours fériés de remplacement avant le 15 décembre, fin du régime Activa bruxellois, déclaration des accidents du travail chez l'assureur, cotisation CO2, réforme des pensions et projets annoncés pour le 1er janvier 2027.",
+  "intro": "Ce rapport recense les échéances légales et les dates d'application connues en Belgique (fédéral, Flandre, Wallonie, Bruxelles) entre le 6 novembre 2026 et le 4 février 2027, y compris les mesures annoncées plus tôt. Chaque ligne indique si le texte est adopté, en projet ou seulement annoncé. Les priorités ROUGE (action requise), ORANGE (préparer) et VERT (suivre) sont des propositions.",
+  "sections": [
+    {
+      "heading": "CALENDRIER DES ÉCHÉANCES (TRIÉ PAR DATE)",
+      "paragraphs": [
+        "Type : « Échéance légale » = date limite d'une obligation ; « Date d'application » = date à laquelle une règle commence ou cesse de s'appliquer. Les mentions « Projet », « Avant-projet » ou « Annoncé » signalent un texte non encore adopté ou publié au Moniteur belge."
+      ],
+      "table": {
+        "columns": [
+          "Date",
+          "Niveau",
+          "Quoi",
+          "Type"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "13 novembre 2026",
+              "Fédéral",
+              "ONSS : date ultime de transfert par les secrétariats sociaux agréés de la 1re provision du 4e trimestre 2026 (instruction DGII n° 141 ; art. 34 AR du 28 novembre 1969). L'employeur doit avoir payé son secrétariat avant cette date.",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              15
+            ]
+          },
+          {
+            "cells": [
+              "18 novembre 2026",
+              "Fédéral",
+              "ONSS : date ultime de transfert par les secrétariats sociaux agréés du solde des cotisations du 3e trimestre 2026.",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              15
+            ]
+          },
+          {
+            "cells": [
+              "30 novembre 2026",
+              "Bruxelles",
+              "Activa.brussels (abrogé par l'ordonnance du 9 juillet 2026, M.B. 14 juillet 2026) : dernier délai pour activer l'allocation de travail d'un travailleur entré en service au plus tard le 15 juillet 2026 (activation possible jusqu'à 4 mois après le mois d'entrée en service).",
+              "Échéance légale"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              19
+            ]
+          },
+          {
+            "cells": [
+              "2 décembre 2026",
+              "Fédéral (UE)",
+              "Date limite de transposition de la directive (UE) 2024/2831 sur le travail via une plateforme (présomption légale de relation de travail). État de la transposition belge non vérifié.",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              27
+            ]
+          },
+          {
+            "cells": [
+              "5 décembre 2026",
+              "Fédéral",
+              "ONSS : provision mensuelle (novembre) à payer par l'employeur, en règle générale le 5 du mois ; la date exacte figure sur la facture du secrétariat social. Transfert ultime par les secrétariats : 11 décembre 2026.",
+              "Échéance légale"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              14,
+              15
+            ]
+          },
+          {
+            "cells": [
+              "Décembre 2026",
+              "Fédéral (CP 200)",
+              "Prime de fin d'année CP 200 : premier paiement de fin d'année sous les règles adaptées par l'accord sectoriel 2025-2026 (au plus 5 jours de chômage temporaire assimilés ; prorata dès 6 mois d'ancienneté en cas de licenciement, dès 3 ans en cas de démission ou de rupture de commun accord). Date de paiement exacte selon la CCT : non vérifiée.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              26
+            ]
+          },
+          {
+            "cells": [
+              "Avant le 15 décembre 2026",
+              "Fédéral",
+              "Jours fériés 2027 : afficher un avis daté et signé fixant les jours de remplacement (15 août 2027 tombe un dimanche ; 1er mai et 25 décembre 2027 tombent un samedi, à remplacer s'il s'agit d'un jour habituel d'inactivité). Copie annexée au règlement de travail et communiquée au Contrôle des lois sociales (loi du 4 janvier 1974).",
+              "Échéance légale"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              2,
+              3
+            ]
+          },
+          {
+            "cells": [
+              "31 décembre 2026",
+              "Fédéral",
+              "Vacances annuelles : les jours légaux de 2026 doivent être pris ; seuls 7 motifs (maladie ou accident, maternité, congé prophylactique, naissance, adoption, congé parental d'accueil, missions d'accueil) permettent un report sur 24 mois, avec paiement des jours reportés au 31 décembre. Les jours reportés depuis 2024 arrivent au terme des 24 mois (déduction du délai).",
+              "Échéance légale"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              25
+            ]
+          },
+          {
+            "cells": [
+              "31 décembre 2026",
+              "Bruxelles",
+              "Fin du régime transitoire Activa.brussels et Activa aptitude réduite : l'allocation de travail déduite du salaire net cesse au plus tard à cette date. À partir de janvier 2027, la paie doit être versée sans déduction.",
+              "Date d'application"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              19,
+              20
+            ]
+          },
+          {
+            "cells": [
+              "31 décembre 2026",
+              "Fédéral",
+              "Dernier jour pour déclarer un accident du travail (ni bénin ni grave) via la « DRS Accidents du travail » du portail de la sécurité sociale.",
+              "Échéance légale"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral (CP 200)",
+              "Indexation annuelle des salaires CP 200 : première application importante de l'indexation plafonnée [index en centimes] (loi-programme du 30 mai 2026). Les premiers 2 % sont calculés sur 4 000 EUR maximum (salaire de base temps plein), le surplus sur le salaire complet ; cotisation de modération salariale égale à 50 % de l'économie. Pourcentage définitif après l'indice de décembre 2026 (prévisions publiées : 3,76 % selon SD Worx, 4,32 % selon Securex, 4,65 % selon Acerta).",
+              "Date d'application"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              4,
+              5,
+              12,
+              30,
+              31
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Accidents du travail : déclaration directement auprès de l'assureur (application de l'assureur, papier ou intermédiaire) ; fin de la DRS. Accident grave : signalement immédiat à l'inspection du travail.",
+              "Date d'application"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Cotisation de solidarité CO2 sur véhicules de société : nouveaux montants indexés ; coefficient de 5,50 pour les véhicules non électriques achetés, loués ou en leasing à partir du 1er juillet 2023 ; véhicules électriques à la cotisation minimale sans coefficient. Montants sous réserve de confirmation par l'ONSS.",
+              "Date d'application"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              9
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Précompte professionnel : facteur de correction de 97 % sur le total des dispenses de versement (travail de nuit et en équipe, heures supplémentaires, R&D, etc.) pour les rémunérations payées ou attribuées en 2027 (loi-programme du 30 mai 2026, M.B. 1er juin 2026).",
+              "Date d'application"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              12
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Réforme des pensions (adoptée par la Chambre, mai 2026) : entrée en vigueur du bonus et du malus de pension et du seuil de 156 jours par année de carrière pour la pension anticipée.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              16
+            ]
+          },
+          {
+            "cells": [
+              "Au plus tard le 1er janvier 2027",
+              "Fédéral",
+              "Checkinatwork : enregistrement obligatoire aussi à la sortie des chantiers temporaires ou mobiles ; date exacte à fixer par arrêté royal (loi-programme du 30 mai 2026).",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              12
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Enregistrement général du temps de travail (nouvel art. 38quinquies de la loi du 16 mars 1971). Avant-projet de loi, avis CNT n° 2.499 divisé ; période transitoire envisagée jusqu'au 31 mars 2027. Non adopté.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              5,
+              8
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Obligation de proposer un budget mobilité pour les employeurs de 50 travailleurs et plus (1er janvier 2028 pour 15 à 49). Avant-projet approuvé en Conseil des ministres le 9 janvier 2026 ; pas encore déposé à la Chambre.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              5
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Plan d'action annuel 2027 (bien-être) : début de l'exercice ; le projet devait être soumis au CPPT (à défaut, à la délégation syndicale ou aux travailleurs) au plus tard le 1er novembre 2026.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              24
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Travail étudiant : nouveau contingent de 650 heures par année civile (compteur remis à zéro) ; vérification du solde via l'attestation student@work et Dimona STU.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              23
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Cotisation de solidarité de l'employeur (50 travailleurs et plus) pour incapacité primaire : extension annoncée aux 4e et 5e mois. Annoncé ; pas de texte légal identifié, les instructions ONSS 2026/3 visent encore 2 mois.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              22,
+              28
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Pécule de vacances des ouvriers : cotisation patronale trimestrielle prévue à 5,84 % (contre 5,57 %) et cotisation personnelle à 1,16 % à partir de l'année de vacances 2027. Projet d'AR non publié ; la hausse prévue au 1er octobre 2026 n'a pas été appliquée.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              11
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Restaurant d'entreprise : coût d'un repas normal porté de 6,91 EUR à 8,91 EUR (montant annoncé en décembre 2025, confirmation à vérifier).",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              10
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Bruxelles",
+              "Remplacement annoncé des aides à l'emploi supprimées par un système plus léger (piste : prime versée directement à l'employeur). Annoncé ; modalités inconnues.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              19,
+              18
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Wallonie",
+              "Abrogation du dispositif APE annoncée par le Gouvernement wallon (avant-projet de décret-cadre adopté en première lecture le 19 mars 2026) ; transfert des moyens vers des dispositifs sectoriels, période transitoire jusqu'en 2029 si nécessaire. Adoption définitive non vérifiée.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              21,
+              29
+            ]
+          },
+          {
+            "cells": [
+              "5 janvier 2027",
+              "Fédéral",
+              "ONSS : provision mensuelle (décembre) à payer par l'employeur, en règle générale le 5 du mois ; transfert ultime par les secrétariats : 12 janvier 2027.",
+              "Échéance légale"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              14,
+              17
+            ]
+          },
+          {
+            "cells": [
+              "31 janvier 2027",
+              "Fédéral",
+              "ONSS : DmfA et paiement du solde du 4e trimestre 2026 (règle : dernier jour du mois qui suit le trimestre ; le 31 janvier 2027 est un dimanche, date exacte publiée par l'ONSS non vérifiée). Première DmfA reprenant la cotisation de modération salariale liée à l'index de janvier pour la CP 200 : à partir du 1er trimestre 2027.",
+              "Échéance légale"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              13,
+              14,
+              5
+            ]
+          },
+          {
+            "cells": [
+              "Février 2027 (prévision)",
+              "Fédéral",
+              "Indice pivot : le Bureau fédéral du Plan prévoit son dépassement en novembre 2026 (prévision du 3 novembre 2026). Règle depuis le 1er juillet 2025 : allocations sociales et traitements publics indexés de 2 % trois mois plus tard, avec plafonnement en centimes. Prochain dépassement prévu en février 2027.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "POINTS PRIORITAIRES",
+      "cards": [
+        {
+          "title": "FÉDÉRAL / Indexation CP 200 au 1er janvier 2027 et index en centimes",
+          "priority": "RED",
+          "status": "Loi adoptée (loi-programme du 30 mai 2026) | Date d'effet : 1er janvier 2027",
+          "body": "Les salaires CP 200 sont indexés chaque 1er janvier ; l'indexation de janvier 2027 est la première grande application de l'indexation plafonnée [index en centimes]. Pour un salaire de base supérieur à 4 000 EUR bruts (équivalent temps plein), les premiers 2 % sont calculés sur 4 000 EUR, soit 80 EUR au maximum, et le surplus sur le salaire complet. L'employeur doit une cotisation de modération salariale égale à 50 % de l'économie réalisée, perçue par l'ONSS. Le pourcentage définitif dépend de l'indice de décembre 2026 ; les prévisions publiées vont de 3,76 % (SD Worx, août 2026) à 4,32 % (Securex, 12 octobre 2026) et 4,65 % (Acerta, cité le 2 novembre 2026).",
+          "impact": "Si l'entité relève de la CP 200, le moteur de paie doit gérer deux bases d'indexation et le nouveau code de cotisation dès la paie de janvier. Les heures supplémentaires, chèques-repas, voitures et bonus ne sont pas soumis à l'index en centimes, ce qui peut exiger un paramétrage distinct.",
+          "tags": [
+            "Paie",
+            "CP 200",
+            "ONSS"
+          ],
+          "source_ids": [
+            4,
+            5,
+            12,
+            30,
+            31
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Jours fériés de remplacement 2027",
+          "priority": "RED",
+          "status": "En vigueur (loi du 4 janvier 1974) | Échéance : avant le 15 décembre 2026",
+          "body": "Le 15 août 2027 tombe un dimanche et doit être remplacé ; le 1er mai et le 25 décembre 2027 tombent un samedi et doivent être remplacés si le samedi est un jour habituel d'inactivité. À défaut de décision de la commission paritaire, le conseil d'entreprise, à défaut la délégation syndicale, puis les travailleurs fixent le jour de remplacement. L'avis daté et signé est affiché, annexé au règlement de travail et communiqué au Contrôle des lois sociales.",
+          "impact": "Sans avis affiché à temps, le jour férié est reporté au premier jour habituel d'activité suivant, ce qui peut perturber la planification. Si un conseil d'entreprise existe, sa décision est requise avant l'affichage.",
+          "tags": [
+            "Temps de travail",
+            "Conseil d'entreprise",
+            "Règlement de travail"
+          ],
+          "source_ids": [
+            2,
+            3
+          ]
+        },
+        {
+          "title": "BRUXELLES / Fin de l'allocation de travail Activa",
+          "priority": "RED",
+          "status": "Ordonnance du 9 juillet 2026 (M.B. 14 juillet 2026) | Fin : 31 décembre 2026",
+          "body": "Activa.brussels et Activa aptitude réduite sont abrogés depuis le 15 juillet 2026. Les travailleurs entrés en service au plus tard le 15 juillet 2026 conservent l'allocation de travail [werkuitkering] jusqu'au 31 décembre 2026 au plus tard ; l'activation reste possible jusqu'au 30 novembre 2026. La réduction groupe-cible bruxelloise pour travailleurs âgés est abrogée depuis le 1er juillet 2026, sans mesure transitoire. Un système de remplacement plus léger est annoncé pour le 1er janvier 2027, sans modalités connues.",
+          "impact": "Pour les travailleurs concernés, le salaire net de janvier 2027 doit être payé intégralement par l'employeur, ce qui augmente le coût salarial. Les dossiers non activés au 30 novembre 2026 risquent d'être perdus.",
+          "tags": [
+            "Paie",
+            "Aides à l'emploi",
+            "Actiris"
+          ],
+          "source_ids": [
+            19,
+            20,
+            18
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Accidents du travail : fin de la DRS",
+          "priority": "RED",
+          "status": "Communication Fedris | Date d'effet : 1er janvier 2027",
+          "body": "À partir du 1er janvier 2027, les employeurs du secteur privé ne peuvent plus déclarer un accident du travail via la « DRS Accidents du travail ». La déclaration se fait directement auprès de l'assureur accidents du travail (application de l'assureur, papier) ou par un courtier ou agent. Un accident grave doit toujours être signalé immédiatement à l'inspection du travail.",
+          "impact": "Les procédures internes, les accès aux plateformes des assureurs et les instructions aux conseillers en prévention devraient être mis à jour avant fin décembre.",
+          "tags": [
+            "Bien-être",
+            "Processus",
+            "Assurance"
+          ],
+          "source_ids": [
+            1
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Voitures de société et dispenses de précompte",
+          "priority": "RED",
+          "status": "Loi adoptée (dispenses) ; montants CO2 sous réserve ONSS | Date d'effet : 1er janvier 2027",
+          "body": "La cotisation de solidarité CO2 est indexée au 1er janvier 2027 ; pour les véhicules non électriques achetés, loués ou en leasing à partir du 1er juillet 2023, elle est multipliée par 5,50. Les montants publiés restent sous réserve de confirmation par l'ONSS. Par ailleurs, la loi-programme du 30 mai 2026 applique un facteur de correction de 97 % au total des dispenses de versement du précompte professionnel pour 2027 (93,35 % en 2028, 95,90 % à partir de 2029).",
+          "impact": "Le coût des voitures thermiques récentes augmente sensiblement et le gain des dispenses (travail en équipe, de nuit, heures supplémentaires, R&D) baisse de 3 % ; les budgets 2027 et la politique automobile peuvent nécessiter une révision.",
+          "tags": [
+            "Paie",
+            "Mobilité",
+            "Précompte professionnel"
+          ],
+          "source_ids": [
+            9,
+            12
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Projets pour le 1er janvier 2027 encore non adoptés",
+          "priority": "AMBER",
+          "status": "Avant-projets | Date visée : 1er janvier 2027",
+          "body": "Enregistrement général du temps de travail : avant-projet de loi, avis CNT n° 2.499 divisé, période transitoire envisagée jusqu'au 31 mars 2027 et conservation des données pendant 5 ans. Budget mobilité obligatoire pour les employeurs de 50 travailleurs et plus : avant-projet approuvé le 9 janvier 2026, avis CNT/CCE n° 2.485, pas encore déposé à la Chambre. Extension de la cotisation de solidarité pour incapacité primaire aux 4e et 5e mois : annoncée, sans texte identifié.",
+          "impact": "Ces dates ne sont pas des obligations légales à ce stade. Un inventaire des systèmes de pointage et de la politique de mobilité permet de réagir rapidement si les textes sont adoptés en décembre ; une adaptation du règlement de travail sera probablement nécessaire.",
+          "tags": [
+            "Temps de travail",
+            "Mobilité",
+            "Incapacité de travail"
+          ],
+          "source_ids": [
+            5,
+            8,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS ET VIGILANCE",
+      "bullets": [
+        "Date exacte de la DmfA et du solde du 4e trimestre 2026 : le tableau de l'ONSS consulté s'arrête au 3e trimestre 2026 ; la règle générale renvoie au 31 janvier 2027, qui est un dimanche.",
+        "Index CP 200 au 1er janvier 2027 : prévisions seulement ; la prévision d'inflation du Bureau du Plan du 3 novembre 2026 (3,7 % en 2026) peut modifier le chiffre final.",
+        "Revenu minimum mensuel moyen garanti (RMMMG) : aucun changement confirmé au 1er janvier 2027 n'a été trouvé ; l'effet d'un dépassement de l'indice pivot sur le RMMMG n'a pas pu être daté.",
+        "Barèmes du précompte professionnel 2027 (annexe III AR/CIR 92) : aucune publication trouvée ; date de paiement de la prime de fin d'année CP 200 selon la CCT : non vérifiée.",
+        "Non publiés ou non vérifiés : pécule de vacances des ouvriers, restaurant d'entreprise, cotisation de solidarité pour incapacité, transposition de la directive (UE) 2024/2831, décret-cadre wallon APE.",
+        "Flandre : aucune échéance employeur datée identifiée (Vlaams opleidingsverlof, réductions groupes-cibles)."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Accident du travail : plus de déclaration via la « DRS Accidents du travail » à partir du 1er janvier 2027 (16 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22692"
+    },
+    {
+      "id": 2,
+      "label": "Jours fériés en 2027 : fixez les dates des jours de remplacement avant le 15 décembre 2026 (7 septembre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22629"
+    },
+    {
+      "id": 3,
+      "label": "Jours fériés – remplacement, affichage et base légale",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries"
+    },
+    {
+      "id": 4,
+      "label": "L'indexation des centimes perceptible à partir de juin, avec une prévision pour la CP 200 en janvier (SD Worx)",
+      "publisher": "Forum for the Future (TamTam)",
+      "url": "https://blog.forumforthefuture.be/fr/article/lindexation-des-centimes-perceptible-a-partir-de-juin-dans-plusieurs-secteurs-avec-une-prevision-pour-la-cp-200-en-janvier/31360"
+    },
+    {
+      "id": 5,
+      "label": "Droit du travail : cap sur le 1er janvier 2027 (TetraLaw)",
+      "publisher": "Forum for the Future (TamTam)",
+      "url": "https://blog.forumforthefuture.be/fr/article/droit-du-travail-cap-sur-le-1er-janvier-2027/32722"
+    },
+    {
+      "id": 6,
+      "label": "Indice des prix à la consommation – prévisions (3 novembre 2026)",
+      "publisher": "Bureau fédéral du Plan",
+      "url": "https://www.plan.be/fr/donn%C3%A9es/indice-des-prix-la-consommation-previsions"
+    },
+    {
+      "id": 7,
+      "label": "Indice pivot : dépassement en juin 2026 (3 juillet 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22534"
+    },
+    {
+      "id": 8,
+      "label": "Enregistrement du temps de travail à partir du 1er janvier 2027 – FAQ (mise à jour 13 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22640"
+    },
+    {
+      "id": 9,
+      "label": "Bedrijfsvoertuigen – RSZ : de CO2-bijdrage op 1 januari 2027 (23 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22698"
+    },
+    {
+      "id": 10,
+      "label": "Prêt pour 2026 : principales modifications pour les employeurs (17 décembre 2025)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22245"
+    },
+    {
+      "id": 11,
+      "label": "Financement du pécule de vacances des ouvriers : augmentation temporaire des cotisations ONSS (mise à jour 29 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22649"
+    },
+    {
+      "id": 12,
+      "label": "Newsletter : nouveautés RH de la loi-programme du 30 mai 2026 (juin 2026)",
+      "publisher": "Claeys & Engels",
+      "url": "https://www.claeysengels.be/sites/default/files/2026-06/newsletter_-_loi-programme_du_30_mai_2026.pdf"
+    },
+    {
+      "id": 13,
+      "label": "DmfA – délais de déclaration par trimestre",
+      "publisher": "ONSS – Portail de la sécurité sociale",
+      "url": "https://www.socialsecurity.be/site_fr/employer/applics/dmfa/index.htm"
+    },
+    {
+      "id": 14,
+      "label": "Qu'est-ce qu'une provision ONSS – échéances des provisions et du solde trimestriel",
+      "publisher": "UCM",
+      "url": "https://www.ucm.be/faq/mon-premier-engagement/quest-ce-quune-provision-lonss"
+    },
+    {
+      "id": 15,
+      "label": "Instructions DGII n° 141 – tableaux des échéances 2026 et 2027 (secrétariats sociaux agréés)",
+      "publisher": "ONSS – Portail de la sécurité sociale",
+      "url": "https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2026_F.pdf"
+    },
+    {
+      "id": 16,
+      "label": "Réforme des pensions approuvée : qu'est-ce que cela signifie pour votre retraite (16 juin 2026)",
+      "publisher": "Portail de la sécurité sociale / Service fédéral des Pensions",
+      "url": "https://www.socialsecurity.be/citizen/fr/actualites/reforme-des-pensions-approuvee-qu-est-ce-que-cela-signifie-pour-votre-retraite"
+    },
+    {
+      "id": 17,
+      "label": "Instruction DGII n° 141 – tableau des échéances 2027 (15 septembre 2026)",
+      "publisher": "ONSS – Portail de la sécurité sociale",
+      "url": "https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2027_F.pdf"
+    },
+    {
+      "id": 18,
+      "label": "Brussel en Wallonië zetten hun koers uit voor 2027 (15 octobre 2026)",
+      "publisher": "Securex Lex4You",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/brussel-en-wallonie-zetten-hun-koers-uit-voor-2027-wat-betekent-dat-voor-jouw-onderneming"
+    },
+    {
+      "id": 19,
+      "label": "Région de Bruxelles-Capitale : plusieurs aides disparaissent en juillet (17 juillet 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22558"
+    },
+    {
+      "id": 20,
+      "label": "Brussel : de Activa-premie en de doelgroepvermindering voor oudere werknemers verdwijnen (14 juillet 2026)",
+      "publisher": "Securex Lex4You",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/brussel-de-activa-premie-en-de-doelgroepvermindering-voor-oudere-werknemers-verdwijnen"
+    },
+    {
+      "id": 21,
+      "label": "Communiqué : le Gouvernement décide la fin du dispositif APE (19 mars 2026)",
+      "publisher": "Gouvernement wallon – cabinet du ministre de l'Emploi",
+      "url": "https://jeholet.wallonie.be/files/Communiqu%c3%a9s%20de%20presse/20260318_CP%20APE%20decret%20cadre.pdf"
+    },
+    {
+      "id": 22,
+      "label": "Nieuwigheden op 1 januari 2026 inzake arbeidsongeschiktheid en re-integratie (14 janvier 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22275"
+    },
+    {
+      "id": 23,
+      "label": "Un job étudiant pendant les vacances : que devez-vous faire (24 juin 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22522"
+    },
+    {
+      "id": 24,
+      "label": "Introduisez votre plan d'action annuel pour le 1er novembre (17 octobre 2025)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22151"
+    },
+    {
+      "id": 25,
+      "label": "Vacances annuelles : le droit au report rendu possible depuis le 1er janvier 2024 (14 juin 2024)",
+      "publisher": "CSC",
+      "url": "https://www.lacsc.be/actualite/actualites-et-communiques-de-presse/newsdetail/2024/06/14/vacances-annuelles-en-belgique-le-droit-au-report-rendu-possible-depuis-le-1er-janvier-2024"
+    },
+    {
+      "id": 26,
+      "label": "Accord sectoriel dans la CP 200 : quels changements pour vos employés (24 décembre 2025)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22253"
+    },
+    {
+      "id": 27,
+      "label": "Directive (UE) 2024/2831 du 23 octobre 2024 relative au travail via une plateforme",
+      "publisher": "EUR-Lex – Journal officiel de l'Union européenne",
+      "url": "https://eur-lex.europa.eu/eli/dir/2024/2831/oj/fra"
+    },
+    {
+      "id": 28,
+      "label": "Cotisation de solidarité malades de longue durée – instructions administratives 2026/3",
+      "publisher": "ONSS – Portail de la sécurité sociale",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/latest/instructions/special_contributions/other_specialcontributions/soli_sickness.html"
+    },
+    {
+      "id": 29,
+      "label": "Réforme des aides à l'emploi – aides abrogées depuis le 1er juillet 2026",
+      "publisher": "Le Forem",
+      "url": "https://www.leforem.be/articles/reforme-aides-emploi.html"
+    },
+    {
+      "id": 30,
+      "label": "Wordt de spilindex nogmaals overschreden in 2026 [l'indice-pivot sera-t-il encore dépassé en 2026] (12 octobre 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wordt-de-spilindex-nogmaals-overschreden-in-2026"
+    },
+    {
+      "id": 31,
+      "label": "L'indice pivot à un pas d'être dépassé (2 novembre 2026)",
+      "publisher": "Selectra",
+      "url": "https://selectra.be/fr/energie/actualites/indice-pivot-depassement-novembre-allocations-salaires"
+    }
+  ]
+}

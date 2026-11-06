@@ -55,7 +55,7 @@ def build(path: Path) -> Path:
         **r,
         "css": (RADAR_DIR / "base.css").read_text(encoding="utf-8"),
         "example": bool(r.get("example")),
-        "window_label": r["period"].upper(),
+        "window_label": "RAPPORT THÉMATIQUE",
         "sources": sorted(r["sources"], key=lambda s: s["id"]),
     }
     parse_date(r["date"])

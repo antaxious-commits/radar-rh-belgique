@@ -1,0 +1,484 @@
+{
+  "title": "RH BELGIQUE | CONTRÔLE DE PAIE",
+  "slug": "payroll",
+  "date": "2026-11-06",
+  "period": "Novembre et décembre 2026",
+  "summary": "Nouveau calcul du précompte professionnel dès la paie de novembre 2026, prime de fin d'année et clôture d'année en décembre, et préparation de la première indexation plafonnée de la CP 200 au 1er janvier 2027.",
+  "intro": "Contrôle des changements de paie belges qui prennent effet ou doivent être traités en novembre et décembre 2026 (situation au 6 novembre 2026). Recherche menée en français et en néerlandais auprès du Bureau fédéral du Plan, de Statbel, du SPF Emploi, de l'ONSS, des administrations régionales et des secrétariats sociaux. Les mesures seulement annoncées sont signalées comme telles ; les estimations d'indexation ne sont pas des chiffres définitifs.",
+  "sections": [
+    {
+      "heading": "SYNTHÈSE POUR LA PAIE",
+      "paragraphs": [
+        "Un seul changement légal modifie déjà le calcul de la paie de novembre : le nouveau précompte professionnel applicable aux rémunérations payées ou attribuées à partir du 1er novembre 2026. Décembre concentre surtout des contrôles de clôture d'année (prime de fin d'année, quotas annuels, avis des jours fériés 2027) et la préparation de l'indexation de janvier 2027, la première soumise à l'« index en centimes » dans la CP 200."
+      ],
+      "bullets": [
+        "ROUGE : paramétrer et contrôler le nouveau précompte professionnel sur la paie de novembre 2026 (arrêté royal du 27 septembre 2026, Moniteur belge du 2 octobre 2026).",
+        "ROUGE : calculer la prime de fin d'année de décembre (CP 200 : nouvelles règles du protocole d'accord 2025-2026, transposition en CCT non vérifiée).",
+        "ORANGE : préparer l'indexation de la CP 200 au 1er janvier 2027 avec plafonnement au-delà de 4 000 EUR et cotisation spéciale de modération salariale ; le pourcentage définitif ne sera connu qu'après l'indice de décembre 2026."
+      ]
+    },
+    {
+      "heading": "ORDRE DE VALIDATION DE LA PAIE",
+      "bullets": [
+        "1. Gestionnaire de paie (proposé) : tester le nouveau précompte sur un échantillon de fiches de novembre (isolé, parent isolé, revenu unique avec enfants) et documenter les écarts.",
+        "2. Juriste social ou secrétariat social (proposé) : confirmer les CP applicables, la CCT de la CP 200 sur la prime de fin d'année et les indexations de novembre-décembre.",
+        "3. Gestionnaire de paie puis Direction RH (proposés) : valider la prime de fin d'année et les sorties avant la paie de décembre, l'avis des jours fériés 2027, la décision chèques-repas et le budget de l'indexation de janvier 2027."
+      ]
+    },
+    {
+      "heading": "CHANGEMENTS DE NOVEMBRE 2026",
+      "cards": [
+        {
+          "title": "FÉDÉRAL / Nouveau calcul du précompte professionnel",
+          "priority": "RED",
+          "status": "Publié | Date d'effet : 1er novembre 2026",
+          "body": "L'arrêté royal du 27 septembre 2026 (Moniteur belge du 2 octobre 2026) modifie l'annexe III de l'AR/CIR 92 pour intégrer les premières mesures de la loi du 15 juillet 2026 portant réforme de l'impôt des personnes physiques. Il s'applique aux rémunérations payées ou attribuées à partir du 1er novembre 2026 : quotité exemptée relevée, réductions pour enfants à charge adaptées, plafond du quotient conjugal abaissé une première fois, réductions pour autres personnes à charge et situations familiales modifiées. Selon l'OEC/CCBB, la quotité exemptée des revenus 2026 passe à 11 550 EUR (contre 11 180 EUR avec la seule indexation). Les pensions et les allocations de chômage avec complément d'entreprise ne sont pas visées ; les mois de janvier à octobre ne sont pas recalculés.",
+          "impact": "Le net de novembre peut augmenter ou diminuer selon la situation familiale : Securex cite +14,47 EUR net par mois pour un parent isolé avec un enfant à 3 200 EUR bruts, mais -29,90 EUR pour un bénéficiaire marié à revenu unique avec quatre enfants à 5 000 EUR bruts. Si les fiches de situation familiale sont incomplètes, les écarts risquent d'être mal expliqués ; une régularisation à l'avertissement-extrait de rôle 2027 est possible.",
+          "tags": [
+            "Précompte professionnel",
+            "Paie de novembre",
+            "Communication aux travailleurs"
+          ],
+          "source_ids": [
+            1,
+            2,
+            3,
+            24
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Dépassement prévu de l'indice-pivot",
+          "priority": "AMBER",
+          "status": "Prévision | Date d'effet : non encore acquise (indice de novembre publié fin novembre 2026)",
+          "body": "Selon les prévisions du Bureau fédéral du Plan du 3 novembre 2026, l'indice-pivot de 102,29 (base 2025) serait dépassé en novembre 2026 (indice santé lissé prévu à 102,32), les allocations sociales et les traitements de la fonction publique étant alors indexés en février 2027. Statbel publie pour octobre 2026 une inflation de 5,26 % et un indice santé lissé de 101,72. Pour les montants des allocations sociales et de la fonction publique, l'indexation de 2 % se fait selon les modalités de l'index en centimes. Dans la chimie (CP 116 et CP 207), Securex attend la prochaine indexation en novembre 2026.",
+          "impact": "Aucun effet automatique sur les salaires du secteur privé : tout dépend du mécanisme de la commission paritaire. Si l'entité relève d'une CP indexée sur l'indice-pivot ou à date fixe en novembre-décembre, la paie doit appliquer le pourcentage sectoriel et, au-delà de 4 000 EUR, la modération de l'index en centimes.",
+          "tags": [
+            "Indexation",
+            "Commissions paritaires",
+            "Montants liés à l'indice-pivot"
+          ],
+          "source_ids": [
+            7,
+            8,
+            9,
+            12
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Pécule de vacances des ouvriers : hausse des cotisations suspendue",
+          "priority": "GREEN",
+          "status": "Projet d'arrêté royal suspendu | Date d'effet : non précisée",
+          "body": "Un projet d'arrêté royal prévoyait de porter la cotisation patronale trimestrielle pour les vacances des ouvriers de 5,57 % à 5,69 % au 1er octobre 2026, puis à 5,84 % au 1er janvier 2027, et la cotisation de solidarité retenue sur le pécule de 1 % à 1,16 %. Selon Partena (29 octobre 2026), le fichier des taux de cotisation ONSS 2026/4 ne contient pas cette hausse et le projet n'est pas signé pour l'instant ; une entrée en vigueur en 2027 reste possible mais non confirmée.",
+          "impact": "Si le logiciel de paie a déjà été paramétré avec les taux annoncés, il faut revenir aux taux en vigueur pour le 4e trimestre 2026. À suivre pour le 1er janvier 2027.",
+          "tags": [
+            "ONSS",
+            "Ouvriers",
+            "Pécule de vacances"
+          ],
+          "source_ids": [
+            17
+          ]
+        },
+        {
+          "title": "BRUXELLES / Fin de l'allocation de travail activa.brussels",
+          "priority": "AMBER",
+          "status": "Ordonnance du 9 juillet 2026 publiée (Moniteur belge du 14 juillet 2026) | Fin du régime transitoire : 31 décembre 2026",
+          "body": "Activa.brussels et activa.brussels aptitude réduite sont abrogés depuis le 15 juillet 2026. Les travailleurs engagés au plus tard le 15 juillet 2026 conservent l'allocation de travail [allocation de travail], que l'employeur déduit du salaire net, jusqu'au 31 décembre 2026 au plus tard. L'allocation peut encore être activée jusqu'à quatre mois après le mois d'engagement, donc avant le 30 novembre 2026. La réduction groupe-cible bruxelloise pour travailleurs de 61 ans et plus a pris fin le 1er juillet 2026, sans mesure transitoire.",
+          "impact": "Pour les établissements bruxellois concernés, la paie de janvier 2027 doit cesser de déduire l'allocation du net et verser le salaire net complet. Une éventuelle prime directe à l'employeur est seulement à l'étude.",
+          "tags": [
+            "Bruxelles",
+            "Aides à l'emploi",
+            "Salaire net"
+          ],
+          "source_ids": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "CHANGEMENTS ET CONTRÔLES DE DÉCEMBRE 2026",
+      "cards": [
+        {
+          "title": "FÉDÉRAL / Prime de fin d'année (CP 200 et autres CP)",
+          "priority": "RED",
+          "status": "Protocole d'accord du 18 décembre 2025 (CP 200) | Date d'effet : 1er janvier 2026 ; transposition en CCT non vérifiée",
+          "body": "La prime de fin d'année est en principe payée en décembre selon les règles de chaque commission paritaire. Pour la CP 200, le protocole d'accord 2025-2026 prévoit à partir du 1er janvier 2026 : assimilation de 5 jours maximum de chômage temporaire (raisons économiques ou force majeure), prime au prorata en cas de licenciement avec contre-préavis dès 6 mois d'ancienneté, et prime au prorata en cas de démission ou de rupture de commun accord dès 3 ans d'ancienneté (au lieu de 5 ans). Partena précisait que l'accord devait encore être transposé en CCT sectorielles ; nous n'avons pas pu vérifier le texte de la CCT.",
+          "impact": "Si l'entité relève de la CP 200, la paie de décembre 2026 (et les décomptes de sortie de l'année) doivent appliquer les nouvelles assimilations et conditions d'ancienneté. Le nouveau précompte s'applique aussi à la prime ; selon Securex, celle-ci peut en être affectée.",
+          "tags": [
+            "Prime de fin d'année",
+            "CP 200",
+            "Paie de décembre"
+          ],
+          "source_ids": [
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Indexation CP 200 au 1er janvier 2027 et index en centimes",
+          "priority": "AMBER",
+          "status": "Loi-programme du 30 mai 2026 (Moniteur belge du 1er juin 2026) | Date d'effet CP 200 : 1er janvier 2027 ; pourcentage définitif fin décembre 2026",
+          "body": "Depuis le 1er juin 2026, la première indexation appliquée dans chaque secteur est modérée : pour un salaire de référence (salaire de base mensuel brut à temps plein) supérieur à 4 000 EUR, 2 % ne sont appliqués que sur 4 000 EUR (80 EUR au maximum), puis la part d'indexation au-delà de 2 % s'applique au salaire entier. Primes de fin d'année, chèques-repas, éco-chèques et sursalaires ne font pas partie du salaire de référence. Dans la CP 200, indexée une fois par an en janvier, cette modération s'appliquera pour la première fois au 1er janvier 2027. Estimations publiées : 3,76 % (SD Worx, août 2026), 4,32 % (Securex, 12 octobre 2026), 4,65 % (Acerta, cité le 2 novembre 2026).",
+          "impact": "Chaque mois de modération, l'employeur doit calculer par travailleur la cotisation spéciale de modération salariale [CSMS] selon la formule de l'ONSS (environ la moitié de l'économie réalisée, cotisations patronales comprises) et la déclarer par trimestre. Si l'entité relève de la CP 200, le paramétrage doit être prêt avant la paie de janvier 2027 ; pour les CP déjà indexées depuis juin 2026, la CSMS est déjà due.",
+          "tags": [
+            "Indexation",
+            "CP 200",
+            "ONSS",
+            "Index en centimes"
+          ],
+          "source_ids": [
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Chèques-repas : fin de la fenêtre d'exception à la norme salariale",
+          "priority": "AMBER",
+          "status": "En vigueur depuis le 1er janvier 2026 | Échéance : 31 décembre 2026",
+          "body": "Depuis le 1er janvier 2026, la part patronale exonérée maximale est de 8,91 EUR (valeur maximale 10 EUR, part du travailleur d'au moins 1,09 EUR). La hausse est un plafond, pas une obligation. L'exception à la norme salariale couvre une hausse patronale de 2 EUR maximum, sans dépasser 8,91 EUR, fixée par CCT ou accord individuel et octroyée entre le 1er janvier et le 31 décembre 2026. La déduction fiscale passe à 4 EUR par chèque si l'employeur intervient à hauteur de 8,91 EUR (chèques électroniques attribués depuis le 1er janvier 2026).",
+          "impact": "Si l'entité envisage encore une hausse en 2026, elle doit être formalisée et octroyée avant le 31 décembre 2026 ; au-delà, les règles générales de la norme salariale s'appliquent (amende de 250 à 5 000 EUR par travailleur selon Partena).",
+          "tags": [
+            "Chèques-repas",
+            "Norme salariale",
+            "CCT"
+          ],
+          "source_ids": [
+            16
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Jours fériés : 2 novembre 2026 et avis 2027 avant le 15 décembre",
+          "priority": "AMBER",
+          "status": "Obligation existante | Échéance : 15 décembre 2026",
+          "body": "Le 1er novembre 2026 tombe un dimanche : un jour de remplacement doit être accordé un jour habituel d'activité. Pour 2027, le 15 août tombe un dimanche, le 1er mai et le 25 décembre un samedi. Avant le 15 décembre 2026, l'employeur affiche un avis daté et signé fixant les jours de remplacement 2027 et les règles de repos compensatoire, l'annexe au règlement de travail et le transmet à l'inspection régionale. À défaut, le jour férié est remplacé par le premier jour habituel d'activité qui suit.",
+          "impact": "La paie doit rémunérer correctement le jour de remplacement de novembre 2026 et intégrer le calendrier 2027 avant les premiers jours fériés de l'année. Si le conseil d'entreprise ou la délégation syndicale fixe les jours de remplacement, prévoir la décision avant le 15 décembre.",
+          "tags": [
+            "Jours fériés",
+            "Règlement de travail",
+            "Conseil d'entreprise"
+          ],
+          "source_ids": [
+            13,
+            23
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Heures supplémentaires volontaires : clôture du quota 2026",
+          "priority": "GREEN",
+          "status": "Loi du 18 mai 2026 (Moniteur belge du 1er juin 2026) | En vigueur depuis le 1er avril 2026 (rétroactif)",
+          "body": "Le régime structurel prévoit 360 heures supplémentaires volontaires par année civile, quota unique pour tous les secteurs, sur lequel s'imputent les heures volontaires et de relance prestées du 1er janvier au 31 mars 2026. Selon l'UVCW, les 240 premières heures sont exonérées de cotisations sociales et de précompte professionnel ; les heures 241 à 360 donnent droit au sursalaire. Partena signale par ailleurs un contingent général de 180 heures supplémentaires fiscalement avantageuses intégré au précompte.",
+          "impact": "En décembre, la paie doit vérifier les compteurs annuels par travailleur pour ne pas dépasser le quota 2026 ni appliquer à tort les exonérations.",
+          "tags": [
+            "Temps de travail",
+            "Heures supplémentaires",
+            "Clôture d'année"
+          ],
+          "source_ids": [
+            4,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "ANNONCES À SUIVRE (NON ADOPTÉES)",
+      "bullets": [
+        "Annoncé : extension de la cotisation de solidarité des employeurs d'au moins 50 travailleurs (30 % de l'indemnité d'incapacité primaire, actuellement pour les 2e et 3e mois) aux 4e et 5e mois à partir du 1er janvier 2027 ; modalités non fixées selon la source consultée (LegalNews, 15 janvier 2026) [18].",
+        "Annoncé : seconde hausse de la part patronale des chèques-repas de 2 EUR (10,91 EUR, chèque de 12 EUR) ; aucun cadre légal selon Partena (avril 2026), date 2027 ou 2028 évoquée [16].",
+        "Proposition : hausse temporaire des cotisations de vacances des ouvriers, éventuellement au 1er janvier 2027 (projet d'arrêté royal non signé) [17].",
+        "Flandre : les décisions relatives au jobbonus 2026 (année de référence 2025, 700 EUR maximum) sont envoyées de novembre 2026 à fin février 2027 et payées par le Vlaamse Belastingdienst ; aucune action de paie, l'employeur fournit seulement les données trimestrielles ONSS [21]."
+      ]
+    },
+    {
+      "heading": "TABLEAU DE CONTRÔLE DE LA PAIE",
+      "table": {
+        "columns": [
+          "Domaine",
+          "Niveau",
+          "Date",
+          "Ce que la paie doit vérifier"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Précompte professionnel",
+              "Fédéral",
+              "1er novembre 2026",
+              "Nouveau barème actif sur la paie de novembre ; fiches de situation familiale à jour ; pas de recalcul janvier-octobre ; pensions et RCC exclues."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "cells": [
+              "Prime de fin d'année",
+              "Fédéral (CP)",
+              "Décembre 2026",
+              "Règles de la CP ; CP 200 : assimilation du chômage temporaire (5 jours), conditions d'ancienneté 6 mois et 3 ans ; texte de CCT à confirmer."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              14,
+              15
+            ]
+          },
+          {
+            "cells": [
+              "Indexation sectorielle",
+              "Fédéral (CP)",
+              "Novembre 2026 à janvier 2027",
+              "Pourcentage par CP ; modération au-delà de 4 000 EUR ; calcul mensuel et déclaration trimestrielle de la CSMS."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              5,
+              6,
+              9
+            ]
+          },
+          {
+            "cells": [
+              "Indice-pivot",
+              "Fédéral",
+              "Novembre 2026 (prévision)",
+              "Confirmation par Statbel fin novembre ; montants liés (allocations, fonction publique) en février 2027."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              7,
+              8
+            ]
+          },
+          {
+            "cells": [
+              "Chèques-repas",
+              "Fédéral",
+              "31 décembre 2026",
+              "Toute hausse 2026 formalisée par CCT ou accord individuel et octroyée avant la fin de l'année ; plafond 8,91 EUR."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              16
+            ]
+          },
+          {
+            "cells": [
+              "Jours fériés",
+              "Fédéral",
+              "15 décembre 2026",
+              "Paiement du jour de remplacement du 1er novembre ; avis 2027 affiché et transmis."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              23
+            ]
+          },
+          {
+            "cells": [
+              "Allocation activa.brussels",
+              "Bruxelles",
+              "30 novembre et 31 décembre 2026",
+              "Dernières activations avant le 30 novembre ; arrêt de la déduction du net à partir de janvier 2027."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              19
+            ]
+          },
+          {
+            "cells": [
+              "Cotisations vacances ouvriers",
+              "Fédéral",
+              "4e trimestre 2026",
+              "Taux actuels maintenus (5,57 % et 1 %) ; pas de taux majorés dans le paramétrage."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              17
+            ]
+          },
+          {
+            "cells": [
+              "Heures supplémentaires volontaires",
+              "Fédéral",
+              "31 décembre 2026",
+              "Compteurs annuels (360 heures, dont 240 nettes) et traitement fiscal et social correct."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              22
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "AUCUN CHANGEMENT IDENTIFIÉ",
+      "paragraphs": [
+        "Domaines recherchés sans changement trouvé pour novembre-décembre 2026 (sous réserve d'une publication ultérieure)."
+      ],
+      "bullets": [
+        "RMMMG et bonus à l'emploi : aucune nouvelle hausse trouvée pour novembre-décembre 2026 ; ces montants suivent l'indice-pivot, mais le mois d'adaptation après un dépassement en novembre 2026 n'a pas été vérifié.",
+        "Mobilité (voiture de société, budget mobilité, vélo) : aucune modification trouvée avec effet en novembre-décembre 2026.",
+        "Salaire garanti et incapacité de travail : pas de nouvelle règle en novembre-décembre ; les règles du 1er janvier 2026 restent applicables [18].",
+        "Wallonie : les aides Impulsion, SINE, SESAM et Tremplin ne sont plus accessibles depuis le 1er juillet 2026 ; rien de nouveau pour la période [20].",
+        "Éco-chèques, Communauté germanophone (AktiF, AktiF PLUS) et actions syndicales : aucune modification ni grève nationale annoncée trouvée pour la période."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Précompte professionnel : nouvelles règles à partir du 1er novembre 2026 (13 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22682"
+    },
+    {
+      "id": 2,
+      "label": "Précompte professionnel : ce que la réforme IPP laisse à régulariser en 2027 depuis la nouvelle paie de novembre 2026",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/fr/article/precompte-professionnel-ce-que-la-reforme-ipp-laisse-a-regulariser-en-2027-depuis-la-nouvelle-paie-de-novembre-2026/32846"
+    },
+    {
+      "id": 3,
+      "label": "Nettolonen veranderen vanaf november [salaires nets modifiés à partir de novembre]",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/nettolonen-veranderen-vanaf-november"
+    },
+    {
+      "id": 4,
+      "label": "Modification de l'annexe III de l'AR/CIR 92 : nouvelles règles pour le précompte professionnel (3 août 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/modification-de-lannexe-iii-de-larcir-92-nouvelles-regles-pour-le-precompte-professionnel"
+    },
+    {
+      "id": 5,
+      "label": "Index centimes",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/remuneration/indexation-automatique-des-salaires/index-centimes"
+    },
+    {
+      "id": 6,
+      "label": "Index en centimes : questions et réponses (version du 27 juillet 2026)",
+      "publisher": "ONSS / Sécurité sociale",
+      "url": "https://www.socialsecurity.be/public/doclibrary/fr/documents/pdf/centenindex_fr.pdf"
+    },
+    {
+      "id": 7,
+      "label": "Indice des prix à la consommation : prévisions d'inflation (3 novembre 2026)",
+      "publisher": "Bureau fédéral du Plan",
+      "url": "https://www.plan.be/en/data/consumer-price-index-inflation-forecasts"
+    },
+    {
+      "id": 8,
+      "label": "Indice des prix à la consommation (octobre 2026)",
+      "publisher": "Statbel",
+      "url": "https://statbel.fgov.be/fr/themes/prix-la-consommation/indice-des-prix-la-consommation"
+    },
+    {
+      "id": 9,
+      "label": "Wordt de spilindex nogmaals overschreden in 2026 [l'indice-pivot sera-t-il encore dépassé en 2026] (12 octobre 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wordt-de-spilindex-nogmaals-overschreden-in-2026"
+    },
+    {
+      "id": 10,
+      "label": "Indexation plafonnée des salaires : ce que change l'index en centimes pour les employeurs",
+      "publisher": "Forum for the Future",
+      "url": "https://blog.forumforthefuture.be/fr/article/indexation-plafonnee-des-salaires-ce-que-change-l-index-en-centimes-pour-les-employeurs/32727"
+    },
+    {
+      "id": 11,
+      "label": "L'indice pivot à un pas d'être dépassé (2 novembre 2026)",
+      "publisher": "Selectra",
+      "url": "https://selectra.be/fr/energie/actualites/indice-pivot-depassement-novembre-allocations-salaires"
+    },
+    {
+      "id": 12,
+      "label": "Indice pivot : dépassement en juin 2026 (3 juillet 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22534"
+    },
+    {
+      "id": 13,
+      "label": "Wat brengt de maand november 2026 op hr-vlak [ce que novembre 2026 apporte en RH] (26 octobre 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-november-2026-op-hr-vlak"
+    },
+    {
+      "id": 14,
+      "label": "Accord sectoriel dans la CP 200 : quels changements pour vos employés (24 décembre 2025)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/accord-sectoriel-dans-la-cp-200-quels-changements-pour-vos-employes"
+    },
+    {
+      "id": 15,
+      "label": "Sectorakkoord 25-26 : dit verandert er voor jou [accord sectoriel CP 200] (5 janvier 2026)",
+      "publisher": "ACV / CSC",
+      "url": "https://www.hetacv.be/actualiteit/nieuws-en-persberichten/newsdetail/2026/01/05/sectorakkoord-25-26--dit-verandert-er-voor-jou"
+    },
+    {
+      "id": 16,
+      "label": "Le chèque-repas de 10 euros : six questions pour les employeurs (20 avril 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22442"
+    },
+    {
+      "id": 17,
+      "label": "Financiering vakantiegeld arbeiders : voorlopig geen verhoging van de sociale zekerheidsbijdragen in 2026 [financement du pécule des ouvriers] (29 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22705"
+    },
+    {
+      "id": 18,
+      "label": "Arbeidsongeschiktheid in beweging : nieuwe regels vanaf 2026 [incapacité de travail : nouvelles règles] (15 janvier 2026)",
+      "publisher": "LegalNews / Commit",
+      "url": "https://legalnews.be/arbeid-sociale-zekerheid/arbeidsongeschiktheid-in-beweging-nieuwe-regels-vanaf-2026-samengevat-commit/"
+    },
+    {
+      "id": 19,
+      "label": "Région de Bruxelles-Capitale : plusieurs aides disparaissent en juillet (17 juillet 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22558"
+    },
+    {
+      "id": 20,
+      "label": "Aides financières à l'emploi (réforme)",
+      "publisher": "Le Forem",
+      "url": "https://www.leforem.be/articles/reforme-aides-emploi.html"
+    },
+    {
+      "id": 21,
+      "label": "Jobbonus voor werknemers en ambtenaren [jobbonus pour travailleurs et fonctionnaires]",
+      "publisher": "Vlaamse overheid (vlaanderen.be)",
+      "url": "https://www.vlaanderen.be/werken/jobbonus/jobbonus-voor-werknemers-en-ambtenaren"
+    },
+    {
+      "id": 22,
+      "label": "Nouveau régime structurel des heures supplémentaires volontaires à partir du 1er avril 2026",
+      "publisher": "UVCW",
+      "url": "https://uvcw.be/personnel/actus/art-10149"
+    },
+    {
+      "id": 23,
+      "label": "Jours fériés en 2027 : fixez les dates des jours de remplacement avant le 15 décembre 2026 (7 septembre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22629"
+    },
+    {
+      "id": 24,
+      "label": "Novembre 2026 : six échéances fiscales, douanières et économiques pour le praticien",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/fr/article/novembre-2026-six-echeances-fiscales-douanieres-et-economiques-pour-le-praticien/32848"
+    }
+  ]
+}

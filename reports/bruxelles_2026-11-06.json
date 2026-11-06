@@ -1,0 +1,399 @@
+{
+  "title": "RH BELGIQUE | EMPLOYEUR À BRUXELLES",
+  "slug": "bruxelles",
+  "date": "2026-11-06",
+  "period": "Situation au 6 novembre 2026",
+  "summary": "Guide pratique pour un magasin établi à Bruxelles : langue des documents sociaux (article 52 des lois coordonnées du 18 juillet 1966), fin d'activa.brussels au 31 décembre 2026 sans successeur adopté, discrimination à l'embauche, mobilité, permis unique, contacts utiles et glossaire FR | NL.",
+  "intro": "Ce rapport s'adresse à une administration RH de magasin établie dans la Région de Bruxelles-Capitale (situation au 6 novembre 2026). Il couvre la langue des documents sociaux, les aides bruxelloises à l'emploi, la discrimination à l'embauche, la mobilité, l'occupation de travailleurs non européens, les contacts administratifs et un glossaire français-néerlandais. Recherche menée en français et en néerlandais auprès de sources officielles (SPF Emploi, Actiris, Bruxelles Économie et Emploi, be.brussels, Bruxelles Environnement, Chambre), de secrétariats sociaux et de cabinets d'avocats. Les mesures seulement annoncées sont signalées comme telles. L'application concrète dépend de l'entité, de la commission paritaire, de l'effectif du site et des CCT applicables.",
+  "sections": [
+    {
+      "heading": "L'ESSENTIEL",
+      "bullets": [
+        "ROUGE : les documents sociaux imposés par la loi (contrat de travail, règlement de travail, documents destinés au personnel) doivent être rédigés en français pour le personnel francophone et en néerlandais pour le personnel néerlandophone ; une version dans une autre langue (anglais) peut s'ajouter, jamais remplacer [1] [2].",
+        "ROUGE : activa.brussels est abrogé depuis le 15 juillet 2026 ; pour les travailleurs entrés en service au plus tard le 15 juillet 2026, l'allocation de travail peut encore être activée jusqu'à fin novembre 2026 et la déduction s'arrête au 31 décembre 2026 [7] [8].",
+        "ORANGE : aucun dispositif de remplacement n'est adopté au 6 novembre 2026 ; une prime directe à l'employeur est seulement « à l'étude » et Actiris annonce travailler à de nouvelles mesures [7] [8] [10].",
+        "VERT : l'Inspection régionale de l'emploi bruxelloise peut réaliser des tests de discrimination (tests de situation, appels mystères) ; au niveau fédéral, le Contrôle des lois sociales dispose aussi des appels mystères [18] [20].",
+        "VERT : depuis le 4 mai 2026, toutes les demandes d'autorisation de travail pour des ressortissants non européens passent par le portail fédéral « Guichet unique » [23]."
+      ]
+    },
+    {
+      "heading": "LANGUE DES DOCUMENTS SOCIAUX À BRUXELLES",
+      "paragraphs": [
+        "Base légale : article 52 des lois sur l'emploi des langues en matière administrative, coordonnées le 18 juillet 1966. Selon les développements d'une proposition de loi déposée à la Chambre, cet article « prévoit que les entreprises de Bruxelles-Capitale doivent rédiger les actes et documents imposés par la loi et les règlements et destinés à leur personnel dans la langue du destinataire » [3]. Le portail régional be.brussels le résume ainsi : les entreprises ayant un siège d'exploitation dans la Région doivent établir les documents en néerlandais pour le personnel d'expression néerlandaise et en français pour le personnel d'expression française ; cela ne concerne que les entreprises industrielles, commerciales et financières [2]. Un magasin de vêtements est une entreprise commerciale.",
+        "Le critère déterminant est le siège d'exploitation (le magasin à Bruxelles), et non le siège social du groupe. Les échanges oraux ne sont pas réglementés et restent libres [1]."
+      ],
+      "cards": [
+        {
+          "title": "BRUXELLES / Quels documents, quelle langue",
+          "priority": "RED",
+          "status": "Obligation existante | Lois coordonnées du 18 juillet 1966, article 52",
+          "body": "Sont visés les actes et documents imposés par la loi et destinés au personnel [3] : en pratique le contrat de travail, le règlement de travail, les avis à afficher (p. ex. l'avis des jours de remplacement des jours fériés), les fiches de paie et les autres documents sociaux. Selon Securex (mise à jour du 16 janvier 2026), le français s'utilise pour le personnel francophone et le néerlandais pour le personnel néerlandophone ; si tout le personnel appartient à un seul groupe linguistique, l'employeur peut n'utiliser que cette langue, et il est conseillé de le mentionner sur les documents envoyés au SPF Emploi (comme le règlement de travail). Dès l'engagement d'un travailleur de l'autre groupe, les documents doivent aussi être établis dans sa langue. L'ajout d'une ou plusieurs autres langues est permis [1].",
+          "impact": "Pour un magasin dont l'équipe compte des francophones et des néerlandophones, le règlement de travail et ses annexes doivent en pratique exister dans les deux langues. Les politiques de groupe rédigées seulement en anglais (objectifs, plans bonus, évaluations) sont exposées si elles constituent des documents destinés au personnel au sens de la loi [4].",
+          "tags": [
+            "Emploi des langues",
+            "Règlement de travail",
+            "Contrat de travail"
+          ],
+          "source_ids": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "BRUXELLES / Comment déterminer la langue du travailleur",
+          "priority": "AMBER",
+          "status": "Pas de règle légale | Critères jurisprudentiels",
+          "body": "Aucune règle ne fixe le groupe linguistique d'un travailleur. La jurisprudence a retenu des indices comme la langue du contrat de travail, la langue maternelle ou la région de résidence [1]. La Chambre relève une pratique contestée : insérer dans le contrat une clause par laquelle le travailleur néerlandophone « opte » pour le français [3].",
+          "impact": "Il est prudent de demander et de consigner à l'engagement la langue dans laquelle le travailleur souhaite recevoir ses documents (fiche d'entrée), plutôt que d'imposer une clause de choix linguistique.",
+          "tags": [
+            "Emploi des langues",
+            "Engagement"
+          ],
+          "source_ids": [
+            1,
+            3
+          ]
+        },
+        {
+          "title": "BRUXELLES / Conséquences d'un document dans la mauvaise langue",
+          "priority": "AMBER",
+          "status": "Obligation existante | Article 59 des lois coordonnées",
+          "body": "Le document non conforme doit être remplacé par un document conforme, et le remplacement rétroagit à la date du document remplacé ; aucune sanction pénale ni administrative n'est prévue selon Securex [1]. Selon la Chambre, l'article 59 prévoit comme unique sanction que, si l'entreprise ne donne pas suite à une injonction, le juge de paix peut l'obliger à joindre une traduction par un traducteur juré, à ses frais [3]. Del-Law qualifie la nullité de relative à Bruxelles (la traduction a un effet rétroactif, contrairement à la Flandre et à la Wallonie) et cite un arrêt récent de cour du travail ayant alloué au travailleur un forfait de 2 000 EUR pour frais de traduction [4]. Pour un document en anglais, la cour du travail de Bruxelles a jugé le 2 juillet 2019 (R.G. 2018/AB/278) que le travailleur ne peut pas retenir les clauses favorables et écarter les autres [6].",
+          "impact": "Le risque principal n'est pas une amende mais la fragilité des documents en cas de litige (opposabilité du règlement de travail, d'un plan bonus, d'un avertissement) et un éventuel dommage pour frais de traduction. En Flandre, la sanction est plus lourde (nullité absolue) : attention si des travailleurs sont occupés dans un magasin de la périphérie flamande [5].",
+          "tags": [
+            "Emploi des langues",
+            "Contentieux",
+            "Sanctions"
+          ],
+          "source_ids": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "bullets": [
+        "Proposition (adoption non constatée) : des propositions de loi visent depuis des années à imposer aux entreprises bruxelloises des documents à la fois en français et en néerlandais et à créer une sanction pénale (p. ex. DOC 52 0979/001 du 17 mars 2008) ; Securex confirmait en janvier 2026 l'absence de sanction pénale ou administrative, ce qui indique que ces textes n'ont pas abouti [1] [3].",
+        "Magasin situé en périphérie flamande (hors des 19 communes) : c'est le décret flamand du 19 juillet 1973 qui s'applique (néerlandais, nullité) ; une version supplémentaire dans une langue de l'UE ou de l'EEE comprise par les deux parties est possible sous conditions [5]."
+      ]
+    },
+    {
+      "heading": "AIDES BRUXELLOISES À L'EMPLOI",
+      "cards": [
+        {
+          "title": "BRUXELLES / activa.brussels : fin au 31 décembre 2026",
+          "priority": "RED",
+          "status": "Adopté | Ordonnance du 9 juillet 2026 (Moniteur belge du 14 juillet 2026) | En vigueur le 15 juillet 2026",
+          "body": "activa.brussels, activa.brussels plus et activa.brussels aptitude réduite sont supprimés depuis le 15 juillet 2026 [7]. L'ordonnance du 9 juillet 2026 abroge les articles 14 à 26 de l'ordonnance du 23 juin 2017 relative aux aides à l'emploi et les articles 3 à 17 de l'arrêté du 14 septembre 2017 [8] [9]. Pour les travailleurs entrés en service au plus tard le 15 juillet 2026, l'employeur continue à déduire l'allocation de travail du salaire net jusqu'au 31 décembre 2026 ; la date d'entrée compte, pas la date d'activation, et l'allocation peut encore être activée jusqu'à 4 mois après le mois d'entrée, donc avant le 30 novembre 2026 [8]. Ne sont plus disponibles non plus : la prime handicap, la prime d'encouragement à la formation et l'accès à l'attestation activa via Stage First, IBO, FPI, convention d'immersion, etc. [7]. La réduction groupe-cible bruxelloise pour travailleurs de 61 ans et plus a pris fin le 1er juillet 2026, sans mesure transitoire [8] [9].",
+          "impact": "À contrôler en novembre : les dossiers des travailleurs entrés au plus tard le 15 juillet 2026 encore non activés. À partir de la paie de janvier 2027, plus aucune déduction : l'employeur supporte le salaire net complet [7]. Ligne activa d'Actiris : 02 505 79 15, activa.brussels@actiris.be [7].",
+          "tags": [
+            "Aides à l'emploi",
+            "Paie",
+            "Actiris"
+          ],
+          "source_ids": [
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "title": "BRUXELLES / Remplacement d'activa : seulement annoncé ou à l'étude",
+          "priority": "AMBER",
+          "status": "Annoncé | Accord budgétaire bruxellois 2027 (octobre 2026), législation à élaborer",
+          "body": "Actiris indique travailler à des mesures de remplacement et informer les employeurs dès que de nouvelles dispositions seront disponibles [7]. Selon Partena (17 juillet 2026), le gouvernement bruxellois étudie une prime versée directement aux employeurs remplissant les conditions, sans détail [8]. L'accord budgétaire 2027 prévoit 55 millions EUR d'économies sur la politique de l'emploi en 2027 (75 millions EUR en 2029), un recentrage d'Actiris sur ses missions de base et des réductions de charges pour la création d'emplois sur certains sites (Audi, Solvay, Schaerbeek-Formation, TIR) ; ces mesures doivent encore être traduites en législation [10] [11]. UNIZO a demandé une alternative complète pour le 1er janvier 2027 ; aucun engagement du gouvernement n'est rapporté [12].",
+          "impact": "Aucune nouvelle aide bruxelloise à l'embauche n'est utilisable à ce jour. Les budgets de recrutement 2027 ne devraient pas intégrer d'aide de remplacement tant qu'un texte n'est pas publié.",
+          "tags": [
+            "Aides à l'emploi",
+            "Annonce",
+            "Budget 2027"
+          ],
+          "source_ids": [
+            7,
+            8,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "title": "BRUXELLES / Ce qui reste disponible chez Actiris",
+          "priority": "GREEN",
+          "status": "En vigueur | Offre affichée par Actiris au 6 novembre 2026",
+          "body": "Stage First : stage de 3 ou 6 mois à temps plein pour un jeune chercheur d'emploi bruxellois de moins de 30 ans, au plus titulaire du CESS, inscrit chez Actiris depuis au moins un mois après ses études ; l'employeur verse une indemnité de 500 EUR bruts par mois (précompte de 11,11 %), les frais de déplacement selon la CP, et assure le stagiaire ; Actiris ou l'ONEM verse jusqu'à 26,82 EUR par jour ; Dimona code STG [13]. Actiris présente aussi : formation professionnelle individuelle en entreprise (FPIE), formation IBO (gérée par VDAB Brussel), formation en alternance, convention d'immersion professionnelle, stage Eurodyssey et une « prime premiers recrutements » (réduction de cotisations pour les cinq premiers travailleurs, en pratique hors champ pour une grande chaîne) [14]. Les chèques langues Matching ne sont plus proposés [15]. Côté recrutement : services « Recruter avec Actiris », « Recruter de manière autonome », « Former pour recruter » et l'espace employeur My Actiris [17].",
+          "impact": "Pour les postes de vente débutants, Stage First et FPIE restent les leviers régionaux les plus directs ; l'attestation activa n'y est plus attachée [7] [13].",
+          "tags": [
+            "Actiris",
+            "Jeunes",
+            "Recrutement"
+          ],
+          "source_ids": [
+            7,
+            13,
+            14,
+            15,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "AUTRES OBLIGATIONS BRUXELLOISES UTILES À UN MAGASIN",
+      "cards": [
+        {
+          "title": "BRUXELLES ET FÉDÉRAL / Discrimination à l'embauche et tests",
+          "priority": "AMBER",
+          "status": "En vigueur | Ordonnance bruxelloise du 1er juin 2023 (tests) ; loi fédérale anti-discrimination, article 18, § 2",
+          "body": "L'Inspection régionale de l'emploi est compétente notamment pour la discrimination à l'embauche [25]. Elle peut réaliser des tests de situation (candidatures appariées ne différant que par le critère testé) et des appels mystères, par courrier, e-mail ou téléphone, après plainte ou signalement ou sur suspicion raisonnable ; un test sectoriel exige l'accord préalable de l'auditorat du travail ou du procureur du Roi. Un test positif vaut présomption de discrimination ; les mesures vont du rappel à la loi à l'amende administrative, et une condamnation peut entraîner la récupération d'aides à l'emploi jusqu'à 10 ans en arrière [18]. Selon La DH (octobre 2025), la discrimination dans le secteur privé relève surtout du niveau fédéral, la Région n'ayant réalisé que 10 tests depuis 2018 [19]. Au niveau fédéral, les inspecteurs sociaux disposent des appels mystères depuis le 1er avril 2018, assouplis par une loi adoptée le 31 mars 2022 (indices objectifs ou plainte suffisent) [20]. Un candidat écarté peut réclamer une indemnité forfaitaire de six mois de rémunération brute (trois mois si l'employeur prouve que la décision aurait été identique sans discrimination) [21].",
+          "impact": "Les annonces, les questions d'entretien et les critères de tri (âge, origine, langue sans lien avec la fonction, etc.) doivent pouvoir être justifiés. Une exigence de langue pour un poste de vente doit être liée à la clientèle et à la fonction.",
+          "tags": [
+            "Non-discrimination",
+            "Recrutement",
+            "Inspection"
+          ],
+          "source_ids": [
+            18,
+            19,
+            20,
+            21,
+            25
+          ]
+        },
+        {
+          "title": "BRUXELLES / Plan de déplacements d'entreprise (PDE)",
+          "priority": "GREEN",
+          "status": "Obligation existante | CoBRACE du 2 mai 2013 | Seuil : plus de 100 travailleurs sur un même site",
+          "body": "Le PDE est obligatoire pour les sites bruxellois occupant plus de 100 travailleurs (comptage selon la méthode des élections sociales, uniquement les travailleurs présents au moins deux jours par semaine ; bâtiments à moins de 500 m considérés comme un seul site). Il comprend un diagnostic (le dernier devait être envoyé avant le 31 janvier 2025) et un plan d'actions avec 7 mesures obligatoires : personne de contact mobilité, information du personnel, une action de sensibilisation par an, plan d'accès multimodal, alternative aux voitures de société si plus de dix, parkings vélos, plan pour situations exceptionnelles (pics de pollution, grèves). Amendes de 50 à 100 000 EUR. Le PDE bruxellois dispense de l'enquête fédérale du SPF Mobilité pour le site [22].",
+          "impact": "Un magasin isolé de moins de 101 travailleurs sur le site n'est en principe pas visé ; un grand magasin phare ou un site regroupant plusieurs entités du groupe peut l'être. Vérifier l'effectif par site.",
+          "tags": [
+            "Mobilité",
+            "Environnement",
+            "Seuils"
+          ],
+          "source_ids": [
+            22
+          ]
+        },
+        {
+          "title": "BRUXELLES / Engager un travailleur non européen : permis unique",
+          "priority": "GREEN",
+          "status": "En vigueur | Guichet unique obligatoire depuis le 4 mai 2026",
+          "body": "Les ressortissants de l'UE, de l'EEE et de Suisse sont dispensés d'autorisation de travail, de même que certaines situations de séjour (p. ex. étudiants, réfugiés, regroupement familial). Dans les autres cas, l'employeur doit obtenir l'autorisation avant l'occupation ; le permis unique couvre séjour et travail pour plus de 90 jours. La demande est en principe introduite par l'employeur ou son mandataire, auprès de la Région où se situe le lieu de travail principal. Depuis le 4 mai 2026, toutes les demandes passent par le portail fédéral Guichet unique (single-permit.socialsecurity.be) ; les formulaires PDF et l'e-mail ne sont plus acceptés. La rémunération doit atteindre un montant minimum publié par la Région [23]. Le cas « autre cas » exige une analyse du marché de l'emploi (article 14, § 1er, de l'arrêté du Gouvernement de la Région de Bruxelles-Capitale du 16 mai 2024) [24].",
+          "impact": "Pour un poste de vente, l'analyse du marché de l'emploi rend l'obtention plus difficile ; vérifier d'abord le statut de séjour du candidat (souvent déjà autorisé à travailler) avant toute demande.",
+          "tags": [
+            "Migration économique",
+            "Permis unique",
+            "Recrutement"
+          ],
+          "source_ids": [
+            23,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "CONTACTS PRATIQUES",
+      "table": {
+        "columns": [
+          "Service",
+          "Pour quoi",
+          "Coordonnées",
+          "Site"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Actiris – Ligne employeurs",
+              "Recrutement, Stage First, FPIE, aides, questions activa",
+              "02 505 79 15 (lundi à vendredi, 8h30-12h30 et 13h30-16h30) ; formulaire en ligne ; activa.brussels@actiris.be ; first@actiris.be",
+              "actiris.brussels/fr/employeurs/contact-employeurs"
+            ],
+            "source_ids": [
+              7,
+              13,
+              16
+            ]
+          },
+          {
+            "cells": [
+              "Bruxelles Économie et Emploi – Direction de l'Inspection régionale de l'emploi",
+              "Discrimination à l'embauche, travailleurs étrangers, congé-éducation payé, titres-services",
+              "Place Saint-Lazare 2, 1035 Bruxelles ; +32 (0)2 800 35 11 ; formulaire de contact",
+              "economie-emploi.brussels/inspection-emploi"
+            ],
+            "source_ids": [
+              25
+            ]
+          },
+          {
+            "cells": [
+              "Bruxelles Économie et Emploi – Direction de la Migration économique",
+              "Permis unique, autorisations de travail",
+              "Place Saint-Lazare 2, 1035 Bruxelles ; +32 (0)2 204 13 99 (9h-12h)",
+              "economie-emploi.brussels/permis-unique-permis-travail"
+            ],
+            "source_ids": [
+              23,
+              24
+            ]
+          },
+          {
+            "cells": [
+              "SPF Emploi – Contrôle des lois sociales, Direction de Bruxelles-Capitale",
+              "Droit du travail fédéral (règlement de travail, temps de travail, rémunération, jours fériés)",
+              "Rue Ernest Blerot 1, 1070 Bruxelles ; 02 235 54 01 (lundi à vendredi, 9h-12h et 14h-16h30) ; cls.bruxelles@emploi.belgique.be ; information générale : 02 235 55 60 (FR) ou 02 235 55 55 (NL), info.cls@emploi.belgique.be",
+              "emploi.belgique.be (structure du SPF, Contrôle des lois sociales, directions)"
+            ],
+            "source_ids": [
+              27
+            ]
+          },
+          {
+            "cells": [
+              "Bruxelles Environnement",
+              "Plan de déplacements d'entreprise",
+              "Plateforme PDE en ligne",
+              "environnement.brussels (plan de déplacements entreprise)"
+            ],
+            "source_ids": [
+              22
+            ]
+          },
+          {
+            "cells": [
+              "be.brussels – Employer du personnel",
+              "Portail d'orientation de la Région pour les employeurs",
+              "Liens vers Actiris, hub.brussels, permis de travail",
+              "be.brussels (entreprendre à Bruxelles, employer du personnel)"
+            ],
+            "source_ids": [
+              26
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "GLOSSAIRE RH ET PAIE FRANÇAIS | NÉERLANDAIS",
+      "paragraphs": [
+        "Termes relevés sur les versions française et néerlandaise de pages officielles : par exemple « Réglementation du travail » (emploi.belgique.be) et « Arbeidsreglementering » (werk.belgie.be) [28] [29], « Rémunération » et « Verloning » [30] [31], « Jours fériés » et « Feestdagen » [32] [33], « Fin du contrat à durée indéterminée - règles particulières » et « Einde van de overeenkomst voor onbepaalde tijd - bijzondere regels » [36] [37]. Les termes marqués « à confirmer » n'ont pas été vérifiés sur une paire de pages officielles."
+      ],
+      "table": {
+        "columns": [
+          "Français",
+          "Nederlands",
+          "Remarque"
+        ],
+        "rows": [
+          { "cells": ["contrat de travail", "arbeidsovereenkomst", "Thème du SPF Emploi"], "source_ids": [47, 48] },
+          { "cells": ["règlement de travail", "arbeidsreglement", "À établir dans la langue du personnel"], "source_ids": [28, 29] },
+          { "cells": ["documents sociaux", "sociale documenten", "Registre du personnel, compte individuel, fiche de salaire"], "source_ids": [45, 46] },
+          { "cells": ["fiche de salaire (fiche de paie)", "loonfiche", "Intitulé des pages du SPF"], "source_ids": [45, 46] },
+          { "cells": ["compte individuel", "individuele rekening", "Document social à conserver"], "source_ids": [45, 46] },
+          { "cells": ["registre du personnel", "personeelsregister", ""], "source_ids": [45, 46] },
+          { "cells": ["précompte professionnel", "bedrijfsvoorheffing", "SPF Finances"], "source_ids": [41] },
+          { "cells": ["commission paritaire (CP)", "paritair comité (PC)", ""], "source_ids": [34, 35] },
+          { "cells": ["convention collective de travail (CCT)", "collectieve arbeidsovereenkomst (cao)", ""], "source_ids": [34, 35] },
+          { "cells": ["indexation automatique des salaires", "automatische loonindexering", ""], "source_ids": [30, 31] },
+          { "cells": ["titres-repas (chèques-repas)", "maaltijdcheques", "Terme officiel FR : titres-repas"], "source_ids": [30, 31] },
+          { "cells": ["écochèques", "ecocheques", ""], "source_ids": [30, 31] },
+          { "cells": ["pécule de vacances (simple, double)", "vakantiegeld (enkel, dubbel)", "NL vérifié ; FR usuel"], "source_ids": [42] },
+          { "cells": ["prime de fin d'année", "eindejaarspremie", "À confirmer (usage sectoriel)"], "source_ids": [] },
+          { "cells": ["salaire garanti", "gewaarborgd loon", ""], "source_ids": [36, 37, 38, 39] },
+          { "cells": ["incapacité de travail", "arbeidsongeschiktheid", ""], "source_ids": [38, 39, 43, 44] },
+          { "cells": ["certificat médical", "geneeskundig getuigschrift", "Usuel NL : medisch attest"], "source_ids": [38, 39] },
+          { "cells": ["délai de préavis", "opzeggingstermijn", ""], "source_ids": [36, 37] },
+          { "cells": ["indemnité de rupture", "opzeggingsvergoeding", ""], "source_ids": [36, 37] },
+          { "cells": ["licenciement / démission", "ontslag krijgen / ontslag nemen", ""], "source_ids": [49, 50] },
+          { "cells": ["motif grave", "dringende reden", ""], "source_ids": [49, 50] },
+          { "cells": ["chômage temporaire", "tijdelijke werkloosheid", "ONEM / RVA"], "source_ids": [36, 37, 40] },
+          { "cells": ["petits chômages", "klein verlet", "Absences de courte durée payées"], "source_ids": [43, 44] },
+          { "cells": ["vacances annuelles", "jaarlijkse vakantie", ""], "source_ids": [43, 44] },
+          { "cells": ["congé de maternité", "moederschapsverlof", ""], "source_ids": [32, 33] },
+          { "cells": ["jour férié", "feestdag", ""], "source_ids": [32, 33] },
+          { "cells": ["jour de remplacement", "vervangingsdag", "Avis à afficher avant le 15 décembre"], "source_ids": [32, 33] },
+          { "cells": ["durée du travail et temps de repos", "arbeidsduur en rusttijden", ""], "source_ids": [28, 29] },
+          { "cells": ["travail à temps partiel", "deeltijdse arbeid", ""], "source_ids": [28, 29] },
+          { "cells": ["heures supplémentaires", "overuren", "À confirmer"], "source_ids": [] },
+          { "cells": ["horaire variable", "variabel uurrooster", "À confirmer"], "source_ids": [] },
+          { "cells": ["travail étudiant", "studentenarbeid", "À confirmer (usuel : jobstudent)"], "source_ids": [] },
+          { "cells": ["conseil d'entreprise (CE)", "ondernemingsraad (OR)", ""], "source_ids": [34, 35] },
+          { "cells": ["comité pour la prévention et la protection au travail (CPPT)", "comité voor preventie en bescherming op het werk (CPBW)", "Sigles vérifiés"], "source_ids": [34, 35] },
+          { "cells": ["délégation syndicale (DS)", "vakbondsafvaardiging (VA)", ""], "source_ids": [34, 35] },
+          { "cells": ["élections sociales", "sociale verkiezingen", ""], "source_ids": [34, 35] },
+          { "cells": ["Dimona (déclaration immédiate)", "Dimona (onmiddellijke aangifte)", "À confirmer"], "source_ids": [] },
+          { "cells": ["DmfA (déclaration multifonctionnelle)", "DmfA (multifunctionele aangifte)", "À confirmer"], "source_ids": [] }
+        ]
+      }
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS",
+      "bullets": [
+        "Le texte consolidé officiel des articles 52 et 59 des lois coordonnées n'a pas pu être ouvert sur Justel ; leur contenu est repris des développements d'une proposition de loi de la Chambre (2008) et de Securex (2026) [1] [3].",
+        "Le sort de la proposition DOC 52 0979/001 et des propositions similaires (obligation bilingue, sanction pénale) n'a pas été vérifié sur le site de la Chambre ; l'absence d'adoption est déduite de Securex (janvier 2026) [1] [3].",
+        "La date et les références de l'arrêt de cour du travail allouant 2 000 EUR pour frais de traduction ne sont pas données par la source [4].",
+        "Aucune décision du gouvernement bruxellois sur une aide succédant à activa.brussels n'a été trouvée au 6 novembre 2026 ; une annonce après la date de ce rapport reste possible [7] [8] [10].",
+        "Le seuil de rémunération minimum du permis unique à Bruxelles pour 2026 n'a pas été vérifié sur la source officielle (des montants divergents circulent sur des sites non officiels) [23].",
+        "La répartition exacte des compétences entre l'Inspection régionale et le Contrôle des lois sociales pour les tests de discrimination chez un employeur privé du commerce n'est pas tranchée par les sources consultées [18] [19].",
+        "Glossaire : les équivalents marqués « à confirmer » (prime de fin d'année, heures supplémentaires, horaire variable, travail étudiant, Dimona, DmfA) relèvent de l'usage courant et n'ont pas été vérifiés sur une paire de pages officielles FR | NL."
+      ]
+    }
+  ],
+  "sources": [
+    { "id": 1, "label": "Quel est le régime applicable dans la Région de Bruxelles-Capitale (emploi des langues), mise à jour du 16 janvier 2026", "publisher": "Securex (Lex4You)", "url": "https://www.securex.be/fr/lex4you/employeur/themes/selection-et-conclusion-du-contrat/conclure-un-contrat-de-travail/quel-est-le-regime-applicable-dans-la-region-de-bruxelles-capitale" },
+    { "id": 2, "label": "Contrats de travail (Employer du personnel)", "publisher": "be.brussels – Région de Bruxelles-Capitale", "url": "https://be.brussels/fr/entreprendre-innover/entreprendre-bruxelles/employer-du-personnel/contrats-de-travail" },
+    { "id": 3, "label": "Proposition de loi modifiant l'article 52 des lois coordonnées du 18 juillet 1966 (actes et documents destinés au personnel), DOC 52 0979/001, 17 mars 2008", "publisher": "Chambre des représentants", "url": "https://www.lachambre.be/FLWB/PDF/52/0979/52K0979001.pdf" },
+    { "id": 4, "label": "Relations de travail : faites attention à l'emploi des langues (Christophe Delmarcelle, Del-Law)", "publisher": "Forum for the Future", "url": "https://blog.forumforthefuture.be/fr/article/relations-de-travail-faites-attention-a-lemploi-des-langues-/27943" },
+    { "id": 5, "label": "Emploi des langues dans les contrats de travail : clarification par la Cour de cassation (21 mars 2025)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/21826" },
+    { "id": 6, "label": "L'importance du bon emploi des langues dans le cadre des relations de travail (12 février 2020, Sotra HR Lawyers)", "publisher": "LexGO", "url": "https://www.lexgo.be/fr/actualites-et-articles/6613-l-importance-du-bon-emploi-des-langues-dans-le-cadre-des-relations-de-travail" },
+    { "id": 7, "label": "Abrogation de la mesure activa.brussels", "publisher": "Actiris", "url": "https://www.actiris.brussels/fr/employeurs/detail-d-une-news/20736-abrogation-de-la-mesure-activabrussels-emp" },
+    { "id": 8, "label": "Région de Bruxelles-Capitale : plusieurs aides disparaissent en juillet (17 juillet 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22558" },
+    { "id": 9, "label": "Bruxelles : la prime Activa et la réduction groupe-cible travailleurs âgés supprimées (14 juillet 2026)", "publisher": "Securex (Lex4You)", "url": "https://www.securex.be/fr/lex4you/employeur/actualites/bruxelles-la-prime-activa-et-la-reduction-groupe-cible-travailleurs-ages-supprimees" },
+    { "id": 10, "label": "Brussel en Wallonië zetten hun koers uit voor 2027 [Bruxelles et la Wallonie fixent leur cap pour 2027] (15 octobre 2026)", "publisher": "Securex (Lex4You)", "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/brussel-en-wallonie-zetten-hun-koers-uit-voor-2027-wat-betekent-dat-voor-jouw-onderneming" },
+    { "id": 11, "label": "Welke maatregelen bevat het Brussels begrotingsakkoord [mesures de l'accord budgétaire bruxellois] (9 octobre 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/nl/node/22678" },
+    { "id": 12, "label": "UNIZO tevreden met overgangsregeling voor aanwervingssteun Brussel [régime transitoire de l'aide à l'embauche] (9 juillet 2026)", "publisher": "UNIZO", "url": "https://www.unizo.be/berichten/pers/unizo-tevreden-met-overgangsregeling-voor-aanwervingssteun-brussel-maar-zonder" },
+    { "id": 13, "label": "Stage First (employeurs)", "publisher": "Actiris", "url": "https://www.actiris.brussels/fr/employeurs/stage-first/" },
+    { "id": 14, "label": "Quelle aide pour moi (employeurs)", "publisher": "Actiris", "url": "https://www.actiris.brussels/fr/employeurs/quelle-aide-pour-moi/" },
+    { "id": 15, "label": "Chèques langues Matching (dispositif arrêté)", "publisher": "Actiris", "url": "https://www.actiris.brussels/fr/employeurs/cheques-langues/" },
+    { "id": 16, "label": "Contact – Employeurs", "publisher": "Actiris", "url": "https://www.actiris.brussels/fr/employeurs/contact-employeurs/" },
+    { "id": 17, "label": "Espace employeurs", "publisher": "Actiris", "url": "https://www.actiris.brussels/fr/employeurs/" },
+    { "id": 18, "label": "Réalisation des tests de discrimination (droit pénal social bruxellois), mise à jour du 24 mars 2025", "publisher": "Securex (Lex4You)", "url": "https://www.securex.be/fr/lex4you/employeur/themes/inspection-sociale-et-sanctions/inspection-sociale-et-droit-penal-social-bruxellois/realisation-des-tests-de-discrimination" },
+    { "id": 19, "label": "En 8 ans, la Région bruxelloise n'a effectué que 10 tests anti-discrimination à l'emploi (16 octobre 2025)", "publisher": "La DH", "url": "https://www.dhnet.be/regions/bruxelles/2025/10/16/en-8-ans-la-region-bruxelloise-na-effectue-que-10-tests-anti-discrimination-a-lemploi-lobjectif-nest-pas-den-realiser-un-maximum-SU6NLSISHBFKLMQMZS65W2G6SI/" },
+    { "id": 20, "label": "Mystery calls : l'inspection sociale mieux armée pour lutter contre la discrimination (6 mai 2022, Sotra HR Lawyers)", "publisher": "LexGO", "url": "https://www.lexgo.be/en/news-and-articles/11793-mystery-calls-l-inspection-sociale-mieux-armee-pour-lutter-contre-la-discrimination" },
+    { "id": 21, "label": "Discrimination sur la base de l'âge et réparation du dommage (27 février 2019, Younity)", "publisher": "LexGO", "url": "https://www.lexgo.be/en/news-and-articles/5804-discrimination-sur-la-base-de-l-age-et-reparation-du-dommage" },
+    { "id": 22, "label": "Plan de déplacements d'entreprise", "publisher": "Bruxelles Environnement", "url": "https://environnement.brussels/thematiques/mobilite/les-plans-de-deplacements/plan-de-deplacements-entreprise" },
+    { "id": 23, "label": "Permis unique et permis de travail", "publisher": "Bruxelles Économie et Emploi", "url": "https://economie-emploi.brussels/permis-unique-permis-travail" },
+    { "id": 24, "label": "Autorisation de travail de longue durée – autre cas (analyse du marché de l'emploi)", "publisher": "Bruxelles Économie et Emploi", "url": "https://economie-emploi.brussels/autorisation-travail-longue-autre-cas" },
+    { "id": 25, "label": "Inspection régionale de l'emploi", "publisher": "Bruxelles Économie et Emploi", "url": "https://economie-emploi.brussels/inspection-emploi" },
+    { "id": 26, "label": "Employer du personnel", "publisher": "be.brussels – Région de Bruxelles-Capitale", "url": "https://be.brussels/fr/entreprendre-innover/entreprendre-bruxelles/employer-du-personnel" },
+    { "id": 27, "label": "Contrôle des lois sociales – Direction de Bruxelles-Capitale", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/propos-du-spf/structure-du-spf/inspection-du-travail-dg-controle-des-lois-sociales/directions-2" },
+    { "id": 28, "label": "Réglementation du travail", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail" },
+    { "id": 29, "label": "Arbeidsreglementering [réglementation du travail]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/arbeidsreglementering" },
+    { "id": 30, "label": "Rémunération", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/remuneration" },
+    { "id": 31, "label": "Verloning [rémunération]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/verloning" },
+    { "id": 32, "label": "Jours fériés", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries" },
+    { "id": 33, "label": "Feestdagen [jours fériés]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/feestdagen-en-verloven/feestdagen" },
+    { "id": 34, "label": "Concertation sociale", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/concertation-sociale" },
+    { "id": 35, "label": "Sociaal overleg [concertation sociale]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/sociaal-overleg" },
+    { "id": 36, "label": "Fin du contrat à durée indéterminée – règles particulières", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/fin-du-contrat-de-travail/fin-du-contrat-duree-indeterminee-2" },
+    { "id": 37, "label": "Einde van de overeenkomst voor onbepaalde tijd – bijzondere regels [fin du CDI – règles particulières]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/einde-van-de-arbeidsovereenkomst/einde-van-de-arbeidsovereenkomst-2" },
+    { "id": 38, "label": "Incapacité de travail pour cause de maladie ou d'accident : 3 nouvelles mesures", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://www.emploi.belgique.be/fr/actualites/incapacite-de-travail-pour-cause-de-maladie-ou-daccident-3-nouvelles-mesures" },
+    { "id": 39, "label": "Arbeidsongeschiktheid wegens ziekte of ongeval : 3 nieuwe maatregelen [incapacité de travail : 3 nouvelles mesures]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/news/arbeidsongeschiktheid-wegens-ziekte-ongeval-3-nieuwe-maatregelen" },
+    { "id": 40, "label": "Chômage temporaire (lien vers la version néerlandaise « Tijdelijke werkloosheid »)", "publisher": "ONEM", "url": "https://www.onem.be/citoyens/chomage-temporaire" },
+    { "id": 41, "label": "Bedrijfsvoorheffing [précompte professionnel]", "publisher": "FOD Financiën / SPF Finances", "url": "https://financien.belgium.be/nl/ondernemingen/personeel_en_loon/bedrijfsvoorheffing" },
+    { "id": 42, "label": "Vakantiegeld : wat moet je de komende weken betalen [pécule de vacances] (13 mai 2026)", "publisher": "Securex (Lex4You)", "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/vakantiegeld-wat-moet-je-de-komende-weken-betalen" },
+    { "id": 43, "label": "Causes de suspension propres au travailleur", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/suspension-du-contrat-de-travail/suspensions-du-contrat-de-travail" },
+    { "id": 44, "label": "Oorzaken van schorsing in hoofde van de werknemer [causes de suspension propres au travailleur]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/schorsing-van-de-arbeidsovereenkomst/schorsingen-van-de" },
+    { "id": 45, "label": "Documents sociaux", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/documents-sociaux" },
+    { "id": 46, "label": "Sociale documenten [documents sociaux]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/arbeidsreglementering/sociale-documenten" },
+    { "id": 47, "label": "Contrats de travail", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail" },
+    { "id": 48, "label": "Arbeidsovereenkomsten [contrats de travail]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/arbeidsovereenkomsten" },
+    { "id": 49, "label": "Fin du contrat de travail", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/fin-du-contrat-de-travail" },
+    { "id": 50, "label": "Einde van de arbeidsovereenkomst [fin du contrat de travail]", "publisher": "FOD Werkgelegenheid, Arbeid en Sociaal Overleg", "url": "https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/einde-van-de-arbeidsovereenkomst" }
+  ]
+}

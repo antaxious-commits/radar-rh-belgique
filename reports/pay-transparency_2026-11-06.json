@@ -1,0 +1,222 @@
+{
+  "title": "RH BELGIQUE | TRANSPARENCE SALARIALE",
+  "slug": "pay-transparency",
+  "date": "2026-11-06",
+  "period": "Novembre 2026",
+  "summary": "Cinq mois après l'échéance du 7 juin 2026, aucun projet de loi fédéral de transposition de la directive (UE) 2023/970 n'a été identifié pour le secteur privé, les travaux du CNT sont à l'arrêt, tandis que la Flandre (décret du 12 juin 2026) et la Fédération Wallonie-Bruxelles (décret du 16 mai 2024) ont transposé pour leur propre personnel.",
+  "intro": "Ce rapport fait le point sur la transposition en Belgique de la directive (UE) 2023/970 du 10 mai 2023 sur la transparence des rémunérations [loontransparantierichtlijn], dont le délai de transposition a expiré le 7 juin 2026. Il s'appuie exclusivement sur des sources externes consultées le 6 novembre 2026 ; la source la plus récente confirmant l'état du dossier fédéral date du 17 septembre 2026.",
+  "sections": [
+    {
+      "heading": "Où en est la Belgique au 6 novembre 2026",
+      "paragraphs": [
+        "Niveau fédéral (secteur privé et fonction publique fédérale) : la directive n'est pas transposée. Aucun projet de loi [wetsontwerp] n'a été déposé et les discussions au Conseil national du travail (CNT) [Nationale Arbeidsraad] sont à l'arrêt à la demande du banc patronal. Aucune source consultée ne fait état d'une reprise des travaux ni d'un avant-projet transmis après septembre 2026.",
+        "Tant qu'aucune loi belge n'est adoptée, les nouvelles obligations (fourchette salariale, droit à l'information, rapportage) ne s'imposent pas directement aux employeurs privés. Le principe d'égalité de rémunération reste toutefois pleinement invocable, et les juridictions doivent interpréter le droit belge existant à la lumière de la directive depuis le 7 juin 2026."
+      ],
+      "table": {
+        "columns": ["Niveau", "Statut", "Texte / référence"],
+        "rows": [
+          {
+            "cells": ["Fédéral – secteur privé", "Non transposé. Pas de projet de loi ; CNT à l'arrêt", "Aucun texte. Demande de délai de six mois adressée à la Commission européenne le 1er juin 2026"],
+            "priority": "AMBER",
+            "source_ids": [2, 3, 7, 16]
+          },
+          {
+            "cells": ["Fédéral – fonction publique fédérale", "Non transposé. Aucune initiative concrète connue", "Aucun texte identifié"],
+            "priority": "GREEN",
+            "source_ids": [4, 6]
+          },
+          {
+            "cells": ["Chambre des représentants", "Proposition de résolution (non contraignante)", "DOC 56 1321/001 du 26 janvier 2026, déposée par M. Axel Ronse et consorts : invite le gouvernement à s'en tenir aux résultats à atteindre fixés par la directive"],
+            "priority": "GREEN",
+            "source_ids": [8]
+          },
+          {
+            "cells": ["Flandre – personnel flamand, pouvoirs locaux, enseignement", "Adopté (transposition partielle)", "Décret du 12 juin 2026 sur la transparence des rémunérations et les mesures en faveur de l'égalité de rémunération [decreet over beloningstransparantie en maatregelen voor een gelijke beloning], MB 17 juin 2026, en vigueur au 7 juin 2026"],
+            "priority": "GREEN",
+            "source_ids": [9, 10, 11]
+          },
+          {
+            "cells": ["Fédération Wallonie-Bruxelles", "Adopté (transposition pour son champ de compétence)", "Décret du 16 mai 2024 modifiant le décret du 12 décembre 2008 relatif à la lutte contre certaines formes de discrimination"],
+            "priority": "GREEN",
+            "source_ids": [9, 12]
+          },
+          {
+            "cells": ["Région wallonne, Région de Bruxelles-Capitale, Communauté germanophone", "Incertain / pas de texte identifié", "Sources contradictoires pour la Région wallonne ; aucune mesure identifiée pour Bruxelles et la Communauté germanophone"],
+            "priority": "GREEN",
+            "source_ids": [6, 12]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "Chronologie vérifiée",
+      "table": {
+        "columns": ["Date", "Étape", "Statut"],
+        "rows": [
+          {"cells": ["10 mai 2023", "Adoption de la directive (UE) 2023/970 ; transposition « au plus tard le 7 juin 2026 » (article 34)", "Texte européen en vigueur"], "source_ids": [1]},
+          {"cells": ["16 mai 2024", "Décret de la Fédération Wallonie-Bruxelles modifiant le décret « discriminations » du 12 décembre 2008", "Adopté"], "source_ids": [9]},
+          {"cells": ["7 novembre 2025", "Gouvernement flamand : approbation de principe de l'avant-projet de décret sur la transparence des rémunérations", "Étape franchie"], "source_ids": [11]},
+          {"cells": ["26 janvier 2026", "Chambre : proposition de résolution DOC 56 1321/001 (M. Ronse et consorts)", "Proposition"], "source_ids": [8]},
+          {"cells": ["Printemps 2026", "Discussions au CNT sur le volet privé mises en pause à la demande des employeurs", "Blocage"], "source_ids": [3, 6]},
+          {"cells": ["1er juin 2026", "Le gouvernement fédéral (ministres Clarinval et Beenders) demande formellement à la Commission un délai de six mois et pose une trentaine de questions d'interprétation", "Demande, sans réponse publique identifiée"], "source_ids": [6, 7]},
+          {"cells": ["7 juin 2026", "Échéance de transposition dépassée au niveau fédéral", "Retard confirmé"], "source_ids": [4, 5]},
+          {"cells": ["12 juin 2026", "Décret flamand sur la transparence des rémunérations (MB 17 juin 2026), en vigueur rétroactivement au 7 juin 2026", "Adopté"], "source_ids": [9, 10]},
+          {"cells": ["2 septembre 2026", "Questions-réponses de la Commission européenne, expressément non contraignantes", "Orientation"], "source_ids": [2]},
+          {"cells": ["17 septembre 2026", "Dernière confirmation trouvée : pas de projet de loi fédéral, CNT à l'arrêt", "Statu quo"], "source_ids": [2]}
+        ]
+      }
+    },
+    {
+      "heading": "Obligations clés prévues par la directive (à reprendre en droit belge)",
+      "paragraphs": [
+        "Les obligations ci-dessous sont celles du texte européen. Pour le secteur privé belge, leurs modalités (seuils, sanctions, rôle du conseil d'entreprise, articulation avec la loi de 2012) dépendront de la future loi fédérale, qui n'existe pas encore."
+      ],
+      "cards": [
+        {
+          "title": "Transparence avant l'embauche (article 5)",
+          "priority": "AMBER",
+          "status": "Directive – non transposée au fédéral | Date d'effet : non précisée",
+          "body": "Les candidats ont droit à une information sur la rémunération initiale ou la fourchette de rémunération initiale, fondée sur des critères objectifs et non sexistes. L'employeur ne peut pas demander aux candidats leur historique de rémunération dans leurs relations de travail actuelles ou antérieures.",
+          "impact": "Si la loi belge reprend ce texte sans aménagement, les offres d'emploi et les processus de recrutement devraient être revus. En attendant, la prudence sur les questions relatives au salaire antérieur est recommandée par la FEB.",
+          "tags": ["Recrutement", "Politique de rémunération"],
+          "source_ids": [1, 3]
+        },
+        {
+          "title": "Critères de rémunération et de progression (article 6)",
+          "priority": "AMBER",
+          "status": "Directive – non transposée au fédéral | Date d'effet : non précisée",
+          "body": "Les critères de fixation des rémunérations et de progression doivent être accessibles aux travailleurs et être objectifs et non sexistes. Les États membres peuvent exempter les employeurs de moins de 50 travailleurs de l'obligation relative à la progression.",
+          "impact": "Les entreprises sans grille ni politique de promotion écrite seraient les plus exposées. Le choix belge d'utiliser ou non l'exemption sous 50 travailleurs reste inconnu.",
+          "tags": ["Classification de fonctions", "Promotion"],
+          "source_ids": [1]
+        },
+        {
+          "title": "Droit à l'information des travailleurs (article 7)",
+          "priority": "AMBER",
+          "status": "Directive – non transposée au fédéral | Date d'effet : non précisée",
+          "body": "Tout travailleur peut demander par écrit son niveau de rémunération individuel et les niveaux moyens, ventilés par sexe, des travailleurs accomplissant un même travail ou un travail de même valeur. L'employeur informe chaque année les travailleurs de ce droit et répond dans un délai de deux mois au plus.",
+          "impact": "Aujourd'hui, le droit belge ne prévoit aucun droit individuel à l'information salariale. La future loi créerait un flux de demandes à traiter par la paie et les RH, avec des questions de protection des données soulevées par les employeurs.",
+          "tags": ["Paie", "RGPD", "Communication"],
+          "source_ids": [1, 2, 15]
+        },
+        {
+          "title": "Rapport sur l'écart de rémunération (article 9)",
+          "priority": "AMBER",
+          "status": "Directive – non transposée au fédéral | Première échéance européenne : 7 juin 2027",
+          "body": "250 travailleurs ou plus : premier rapport au plus tard le 7 juin 2027, puis chaque année. 150 à 249 travailleurs : au plus tard le 7 juin 2027, puis tous les trois ans. 100 à 149 travailleurs : au plus tard le 7 juin 2031, puis tous les trois ans. Sous 100 travailleurs : communication volontaire.",
+          "impact": "Les dates sont fixées par la directive ; leur reprise telle quelle en droit belge n'est pas confirmée. Une entreprise de 150 travailleurs ou plus devrait pouvoir extraire dès maintenant les données ventilées par sexe.",
+          "tags": ["Rapportage", "Paie", "Conseil d'entreprise"],
+          "source_ids": [1]
+        },
+        {
+          "title": "Évaluation conjointe des rémunérations (article 10)",
+          "priority": "AMBER",
+          "status": "Directive – non transposée au fédéral | Date d'effet : non précisée",
+          "body": "Lorsque le rapport révèle un écart de rémunération moyen d'au moins 5 % dans une catégorie de travailleurs, non justifié par des critères objectifs et non sexistes, et non corrigé dans les six mois, l'employeur réalise une évaluation conjointe avec les représentants des travailleurs.",
+          "impact": "Ce mécanisme impliquerait les organes de concertation (conseil d'entreprise ou délégation syndicale) selon des modalités belges encore à définir.",
+          "tags": ["Concertation sociale", "Écart salarial"],
+          "source_ids": [1]
+        },
+        {
+          "title": "Charge de la preuve et sanctions (articles 18 et 23)",
+          "priority": "AMBER",
+          "status": "Directive – non transposée au fédéral | Date d'effet : non précisée",
+          "body": "Il incombe au défendeur de prouver l'absence de discrimination dès que des faits la laissant présumer sont établis, y compris lorsque l'employeur n'a pas respecté ses obligations de transparence. Les sanctions doivent être effectives, proportionnées et dissuasives et comprendre des amendes.",
+          "impact": "Le renversement de la charge de la preuve figure parmi les objections de fond des employeurs au CNT. Le niveau des amendes belges est inconnu à ce stade.",
+          "tags": ["Contentieux", "Sanctions"],
+          "source_ids": [1, 6]
+        }
+      ]
+    },
+    {
+      "heading": "Ce qui s'applique déjà aujourd'hui en Belgique",
+      "bullets": [
+        "Loi du 22 avril 2012 visant à lutter contre l'écart salarial entre hommes et femmes (modifiée par la loi du 12 juillet 2013) : les entreprises occupant en moyenne au moins 50 travailleurs établissent tous les deux ans un rapport d'analyse de la structure de rémunération, transmis au conseil d'entreprise ou, à défaut, à la délégation syndicale, et discuté dans les trois mois de la clôture de l'exercice.",
+        "Formulaire complet à partir de 100 travailleurs, formulaire abrégé de 50 à moins de 100 travailleurs (modèles du SPF Emploi). Le plan d'action n'est pas automatiquement obligatoire et la désignation d'un médiateur est facultative.",
+        "Ce rapport est collectif : il ne crée aucun droit individuel à l'information salariale. La future loi de transposition devra organiser son articulation avec le rapport prévu à l'article 9 de la directive.",
+        "Loi « genre » du 10 mai 2007 : renversement de la charge de la preuve (article 33) et indemnité forfaitaire de six mois de rémunération brute en cas de discrimination (article 23), ramenée à trois mois dans certains cas.",
+        "Article 157 TFUE : effet direct horizontal du principe d'égalité de rémunération (arrêt Defrenne II). La directive elle-même n'est pas invocable contre un employeur privé, mais les juges doivent interpréter le droit belge de manière conforme depuis le 7 juin 2026.",
+        "CCT n° 25 du CNT (modifiée par la CCT n° 25ter) : action en exécution de l'égalité de rémunération ouverte au travailleur ou à son organisation représentative.",
+        "Employeurs publics : en cas de transposition tardive, la directive pourrait être invoquée directement contre un employeur public, ce qui n'est pas le cas dans le secteur privé.",
+        "Projet BE-MAGIC du SPF Emploi (15 janvier 2025 – 14 janvier 2027) : développement d'outils d'évaluation et de classification des fonctions neutres sur le plan du genre (article 4.2 de la directive), en concertation avec les partenaires sociaux."
+      ],
+      "cards": [
+        {
+          "title": "Position des employeurs et des institutions",
+          "status": "Positions publiques | Non contraignant",
+          "body": "La FEB indique que les employeurs ne sont pas tenus d'appliquer la directive en l'absence de loi belge, mais met en garde contre toute décision irréversible et recommande la prudence sur l'historique salarial. Le Conseil de l'égalité des chances entre hommes et femmes exhorte les gouvernements à achever la transposition sans délai.",
+          "impact": "L'absence de loi ne signifie pas l'absence de risque contentieux sur le fondement du droit existant.",
+          "tags": ["Veille", "Partenaires sociaux"],
+          "source_ids": [3, 12]
+        }
+      ],
+      "table": {
+        "columns": ["Texte", "Champ", "Obligation actuelle"],
+        "rows": [
+          {"cells": ["Loi du 22 avril 2012", "Entreprises de 50 travailleurs et plus", "Rapport d'analyse bisannuel au conseil d'entreprise ou à la délégation syndicale"], "source_ids": [2, 13]},
+          {"cells": ["Loi du 10 mai 2007 (genre)", "Tous les employeurs", "Interdiction de discrimination salariale ; charge de la preuve renversée ; indemnité forfaitaire"], "source_ids": [2]},
+          {"cells": ["CCT n° 25 / 25ter", "Secteur privé", "Égalité de rémunération ; action en justice"], "source_ids": [2]},
+          {"cells": ["Décret flamand du 12 juin 2026", "Administration flamande, pouvoirs locaux, enseignement flamand", "Interdiction de l'historique salarial, information annuelle, réponse sous deux mois, évaluation conjointe au-delà de 5 %"], "source_ids": [10]}
+        ]
+      }
+    },
+    {
+      "heading": "Dates à retenir",
+      "table": {
+        "columns": ["Date", "Nature", "Description"],
+        "rows": [
+          {"cells": ["Début décembre 2026", "Repère politique (non légal)", "Fin du délai de six mois demandé par le gouvernement fédéral le 1er juin 2026 ; aucune acceptation de la Commission n'a été identifiée"], "priority": "AMBER", "source_ids": [6, 7]},
+          {"cells": ["14 janvier 2027", "Fin de projet", "Fin du projet BE-MAGIC du SPF Emploi (outils de classification neutres)"], "priority": "GREEN", "source_ids": [14]},
+          {"cells": ["Premier trimestre 2027 (selon l'exercice)", "Obligation existante", "Rapport d'analyse bisannuel (loi de 2012) à discuter dans les trois mois de la clôture de l'exercice, pour les entreprises dont le cycle bisannuel se termine en 2026 – à vérifier selon le dernier rapport établi"], "priority": "RED", "source_ids": [13]},
+          {"cells": ["7 juin 2027", "Échéance de la directive", "Premier rapport sur l'écart de rémunération pour les employeurs de 150 travailleurs et plus (sous réserve de la loi belge)"], "priority": "AMBER", "source_ids": [1]},
+          {"cells": ["7 juin 2031", "Échéance de la directive", "Premier rapport pour les employeurs de 100 à 149 travailleurs (sous réserve de la loi belge)"], "priority": "GREEN", "source_ids": [1]}
+        ]
+      }
+    },
+    {
+      "heading": "Points non vérifiés ou ambigus",
+      "bullets": [
+        "Aucune source postérieure au 17 septembre 2026 n'a été trouvée sur l'état du dossier fédéral : une reprise des travaux au CNT ou un avant-projet transmis récemment ne peuvent pas être exclus.",
+        "Réponse de la Commission européenne à la demande belge du 1er juin 2026 : non identifiée. La Commission a refusé tout report général (« stop the clock ») ; aucune lettre de mise en demeure visant la Belgique sur cette directive n'a été trouvée.",
+        "Région wallonne : une source indique qu'elle a adapté sa législation, une autre la range parmi les entités qui hésitent encore. Le champ exact du décret du 16 mai 2024 (Fédération Wallonie-Bruxelles et/ou Wallonie) n'a pas été vérifié au Moniteur belge.",
+        "Décret flamand : la date de publication (17 juin 2026) et l'entrée en vigueur rétroactive au 7 juin 2026 proviennent de prestataires sociaux ; le texte du Moniteur belge n'a pas été consulté.",
+        "Une source mentionne un rapport de la commission des Affaires sociales de la Chambre du 15 avril 2026 ; il n'a pas été consulté directement."
+      ]
+    },
+    {
+      "heading": "Ce que cela signifie pour le HRBP",
+      "paragraphs": [
+        "Les responsables et échéances internes sont des propositions. Aucune obligation nouvelle n'est encore en vigueur pour le secteur privé ; la préparation vise à réduire le délai de mise en conformité une fois la loi publiée."
+      ],
+      "bullets": [
+        "ROUGE – Vérifier la date du prochain rapport d'analyse de la structure de rémunération (loi de 2012) et le préparer pour le conseil d'entreprise ou la délégation syndicale : c'est la seule obligation certaine à court terme (proposition : Rémunération et avantages, avec la paie).",
+        "ROUGE – Retirer dès maintenant des formulaires et entretiens de recrutement toute question sur le salaire antérieur, conformément à la recommandation de prudence de la FEB (proposition : Recrutement).",
+        "ORANGE – Établir l'effectif moyen par entité juridique (seuils de 100, 150 et 250 travailleurs) pour situer chaque entité dans le calendrier de rapportage de la directive.",
+        "ORANGE – Réaliser un diagnostic confidentiel de l'écart de rémunération par catégorie de travail égal ou de même valeur, en repérant toute catégorie au-delà de 5 % et en documentant les justifications objectives (avec l'avis du conseiller juridique).",
+        "ORANGE – Documenter les critères de fixation des salaires et de progression, et vérifier la neutralité de la classification de fonctions (barèmes sectoriels de la commission paritaire, grille interne).",
+        "ORANGE – Préparer des fourchettes salariales par fonction pour les offres d'emploi, sans les publier tant que la loi n'en fixe pas le format.",
+        "VERT – Vérifier avec la paie et le délégué à la protection des données la capacité à répondre en deux mois à une demande individuelle d'information ventilée par sexe, dans le respect du RGPD.",
+        "VERT – Pour les entités publiques flamandes ou relevant de la Fédération Wallonie-Bruxelles : appliquer dès à présent les décrets régionaux ou communautaires.",
+        "VERT – Suivre le CNT, la Chambre et le Moniteur belge à chaque radar hebdomadaire ; escalader dès qu'un avant-projet est rendu public (information-consultation du conseil d'entreprise probable)."
+      ]
+    }
+  ],
+  "sources": [
+    {"id": 1, "label": "Directive (UE) 2023/970 du 10 mai 2023 visant à renforcer l'application du principe de l'égalité des rémunérations par la transparence des rémunérations", "publisher": "EUR-Lex – Journal officiel de l'Union européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023L0970"},
+    {"id": 2, "label": "Loontransparantie zonder omzettingswet : wat kan een werknemer vandaag écht inroepen (17 septembre 2026)", "publisher": "PKF BOFIDI Legal", "url": "https://pkfbofidi.com/loontransparantie-belgie-zonder-omzettingswet/"},
+    {"id": 3, "label": "FAQ Omzetting loontransparantierichtlijn uitgesteld – Wat nu (FEB, 5 juin 2026)", "publisher": "Legal News", "url": "https://legalnews.be/arbeid-sociale-zekerheid/omzetting-loontransparantierichtlijn-uitgesteld-wat-nu-vbo/"},
+    {"id": 4, "label": "Loontransparantie : ben jij klaar voor de nieuwe regels (mis à jour le 6 août 2026)", "publisher": "Acerta", "url": "https://www.acerta.be/nl/inspiratie/loontransparantie-ben-jij-klaar-voor-de-nieuwe-regels-belgie-vraagt-6-maanden-uitstel-voor-de"},
+    {"id": 5, "label": "La transparence salariale n'a pas encore été transposée dans le droit belge (9 juin 2026)", "publisher": "Securex", "url": "https://www.securex.be/fr/lex4you/employeur/actualites/la-transparence-salariale-n-a-pas-encore-ete-transposee-dans-le-droit-belge"},
+    {"id": 6, "label": "Wil je weten hoeveel je collega's verdienen : Europese wet die dat mogelijk maakt (7 juin 2026)", "publisher": "VRT NWS", "url": "https://www.vrt.be/vrtnws/nl/2026/06/06/wil-je-weten-hoeveel-je-collega-s-verdienen-europese-wet-die-da/"},
+    {"id": 7, "label": "België vraagt 6 maanden extra voor omzetting Europese richtlijn loontransparantie (4 juin 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/nl/node/22497"},
+    {"id": 8, "label": "Proposition de résolution relative à la mise en œuvre de la directive européenne sur la transparence des rémunérations, DOC 56 1321/001 (26 janvier 2026)", "publisher": "Chambre des représentants de Belgique", "url": "https://www.dekamer.be/Flwb/pdf/56/1321/56K1321001.pdf"},
+    {"id": 9, "label": "Transparence salariale au sein de l'administration flamande, des pouvoirs locaux et des établissements d'enseignement : état des lieux (24 juin 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22524"},
+    {"id": 10, "label": "Loontransparantie : wat betekent dit voor de lokale besturen (28 juillet 2026)", "publisher": "Securex", "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/loontransparantie-wat-betekent-dit-voor-de-lokale-besturen"},
+    {"id": 11, "label": "Beloningstransparantie en gelijke beloning – décision du Gouvernement flamand (7 novembre 2025)", "publisher": "Gouvernement flamand (vlaanderen.be)", "url": "https://www.vlaanderen.be/vlaamse-regering/beslissingen-van-de-vlaamse-regering/beloningstransparantie-en-gelijke-beloning"},
+    {"id": 12, "label": "Communiqué de presse juin 2026 : mise en œuvre de la transparence salariale", "publisher": "Conseil de l'égalité des chances entre hommes et femmes", "url": "https://conseildelegalite.be/nouvelles/communique-de-presse-juin-2026-mise-en-oeuvre-de-la-transparence-salariale"},
+    {"id": 13, "label": "Écart salarial homme-femme : rapport d'analyse obligatoire", "publisher": "UCM", "url": "https://www.ucm.be/actualites/ecart-salarial-homme-femme-rapport-danalyse-obligatoire"},
+    {"id": 14, "label": "Transparence des rémunérations : projet BE-MAGIC", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/egalite-et-non-discrimination/transparence-des-remunerations-projet-be-magic"},
+    {"id": 15, "label": "La Belgique demande à l'UE un report de six mois pour les règles relatives à la transparence salariale (2 juin 2026)", "publisher": "Business AM", "url": "https://fr.businessam.be/la-belgique-demande-a-lue-un-report-de-six-mois-pour-les-regles-relatives-a-la-transparence-salariale"},
+    {"id": 16, "label": "Nieuwe regels loontransparantie : Belgische wetgeving laat op zich wachten (3 juin 2026)", "publisher": "Liantis", "url": "https://www.liantis.be/nl/kennis-en-inspiratienieuws/nieuwe-regels-loontransparantie-belgische-wetgeving-laat-op-zich-wachten"}
+  ]
+}

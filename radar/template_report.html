@@ -6,7 +6,7 @@
 <style>{{ css | safe }}</style>
 </head>
 <body>
-{{ p.header(title, "RAPPORT DU " ~ (date | longdate | upper)) }}
+{{ p.header(title, date | longdate | upper) }}
 
 {{ p.example_banner() }}
 

@@ -15,7 +15,8 @@ radar/template_*.html       PDF layouts; radar/base.css shared design; radar/fon
 radar/weekly.py             one command for the whole weekly run
 radar/research_api.py       API mode: research via the Anthropic Messages API + web search
 radar/send_email.py         optional email via Resend
-site/build_site.py          regenerates site/index.html (latest week, Top 3, 90-day deadlines, reports, archive)
+site/build_site.py          regenerates site/index.html (latest week, Top 3, 90-day deadlines + echeances.ics,
+                            all items of the week, reports, archive, mode d'emploi, official links)
 briefings/<mon>_<sun>/      briefing.json + both PDFs, one folder per week
 reports/                    single-topic report JSON + PDF
 .github/workflows/          pages.yml (publish site), weekly.yml (Option B)
@@ -31,6 +32,8 @@ reports/                    single-topic report JSON + PDF
 | `/deadlines-90` | report: all statutory deadlines in the next 90 days |
 | `/works-council-gate` | report: which changes need conseil d'entreprise / CPPT / délégation syndicale |
 | `/pay-transparency` | report: Belgian transposition of Directive 2023/970 |
+| `/retail-check` | report: retail CP 311/312/201 – pay, schedules, Sundays, students, flexi-jobs, soldes |
+| `/brussels-check` | report: employer in Brussels – document languages, Actiris aids, inspection, FR/NL glossary |
 | `/deep-dive <theme or region>` | report: 30 days back, 90 days ahead on one theme or region |
 | `/explain-for-managers` | plain-language French note for line managers, chat only |
 

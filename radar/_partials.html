@@ -1,7 +1,7 @@
 {% macro header(title, edition_label) -%}
 <div class="band-top"></div><div class="band-bottom"></div>
 <div class="hdrleft"><div class="mark">RADAR RH BELGIQUE</div><div class="juris">FÉDÉRAL · RÉGIONS · COMMUNAUTÉS</div></div>
-<div class="hdr"><div class="title">{{ title }}</div><div class="sub">{{ window_label }} / {{ edition_label }}</div></div>
+<div class="hdr"><div class="title{% if title | length > 30 %} long{% endif %}">{{ title }}</div><div class="sub">{{ window_label }} / {{ edition_label }}</div></div>
 {%- if example %}<div class="watermark">EXEMPLE</div>{% endif %}
 {%- endmacro %}
 

@@ -57,6 +57,20 @@ td a { color: var(--teal); }
 .archive a { color: var(--teal); font-weight: 600; padding: 2px 0; }
 .muted { color: var(--muted); }
 .archive small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
+.cal { display: inline-block; margin-top: 10px; color: var(--teal); font-weight: 600; }
+.items { display: grid; gap: 8px; }
+.item { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 0 14px; }
+.item summary { cursor: pointer; padding: 12px 0; font-weight: 600; list-style-position: outside; }
+.item summary small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
+.item .lvl { display: inline-block; margin-right: 8px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }
+.item p { margin: 0 0 10px; }
+.item .impact { background: var(--teal-fill); border-left: 3px solid var(--teal); padding: 8px 10px; border-radius: 4px; }
+.item .meta { color: var(--muted); font-size: 14px; }
+.item a { color: var(--teal); }
+.note { font-size: 14px; margin-top: 10px; }
+.guide { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 4px 16px; }
+.guide ul { padding-left: 20px; }
+.pri-RED { color: var(--red); font-weight: 700; } .pri-AMBER { color: var(--amber); font-weight: 700; } .pri-GREEN { color: var(--green); font-weight: 700; }
 footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
 @media (min-width: 640px) {
   .downloads { grid-template-columns: 1fr 1fr; }
@@ -69,7 +83,7 @@ footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
   <header class="top">
     <p class="eyebrow">Radar RH Belgique</p>
     <h1>Semaine du 26 oct. au 1er nov. 2026</h1>
-    <p class="sub">Veille droit social et RH pour la Belgique. Mise à jour chaque lundi.</p>
+    <p class="sub">Veille droit social et RH pour la Belgique, avec un accent sur le commerce de détail (CP 311) et Bruxelles. Mise à jour chaque lundi.</p>
   </header>
   
   <section class="downloads">
@@ -105,15 +119,112 @@ footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
       <thead><tr><th>Date</th><th>Niveau</th><th>Quoi</th></tr></thead>
       <tbody><tr><td class="date">11 nov. 2026</td><td>Fédéral</td><td>Jour férié de l&#x27;Armistice <a href="https://www.securex.be/de/lex4you/arbeitgeber/news/was-bringt-der-monat-november-2026-im-bereich-hr" rel="noopener noreferrer">source</a><span class="kind">Date d'application</span></td></tr><tr><td class="date">31 déc. 2026</td><td>Fédéral</td><td>Fin de l&#x27;année de vacances 2026 : les jours de vacances légales 2026 doivent être pris <a href="https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-november-2026-op-hr-vlak" rel="noopener noreferrer">source</a><span class="kind">Échéance légale</span></td></tr></tbody>
     </table></div>
+    <a class="cal" href="echeances.ics">Ajouter ces échéances à mon agenda (.ics)</a>
+  </section>
+  <section>
+    <h2>Tous les points de la semaine</h2>
+    <div class="items">
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>Précompte professionnel : nouvelles règles de calcul
+          <small>En vigueur · Rémunérations à partir du 1er novembre 2026</small></summary>
+        <p><b>Ce qui change :</b> L&#x27;arrêté royal du 27 septembre 2026 portant des modifications en matière de précompte professionnel (Moniteur belge du 2 octobre 2026), qui exécute la loi du 15 juillet 2026 portant réforme de l&#x27;impôt des personnes physiques, s&#x27;applique dès novembre. Trois mesures : augmentation de la quotité exemptée d&#x27;impôt, renforcement des réductions pour un ou deux enfants à charge (un enfant : de 52 à 57 EUR par mois) et réduction du quotient conjugal ; la réduction pour quatre enfants passe de 635 à 624 EUR par mois. Les pensions et le chômage avec complément d&#x27;entreprise ne sont pas encore adaptés en 2026.</p>
+        <p class="impact"><b>Impact potentiel :</b> Le net de novembre pourrait augmenter pour certains travailleurs et diminuer pour d&#x27;autres, notamment les familles nombreuses et les couples bénéficiant du quotient conjugal (exemple Securex : -29,90 EUR nets par mois pour un salaire de 5 000 EUR bruts, marié, quatre enfants). Des questions des travailleurs sont probables à réception de la fiche de paie, et la prime de fin d&#x27;année pourrait aussi être touchée.</p>
+        
+        <p class="meta"><b>Pertinence :</b> Paie | Fiscalité | Communication aux travailleurs</p>
+        <p class="meta"><b>Sources :</b> <a href="https://www.securex.be/fr/lex4you/employeur/actualites/les-salaires-nets-changent-a-partir-de-novembre" rel="noopener noreferrer">[1] Securex</a> <a href="https://www.liantis.be/fr/nouvelles/nouvelles-r%C3%A8gles-de-pr%C3%A9compte-professionnel-d%C3%A8s-le-1er-novembre-2026-quel-impact-sur-le" rel="noopener noreferrer">[2] Liantis</a></p>
+      </details>
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>Indexations sectorielles au 1er novembre et plafonnement au-delà de 4 000 EUR
+          <small>En vigueur · 1er novembre 2026</small></summary>
+        <p><b>Ce qui change :</b> Selon la CNE, six commissions paritaires d&#x27;employés indexent les salaires au 1er novembre 2026 : CP 201 (+2 %), CP 202 (+1 %), CP 202.01 (+2 %), CP 207 (+2 %), CP 310 (+0,77 %) et CP 312 (+2 %) ; cette liste ne couvre que les secteurs suivis par la CNE. Depuis le 1er juin 2026, la loi-programme du 30 mai 2026 limite l&#x27;indexation des salaires de référence supérieurs à 4 000 EUR bruts par mois [index centimes] : la partie au-delà de 4 000 EUR n&#x27;est pas indexée tant qu&#x27;une modération de 2 % n&#x27;a pas été appliquée. Seul le salaire mensuel de base à temps plein est visé, et aucune dérogation conventionnelle n&#x27;est permise.</p>
+        <p class="impact"><b>Impact potentiel :</b> Pour les entités relevant de ces commissions paritaires, les barèmes de novembre devraient être adaptés. Pour les salaires au-delà de 4 000 EUR, l&#x27;indexation de novembre pourrait être partielle selon le moment où la modération de 2 % est atteinte dans le mécanisme sectoriel ; l&#x27;applicabilité dépend de la commission paritaire de chaque entité.</p>
+        
+        <p class="meta"><b>Pertinence :</b> Paie | Indexation | Commissions paritaires</p>
+        <p class="meta"><b>Sources :</b> <a href="https://www.lacsc.be/cne/actualites/2026/11/03/indexations-des-salaires-en-novembre-2026-en-belgique-voici-les-secteurs-qui-en-beneficient" rel="noopener noreferrer">[3] CNE (CSC)</a> <a href="https://emploi.belgique.be/fr/themes/remuneration/indexation-automatique-des-salaires/index-centimes" rel="noopener noreferrer">[4] SPF Emploi, Travail et Concertation sociale</a></p>
+      </details>
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>Indice des prix d&#x27;octobre 2026 : indice-pivot non dépassé
+          <small>Publié · Non précisée</small></summary>
+        <p><b>Ce qui change :</b> Les chiffres d&#x27;octobre 2026 (Statbel, relayés le 29 octobre 2026) donnent un indice des prix à la consommation de 105,37, une inflation de 5,26 %, un indice santé de 104,68 et un indice santé lissé de 101,72. L&#x27;indice-pivot, fixé à 102,29, n&#x27;a pas été dépassé. Le gaz (+11,3 % sur un mois) et l&#x27;électricité (+8,5 %) expliquent l&#x27;essentiel de la hausse.</p>
+        <p class="impact"><b>Impact potentiel :</b> Un dépassement de l&#x27;indice-pivot dans les prochains mois déclencherait l&#x27;indexation des allocations sociales et des traitements du secteur public, et pourrait accélérer certaines indexations sectorielles liées à l&#x27;indice santé lissé. Le calendrier exact reste à confirmer à la publication des prochains indices.</p>
+        
+        <p class="meta"><b>Pertinence :</b> Paie | Indexation | Budget salarial</p>
+        <p class="meta"><b>Sources :</b> <a href="https://syndicatsmagazine.be/index-octobre-2026/" rel="noopener noreferrer">[5] Syndicats Magazine (FGTB), données Statbel</a></p>
+      </details>
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>Pécule de vacances des ouvriers : hausse des cotisations suspendue
+          <small>Projet suspendu · Non précisée (1er janvier 2027 non confirmé)</small></summary>
+        <p><b>Ce qui change :</b> Un projet d&#x27;arrêté royal prévoyait de relever la cotisation trimestrielle de vacances des ouvriers de 5,57 % à 5,69 % au 1er octobre 2026, puis à 5,84 % au 1er janvier 2027, ainsi que la cotisation de solidarité sur le pécule de 1 % à 1,16 %, pour la période du 1er octobre 2026 au 31 décembre 2033. Selon Partena (29 octobre 2026), les instructions ONSS du trimestre 2026/4 ne reprennent pas cette hausse et le projet ne sera pas signé pour l&#x27;instant. Une entrée en vigueur au 1er janvier 2027 reste possible mais non confirmée.</p>
+        <p class="impact"><b>Impact potentiel :</b> Aucune hausse ne devrait être appliquée sur les cotisations du 4e trimestre 2026. Le coût salarial ouvrier 2027 pourrait toutefois augmenter si le projet est repris ; les hypothèses budgétaires 2027 devraient prévoir les deux scénarios.</p>
+        
+        <p class="meta"><b>Pertinence :</b> Paie | Cotisations ONSS | Ouvriers | Budget 2027</p>
+        <p class="meta"><b>Sources :</b> <a href="https://www.partena-professional.be/fr/nos-connaissances/infoflashes/financement-du-pecule-de-vacances-des-ouvriers-pas-encore-de-hausse" rel="noopener noreferrer">[6] Partena Professional</a></p>
+      </details>
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>Bien-être au travail : plan annuel d&#x27;action 2027
+          <small>Échéance légale · 1er novembre 2026 (soumission du projet)</small></summary>
+        <p><b>Ce qui change :</b> Le projet de plan annuel d&#x27;action [jaaractieplan] doit être soumis pour avis au comité pour la prévention et la protection au travail (CPPT) au plus tard le premier jour du deuxième mois précédant l&#x27;exercice, soit le 1er novembre 2026 pour un exercice calendaire 2027. À défaut de CPPT, il est transmis à la délégation syndicale ou, à défaut, directement aux travailleurs. Le plan fixe les objectifs prioritaires de l&#x27;année ainsi que les moyens et méthodes, dans le cadre du plan global de prévention de cinq ans.</p>
+        <p class="impact"><b>Impact potentiel :</b> Une soumission tardive exposerait l&#x27;employeur à une irrégularité dans la procédure de bien-être et pourrait retarder l&#x27;avis du CPPT au-delà du 1er janvier 2027. La consultation du CPPT est une obligation confirmée.</p>
+        <p class="meta"><b>Concertation :</b> information-consultation confirmée</p>
+        <p class="meta"><b>Pertinence :</b> Bien-être au travail | Prévention | Concertation sociale</p>
+        <p class="meta"><b>Sources :</b> <a href="https://www.ucm.be/actualites/bien-etre-au-travail-presentez-votre-plan-daction-annuel-2026-au-cppt" rel="noopener noreferrer">[7] UCM</a> <a href="https://www.partena-professional.be/fr/node/22151" rel="noopener noreferrer">[8] Partena Professional</a></p>
+      </details>
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>Toussaint un dimanche : jour férié de remplacement
+          <small>Rappel réglementaire · 1er novembre 2026</small></summary>
+        <p><b>Ce qui change :</b> Novembre compte deux jours fériés : le 1er novembre (Toussaint) et le 11 novembre (Armistice). La Toussaint tombant un dimanche en 2026, un jour férié de remplacement doit être accordé un autre jour habituel d&#x27;activité, comme le rappelle Securex dans son agenda RH de novembre (26 octobre 2026).</p>
+        <p class="impact"><b>Impact potentiel :</b> Si le jour de remplacement n&#x27;a pas été fixé ou communiqué, le planning et la paie pourraient être erronés. Les modalités dépendent de la commission paritaire et, à défaut, de la décision prise au niveau de l&#x27;entreprise.</p>
+        <p class="meta"><b>Concertation :</b> obligation possible selon l’entité, les seuils ou la CCT applicable</p>
+        <p class="meta"><b>Pertinence :</b> Temps de travail | Paie | Règlement de travail</p>
+        <p class="meta"><b>Sources :</b> <a href="https://www.securex.be/de/lex4you/arbeitgeber/news/was-bringt-der-monat-november-2026-im-bereich-hr" rel="noopener noreferrer">[9] Securex</a></p>
+      </details>
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>CP 149.02 carrosserie : CCT travail faisable et afflux rendue obligatoire
+          <small>Publié au Moniteur belge · Effet au 1er janvier 2026</small></summary>
+        <p><b>Ce qui change :</b> L&#x27;arrêté royal du 18 octobre 2026, publié au Moniteur belge du 26 octobre 2026, rend obligatoire la CCT du 19 décembre 2025 conclue au sein de la sous-commission paritaire pour la carrosserie [paritair subcomité voor het koetswerk, 149.02] relative au travail faisable et à l&#x27;afflux [werkbaar werk en instroom]. Elle prévoit notamment un modèle de travail faisable (stress, ergonomie, compétences, formation, travailleurs âgés), des formations de mentor et d&#x27;accueil via EDUCAM, l&#x27;orientation de carrière, les emplois d&#x27;atterrissage et le remboursement de frais de garde d&#x27;enfants.</p>
+        <p class="impact"><b>Impact potentiel :</b> Uniquement pour les entités relevant de la CP 149.02 : les mesures deviennent opposables à tous les employeurs du secteur, avec effet rétroactif au 1er janvier 2026. Les politiques de formation et d&#x27;accueil pourraient devoir être alignées.</p>
+        <p class="meta"><b>Concertation :</b> obligation possible selon l’entité, les seuils ou la CCT applicable</p>
+        <p class="meta"><b>Pertinence :</b> CCT sectorielle | Formation | Fin de carrière</p>
+        <p class="meta"><b>Sources :</b> <a href="https://etaamb.openjustice.be/nl/koninklijk-besluit-van-18-oktober-2026_n2026202545" rel="noopener noreferrer">[10] Moniteur belge (via OpenJustice)</a></p>
+      </details>
+      <details class="item">
+        <summary><span class="lvl">Fédéral</span>Prime de reprise du travail pour l&#x27;engagement de travailleurs en invalidité
+          <small>Annoncé (base légale à confirmer) · Autorisations débutant à partir du 1er novembre 2026</small></summary>
+        <p><b>Ce qui change :</b> Selon Partena (22 octobre 2026), la prime de reprise du travail versée à l&#x27;employeur qui engage un travailleur en invalidité autorisé à reprendre une activité passe de 1 725 EUR à 3 000 EUR, lorsque la période d&#x27;autorisation de la mutualité débute à partir du 1er novembre 2026 et que l&#x27;occupation dure au moins trois mois. La source citée est le projet de loi exécutant une politique renforcée de retour au travail (II) (doc. Chambre 56K1789) ; sa publication au Moniteur belge n&#x27;a pas été vérifiée. La demande se fait en ligne auprès du Collège intermutualiste national.</p>
+        <p class="impact"><b>Impact potentiel :</b> Pour les recrutements de travailleurs en invalidité, l&#x27;incitant financier pourrait presque doubler. Le montant final dépend de l&#x27;adoption définitive du texte ; les flexi-jobs et travailleurs occasionnels sont exclus.</p>
+        
+        <p class="meta"><b>Pertinence :</b> Recrutement | Retour au travail | Incitants</p>
+        <p class="meta"><b>Sources :</b> <a href="https://www.partena-professional.be/fr/nos-connaissances/infoflashes/la-prime-de-reprise-du-travail-en-cas-dengagement-de-travailleurs-en" rel="noopener noreferrer">[11] Partena Professional</a></p>
+      </details>
+    </div>
+    <p class="muted note">Aucune mesure régionale (Flandre, Wallonie, Bruxelles, Communauté germanophone) publiée dans la période n&#x27;a été identifiée après recherche en français et en néerlandais.</p>
   </section>
 
   <section>
     <h2>Rapports</h2>
-    <ul class="archive reports"><li class="muted">Aucun rapport thématique pour le moment.</li></ul>
+    <ul class="archive reports"><li><span>Échéances à 90 jours<small>Du 6 novembre 2026 au 4 février 2027 · 6 nov. 2026</small><small>Échéances et dates d&#x27;application RH belges du 6 novembre 2026 au 4 février 2027 : indexation CP 200 avec premier plafonnement en centimes, jours fériés de remplacement avant le 15 décembre, fin du régime Activa bruxellois, déclaration des accidents du travail chez l&#x27;assureur, cotisation CO2, réforme des pensions et projets annoncés pour le 1er janvier 2027.</small></span><a href="reports/deadlines_2026-11-06.pdf">PDF</a></li><li><span>Transparence salariale<small>Novembre 2026 · 6 nov. 2026</small><small>Cinq mois après l&#x27;échéance du 7 juin 2026, aucun projet de loi fédéral de transposition de la directive (UE) 2023/970 n&#x27;a été identifié pour le secteur privé, les travaux du CNT sont à l&#x27;arrêt, tandis que la Flandre (décret du 12 juin 2026) et la Fédération Wallonie-Bruxelles (décret du 16 mai 2024) ont transposé pour leur propre personnel.</small></span><a href="reports/pay-transparency_2026-11-06.pdf">PDF</a></li><li><span>Organes de concertation<small>Semaine du 26 octobre au 1er novembre 2026 · 6 nov. 2026</small><small>Sur les sujets récents, seul le plan annuel d&#x27;action 2027 impose avec certitude un avis du CPPT (échéance du 1er novembre 2026 dépassée) ; les jours de remplacement 2027, les vacances collectives 2027, la CCT carrosserie (CP 149.02) et le futur enregistrement du temps de travail sont conditionnels, le reste n&#x27;appelle aucune consultation.</small></span><a href="reports/works-council_2026-11-06.pdf">PDF</a></li><li><span>Employeur à bruxelles<small>Situation au 6 novembre 2026 · 6 nov. 2026</small><small>Guide pratique pour un magasin établi à Bruxelles : langue des documents sociaux (article 52 des lois coordonnées du 18 juillet 1966), fin d&#x27;activa.brussels au 31 décembre 2026 sans successeur adopté, discrimination à l&#x27;embauche, mobilité, permis unique, contacts utiles et glossaire FR | NL.</small></span><a href="reports/bruxelles_2026-11-06.pdf">PDF</a></li><li><span>Contrôles avant paie<small>Guide opérationnel – situation au 6 novembre 2026 · 6 nov. 2026</small><small>Guide pratique et sourcé du contrôle mensuel avant paie (heures, absences, étudiants, flexi-jobs, entrées et sorties) et du cycle de vie du travailleur en magasin, intégrant les règles 2026 sur l&#x27;incapacité de travail, les heures supplémentaires volontaires et les délais de préavis.</small></span><a href="reports/pre-paie_2026-11-06.pdf">PDF</a></li><li><span>Contrôle de paie<small>Novembre et décembre 2026 · 6 nov. 2026</small><small>Nouveau calcul du précompte professionnel dès la paie de novembre 2026, prime de fin d&#x27;année et clôture d&#x27;année en décembre, et préparation de la première indexation plafonnée de la CP 200 au 1er janvier 2027.</small></span><a href="reports/payroll_2026-11-06.pdf">PDF</a></li><li><span>Commerce de détail<small>Novembre 2026 à fin janvier 2027 · 6 nov. 2026</small><small>Référence pratique pour l&#x27;administration RH d&#x27;un magasin de vêtements d&#x27;une grande chaîne en CP 311 à Bruxelles : barèmes et primes, horaires, dimanches de décembre, renforts étudiants et flexi-jobs, soldes d&#x27;hiver 2027.</small></span><a href="reports/retail_2026-11-06.pdf">PDF</a></li></ul>
   </section>
   <section>
     <h2>Archives</h2>
     <ul class="archive"><li class="muted">Les semaines précédentes apparaîtront ici.</li></ul>
+  </section>
+
+  <section>
+    <h2>Mode d’emploi</h2>
+    <div class="guide">
+      <p><b>Chaque lundi</b>, la semaine écoulée (lundi–dimanche) est analysée : législation fédérale et régionale, paie et sécurité sociale, CCT, jurisprudence. Deux PDF en sortent :</p>
+      <ul>
+        <li><b>Actualités</b> : ce qui change, le statut, la date d’effet et l’impact potentiel, sans tâches. À transmettre tel quel.</li>
+        <li><b>Plan d’action</b> : ce qu’il faut faire, dans quel ordre, avec un responsable et une échéance interne <i>proposés</i>. Les dates légales sont indiquées à part.</li>
+      </ul>
+      <p class="legend"><span class="pri-RED">ROUGE</span> action requise (souvent la paie du mois) · <span class="pri-AMBER">ORANGE</span> préparer avant une date légale ou une concertation · <span class="pri-GREEN">VERT</span> suivre.</p>
+      <p>Les <b>rapports</b> approfondissent un sujet (paie, échéances, organes de concertation, transparence salariale). Chaque fait renvoie à une source officielle ou professionnelle cliquable ; les annonces non adoptées sont signalées comme telles.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sites officiels</h2>
+    <ul class="archive links"><li><span>Moniteur belge<small>textes publiés</small></span><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl" rel="noopener noreferrer">Ouvrir</a></li><li><span>SPF Emploi, Travail et Concertation sociale<small>droit du travail, CCT, salaires minimums</small></span><a href="https://emploi.belgique.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>ONSS / Sécurité sociale<small>cotisations, réductions, instructions</small></span><a href="https://www.socialsecurity.be/site_fr/employer/index.htm" rel="noopener noreferrer">Ouvrir</a></li><li><span>SPF Finances – précompte professionnel<small>barèmes, fiches</small></span><a href="https://finances.belgium.be/fr/entreprises/personnel_et_remuneration" rel="noopener noreferrer">Ouvrir</a></li><li><span>Conseil national du Travail<small>CCT interprofessionnelles, avis</small></span><a href="https://cnt-nar.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>INAMI<small>incapacité de travail, réintégration</small></span><a href="https://www.inami.fgov.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>Forem<small>aides à l’emploi en Wallonie</small></span><a href="https://www.leforem.be/" rel="noopener noreferrer">Ouvrir</a></li><li><span>Actiris<small>aides à l’emploi à Bruxelles</small></span><a href="https://www.actiris.brussels/fr/employeurs/" rel="noopener noreferrer">Ouvrir</a></li><li><span>VDAB<small>aides à l’emploi en Flandre</small></span><a href="https://www.vdab.be/werkgevers" rel="noopener noreferrer">Ouvrir</a></li></ul>
   </section>
   <footer>L’impact potentiel est une évaluation et non un avis juridique. L’applicabilité dépend de l’entité, de la commission paritaire, du personnel et de la CCT applicable. Chaque point renvoie à sa source dans les PDF.</footer>
 </main></body>

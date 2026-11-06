@@ -1,0 +1,626 @@
+{
+  "title": "RH BELGIQUE | COMMERCE DE DÉTAIL",
+  "slug": "retail",
+  "date": "2026-11-06",
+  "period": "Novembre 2026 à fin janvier 2027",
+  "summary": "Référence pratique pour l'administration RH d'un magasin de vêtements d'une grande chaîne en CP 311 à Bruxelles : barèmes et primes, horaires, dimanches de décembre, renforts étudiants et flexi-jobs, soldes d'hiver 2027.",
+  "intro": "Référence pratique pour la gestion administrative RH d'un magasin de prêt-à-porter d'une grande chaîne à Bruxelles et environs, de novembre 2026 à la fin des soldes d'hiver 2027 (situation au 6 novembre 2026). Selon la lettre d'offre, le personnel du magasin relève de la commission paritaire 311 (grandes entreprises de vente au détail) ; les CP 312 et 201 ne sont présentées qu'à titre de comparaison. Recherche menée en français et en néerlandais auprès du SPF Emploi (étude sur le commerce de détail de mai 2026, base de données des salaires minimums), de l'ONSS, de student@work, des secrétariats sociaux et des syndicats. Les éléments déduits ou non confirmés sont signalés et repris en fin de rapport. L'impact concret dépend toujours de l'entité, des CCT d'entreprise et du règlement de travail.",
+  "sections": [
+    {
+      "heading": "SYNTHÈSE POUR LE MAGASIN",
+      "paragraphs": [
+        "En CP 311, la paie de décembre porte la prime de fin d'année (un mois de salaire, dès 3 mois d'ancienneté selon la CSC). Les barèmes ont été indexés de 2 % au 1er juillet 2026 ; aucune date n'est confirmée pour la prochaine indexation sectorielle. Les magasins peuvent ouvrir tous les jours de 5 heures à 21 heures depuis le 13 août 2026, mais le droit du travail limite toujours le travail du dimanche du personnel. Les soldes d'hiver débutent en principe le samedi 2 janvier 2027 (le 3 janvier tombe un dimanche) et se terminent le 31 janvier 2027."
+      ],
+      "bullets": [
+        "ROUGE : vérifier les droits à la prime de fin d'année (ancienneté, entrées et sorties) avant la clôture de la paie de décembre 2026.",
+        "ROUGE : planifier les dimanches de décembre dans les limites légales (3 dimanches par an, plus 3 sous conditions) et communiquer les horaires variables 3 semaines à l'avance.",
+        "ORANGE : sécuriser les renforts (Dimona STU et solde student@work, contrat-cadre flexi, CDD écrits) avant les premiers jours de travail.",
+        "ORANGE : faire afficher l'avis des jours fériés 2027 (15 août 2027, un dimanche) avant le 15 décembre 2026."
+      ]
+    },
+    {
+      "heading": "QUELLE COMMISSION PARITAIRE : CP 311, CP 312 OU CP 201",
+      "paragraphs": [
+        "Le SPF Emploi (étude sur le commerce de détail, mai 2026) explique que les CP 311 [paritair comité 311, grote kleinhandelszaken] et 312 [warenhuizen] sont compétentes pour les entreprises de commerce de détail non alimentaire occupant plus de 50 personnes, calculées en équivalents temps plein. La différence entre les deux tient au nombre de branches commerciales [handelstakken] exploitées : moins de 3 pour la CP 311, 3 ou plus pour la CP 312. La notion de branche n'est pas définie dans les textes de compétence ; l'administration se réfère à sept groupes de produits d'un arrêté royal de 1965 (abrogé en 2015), dont « textile, vêtements et chaussures ». La CP 201 (commerce de détail indépendant) est la catégorie résiduelle : elle couvre le commerce de détail qui ne relève pas des commissions plus spécifiques.",
+        "Le libellé historique de la CP 311 vise les entreprises « où moins de trois branches de commerce habituellement distinctes sont exploitées » et dont l'effectif permanent de personnel de vente salarié atteint au moins cinquante unités (traduction du texte néerlandais cité par le SPF Emploi). La CSC décrit la CP 311 comme les chaînes non alimentaires à plusieurs succursales et d'au moins 50 travailleurs, notamment la mode. Selon le SPF Emploi, la CP 312 ne compte plus que 3 employeurs (3e trimestre 2025). Les ouvriers des sections de fabrication ou d'entretien constituant une unité d'exploitation distincte peuvent relever d'une autre CP."
+      ],
+      "table": {
+        "columns": [
+          "Commission paritaire",
+          "Critères (non alimentaire)",
+          "Remarques"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "CP 311 Grandes entreprises de vente au détail",
+              "Plus de 50 travailleurs (ETP) et moins de 3 branches commerciales",
+              "Cas typique de la chaîne de mode ; CP indiquée dans la lettre d'offre du magasin."
+            ],
+            "source_ids": [
+              2,
+              4
+            ]
+          },
+          {
+            "cells": [
+              "CP 312 Grands magasins",
+              "Plus de 50 travailleurs (ETP) et 3 branches commerciales ou plus",
+              "Magasins multi-assortiments ; 3 employeurs seulement en 2025."
+            ],
+            "source_ids": [
+              2
+            ]
+          },
+          {
+            "cells": [
+              "CP 201 Commerce de détail indépendant",
+              "Commerce de détail ne relevant d'aucune CP plus spécifique (en pratique, non alimentaire jusqu'à 50 travailleurs)",
+              "Catégorie résiduelle ; la CP spécifique prime toujours sur la CP 201."
+            ],
+            "source_ids": [
+              2
+            ]
+          }
+        ]
+      },
+      "bullets": [
+        "Comment vérifier : le numéro de CP figure dans le contrat de travail ou la lettre d'offre et sur la fiche de paie ; le secrétariat social ou le service paie peut confirmer la CP déclarée à l'ONSS (Dimona et DmfA) pour l'entité juridique qui emploie le personnel du magasin.",
+        "Point d'attention : la CP se détermine par entité juridique et par activité principale. Une autre société du groupe (logistique, siège, e-commerce) peut relever d'une autre CP.",
+        "Contexte : le SPF Emploi a publié en mai 2026, à la demande du ministre de l'Emploi, une analyse sur une éventuelle restructuration des CP du commerce de détail ; aucune modification de compétence de ces CP n'est publiée à ce jour."
+      ]
+    },
+    {
+      "heading": "RÉMUNÉRATION EN CP 311",
+      "cards": [
+        {
+          "title": "CP 311 / Barèmes minimums au 1er juillet 2026",
+          "priority": "GREEN",
+          "status": "En vigueur | Date d'effet : 1er juillet 2026",
+          "body": "Selon la base de données des salaires minimums du SPF Emploi (mise à jour du 16 juillet 2026), les salaires mensuels bruts minimums des employés de 21 ans et plus, en régime de 35 heures par semaine, sont à l'embauche : catégorie I 2 197,30 EUR, catégorie II 2 305,56 EUR, catégorie II bis 2 354,19 EUR, catégorie III 2 414,01 EUR, catégorie IV 2 598,43 EUR. Exemple après 5 ans d'ancienneté : catégorie I 2 298,92 EUR, catégorie III 2 560,49 EUR. Les montants s'appliquent au prorata aux temps partiels. Le SPF précise avoir multiplié les montants par 1,02, d'où de légers écarts d'arrondi possibles avec le barème sectoriel.",
+          "impact": "Pour chaque nouveau contrat, la catégorie de fonction et l'ancienneté retenues doivent être documentées ; si un salaire contractuel est sous le barème de sa catégorie, une régularisation est due. Les grilles des moins de 21 ans, des étudiants et la classification des fonctions (vendeur, caissier) sont à consulter sur la même page.",
+          "tags": [
+            "Barèmes",
+            "CP 311",
+            "Temps partiel"
+          ],
+          "source_ids": [
+            5
+          ]
+        },
+        {
+          "title": "CP 311 / Indexation : 2 % au 1er juillet 2026, prochaine date non fixée",
+          "priority": "AMBER",
+          "status": "Mécanisme sectoriel lié à l'indice-pivot | Prochaine indexation : non précisée",
+          "body": "La CP 311 applique une indexation de 2 % au dépassement d'un indice-pivot sectoriel ; selon la CSC, elle est appliquée le mois qui suit le dépassement de l'indice-pivot par la moyenne des 3 derniers mois consécutifs, sur les salaires minimums et les salaires réels. L'indice-pivot ayant été dépassé en juin 2026, les salaires ont été indexés de 2 % au 1er juillet 2026. La CSC range cette indexation parmi celles touchées par des « sauts d'index partiels » : depuis le 1er juin 2026 (« index en centimes »), pour un salaire de référence supérieur à 4 000 EUR bruts par mois, la partie au-delà de 4 000 EUR n'est pas pleinement indexée. Les primes de fin d'année, éco-chèques et sursalaires ne font pas partie du salaire de référence. Aucune source consultée ne fixe la prochaine indexation de la CP 311 ; la CSC cite un nouvel indice-pivot sectoriel de 101,94.",
+          "impact": "Peu de salaires de magasin dépassent 4 000 EUR, mais pour ceux qui les dépassent (encadrement), la modération et la cotisation patronale de modération salariale doivent être appliquées par la paie. Une nouvelle indexation début 2027 est possible si l'indice-pivot sectoriel est dépassé, mais elle n'est pas confirmée.",
+          "tags": [
+            "Indexation",
+            "Index en centimes",
+            "Paie"
+          ],
+          "source_ids": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "title": "CP 311 / Prime de fin d'année payée en décembre",
+          "priority": "RED",
+          "status": "Obligation sectorielle existante | Paiement : décembre 2026",
+          "body": "Selon la CSC (2 décembre 2025), la prime de fin d'année de la CP 311 est égale au salaire d'un mois de travail complet, est due à partir de 3 mois d'ancienneté chez l'employeur et est payée en décembre. L'étude du SPF Emploi confirme le paiement en décembre. Les règles détaillées (prorata pour temps partiel ou année incomplète, jours assimilés, cas de sortie en cours d'année, exclusion des étudiants) ne figurent pas dans les sources consultées et doivent être lues dans la CCT sectorielle.",
+          "impact": "Avant la paie de décembre 2026, contrôler la liste des bénéficiaires (ancienneté de 3 mois atteinte, entrées de septembre-octobre, contrats d'automne) et le traitement des sortants. La prime est soumise au précompte professionnel de décembre.",
+          "tags": [
+            "Prime de fin d'année",
+            "Paie de décembre",
+            "CP 311"
+          ],
+          "source_ids": [
+            3,
+            9
+          ]
+        },
+        {
+          "title": "CP 311 / Éco-chèques et prime annuelle de juin",
+          "priority": "GREEN",
+          "status": "Obligation sectorielle existante | Prochain paiement : juin 2027",
+          "body": "Selon l'étude du SPF Emploi, la CP 311 prévoit des éco-chèques de 250 EUR et une prime annuelle de 70 EUR, payés en juin, pour un travailleur à temps plein ayant une période de référence complète. Les étudiants sous contrat d'occupation d'étudiant en sont exclus. L'entreprise peut remplacer les éco-chèques par un avantage équivalent si une CCT a été conclue avant le 31 janvier 2024. Aucune CP du commerce de détail n'impose de chèques-repas au niveau sectoriel ; les CP 311 et 312 permettent de convertir la prime de 250 EUR en chèques-repas.",
+          "impact": "Rien à payer d'ici janvier 2027, mais les contrats qui se terminent avant juin ouvrent la question du prorata ; vérifier la période de référence et la règle de prorata dans la CCT ou la politique d'entreprise.",
+          "tags": [
+            "Éco-chèques",
+            "Primes",
+            "Chèques-repas"
+          ],
+          "source_ids": [
+            3
+          ]
+        },
+        {
+          "title": "CP 311 / Intervention dans les frais de transport",
+          "priority": "GREEN",
+          "status": "Obligation sectorielle existante | Situation décrite par le SPF Emploi en mai 2026",
+          "body": "Selon l'étude comparative du SPF Emploi : train, intervention moyenne de 80 % du prix de la carte train ; autres transports publics (par exemple STIB), 80 % du prix effectivement payé, plafonné à l'intervention patronale dans le prix de la carte train pour 7 km, sous forme d'indemnité mensuelle si le travailleur a avancé la dépense ; en cas de combinaison avec un seul titre de transport, intervention calculée comme pour la carte train, sinon somme des interventions par moyen de transport. Transport privé : à partir de 2 km, en moyenne 75 % du prix de la carte train, sans intervention si la rémunération annuelle brute dépasse 40 000 EUR (salaire mensuel brut x 13,92), règle applicable depuis le 1er janvier 2024. Vélo : 0,27 EUR par km selon l'étude.",
+          "impact": "Pour les nouveaux engagés de la période de pointe, collecter dès l'entrée le moyen de transport, la distance domicile-magasin et les justificatifs (abonnement STIB, SNCB). Les montants peuvent avoir été adaptés depuis la publication de l'étude ; le service paie doit utiliser les tableaux sectoriels en vigueur.",
+          "tags": [
+            "Transport",
+            "Paie",
+            "Bruxelles"
+          ],
+          "source_ids": [
+            3
+          ]
+        }
+      ],
+      "paragraphs": [
+        "Les cartes ci-dessous visent le personnel employé en CP 311. Les montants proviennent de la base de données officielle des salaires minimums ou de l'étude comparative du SPF Emploi (mai 2026) ; les CCT d'entreprise et le contrat individuel peuvent prévoir mieux."
+      ]
+    },
+    {
+      "heading": "COMPARAISON RAPIDE : CP 312 ET CP 201",
+      "bullets": [
+        "Comparaison CP 312 : salaire minimum de la catégorie 1 à l'embauche de 2 238,97 EUR au 1er mai 2026 (indexation de 2 % en mai 2026) ; selon la CSC, nouvelle indexation de 2 % au 1er novembre 2026 [23, 6].",
+        "Comparaison CP 201 : indexation de 2 % au 1er novembre 2026 selon la CSC ; régime hebdomadaire de base de 38 heures contre 35 heures en CP 311 [6, 3]."
+      ]
+    },
+    {
+      "heading": "TEMPS DE TRAVAIL EN MAGASIN",
+      "cards": [
+        {
+          "title": "CP 311 / Durée du travail et temps partiel",
+          "priority": "GREEN",
+          "status": "Règles existantes | Seuil légal de 1/10 en vigueur depuis le 1er juin 2026",
+          "body": "La durée hebdomadaire de référence est de 35 heures en CP 311 ; la durée hebdomadaire dérogatoire peut atteindre 40 heures, avec jours de compensation. Depuis le 1er juin 2026 (loi du 18 mai 2026 portant des dispositions diverses en matière de travail), un temps partiel ne peut en principe pas être inférieur à 1/10 de la durée hebdomadaire d'un temps plein de la même catégorie ; chaque période de travail dure en principe au moins 3 heures. En CP 311, un travailleur à temps partiel à durée indéterminée de 18 ou 19 heures avec 18 mois d'ancienneté peut demander par écrit à passer à 20 heures en horaire variable ; à 20 ou 21 heures avec 3 ans d'ancienneté, dans un magasin de 12 travailleurs ou plus, il peut demander 22 heures.",
+          "impact": "En période de pointe, les heures complémentaires des temps partiels doivent rester dans les limites du contrat et du règlement de travail. Les demandes écrites d'augmentation d'horaire doivent être tracées et traitées selon la CCT sectorielle.",
+          "tags": [
+            "Temps partiel",
+            "Durée du travail",
+            "CCT sectorielle"
+          ],
+          "source_ids": [
+            3,
+            12
+          ]
+        },
+        {
+          "title": "CP 311 / Horaires variables : 3 semaines à l'avance",
+          "priority": "RED",
+          "status": "Obligation existante | Applicable à chaque planning",
+          "body": "Selon le SPF Emploi, en CP 311, les horaires variables sont communiqués 3 semaines à l'avance pour la 4e semaine. La loi impose que le travailleur à temps partiel variable soit informé au préalable, par un avis écrit, des jours et heures de travail ; le règlement de travail doit fixer un cadre (limites de la variabilité, mode de communication). Une copie du contrat ou un extrait mentionnant les horaires est conservé là où le règlement de travail peut être consulté (papier ou électronique). Les prestations en dehors de l'horaire doivent être enregistrées ; à défaut, le travailleur est présumé avoir travaillé à temps plein. Le travailleur peut refuser une prestation non communiquée à temps, et une annulation tardive par l'employeur doit être payée.",
+          "impact": "Les plannings de décembre et des soldes doivent être publiés au plus tard 3 semaines avant la semaine concernée. Un changement de dernière minute expose à un refus légitime ou au paiement des heures annulées.",
+          "tags": [
+            "Horaires variables",
+            "Règlement de travail",
+            "Planning"
+          ],
+          "source_ids": [
+            3,
+            12
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Heures d'ouverture : fin du jour de fermeture obligatoire",
+          "priority": "AMBER",
+          "status": "Loi du 20 juillet 2026 (Moniteur belge du 3 août 2026) | Date d'effet : 13 août 2026",
+          "body": "La loi du 20 juillet 2026 modifie la loi du 10 novembre 2006 relative aux heures d'ouverture dans le commerce, l'artisanat et les services. Depuis le 13 août 2026, les magasins peuvent ouvrir tous les jours de 5 heures à 21 heures et le jour de fermeture hebdomadaire obligatoire est supprimé. Partena souligne que les limites du droit du travail restent applicables : travail du dimanche, limites de durée journalière et hebdomadaire, dispositions sectorielles, horaires prévus au règlement de travail.",
+          "impact": "Une ouverture plus large ne permet pas d'occuper le personnel sur des plages qui ne figurent pas au règlement de travail. Si le magasin étend ses heures (soirées ou dimanches de décembre), vérifier d'abord le règlement de travail et la procédure de modification.",
+          "tags": [
+            "Heures d'ouverture",
+            "Règlement de travail",
+            "Fin d'année"
+          ],
+          "source_ids": [
+            10
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Travail du dimanche dans le commerce de détail",
+          "priority": "RED",
+          "status": "Loi sur le travail du 16 mars 1971 et AR du 3 décembre 1987 | Règles existantes",
+          "body": "Le travail du dimanche est interdit sauf dérogation. Un magasin de vêtements peut occuper son personnel le dimanche de 8 heures à midi, ou toute la journée pendant 3 dimanches par an choisis par l'employeur. Trois dimanches supplémentaires par année civile sont possibles si l'employeur est lié par une CCT sectorielle fixant les conditions de travail et de rémunération ; à défaut, par une CCT d'entreprise (uniquement s'il existe une délégation syndicale ou un conseil d'entreprise) ; à défaut, par un accord individuel prévoyant un sursalaire d'au moins 100 %, à condition qu'un conseil d'entreprise ou une délégation syndicale existe. Un repos compensatoire est dû dans les 6 jours suivant le dimanche : une journée si le travail a dépassé 4 heures, une demi-journée sinon. L'étude du SPF Emploi ne mentionne pas de CCT sectorielle CP 311 sur les 3 dimanches supplémentaires.",
+          "impact": "Les dimanches de décembre 2026 (6, 13, 20 et 27) ne peuvent être travaillés toute la journée que dans la limite des dimanches encore disponibles pour 2026. Vérifier le nombre déjà utilisé cette année, la base (CCT d'entreprise ou accords individuels à 100 %) et planifier le repos compensatoire.",
+          "tags": [
+            "Travail du dimanche",
+            "Décembre",
+            "Repos compensatoire"
+          ],
+          "source_ids": [
+            3,
+            11
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Travail du soir et de nuit",
+          "priority": "GREEN",
+          "status": "Loi du 18 mai 2026 | Date d'effet : 1er juin 2026",
+          "body": "Selon l'étude du SPF Emploi, la loi du 18 mai 2026 supprime l'interdiction du travail de nuit à partir du 1er juin 2026. Pour les travailleurs entrés en service à partir du 1er juin 2026 dans la distribution et les secteurs apparentés, le droit aux primes et avantages liés aux heures entre 20 heures et 6 heures est limité aux prestations entre 23 heures et 6 heures. Un régime de travail sans prestations entre minuit et 5 heures (par exemple jusqu'à minuit) peut être introduit par la procédure ordinaire de modification du règlement de travail.",
+          "impact": "Si des nocturnes jusqu'à 21 heures sont organisées, les primes sectorielles éventuelles pour les heures après 20 heures doivent être traitées différemment selon la date d'entrée du travailleur (avant ou après le 1er juin 2026).",
+          "tags": [
+            "Nocturnes",
+            "Primes",
+            "Paie"
+          ],
+          "source_ids": [
+            3
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Jours fériés : fin d'année et calendrier 2027",
+          "priority": "AMBER",
+          "status": "Obligation existante | Échéance : 15 décembre 2026",
+          "body": "Le 25 décembre 2026 et le 1er janvier 2027 tombent un vendredi. Le travailleur occupé un jour férié a droit à un repos compensatoire : une journée si le travail a dépassé 4 heures, au moins une demi-journée sinon ; pour un temps partiel, une durée égale aux heures prestées. Il est accordé dans les 6 semaines suivant le jour férié. En 2027, le 1er mai et le 25 décembre tombent un samedi et le 15 août un dimanche. Avant le 15 décembre 2026, l'employeur affiche un avis daté et signé fixant les jours de remplacement 2027 et les modalités du repos compensatoire, l'annexe au règlement de travail et le transmet à l'inspection régionale des lois sociales. À défaut d'accord, le jour de remplacement est le premier jour habituel d'activité qui suit.",
+          "impact": "Pour un magasin ouvert du lundi au samedi, le 15 août 2027 doit être remplacé ; le samedi 1er mai et le samedi 25 décembre 2027 sont des jours d'activité habituels, à traiter comme jours fériés (ou à compenser en repos s'ils sont travaillés). Vérifier si l'avis 2027 est établi au niveau central ou par magasin.",
+          "tags": [
+            "Jours fériés",
+            "Règlement de travail",
+            "Calendrier 2027"
+          ],
+          "source_ids": [
+            13,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "RENFORTS POUR LA FIN D'ANNÉE ET LES SOLDES",
+      "cards": [
+        {
+          "title": "FÉDÉRAL / Étudiants : contingent de 650 heures",
+          "priority": "AMBER",
+          "status": "En vigueur depuis le 1er janvier 2025 | Compteur remis à zéro le 1er janvier 2027",
+          "body": "Un étudiant peut travailler 650 heures par année civile avec seulement une cotisation de solidarité (taux global de 8,14 % selon Partena) au lieu des cotisations ordinaires ; au-delà, les cotisations ordinaires s'appliquent. L'employeur fait une Dimona STU à l'engagement, avec les heures prévues par trimestre, déduites du compteur ; un contrat couvrant plusieurs trimestres exige une déclaration par trimestre. L'étudiant peut produire via student@work une attestation du solde d'heures (code valable 3 mois), à demander avant la signature. Le contrat d'occupation d'étudiant est écrit, au plus tard à l'entrée en service, pour 12 mois au maximum ; les 3 premiers jours sont une période d'essai. Une attestation d'inscription de l'année académique en cours est la preuve du statut d'étudiant.",
+          "impact": "Les heures de décembre 2026 consomment le solde 2026 de l'étudiant, souvent entamé par l'été ; les heures prestées à partir du 1er janvier 2027 (soldes) entament le nouveau contingent. Pour un contrat chevauchant décembre et janvier, prévoir une Dimona STU par trimestre. Les éco-chèques CP 311 ne sont pas dus aux étudiants.",
+          "tags": [
+            "Travail étudiant",
+            "Dimona STU",
+            "student@work"
+          ],
+          "source_ids": [
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Flexi-jobs ouverts au commerce de détail",
+          "priority": "AMBER",
+          "status": "Loi du 28 juin 2026 (Moniteur belge du 2 juillet 2026) | En vigueur depuis le 1er juillet 2026",
+          "body": "Les flexi-jobs étaient déjà possibles dans les CP 201, 202, 202.01, 311 et 312 depuis le 1er janvier 2018 ; depuis le 1er juillet 2026, ils sont ouverts à tous les secteurs sauf exclusion (opt-out). L'arrêté royal du 30 août 2026 (Moniteur belge du 9 septembre 2026) exclut notamment les CP 143, 144, 145 (en partie), 320 et 323 ; la CP 311 n'y figure pas. Conditions : un travailleur non pensionné doit avoir travaillé au moins 4/5 d'un temps plein chez un ou plusieurs autres employeurs au trimestre T-3 ; il ne peut pas être occupé dans le même trimestre chez le même employeur sous un autre contrat. Le flexi-salaire est au moins égal au barème de la fonction, majoré du flexi-pécule de vacances de 7,67 %, et ne peut dépasser 150 % du salaire minimum de base. Cotisation patronale spéciale de 28 %, pas de cotisation personnelle. Un contrat-cadre écrit est obligatoire avant la première prestation ; Dimona FLX trimestrielle (contrat écrit) ou journalière (contrat oral) ; enregistrement électronique du temps de travail.",
+          "impact": "Un flexi-job convient pour des renforts ponctuels (week-ends de décembre, premiers jours des soldes), mais jamais pour un ancien ou actuel salarié du magasin dans le même trimestre. Contrôler la condition de 4/5 au trimestre T-3 et l'existence du contrat-cadre avant toute prestation.",
+          "tags": [
+            "Flexi-jobs",
+            "Dimona FLX",
+            "Renforts"
+          ],
+          "source_ids": [
+            3,
+            17,
+            18
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / CDD successifs et intérim",
+          "priority": "GREEN",
+          "status": "Règles existantes | Pas de changement identifié pour la période",
+          "body": "Un CDD doit être écrit pour chaque travailleur, au plus tard à l'entrée en service ; à défaut, les règles du contrat à durée indéterminée s'appliquent. Sans autorisation, l'employeur peut conclure au maximum 4 CDD successifs d'au moins 3 mois chacun, pour une durée totale de 2 ans au plus ; avec l'autorisation préalable du Contrôle des lois sociales, des CDD d'au moins 6 mois chacun, pour 3 ans au plus. Le travail intérimaire n'est autorisé que pour des motifs légaux, dont le remplacement d'un travailleur permanent, le surcroît temporaire de travail, l'exécution d'un travail exceptionnel et la mise à disposition en vue d'un engagement permanent ; durée et procédure varient selon le motif.",
+          "impact": "Un CDD court de fin d'année (moins de 3 mois) suivi d'un nouveau CDD pour les soldes peut faire présumer un contrat à durée indéterminée s'il n'est pas justifié. Pour l'intérim au titre du surcroît de travail, vérifier la procédure applicable (information ou accord de la délégation syndicale) auprès de l'agence et du service juridique.",
+          "tags": [
+            "CDD",
+            "Intérim",
+            "Contrats"
+          ],
+          "source_ids": [
+            19,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "SOLDES D'HIVER 2027 ET PÉRIODE D'ATTENTE",
+      "cards": [
+        {
+          "title": "FÉDÉRAL / Dates des soldes et des pré-soldes",
+          "priority": "AMBER",
+          "status": "Code de droit économique en vigueur | Soldes : 2 au 31 janvier 2027 (déduit)",
+          "body": "Les soldes d'hiver ont lieu du 3 au 31 janvier inclus ; si le premier jour tombe un dimanche, la période commence la veille. Le 3 janvier 2027 étant un dimanche, les soldes d'hiver 2027 commenceraient le samedi 2 janvier 2027. Pour l'habillement, la maroquinerie et les chaussures, la période d'attente [sperperiode] interdit les annonces de réduction de prix prenant effet pendant le mois précédant les soldes, en principe du 3 décembre au 2 janvier inclus, avec dates adaptées lorsque les soldes commencent la veille. Les manifestations commerciales organisées par ou avec des groupements locaux de commerçants sont permises si elles ne dépassent pas 4 jours par période d'attente ; les offres conjointes restent possibles. Le 20 mai 2026, le Conseil d'État (arrêts nos 266.735 à 266.737) a annulé des amendes du SPF Économie infligées à trois détaillants textiles sur la base de l'article VI.25 du Code de droit économique, jugé contraire à la directive européenne sur les pratiques commerciales déloyales ; la disposition reste formellement en vigueur. Selon Paris Match (1er juillet 2026), son application n'est pas une priorité de contrôle pour le SPF Économie, mais les règles sur les prix de référence et les annonces de prix restent contrôlées.",
+          "impact": "Pour le magasin, l'enjeu RH est la planification : renforts et horaires du samedi 2 janvier 2027 et des premiers week-ends de soldes, communiqués 3 semaines à l'avance. Les décisions de prix relèvent du siège ; en cas de doute sur une action promotionnelle en décembre, renvoyer vers le service juridique.",
+          "tags": [
+            "Soldes",
+            "Période d'attente",
+            "Planning"
+          ],
+          "source_ids": [
+            21,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "CALENDRIER NOVEMBRE 2026 À JANVIER 2027",
+      "table": {
+        "columns": [
+          "Date",
+          "Sujet",
+          "Ce que le magasin doit faire"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Dès novembre 2026",
+              "Plannings de décembre",
+              "Publier les horaires variables 3 semaines avant chaque semaine ; prévoir les dimanches dans les limites légales."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              3,
+              11,
+              12
+            ]
+          },
+          {
+            "cells": [
+              "Novembre-décembre 2026",
+              "Renforts de fin d'année",
+              "Étudiants : attestation student@work et Dimona STU ; flexi : contrat-cadre et Dimona FLX ; CDD écrits."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              14,
+              17,
+              19
+            ]
+          },
+          {
+            "cells": [
+              "6, 13, 20 et 27 décembre 2026",
+              "Dimanches de décembre",
+              "Vérifier les dimanches encore disponibles pour 2026, la base (CCT ou accord individuel à 100 %) et le repos compensatoire dans les 6 jours."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              11
+            ]
+          },
+          {
+            "cells": [
+              "15 décembre 2026",
+              "Jours fériés 2027",
+              "Afficher l'avis daté et signé (remplacement du 15 août 2027), l'annexer au règlement de travail, le transmettre à l'inspection."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              13
+            ]
+          },
+          {
+            "cells": [
+              "Décembre 2026",
+              "Prime de fin d'année CP 311",
+              "Contrôler les bénéficiaires (3 mois d'ancienneté) et les sortants avant la clôture de la paie."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              9
+            ]
+          },
+          {
+            "cells": [
+              "25 décembre 2026 et 1er janvier 2027",
+              "Jours fériés (vendredis)",
+              "En cas de travail, repos compensatoire dans les 6 semaines."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              24
+            ]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Contingent étudiant",
+              "Nouveau compteur de 650 heures ; Dimona STU distincte pour le 1er trimestre 2027."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              14,
+              15
+            ]
+          },
+          {
+            "cells": [
+              "2 au 31 janvier 2027",
+              "Soldes d'hiver",
+              "Renforts et horaires de soldes ; période d'attente en décembre pour l'habillement."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              21
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "CE QUE CELA SIGNIFIE POUR LE MAGASIN",
+      "paragraphs": [
+        "Liste de contrôle proposée pour la période de novembre 2026 à janvier 2027 ; les responsabilités et échéances internes sont des propositions, pas des délais légaux."
+      ],
+      "bullets": [
+        "Confirmer par écrit la CP 311 et la catégorie barémique de chaque membre du personnel (fiche de paie, service paie) ; signaler tout salaire sous le barème du 1er juillet 2026.",
+        "Établir les plannings de décembre et de janvier au plus tard 3 semaines à l'avance, conformes au règlement de travail ; enregistrer toute prestation hors horaire.",
+        "Recenser les dimanches déjà travaillés en 2026, décider des dimanches de décembre (journée complète ou 8 heures-midi) et planifier le repos compensatoire dans les 6 jours.",
+        "Si le magasin étend ses heures d'ouverture (jusqu'à 21 heures), vérifier que les nouveaux horaires figurent au règlement de travail avant de les appliquer.",
+        "Étudiants : attestation student@work avant signature, contrat écrit, Dimona STU par trimestre, attention au passage du 31 décembre au 1er janvier.",
+        "Flexi-jobs : contrôler la condition de 4/5 au trimestre T-3, l'absence de contrat ordinaire chez l'employeur dans le même trimestre, le contrat-cadre et la Dimona FLX.",
+        "CDD et intérim : contrat écrit avant le premier jour, motif légal pour l'intérim, attention aux CDD successifs fin d'année puis soldes.",
+        "Paie de décembre : prime de fin d'année (3 mois d'ancienneté), entrées et sorties, frais de transport des nouveaux engagés (justificatifs STIB ou SNCB).",
+        "Avant le 15 décembre 2026 : vérifier que l'avis des jours fériés 2027 est affiché dans le magasin et annexé au règlement de travail.",
+        "Janvier 2027 : suivre l'éventuelle annonce d'une indexation CP 311 et l'état des règles de soldes après les arrêts du Conseil d'État."
+      ]
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS",
+      "bullets": [
+        "Critères de la CP 311 : le texte de l'arrêté royal de compétence n'a pas été consulté directement ; le libellé (personnel de vente d'au moins 50 unités, moins de 3 branches) et le calcul en équivalents temps plein proviennent de l'étude du SPF Emploi de mai 2026 [2].",
+        "Prochaine indexation CP 311 : aucune date confirmée ; l'indice-pivot sectoriel de 101,94 est cité par la CSC sans précision de base ni de calendrier [6].",
+        "Prime de fin d'année CP 311 : prorata (temps partiel, année incomplète), jours assimilés, sorties et exclusion des étudiants non vérifiés dans le texte de la CCT [9].",
+        "Éco-chèques et prime de 70 EUR : période de référence et prorata non vérifiés ; montants tirés de l'étude du SPF Emploi [3].",
+        "Frais de transport CP 311 : montants (dont 0,27 EUR par km à vélo) issus de l'étude de mai 2026, éventuellement adaptés depuis ; tableau sectoriel en vigueur non consulté [3].",
+        "Trois dimanches supplémentaires : absence de CCT sectorielle CP 311 déduite de l'étude du SPF Emploi ; l'existence d'une CCT d'entreprise n'a pas été vérifiée [3].",
+        "Soldes 2027 : début le 2 janvier 2027 et période d'attente du 2 décembre 2026 au 1er janvier 2027 déduits de la règle du dimanche ; aucune publication du SPF Économie pour 2027 trouvée [21].",
+        "Flexi-jobs : situation des opt-outs après le 1er octobre 2026 et pour 2027 non vérifiée ; barème étudiant et flexi-salaire spécifiques à la CP 311 non lus [18].",
+        "Travail un jour férié : les conditions dans lesquelles un magasin peut occuper du personnel le 25 décembre 2026 ou le 1er janvier 2027 n'ont pas été vérifiées dans une source officielle.",
+        "Cotisation de solidarité étudiante : taux global de 8,14 % selon Partena ; répartition entre employeur et étudiant non vérifiée [15]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Analyses sur le commerce de détail et la concertation sociale correspondante (mai 2026)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/publications/analyses-sur-le-commerce-de-detail-et-la-concertation-sociale-correspondante"
+    },
+    {
+      "id": 2,
+      "label": "Kleinhandel, sociaal overleg en structurering paritaire comités, deel I [commerce de détail et structuration des CP] (mai 2026)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://werk.belgie.be/sites/default/files/content/publications/NL/FODWASO%20Studie%20kleinhandel%20deel%20I%20NL%20Structurering%20PC%20mei%202026.pdf"
+    },
+    {
+      "id": 3,
+      "label": "Vergelijking van de sectorale arbeidsvoorwaarden, deel II [comparaison des conditions de travail sectorielles CP 201, 202, 202.01, 311, 312] (mai 2026)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://werk.belgie.be/sites/default/files/content/publications/NL/FODWASO%20Studie%20kleinhandel%20deel%20II%20NL%20Vergelijking%20arbeidsvoorwaarden%20mei%202026.pdf"
+    },
+    {
+      "id": 4,
+      "label": "PC 311 Grote kleinhandelszaken [CP 311 grandes entreprises de vente au détail]",
+      "publisher": "ACV / CSC",
+      "url": "https://www.hetacv.be/het-acv/sectoren/handel-en-retail/sectoren/pc-311-grote-kleinhandelszaken"
+    },
+    {
+      "id": 5,
+      "label": "Salaires minimums CP 311 Grandes entreprises de vente au détail (en vigueur au 1er juillet 2026)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://www.salairesminimums.be/document.html?jcId=6439af9d3c664efab301fead723b94ba&lang=fr"
+    },
+    {
+      "id": 6,
+      "label": "Indexation : nouveaux secteurs indexés (CP 201, 311, 312)",
+      "publisher": "CNE / CSC",
+      "url": "https://www.lacsc.be/cne/campagnes/indexation"
+    },
+    {
+      "id": 7,
+      "label": "Salaire : plusieurs indexations et sauts d'index partiels dès le 1er juillet 2026 (29 juin 2026)",
+      "publisher": "CSC",
+      "url": "https://www.lacsc.be/la-csc/secteurs/commerce-et-distribution/secteurs/311-00-grandes-entreprises-de-vente-au-detail/actualites/2026/06/29/salaire-belgique-plusieurs-indexations-et-sauts-d-index-partiels-des-le-1er-juillet-2026"
+    },
+    {
+      "id": 8,
+      "label": "Index centimes",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/remuneration/indexation-automatique-des-salaires/index-centimes"
+    },
+    {
+      "id": 9,
+      "label": "Prime de fin d'année Grandes entreprises de vente au détail CP 311 (2 décembre 2025)",
+      "publisher": "CSC",
+      "url": "https://www.lacsc.be/la-csc/secteurs/commerce-et-distribution/secteurs/311-00-grandes-entreprises-de-vente-au-detail/actualites/2025/12/02/prime-de-fin-d-annee-grandes-entreprises-de-vente-au-detail---cp-311"
+    },
+    {
+      "id": 10,
+      "label": "Heures d'ouverture étendues des magasins : entrée en vigueur définitive, les règles du travail restent d'application (13 août 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22591"
+    },
+    {
+      "id": 11,
+      "label": "Repos du dimanche",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/duree-du-travail-et-temps-de-repos/repos-du-dimanche"
+    },
+    {
+      "id": 12,
+      "label": "Travail à temps partiel",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/travail-temps-partiel"
+    },
+    {
+      "id": 13,
+      "label": "Jours fériés en 2027 : fixez les dates des jours de remplacement avant le 15 décembre 2026 (7 septembre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22629"
+    },
+    {
+      "id": 14,
+      "label": "Un job étudiant pendant les vacances : que devez-vous faire (24 juin 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22522"
+    },
+    {
+      "id": 15,
+      "label": "Fiche étudiant (version du 15 février 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/sites/default/files/uploads/pdf/Fiche%20Etudiant%20FR%2015.02.2026def.pdf"
+    },
+    {
+      "id": 16,
+      "label": "Student@work : contingent de 650 heures",
+      "publisher": "ONSS / student@work",
+      "url": "http://www.studentatwork.be/fr/"
+    },
+    {
+      "id": 17,
+      "label": "La généralisation des flexi-jobs par la loi du 28 juin 2026 : champ d'application, conditions d'occupation et paramètres de contrôle",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/fr/article/la-generalisation-des-flexi-jobs-par-la-loi-du-28-juin-2026-champ-dapplication-conditions-doccupation-et-parametres-de-controle./31711"
+    },
+    {
+      "id": 18,
+      "label": "Flexi-jobs à partir du 1er juillet 2026 : publication d'un arrêté royal prévoyant certains opt-outs (21 septembre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22658"
+    },
+    {
+      "id": 19,
+      "label": "Contrat de travail conclu pour une durée déterminée et pour un travail nettement défini",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/contrats-de-travail-particuliers/contrat-de-travail-conclu-pour-une"
+    },
+    {
+      "id": 20,
+      "label": "Travail intérimaire",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/travail-interimaire"
+    },
+    {
+      "id": 21,
+      "label": "Promotions, prix et périodes de soldes : règles, restrictions et mise en conformité (mai 2026)",
+      "publisher": "Chambers and Partners",
+      "url": "https://chambers.com/articles/retail-promotions-pricing-sales-periods-rules-restrictions-and-compliance-update-may-2026"
+    },
+    {
+      "id": 22,
+      "label": "Les soldes d'été sont lancées : pourquoi ce terme est sujet à controverse chez les commerçants (1er juillet 2026)",
+      "publisher": "Paris Match Belgique",
+      "url": "https://www.parismatch.be/actualites/economie/2026/07/01/les-soldes-dete-sont-lancees-pourquoi-ce-terme-est-sujet-a-controverse-chez-les-commercants-HUGR6JMTOJEKXNPOSMBPTSNHIM/"
+    },
+    {
+      "id": 23,
+      "label": "Salaires minimums CP 312 Grands magasins (en vigueur au 1er mai 2026)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://www.salairesminimums.be/document.html?jcId=bf051bd2fde745eb9daa6361743517b0&lang=fr"
+    },
+    {
+      "id": 24,
+      "label": "Avis au personnel relatif aux jours fériés légaux en 2026 (modèle, repos compensatoire)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/getattachment/90002eb1-ba97-4f67-8af5-731871b3b683/Avis-au-personnel-relatif-aux-jours-feries-legaux-en-2026.pdf?lang=fr-BE"
+    }
+  ]
+}

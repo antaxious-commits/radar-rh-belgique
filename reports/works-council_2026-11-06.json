@@ -1,0 +1,190 @@
+{
+  "title": "RH BELGIQUE | ORGANES DE CONCERTATION",
+  "slug": "works-council",
+  "date": "2026-11-06",
+  "period": "Semaine du 26 octobre au 1er novembre 2026",
+  "summary": "Sur les sujets récents, seul le plan annuel d'action 2027 impose avec certitude un avis du CPPT (échéance du 1er novembre 2026 dépassée) ; les jours de remplacement 2027, les vacances collectives 2027, la CCT carrosserie (CP 149.02) et le futur enregistrement du temps de travail sont conditionnels, le reste n'appelle aucune consultation.",
+  "intro": "Ce rapport passe en revue les sujets du radar de la semaine du 26 octobre au 1er novembre 2026 et indique, pour chacun, si une information ou une consultation du conseil d'entreprise, du comité pour la prévention et la protection au travail (CPPT) ou de la délégation syndicale est CONFIRMÉE (obligation légale certaine), CONDITIONNELLE (selon l'entité, les seuils, la commission paritaire, la technologie ou la CCT) ou AUCUNE (pas d'obligation spécifique identifiée). Chaque conclusion repose sur une source juridique consultée le 6 novembre 2026. Une section de référence rappelle ensuite les déclencheurs de consultation les plus fréquents pour un HRBP en Belgique. Aucun sujet de la semaine ne concerne un conseil d'entreprise européen.",
+  "sections": [
+    {
+      "heading": "SYNTHÈSE DES CONCLUSIONS",
+      "paragraphs": [
+        "Lecture : ROUGE = action requise, ORANGE = à préparer, VERT = à suivre. Les organes cités suivent l'ordre légal de suppléance (par exemple CPPT, à défaut délégation syndicale, à défaut les travailleurs eux-mêmes)."
+      ],
+      "table": {
+        "columns": ["Sujet", "Conclusion", "Organe concerné"],
+        "rows": [
+          { "priority": "RED", "cells": ["Plan annuel d'action 2027 (bien-être au travail)", "CONFIRMÉE", "CPPT, à défaut délégation syndicale, à défaut travailleurs"], "source_ids": [7, 8] },
+          { "priority": "AMBER", "cells": ["Jours fériés de remplacement 2027", "CONDITIONNELLE", "Conseil d'entreprise si la commission paritaire n'a rien fixé, puis délégation syndicale, puis travailleurs"], "source_ids": [9, 10] },
+          { "priority": "AMBER", "cells": ["Vacances collectives 2027", "CONDITIONNELLE", "Conseil d'entreprise en cas de fermeture collective, à défaut délégation syndicale, à défaut travailleurs"], "source_ids": [11] },
+          { "priority": "AMBER", "cells": ["CP 149.02 carrosserie : CCT travail faisable et afflux", "CONDITIONNELLE", "Organes de concertation compétents (entreprises avec délégation syndicale), sinon secrétaire syndical régional ou ouvriers"], "source_ids": [12] },
+          { "priority": "GREEN", "cells": ["Avant-projet d'enregistrement obligatoire du temps de travail", "CONDITIONNELLE", "Aucun organe visé par l'avant-projet ; règlement de travail, CCT 39 ou CCT 81 possibles selon l'outil choisi"], "source_ids": [13, 2, 3, 4] },
+          { "priority": "GREEN", "cells": ["Précompte professionnel au 1er novembre 2026", "AUCUNE", "Aucun"], "source_ids": [14] },
+          { "priority": "GREEN", "cells": ["Indexations de novembre et plafonnement au-delà de 4 000 EUR", "AUCUNE", "Aucun (obligation spécifique)"], "source_ids": [15, 16] },
+          { "priority": "GREEN", "cells": ["Indice des prix d'octobre 2026", "AUCUNE", "Aucun"], "source_ids": [17] },
+          { "priority": "GREEN", "cells": ["Cotisations pécule de vacances des ouvriers", "AUCUNE", "Aucun"], "source_ids": [18] },
+          { "priority": "GREEN", "cells": ["Prime de reprise du travail (travailleurs en invalidité)", "AUCUNE", "Aucun"], "source_ids": [19] },
+          { "priority": "GREEN", "cells": ["Manifestation nationale du 23 novembre 2026", "AUCUNE", "Aucun"], "source_ids": [20] }
+        ]
+      }
+    },
+    {
+      "heading": "CONSULTATION LÉGALE CONFIRMÉE",
+      "cards": [
+        {
+          "title": "Plan annuel d'action 2027 : avis préalable du CPPT",
+          "priority": "RED",
+          "status": "CONFIRMÉE | Échéance légale : 1er novembre 2026 (dépassée)",
+          "body": "Le code du bien-être au travail [livre I, titre 2, art. I.2-9 et I.2-10] impose à l'employeur d'établir par écrit un plan d'action annuel fondé sur le plan global de prévention et d'en soumettre le projet à l'avis du Comité au plus tard le premier jour du deuxième mois qui précède l'exercice, soit le 1er novembre 2026 pour un exercice calendaire 2027. Le plan ne peut être mis en œuvre avant l'avis du Comité ou, à défaut d'avis, avant le début de l'exercice. Selon le SPF Emploi, en l'absence de CPPT, ses tâches et compétences passent automatiquement à la délégation syndicale ; sans comité ni délégation, il faut faire appel aux travailleurs eux-mêmes.",
+          "impact": "Si le projet n'a pas encore été soumis, l'entité est déjà hors délai : une soumission immédiate, avec inscription à l'ordre du jour de la prochaine réunion, limite le risque avant le 1er janvier 2027. Si l'exercice ne suit pas l'année civile, l'échéance se calcule sur la date de début de l'exercice.",
+          "tags": ["CPPT", "Délégation syndicale", "Bien-être au travail", "Échéance légale"],
+          "source_ids": [7, 8]
+        }
+      ]
+    },
+    {
+      "heading": "OBLIGATION CONDITIONNELLE",
+      "cards": [
+        {
+          "title": "Jours fériés de remplacement 2027",
+          "priority": "AMBER",
+          "status": "CONDITIONNELLE | Affichage avant le 15 décembre 2026",
+          "body": "Un jour férié qui tombe un dimanche ou un jour habituel d'inactivité doit être remplacé par un jour habituel d'activité [loi du 4 janvier 1974 relative aux jours fériés ; arrêté royal du 18 avril 1974]. Le jour de remplacement est fixé, dans l'ordre, par la commission paritaire, à défaut par le conseil d'entreprise, à défaut par accord avec la délégation syndicale, à défaut par accord avec les travailleurs, puis par accord individuel ; sans décision, c'est le premier jour habituel d'activité qui suit. L'employeur affiche l'avis avant le 15 décembre de l'année précédente. Partena signale le dimanche 15 août 2027 (Assomption) et précise qu'une copie de l'avis est annexée au règlement de travail. Le remplacement de la Toussaint 2026 (dimanche) relevait de la même procédure avant le 15 décembre 2025.",
+          "impact": "Le conseil d'entreprise n'est compétent que si la commission paritaire n'a pas fixé les jours de remplacement : vérifier d'abord la décision sectorielle. Pour un horaire du lundi au vendredi, d'autres jours fériés 2027 tombant un samedi peuvent aussi devoir être remplacés ; à vérifier sur le calendrier de l'entité.",
+          "tags": ["Conseil d'entreprise", "Délégation syndicale", "Jours fériés", "Règlement de travail"],
+          "source_ids": [9, 10]
+        },
+        {
+          "title": "Vacances collectives 2027",
+          "priority": "AMBER",
+          "status": "CONDITIONNELLE | Aucune échéance légale ; communication recommandée avant le 1er janvier 2027",
+          "body": "Selon Partena (16 octobre 2026), en cas de fermeture collective, les dates sont en principe fixées par décision du conseil d'entreprise, sauf décision spéciale de la commission paritaire ; à défaut de conseil d'entreprise, par accord entre l'employeur et la délégation syndicale, à défaut avec les travailleurs. Les dates doivent figurer dans le règlement de travail ; l'accord est affiché, remis aux travailleurs et transmis au Contrôle des lois sociales. La réglementation ne fixe pas de date limite, mais la communication est recommandée au plus tard le 31 décembre 2026.",
+          "impact": "L'obligation ne joue que si l'entité prévoit une fermeture collective en 2027. Dans ce cas, la décision relève de l'organe de concertation et non de la seule direction.",
+          "tags": ["Conseil d'entreprise", "Délégation syndicale", "Vacances annuelles", "Règlement de travail"],
+          "source_ids": [11]
+        },
+        {
+          "title": "CP 149.02 carrosserie : CCT travail faisable et afflux",
+          "priority": "AMBER",
+          "status": "CONDITIONNELLE | Arrêté royal du 18 octobre 2026, Moniteur belge du 26 octobre 2026",
+          "body": "L'arrêté royal rend obligatoire la CCT du 19 décembre 2025 conclue au sein de la Sous-commission paritaire pour la carrosserie [paritair subcomité voor het koetswerk], relative au travail faisable et à l'afflux. Son article 2 prévoit que les entreprises examinent les mesures améliorant la faisabilité du travail (stress, ergonomie, compétences, formation, travailleurs âgés, afflux) : avec délégation syndicale, en concertation avec les organes de concertation compétents et mise en œuvre par CCT d'entreprise transmise au président de la sous-commission ; sans délégation, avec le secrétaire syndical régional ou les ouvriers, puis notification au président. D'autres mesures peuvent passer par CCT ou par modification du règlement de travail.",
+          "impact": "Ne concerne que les entités relevant de la CP 149.02. La reproduction non officielle consultée (etaamb) indique que les articles 2 à 7 et 10 cessaient de produire leurs effets le 30 juin 2026 : la portée actuelle de l'obligation de concertation doit être vérifiée sur le texte du Moniteur belge avant toute action.",
+          "tags": ["Délégation syndicale", "CCT d'entreprise", "CP 149.02", "Travail faisable"],
+          "source_ids": [12]
+        },
+        {
+          "title": "Enregistrement obligatoire du temps de travail (avant-projet)",
+          "priority": "GREEN",
+          "status": "CONDITIONNELLE | Avant-projet de loi ; entrée en vigueur annoncée au 1er janvier 2027, non publiée",
+          "body": "Selon Liantis (8 octobre 2026), un avant-projet de loi prévoit que chaque employeur enregistre de manière objective, fiable et accessible le temps de travail quotidien et hebdomadaire, avec conservation pendant cinq ans et une période transitoire jusqu'au 31 mars 2027 ; l'employeur choisirait librement le système. Le texte n'a pas été déposé à la Chambre ni publié. L'avant-projet, tel que décrit, ne mentionne ni le conseil d'entreprise, ni le CPPT, ni la délégation syndicale ; seul le Conseil national du Travail a rendu un avis.",
+          "impact": "Évaluation : aucune consultation n'est imposée par l'avant-projet lui-même. En revanche, l'outil retenu pourrait déclencher les procédures existantes : modification du règlement de travail si les règles de pointage y sont reprises, CCT 39 en cas de nouvelle technologie à conséquences collectives importantes (entreprises d'au moins 50 travailleurs), CCT 81 si le système contrôle des données de communication électroniques en réseau. À réévaluer dès publication du texte.",
+          "tags": ["Avant-projet", "Règlement de travail", "CCT 39", "CCT 81"],
+          "source_ids": [13, 2, 3, 4]
+        }
+      ]
+    },
+    {
+      "heading": "AUCUNE OBLIGATION SPÉCIFIQUE",
+      "paragraphs": [
+        "Pour les sujets suivants, aucune source consultée ne prévoit d'information ou de consultation des organes de concertation. Rappel général : la CCT n° 5, citée dans le commentaire de la CCT n° 39, prévoit que la délégation syndicale est informée préalablement des changements susceptibles de modifier les conditions contractuelles ou habituelles de travail ou de rémunération ; il s'agit d'une règle générale et non d'une obligation propre à ces sujets."
+      ],
+      "bullets": [
+        "Précompte professionnel : nouvelles règles de calcul pour les rémunérations à partir du 1er novembre 2026 [loi du 15 juillet 2026 ; arrêté royal du 27 septembre 2026, Moniteur belge du 2 octobre 2026]. Mise à jour de paie, sans consultation [14].",
+        "Indexations sectorielles de novembre (CP 201, 202, 202.01, 207, 310, 312 selon la CNE) et plafonnement de l'indexation au-delà de 4 000 EUR bruts [index centimes, loi-programme du 30 mai 2026] : le SPF Emploi précise qu'aucune dérogation conventionnelle n'est permise ; aucune consultation prévue [15, 16].",
+        "Indice des prix d'octobre 2026 (105,37) : indice-pivot de 102,29 non dépassé ; information de veille uniquement [17].",
+        "Pécule de vacances des ouvriers : hausse des cotisations suspendue (5,57 % maintenu), entrée en vigueur au 1er janvier 2027 possible mais non confirmée [18].",
+        "Prime de reprise du travail portée de 1 725 EUR à 3 000 EUR pour les autorisations débutant à partir du 1er novembre 2026 : base légale citée = projet de loi, publication au Moniteur belge non vérifiée ; aucune mention des représentants du personnel [19].",
+        "Manifestation nationale du 23 novembre 2026 à Bruxelles (CSC, FGTB, Synova) : aucune grève générale annoncée dans la source ; pas d'obligation de consultation, un échange informel avec la délégation syndicale sur la continuité reste une proposition [20]."
+      ]
+    },
+    {
+      "heading": "RÉFÉRENCE : DÉCLENCHEURS PERMANENTS DE CONSULTATION",
+      "paragraphs": [
+        "Les déclencheurs ci-dessous existent indépendamment de l'actualité de la semaine. Ils sont à vérifier avant tout projet de changement d'organisation, d'outil ou d'effectif."
+      ],
+      "cards": [
+        {
+          "title": "Modification du règlement de travail",
+          "status": "CONFIRMÉE dès qu'une modification est envisagée | Loi du 8 avril 1965",
+          "body": "Avec conseil d'entreprise, c'est le conseil qui établit et modifie le règlement ; le projet est communiqué aux membres et porté à la connaissance du personnel avant l'ordre du jour, et le règlement entre en vigueur 15 jours après l'accord. En cas de désaccord : conciliation par le Contrôle des lois sociales (30 jours), puis commission paritaire. Sans conseil d'entreprise, l'employeur affiche le projet ; les travailleurs disposent de 15 jours pour formuler des observations dans un registre ; sans observation, entrée en vigueur le 15e jour suivant l'affichage. Dépôt au Contrôle des lois sociales dans les huit jours de l'entrée en vigueur et copie à chaque travailleur.",
+          "impact": "Horaires, vacances collectives, jours de remplacement, contrôle par caméras lié aux prestations : de nombreux autres sujets renvoient à cette procédure.",
+          "tags": ["Conseil d'entreprise", "Règlement de travail"],
+          "source_ids": [2]
+        },
+        {
+          "title": "Télétravail structurel (CCT n° 85)",
+          "status": "CONFIRMÉE lors de l'introduction du télétravail | CCT n° 85 du 9 novembre 2005, art. 17",
+          "body": "Les représentants des travailleurs sont informés et consultés sur l'introduction du télétravail conformément à la CCT n° 9 relative aux conseils d'entreprise et à la CCT n° 39 sur les nouvelles technologies. Les télétravailleurs ont les mêmes droits collectifs que les autres travailleurs et peuvent communiquer avec leurs représentants.",
+          "impact": "Vise le télétravail régulier relevant de la CCT n° 85 ; le régime du télétravail occasionnel n'a pas été vérifié dans ce rapport.",
+          "tags": ["Conseil d'entreprise", "Délégation syndicale", "Télétravail"],
+          "source_ids": [6]
+        },
+        {
+          "title": "Nouvelle technologie (CCT n° 39)",
+          "status": "CONDITIONNELLE | CCT n° 39 du 13 décembre 1983",
+          "body": "S'applique aux entreprises occupant en moyenne au moins 50 travailleurs. Lorsque l'employeur a décidé d'un investissement dans une nouvelle technologie ayant des conséquences collectives importantes (au moins 50 % et 10 travailleurs d'une catégorie professionnelle concernés) sur l'emploi, l'organisation ou les conditions de travail, il fournit une information écrite au plus tard trois mois avant le début de l'implantation et se concerte sur l'emploi, l'organisation du travail, la santé et la sécurité et la formation. Information au conseil d'entreprise, à défaut à la délégation syndicale ; concertation selon le cas au conseil, au CPPT ou avec la délégation. Sanction : indemnité forfaitaire de trois mois de rémunération brute en cas de licenciement lié à la technologie.",
+          "impact": "Logiciels RH, outils de planification, pointage ou d'IA : vérifier les seuils de travailleurs concernés dès la décision d'investissement.",
+          "tags": ["Conseil d'entreprise", "Délégation syndicale", "CPPT", "Nouvelles technologies"],
+          "source_ids": [3]
+        },
+        {
+          "title": "Licenciement collectif et procédure Renault",
+          "status": "CONFIRMÉE dès l'intention de licencier collectivement | CCT n° 24 ; loi du 13 février 1998 ; AR du 24 mai 1976",
+          "body": "Seuils sur 60 jours : au moins 10 licenciements (entreprises de plus de 20 et moins de 100 travailleurs), 10 % (100 à moins de 300), 30 licenciements (au moins 300). Étapes : annonce écrite de l'intention aux représentants, réunion d'information, consultation sur les moyens d'éviter ou de réduire les licenciements, notification recommandée au service régional de l'emploi et au SPF Emploi, affichage. Organes : conseil d'entreprise, à défaut délégation syndicale, à défaut CPPT, à défaut travailleurs. Délai d'attente de 30 jours après notification, prolongeable jusqu'à 60 jours.",
+          "impact": "Sanctions civiles de la loi Renault : suspension du préavis ou réintégration en cas de contestation fondée. Toute annonce externe avant la consultation est un risque majeur.",
+          "tags": ["Conseil d'entreprise", "Délégation syndicale", "Restructuration"],
+          "source_ids": [1]
+        },
+        {
+          "title": "Outils de surveillance et d'IA (CCT n° 81 et n° 68)",
+          "status": "CONFIRMÉE à l'installation | CCT n° 81 du 26 avril 2002 ; CCT n° 68 du 16 juin 1998",
+          "body": "CCT n° 81 (art. 7) : l'employeur qui souhaite installer un système de contrôle des données de communication électroniques en réseau en informe le conseil d'entreprise, à défaut le CPPT, à défaut la délégation syndicale, à défaut les travailleurs, en plus d'une information individuelle. CCT n° 68 (art. 9 à 11) : préalablement à la surveillance par caméras, information du conseil d'entreprise (mêmes suppléances), examen des mesures limitant l'ingérence dans la vie privée et évaluation régulière ; si la surveillance vise le contrôle des prestations, procédure du règlement de travail.",
+          "impact": "Un outil d'IA qui analyse les courriels, la navigation ou les prestations peut cumuler CCT n° 81, CCT n° 39 et règlement de travail. Aucune règle belge propre à l'IA n'a été vérifiée dans ce rapport.",
+          "tags": ["Conseil d'entreprise", "CPPT", "Vie privée", "IA"],
+          "source_ids": [4, 5, 3]
+        },
+        {
+          "title": "Plan global de prévention et plan annuel d'action",
+          "status": "CONFIRMÉE | Code du bien-être au travail, art. I.2-8 à I.2-10",
+          "body": "Le plan global de prévention couvre cinq ans (analyse des risques, mesures, objectifs prioritaires, activités, moyens) et est soumis à l'avis préalable du Comité lors de toute modification ou adaptation. Le projet de plan annuel d'action est soumis au Comité au plus tard le premier jour du deuxième mois précédant l'exercice. À défaut de CPPT, la délégation syndicale reprend ses missions ; à défaut, les travailleurs sont consultés directement.",
+          "impact": "Échéance récurrente du 1er novembre pour un exercice calendaire : à intégrer au calendrier annuel du CPPT.",
+          "tags": ["CPPT", "Délégation syndicale", "Bien-être au travail"],
+          "source_ids": [7, 8]
+        }
+      ]
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS",
+      "bullets": [
+        "CP 149.02 : la cessation des articles 2 à 7 et 10 au 30 juin 2026 provient de la reproduction etaamb ; non confirmée sur le texte officiel du Moniteur belge.",
+        "Vacances collectives : la règle de compétence du conseil d'entreprise repose sur une source de secrétariat social (Partena) ; l'article réglementaire précis n'a pas été ouvert.",
+        "Jours fériés 2027 : seul le dimanche 15 août 2027 est confirmé par la source ; les autres jours fériés 2027 tombant un samedi n'ont pas été vérifiés sur une source officielle.",
+        "Prime de reprise du travail : publication de la loi au Moniteur belge non vérifiée.",
+        "Enregistrement du temps de travail : contenu connu uniquement par un résumé d'avant-projet ; aucune obligation de consultation ne peut être confirmée.",
+        "Outils d'IA : l'effet en Belgique des obligations d'information des représentants prévues par le règlement européen sur l'intelligence artificielle n'a pas été vérifié dans ce rapport."
+      ]
+    }
+  ],
+  "sources": [
+    { "id": 1, "label": "Licenciement collectif : procédures d'information et de consultation", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/restructuration/licenciement-collectif/procedures-dinformation-et-de-consultation" },
+    { "id": 2, "label": "Règlement de travail : établissement et modification", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/reglement-de-travail" },
+    { "id": 3, "label": "CCT n° 39 du 13 décembre 1983 (nouvelles technologies)", "publisher": "Conseil national du Travail", "url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-039.pdf" },
+    { "id": 4, "label": "CCT n° 81 du 26 avril 2002 (contrôle des communications électroniques en réseau)", "publisher": "Conseil national du Travail", "url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-081.pdf" },
+    { "id": 5, "label": "CCT n° 68 du 16 juin 1998 (surveillance par caméras)", "publisher": "Conseil national du Travail", "url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-068.pdf" },
+    { "id": 6, "label": "CCT n° 85 du 9 novembre 2005 (télétravail)", "publisher": "Conseil national du Travail", "url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-085.pdf" },
+    { "id": 7, "label": "Code du bien-être au travail, livre I, titre 2 (art. I.2-8 à I.2-10)", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/sites/default/files/content/documents/Bien-%C3%AAtre%20au%20travail/R%C3%A9glementation/Code%20livre%20I%20titre%202%20Principes%20g%C3%A9n%C3%A9raux%20relatifs%20%C3%A0%20la%20politique%20du%20bien.pdf" },
+    { "id": 8, "label": "Comité pour la prévention et la protection au travail (CPPT)", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/concertation-sociale/organes-et-procedures-de-concertation-dans-lentreprise-ce-cppt-ds-etc-2" },
+    { "id": 9, "label": "Jours fériés", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries" },
+    { "id": 10, "label": "Jours fériés en 2027 : fixez les jours de remplacement avant le 15 décembre 2026", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22629" },
+    { "id": 11, "label": "Fermeture collective en 2027 : communiquez la date des vacances collectives", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/fermeture-collective-en-2027-communiquez-la-date-des-vacances" },
+    { "id": 12, "label": "Arrêté royal du 18 octobre 2026 rendant obligatoire la CCT du 19 décembre 2025 (CP 149.02, travail faisable et afflux)", "publisher": "Moniteur belge", "url": "https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=fr&caller=summary&pub_date=26-10-26&numac=2026202545" },
+    { "id": 13, "label": "Enregistrement obligatoire du temps de travail à partir du 1er janvier 2027 (avant-projet)", "publisher": "Liantis", "url": "https://www.liantis.be/fr/inspirationnouvelles/enregistrement-obligatoire-du-temps-de-travail-%C3%A0-partir-du-1er-janvier-2027" },
+    { "id": 14, "label": "Les salaires nets changent à partir de novembre", "publisher": "Securex", "url": "https://www.securex.be/fr/lex4you/employeur/actualites/les-salaires-nets-changent-a-partir-de-novembre" },
+    { "id": 15, "label": "Index centimes", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/remuneration/indexation-automatique-des-salaires/index-centimes" },
+    { "id": 16, "label": "Indexations des salaires en novembre 2026", "publisher": "CNE (CSC)", "url": "https://www.lacsc.be/cne/actualites/2026/11/03/indexations-des-salaires-en-novembre-2026-en-belgique-voici-les-secteurs-qui-en-beneficient" },
+    { "id": 17, "label": "Index d'octobre 2026", "publisher": "Syndicats Magazine", "url": "https://syndicatsmagazine.be/index-octobre-2026/" },
+    { "id": 18, "label": "Financement du pécule de vacances des ouvriers : pas encore de hausse", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/financement-du-pecule-de-vacances-des-ouvriers-pas-encore-de-hausse" },
+    { "id": 19, "label": "La prime de reprise du travail en cas d'engagement de travailleurs en invalidité", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/la-prime-de-reprise-du-travail-en-cas-dengagement-de-travailleurs-en" },
+    { "id": 20, "label": "Les trois syndicats appellent à une nouvelle manifestation nationale à Bruxelles le 23 novembre", "publisher": "RTBF", "url": "https://www.rtbf.be/article/les-trois-syndicats-appellent-a-une-nouvelle-manifestation-nationale-a-bruxelles-le-23-novembre-11803807" }
+  ]
+}

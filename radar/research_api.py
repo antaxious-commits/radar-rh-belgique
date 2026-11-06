@@ -45,7 +45,8 @@ def user_prompt(start: str, end: str) -> str:
     return (
         f"Produce this week's Radar RH Belgique briefing (Belgium only, all text in French) for the window "
         f"{start} (Monday) to {end} (Sunday), timezone Europe/Brussels. Follow every rule in the system prompt: "
-        f"payroll first, at least 10 searches in French and Dutch, 6-12 verified items, a 90-day Belgian deadline "
+        f"payroll first, at least 10 searches in French and Dutch (including the retail CP 311/312/201 and "
+        f"Brussels checks listed in the reader profile), 6-12 verified items, a 90-day Belgian deadline "
         f"radar counted from {end}, Top 3, RED/AMBER/GREEN actions with proposed owners, and the source register. "
         f"Return only the JSON object as instructed."
     )

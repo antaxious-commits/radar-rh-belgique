@@ -22,6 +22,19 @@ PDFS = ("RH_Belgique_Actualites.pdf", "RH_Belgique_Plan_d_action.pdf")
 LEVELS = {"federal": "Fédéral", "flanders": "Flandre", "wallonia": "Wallonie", "brussels": "Bruxelles",
           "german_community": "Communauté germanophone"}
 PRI_FR = {"RED": "ROUGE", "AMBER": "ORANGE", "GREEN": "VERT"}
+CONSULT = {"confirmed": "information-consultation confirmée",
+           "conditional": "obligation possible selon l’entité, les seuils ou la CCT applicable", "none": ""}
+OFFICIAL = [
+    ("Moniteur belge", "https://www.ejustice.just.fgov.be/cgi/welcome.pl", "textes publiés"),
+    ("SPF Emploi, Travail et Concertation sociale", "https://emploi.belgique.be/fr", "droit du travail, CCT, salaires minimums"),
+    ("ONSS / Sécurité sociale", "https://www.socialsecurity.be/site_fr/employer/index.htm", "cotisations, réductions, instructions"),
+    ("SPF Finances – précompte professionnel", "https://finances.belgium.be/fr/entreprises/personnel_et_remuneration", "barèmes, fiches"),
+    ("Conseil national du Travail", "https://cnt-nar.be/fr", "CCT interprofessionnelles, avis"),
+    ("INAMI", "https://www.inami.fgov.be/fr", "incapacité de travail, réintégration"),
+    ("Forem", "https://www.leforem.be/", "aides à l’emploi en Wallonie"),
+    ("Actiris", "https://www.actiris.brussels/fr/employeurs/", "aides à l’emploi à Bruxelles"),
+    ("VDAB", "https://www.vdab.be/werkgevers", "aides à l’emploi en Flandre"),
+]
 MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
 
 e = html.escape
@@ -106,7 +119,7 @@ def render(weeks: list[dict], reports: list[dict]) -> str:
     <ul class="archive reports">{reports_html(reports)}</ul>
   </section>"""
     if not weeks:
-        body = '<p class="empty">Aucune note publiée pour le moment.</p>' + reports_section
+        body = '<p class="empty">Aucune note publiée pour le moment.</p>' + reports_section + GUIDE + LINKS
         return PAGE.format(title="Radar RH Belgique", body=body)
 
     w = weeks[0]
@@ -136,6 +149,30 @@ def render(weeks: list[dict], reports: list[dict]) -> str:
     if not rows:
         rows.append('<tr><td colspan="3">Aucune échéance identifiée dans les 90 prochains jours.</td></tr>')
 
+    order = list(LEVELS)
+    all_items = []
+    for it in sorted(w["items"], key=lambda i: order.index(i["level"]) if i["level"] in order else 99):
+        links = " ".join(
+            f'<a href="{e(src[i]["url"])}" rel="noopener noreferrer">[{i}] {e(src[i]["publisher"])}</a>'
+            for i in it["source_ids"] if i in src)
+        cons = CONSULT.get(it.get("consultation", "none"), "")
+        all_items.append(f"""
+      <details class="item">
+        <summary><span class="lvl">{e(LEVELS.get(it['level'], it['level']))}</span>{e(it['topic'])}
+          <small>{e(it['status'])} · {e(it['effective_date'])}</small></summary>
+        <p><b>Ce qui change :</b> {e(it['what_changed'])}</p>
+        <p class="impact"><b>Impact potentiel :</b> {e(it['potential_impact'])}</p>
+        {f'<p class="meta"><b>Concertation :</b> {cons}</p>' if cons else ''}
+        <p class="meta"><b>Pertinence :</b> {e(' | '.join(it['relevance_tags']))}</p>
+        <p class="meta"><b>Sources :</b> {links}</p>
+      </details>""")
+    if not all_items:
+        all_items.append(f'<p class="muted">{e(w.get("quiet_week_note") or "Aucun point cette semaine.")}</p>')
+    quiet = (f'<p class="muted note">{e(w["quiet_week_note"])}</p>'
+             if w.get("quiet_week_note") and w["items"] else "")
+    ics_btn = ('<a class="cal" href="echeances.ics">Ajouter ces échéances à mon agenda (.ics)</a>'
+               if w["deadlines_90d"] else "")
+
     archive = "".join(
         f'<li><span>{e(span(a["window"]))}</span>'
         f'<a href="briefings/{e(a["_dir"])}/{PDFS[0]}">Actualités</a>'
@@ -150,7 +187,7 @@ def render(weeks: list[dict], reports: list[dict]) -> str:
   <header class="top">
     <p class="eyebrow">Radar RH Belgique</p>
     <h1>Semaine du {e(span(w['window']))}</h1>
-    <p class="sub">Veille droit social et RH pour la Belgique. Mise à jour chaque lundi.</p>
+    <p class="sub">Veille droit social et RH pour la Belgique, avec un accent sur le commerce de détail (CP 311) et Bruxelles. Mise à jour chaque lundi.</p>
   </header>
   {example}
   <section class="downloads">
@@ -168,14 +205,78 @@ def render(weeks: list[dict], reports: list[dict]) -> str:
       <thead><tr><th>Date</th><th>Niveau</th><th>Quoi</th></tr></thead>
       <tbody>{''.join(rows)}</tbody>
     </table></div>
+    {ics_btn}
+  </section>
+  <section>
+    <h2>Tous les points de la semaine</h2>
+    <div class="items">{''.join(all_items)}
+    </div>
+    {quiet}
   </section>
 {reports_section}
   <section>
     <h2>Archives</h2>
     <ul class="archive">{archive}</ul>
   </section>
+{GUIDE}
+{LINKS}
   <footer>L’impact potentiel est une évaluation et non un avis juridique. L’applicabilité dépend de l’entité, de la commission paritaire, du personnel et de la CCT applicable. Chaque point renvoie à sa source dans les PDF.</footer>"""
     return PAGE.format(title=f"Radar RH Belgique – {e(span(w['window']))}", body=body)
+
+
+GUIDE = """
+  <section>
+    <h2>Mode d’emploi</h2>
+    <div class="guide">
+      <p><b>Chaque lundi</b>, la semaine écoulée (lundi–dimanche) est analysée : législation fédérale et régionale, paie et sécurité sociale, CCT, jurisprudence. Deux PDF en sortent :</p>
+      <ul>
+        <li><b>Actualités</b> : ce qui change, le statut, la date d’effet et l’impact potentiel, sans tâches. À transmettre tel quel.</li>
+        <li><b>Plan d’action</b> : ce qu’il faut faire, dans quel ordre, avec un responsable et une échéance interne <i>proposés</i>. Les dates légales sont indiquées à part.</li>
+      </ul>
+      <p class="legend"><span class="pri-RED">ROUGE</span> action requise (souvent la paie du mois) · <span class="pri-AMBER">ORANGE</span> préparer avant une date légale ou une concertation · <span class="pri-GREEN">VERT</span> suivre.</p>
+      <p>Les <b>rapports</b> approfondissent un sujet (paie, échéances, organes de concertation, transparence salariale). Chaque fait renvoie à une source officielle ou professionnelle cliquable ; les annonces non adoptées sont signalées comme telles.</p>
+    </div>
+  </section>"""
+
+LINKS = "\n  <section>\n    <h2>Sites officiels</h2>\n    <ul class=\"archive links\">" + "".join(
+    f'<li><span>{e(n)}<small>{e(why)}</small></span><a href="{e(u)}" rel="noopener noreferrer">Ouvrir</a></li>'
+    for n, u, why in OFFICIAL) + "</ul>\n  </section>"
+
+
+def ics(w: dict) -> str:
+    """All-day calendar events for the 90-day deadlines of the latest week."""
+    src = {s["id"]: s for s in w["sources"]}
+
+    def esc(t: str) -> str:
+        return t.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+    def fold(line: str) -> str:
+        out, b = [], line.encode("utf-8")
+        while len(b) > 73:
+            cut = 73
+            while (b[cut] & 0xC0) == 0x80:
+                cut -= 1
+            out.append(b[:cut].decode("utf-8"))
+            b = b[cut:]
+        out.append(b.decode("utf-8"))
+        return "\r\n ".join(out)
+
+    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Radar RH Belgique//FR", "CALSCALE:GREGORIAN",
+             "X-WR-CALNAME:Radar RH Belgique – échéances"]
+    for k, x in enumerate(sorted(w["deadlines_90d"], key=lambda x: x["date"])):
+        day = d(x["date"])
+        kind = "Échéance légale" if x["type"] == "legal_deadline" else "Date d'application"
+        s = src.get(x["source_id"])
+        desc = f"{kind} – {LEVELS.get(x['level'], x['level'])}." + (f" Source : {s['url']}" if s else "")
+        lines += ["BEGIN:VEVENT", f"UID:{x['date']}-{k}@radar-rh-belgique", f"DTSTAMP:{stamp}",
+                  f"DTSTART;VALUE=DATE:{day:%Y%m%d}", f"DTEND;VALUE=DATE:{day + dt.timedelta(days=1):%Y%m%d}",
+                  fold("SUMMARY:" + esc(x["description"])), fold("DESCRIPTION:" + esc(desc))]
+        if s:
+            lines.append(fold("URL:" + s["url"]))
+        lines += ["BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Rappel", "TRIGGER:-P7D", "END:VALARM", "END:VEVENT"]
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(lines) + "\r\n"
 
 
 PAGE = """<!DOCTYPE html>
@@ -237,6 +338,20 @@ td a {{ color: var(--teal); }}
 .archive a {{ color: var(--teal); font-weight: 600; padding: 2px 0; }}
 .muted {{ color: var(--muted); }}
 .archive small {{ display: block; font-weight: 400; color: var(--muted); font-size: 13px; }}
+.cal {{ display: inline-block; margin-top: 10px; color: var(--teal); font-weight: 600; }}
+.items {{ display: grid; gap: 8px; }}
+.item {{ background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 0 14px; }}
+.item summary {{ cursor: pointer; padding: 12px 0; font-weight: 600; list-style-position: outside; }}
+.item summary small {{ display: block; font-weight: 400; color: var(--muted); font-size: 13px; }}
+.item .lvl {{ display: inline-block; margin-right: 8px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }}
+.item p {{ margin: 0 0 10px; }}
+.item .impact {{ background: var(--teal-fill); border-left: 3px solid var(--teal); padding: 8px 10px; border-radius: 4px; }}
+.item .meta {{ color: var(--muted); font-size: 14px; }}
+.item a {{ color: var(--teal); }}
+.note {{ font-size: 14px; margin-top: 10px; }}
+.guide {{ background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 4px 16px; }}
+.guide ul {{ padding-left: 20px; }}
+.pri-RED {{ color: var(--red); font-weight: 700; }} .pri-AMBER {{ color: var(--amber); font-weight: 700; }} .pri-GREEN {{ color: var(--green); font-weight: 700; }}
 footer {{ margin-top: 36px; color: var(--muted); font-size: 13px; }}
 @media (min-width: 640px) {{
   .downloads {{ grid-template-columns: 1fr 1fr; }}
@@ -258,6 +373,11 @@ def build() -> Path:
     stage_reports(reports)
     out = SITE / "index.html"
     out.write_text(render(weeks, reports), encoding="utf-8")
+    cal = SITE / "echeances.ics"
+    if weeks and weeks[0]["deadlines_90d"]:
+        cal.write_bytes(ics(weeks[0]).encode("utf-8"))
+    elif cal.exists():
+        cal.unlink()
     print(f"ok  site/index.html ({len(weeks)} week(s), {len(reports)} report(s))")
     return out
 

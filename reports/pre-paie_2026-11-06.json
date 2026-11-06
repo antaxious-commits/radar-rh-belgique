@@ -1,0 +1,739 @@
+{
+  "title": "RH BELGIQUE | CONTRÔLES AVANT PAIE",
+  "slug": "pre-paie",
+  "date": "2026-11-06",
+  "period": "Guide opérationnel – situation au 6 novembre 2026",
+  "summary": "Guide pratique et sourcé du contrôle mensuel avant paie (heures, absences, étudiants, flexi-jobs, entrées et sorties) et du cycle de vie du travailleur en magasin, intégrant les règles 2026 sur l'incapacité de travail, les heures supplémentaires volontaires et les délais de préavis.",
+  "intro": "Ce guide s'adresse à l'administration RH d'un magasin bruxellois relevant de la commission paritaire 311 [paritair comité 311], qui vérifie les heures, présences, absences et contrats avant que le secrétariat social ne calcule la paie. Il rassemble les règles légales belges applicables au 6 novembre 2026, avec leur source. Recherche menée en français et en néerlandais auprès du SPF Emploi, de l'ONSS, de l'INAMI, de l'ONEM et des secrétariats sociaux. Les règles sectorielles CP 311 et les CCT d'entreprise peuvent compléter ou modifier les règles générales : en cas de doute, le texte de la CCT et le règlement de travail priment. Les points qui n'ont pas pu être vérifiés sont listés en fin de document.",
+  "sections": [
+    {
+      "heading": "CONTRÔLE MENSUEL AVANT PAIE",
+      "paragraphs": [
+        "Ordre de travail proposé : 1) figer le relevé des prestations du mois, 2) comparer chaque temps partiel à son contrat, 3) contrôler les absences et leurs justificatifs, 4) contrôler étudiants et flexi-jobs, 5) contrôler les entrées et sorties, 6) transmettre au secrétariat social avec la liste des écarts expliqués."
+      ],
+      "table": {
+        "columns": [
+          "Contrôle",
+          "Pourquoi",
+          "Règle / seuil"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Heures complémentaires des temps partiels [meeruren]",
+              "Certaines heures au-delà de l'horaire du contrat doivent être payées avec sursalaire.",
+              "Sauf CCT spécifique : crédit sans sursalaire de 12 heures par mois civil (régime fixe) ou de 3 h 14 par semaine de la période de référence, plafonné à 168 heures (régime variable). Au-delà : sursalaire de 50 % (100 % le dimanche ou un jour férié). Toute dérogation à l'horaire doit être enregistrée. Dépassement moyen d'au moins 1 heure par semaine sur un trimestre : droit de demander l'adaptation du contrat."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "cells": [
+              "Heures supplémentaires et limites",
+              "Le dépassement de la limite interne est interdit ; les heures volontaires suivent un régime à part.",
+              "Limite interne : 143 heures par période de référence (en principe le trimestre), relevable par CCT sectorielle ; une fois atteinte, repos compensatoire [inhaalrust] obligatoire avant de nouvelles heures. Heures supplémentaires volontaires [vrijwillige overuren] : 360 heures par an depuis le 1er avril 2026 (loi publiée au Moniteur belge le 1er juin 2026), dont 240 sans sursalaire, cotisations ni impôt ; accord écrit valable un an. Exclues pendant un crédit-temps ou un congé thématique."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              3,
+              4
+            ]
+          },
+          {
+            "cells": [
+              "Heures supplémentaires volontaires d'un temps partiel",
+              "Nouvelles conditions depuis le 1er avril 2026.",
+              "Uniquement en cas d'augmentation temporaire de travail et après au moins 3 ans de travail continu à temps partiel ; ces conditions ne s'appliquent pas au temps partiel qui avait déjà un accord au 1er juin 2026."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1,
+              3
+            ]
+          },
+          {
+            "cells": [
+              "Horaires variables communiqués à temps [variabel uurrooster]",
+              "Un horaire tardif peut être refusé et une annulation tardive reste due.",
+              "Délai minimal de 7 jours ouvrables depuis le 20 novembre 2022, réductible à 3 jours ouvrables minimum par CCT rendue obligatoire. Le travailleur peut refuser une prestation non communiquée à temps ou hors de la plage journalière du règlement de travail ; une annulation tardive par l'employeur est payée comme si la prestation avait eu lieu. En CP 311, les horaires variables sont communiqués 3 semaines à l'avance [CCT sectorielle]."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              2,
+              25,
+              34,
+              35
+            ]
+          },
+          {
+            "cells": [
+              "Travail du dimanche",
+              "Repos compensatoire à planifier ; supplément seulement s'il est prévu.",
+              "Pas de sursalaire légal en soi, sauf si la commission paritaire le prévoit ou s'il s'agit d'heures supplémentaires. Repos compensatoire (non rémunéré) dans les 6 jours calendrier suivant le dimanche. Règles propres à la CP 311 : à vérifier dans la CCT sectorielle."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              5
+            ]
+          },
+          {
+            "cells": [
+              "Travail un jour férié [feestdag]",
+              "Le repos de remplacement doit être octroyé et payé.",
+              "Repos compensatoire payé dans les 6 semaines ; temps plein : journée entière si plus de 4 heures prestées, sinon demi-journée ; temps partiel : durée égale aux prestations du jour férié. Supplément uniquement si une CCT ou le contrat le prévoit, ou en cas d'heures supplémentaires. Affichage des modalités du repos compensatoire avant le 15 décembre de chaque année."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              6
+            ]
+          },
+          {
+            "cells": [
+              "Prestations tardives (après 20 h)",
+              "Peuvent faire du travailleur un travailleur de nuit soumis à surveillance de santé.",
+              "Est travailleur de nuit celui qui preste habituellement au moins 3 heures entre 20 h et 6 h : surveillance de santé obligatoire et évaluation de santé préalable."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              7
+            ]
+          },
+          {
+            "cells": [
+              "Étudiants : heures et Dimona STU",
+              "Hors contingent ou Dimona tardive : cotisations ordinaires.",
+              "Contingent de 650 heures par année civile, tous employeurs confondus, avec cotisation de solidarité de 8,14 %. Demander l'attestation student@work (solde d'heures). Dimona type STU avec heures planifiées, une déclaration par trimestre ; si le contingent est dépassé, cotisations ordinaires sur les heures excédentaires. Comparer heures prestées et heures déclarées."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              8,
+              9
+            ]
+          },
+          {
+            "cells": [
+              "Flexi-jobs",
+              "Le régime n'est valable que si le cadre formel est respecté.",
+              "Contrat-cadre écrit puis contrat flexi (oral ou écrit). Dimona type FLX : journalière avec heures de début et de fin si contrat oral ; jusqu'à un trimestre si contrat écrit, avec enregistrement des présences. Cotisation patronale spéciale de 28 %. Flexi-salaire : au moins le minimum sectoriel horaire ou le RMMMG ; plafond de 150 % sur le salaire de base. Exonération fiscale jusqu'à 18 440 EUR par an (hors pensionnés). Ouverts à tous les secteurs sauf exclusions depuis le 1er juillet 2026."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              10,
+              11
+            ]
+          },
+          {
+            "cells": [
+              "Codage des absences : petit chômage [klein verlet]",
+              "Absence rémunérée selon une liste fixée par arrêté royal.",
+              "Arrêté royal du 28 août 1963. Exemples : mariage du travailleur 2 jours ; décès du conjoint ou d'un enfant 10 jours (congé de deuil) ; décès d'un parent ou beau-parent 3 jours ; comparution en justice jusqu'à 5 jours. Vérifier le justificatif et le code d'absence."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              12
+            ]
+          },
+          {
+            "cells": [
+              "Crédit-temps, congé parental et congés thématiques",
+              "La réduction de prestations doit correspondre à la demande ONEM.",
+              "Depuis le 1er juillet 2024, demande électronique obligatoire via Break@work : l'employeur complète sa partie, puis le travailleur ; l'ONEM notifie sa décision au travailleur. Pas d'heures supplémentaires volontaires pendant ces périodes."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              13,
+              3
+            ]
+          },
+          {
+            "cells": [
+              "Maladie : certificat et salaire garanti [gewaarborgd loon]",
+              "Le salaire garanti dépend d'un certificat valable et des règles de rechute 2026.",
+              "Voir section dédiée : dispense de certificat limitée à 2 fois par an depuis 2026, remise en 2 jours ouvrables, salaire garanti des employés de 30 jours, rechute portée à 8 semaines."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              14,
+              15,
+              17
+            ]
+          },
+          {
+            "cells": [
+              "Entrées et sorties du mois",
+              "Prorata de la paie et pécule de sortie [vertrekvakantiegeld].",
+              "Vérifier dates d'entrée et de sortie, Dimona IN et OUT, et signaler au secrétariat social chaque sortie d'employé : pécule de sortie de 15,34 % des rémunérations brutes de l'exercice en cours, plus le solde de l'exercice précédent si des vacances n'ont pas été prises."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              19,
+              21
+            ]
+          },
+          {
+            "cells": [
+              "CP 311 : éco-chèques [ecocheques]",
+              "Montant dû selon le régime de travail.",
+              "CCT sectorielle de 2023 (texte scanné, lecture non confirmée) : 250 EUR pour un temps plein, montants réduits pour les temps partiels. Barème exact, période de référence et mois de paiement à vérifier auprès du secrétariat social."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              20
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "DÉBUT D'OCCUPATION",
+      "cards": [
+        {
+          "title": "Dimona IN [Dimona-aangifte]",
+          "priority": "RED",
+          "status": "En vigueur",
+          "body": "La Dimona IN doit être faite au plus tard au moment où le travailleur commence à travailler. Une annulation se fait au plus tard à la date de début déclarée ; si la date de début est avancée, la modification se fait au plus tard au début du travail. Étudiants : type STU, avec les heures planifiées par trimestre et uniquement sur la base d'un contrat d'occupation d'étudiant signé. Flexi-jobs : type FLX, journalière si le contrat flexi est oral.",
+          "impact": "Contrôle simple avant chaque premier jour : pas de prestation sans accusé de réception Dimona. Une Dimona STU tardive fait perdre le bénéfice du contingent pour les heures concernées.",
+          "tags": [
+            "Dimona",
+            "Étudiants",
+            "Flexi-jobs"
+          ],
+          "source_ids": [
+            21,
+            9,
+            10
+          ]
+        },
+        {
+          "title": "Contrat écrit selon le type de contrat",
+          "priority": "RED",
+          "status": "En vigueur",
+          "body": "Contrat à durée déterminée [overeenkomst voor bepaalde tijd] : écrit pour chaque travailleur au plus tard à l'entrée en service, sinon il suit le régime du contrat à durée indéterminée ; au maximum 4 CDD successifs d'au moins 3 mois chacun sur 2 ans (ou des CDD d'au moins 6 mois sur 3 ans avec autorisation préalable du Contrôle des lois sociales). Temps partiel : écrit au plus tard au début de l'exécution, mentionnant le régime et l'horaire convenus ; à défaut, le travailleur peut choisir le régime et l'horaire les plus favorables appliqués dans l'entreprise ; une copie ou un extrait du contrat est conservé là où le règlement de travail peut être consulté. Étudiant : contrat d'occupation d'étudiant écrit, en deux exemplaires, au plus tard à l'entrée en service, durée maximale de 12 mois ; les 3 premiers jours de travail constituent la période d'essai. Flexi-job : contrat-cadre écrit préalable.",
+          "impact": "Un contrat signé après le premier jour peut requalifier un CDD en contrat à durée indéterminée ou donner au temps partiel le choix de l'horaire le plus favorable.",
+          "tags": [
+            "Contrats",
+            "Temps partiel",
+            "Étudiants",
+            "CDD"
+          ],
+          "source_ids": [
+            22,
+            23,
+            24,
+            8,
+            10
+          ]
+        },
+        {
+          "title": "Information du travailleur (loi du 7 octobre 2022)",
+          "priority": "AMBER",
+          "status": "En vigueur depuis le 10 novembre 2022",
+          "body": "La loi du 7 octobre 2022 (conditions de travail transparentes et prévisibles) impose de fournir les principaux aspects de la relation de travail au plus tard le premier jour de travail : éléments individuels dans le contrat ou un autre document, éléments collectifs via le règlement de travail. Les modifications sont communiquées au plus tard le jour de leur entrée en vigueur. Après 6 mois d'ancienneté, le travailleur peut demander une forme d'emploi plus prévisible ; réponse écrite et motivée (CCT n° 161). L'employeur ne peut pas interdire un emploi parallèle, sauf exception légale ; la formation obligatoire est gratuite et comptée comme temps de travail.",
+          "tags": [
+            "Accueil",
+            "Transparence"
+          ],
+          "source_ids": [
+            25
+          ]
+        },
+        {
+          "title": "Règlement de travail [arbeidsreglement]",
+          "priority": "AMBER",
+          "status": "En vigueur ; contenu complété au 1er janvier 2026",
+          "body": "Le règlement de travail doit être communiqué à chaque travailleur (en main propre, par e-mail ou intranet) et chaque nouveau collaborateur doit en prendre connaissance à son arrivée. Depuis le 1er janvier 2026, il doit aussi prévoir une politique de maintien du contact avec les travailleurs en incapacité (au moins la personne de contact et la fréquence).",
+          "impact": "Garder une preuve de remise dans le dossier d'accueil ; vérifier que la version remise intègre la politique de contact 2026.",
+          "tags": [
+            "Accueil",
+            "Règlement de travail"
+          ],
+          "source_ids": [
+            26,
+            15
+          ]
+        },
+        {
+          "title": "Surveillance de santé et information RGPD",
+          "priority": "GREEN",
+          "status": "En vigueur",
+          "body": "Évaluation de santé préalable obligatoire avant l'affectation à un travail de nuit ou posté (au moins 3 heures habituelles entre 20 h et 6 h), puis évaluations périodiques. Information RGPD (article 13) au plus tard au moment de la collecte des données : identité de l'employeur et du DPO, finalités et base, destinataires, durée de conservation, droits (accès, rectification, effacement, opposition, réclamation auprès de l'Autorité de protection des données). Aucune forme imposée, mais l'employeur doit pouvoir prouver l'information (annexe au règlement de travail, signature, intranet).",
+          "tags": [
+            "Bien-être",
+            "RGPD",
+            "Accueil"
+          ],
+          "source_ids": [
+            7,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "FIN D'OCCUPATION",
+      "cards": [
+        {
+          "title": "Délais de préavis [opzeggingstermijn] : nouveautés 2026",
+          "priority": "AMBER",
+          "status": "En vigueur | 1er juin et 1er août 2026",
+          "body": "Contrats dont l'exécution a commencé au plus tôt le 1er août 2026 : préavis d'une semaine, pour l'employeur comme pour le travailleur, pendant les 6 premiers mois d'ancienneté (loi du 3 juin 2026 modifiant l'article 37/2 de la loi du 3 juillet 1978 ; la source indique une publication au Moniteur belge le 15 juin 2026, avec une mention contradictoire du 1er juin). Contrats commencés à partir du 1er juin 2026 : préavis donné par l'employeur plafonné à 52 semaines. Contrats d'étudiant : 3 jours (employeur) ou 1 jour (étudiant) si l'engagement dure 1 mois au plus, sinon 7 jours et 3 jours ; aucun préavis pendant les 3 jours d'essai.",
+          "impact": "Le délai applicable dépend de la date de début du contrat : contrôler cette date avant toute rupture. Les cas individuels relèvent du juriste ou du secrétariat social.",
+          "tags": [
+            "Licenciement",
+            "Préavis",
+            "Étudiants"
+          ],
+          "source_ids": [
+            28,
+            24
+          ]
+        },
+        {
+          "title": "Outplacement",
+          "priority": "GREEN",
+          "status": "En vigueur",
+          "body": "Régime général : droit à l'outplacement si le travailleur (hors motif grave) a droit à un préavis ou à une indemnité d'au moins 30 semaines, quel que soit son âge. Programme de 60 heures ; offre par lettre recommandée dans les 4 semaines du début du préavis ou dans les 15 jours de la fin du contrat en cas d'indemnité ; en cas d'indemnité, 4 semaines sont imputées sur celle-ci.",
+          "tags": [
+            "Licenciement",
+            "Outplacement"
+          ],
+          "source_ids": [
+            29
+          ]
+        },
+        {
+          "title": "Dimona OUT et documents de sortie",
+          "priority": "RED",
+          "status": "En vigueur",
+          "body": "Dimona OUT au plus tard le premier jour ouvrable qui suit la fin de la relation de travail (inutile si la date de fin figurait déjà dans la Dimona IN ; à corriger si elle change). C4 [werkloosheidsbewijs C4] : à délivrer d'initiative, au plus tard le dernier jour de travail, quel que soit le motif de fin, y compris une démission ; la déclaration électronique DRS scénario 1 ne dispense pas de remettre au travailleur le formulaire papier C4-DRS. Employés : pécule de sortie de 15,34 % des rémunérations brutes de l'exercice en cours, plus un second pécule si des vacances de l'exercice précédent n'ont pas été prises, payés à la fin du contrat, avec la ou les attestations de vacances.",
+          "impact": "Ces documents conditionnent les allocations du travailleur et le calcul de son nouvel employeur : les contrôler avant la dernière paie.",
+          "tags": [
+            "Sorties",
+            "Dimona",
+            "C4",
+            "Pécule de vacances"
+          ],
+          "source_ids": [
+            21,
+            30,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "ABSENCES ET MALADIE",
+      "cards": [
+        {
+          "title": "Certificat médical [medisch attest] : ce qu'il faut vérifier",
+          "priority": "RED",
+          "status": "En vigueur | dispense réduite depuis le 1er janvier 2026",
+          "body": "Le travailleur doit prévenir immédiatement l'employeur. Dispense de certificat pour une incapacité d'un jour ou le premier jour d'une incapacité plus longue limitée à 2 fois par année civile depuis le 1er janvier 2026 (au lieu de 3). Les entreprises de moins de 50 travailleurs peuvent exiger un certificat dès le premier jour si le règlement de travail ou une CCT le prévoit. Remise dans les 2 jours ouvrables, sauf autre délai prévu par CCT ou règlement de travail ; en cas de remise tardive, le salaire garanti peut être refusé pour les jours qui précèdent la remise, sauf force majeure. Le certificat ne mentionne jamais le diagnostic : il indique l'incapacité, sa durée probable, si le travailleur peut se déplacer pour un contrôle, la date, l'identité et la signature du médecin.",
+          "impact": "Tenir un compteur des dispenses utilisées par travailleur et par année civile ; ne jamais demander ni classer de diagnostic.",
+          "tags": [
+            "Incapacité",
+            "Certificat médical"
+          ],
+          "source_ids": [
+            17,
+            15,
+            16
+          ]
+        },
+        {
+          "title": "Salaire garanti des employés et règles 2026",
+          "priority": "RED",
+          "status": "En vigueur | incapacités débutant à partir du 1er janvier 2026",
+          "body": "Employés : salaire garanti de 30 jours à 100 %, sans condition d'ancienneté ; employés sous contrat de moins de 3 mois : 1 mois d'ancienneté requis et régime dégressif (source datée de janvier 2023). Depuis le 1er janvier 2026 (loi du 19 décembre 2025, Moniteur belge du 30 décembre 2025) : le délai de rechute passe de 14 jours à 8 semaines ; une rechute dans ce délai ne relance pas une nouvelle période de salaire garanti (seul le solde reste dû), sauf autre maladie ou accident attesté ; la neutralisation du salaire garanti en reprise partielle n'est plus limitée à 20 semaines. Rupture pour force majeure médicale possible après 6 mois d'incapacité ininterrompue (au lieu de 9).",
+          "impact": "Signaler au secrétariat social toute nouvelle incapacité survenant dans les 8 semaines qui suivent une précédente, avec les dates exactes, pour éviter un double salaire garanti.",
+          "tags": [
+            "Salaire garanti",
+            "Incapacité",
+            "Paie"
+          ],
+          "source_ids": [
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "title": "Déclaration à la mutualité et cotisation de solidarité",
+          "priority": "AMBER",
+          "status": "En vigueur",
+          "body": "Le travailleur déclare son incapacité à la mutualité dans les 28 jours civils (employé) ou 14 jours civils (ouvrier), premier jour inclus ; chaque jour de retard réduit l'indemnité de 10 %. Depuis le 1er janvier 2026, le médecin généraliste transmet électroniquement (Mult-eMediatt) le certificat d'une incapacité de plus de 14 jours et les prolongations ; le certificat destiné à l'employeur reste en papier. Nouvelle cotisation de solidarité employeur (incapacités primaires débutant à partir du 1er janvier 2026, travailleurs de 18 à 54 ans, hors flexi-jobs) : 30 % des indemnités des 2 mois qui suivent le mois de salaire garanti, perçue par l'ONSS. Annoncé : extension aux 4e et 5e mois dès 2027.",
+          "tags": [
+            "INAMI",
+            "Mutualité",
+            "ONSS"
+          ],
+          "source_ids": [
+            18,
+            15
+          ]
+        },
+        {
+          "title": "Trajets de réintégration [re-integratietraject]",
+          "priority": "AMBER",
+          "status": "En vigueur depuis le 1er janvier 2026",
+          "body": "Après 8 semaines d'incapacité, l'employeur doit demander au conseiller en prévention-médecin du travail d'évaluer le potentiel de travail (méthode standardisée). Employeurs de 20 travailleurs ou plus : si le travailleur a un potentiel de travail, le trajet doit démarrer au plus tard 6 mois après le début de l'incapacité (sanction de niveau 2). Un trajet peut être demandé dès le premier jour avec l'accord du travailleur ; l'employeur peut aussi demander un examen de pré-reprise. Arrêté royal du 17 décembre 2025 modifiant le Code du bien-être au travail.",
+          "impact": "Un tableau des incapacités en cours avec les échéances de 8 semaines et de 6 mois permet de relayer à temps vers le service RH compétent.",
+          "tags": [
+            "Réintégration",
+            "Bien-être"
+          ],
+          "source_ids": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "RGPD ET DOSSIERS DU PERSONNEL",
+      "table": {
+        "columns": [
+          "Document ou donnée",
+          "Durée de conservation",
+          "Point de départ / remarque"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Compte individuel et annexes",
+              "5 ans",
+              "À partir de la clôture annuelle du compte"
+            ],
+            "source_ids": [
+              31
+            ]
+          },
+          {
+            "cells": [
+              "Registre général du personnel",
+              "5 ans",
+              "À partir de la sortie du dernier travailleur inscrit"
+            ],
+            "source_ids": [
+              31
+            ]
+          },
+          {
+            "cells": [
+              "Registre de mesure du temps de travail ; document de contrôle des dérogations (temps partiel)",
+              "5 ans",
+              "À partir de la fin du mois suivant le trimestre de l'inscription"
+            ],
+            "source_ids": [
+              31
+            ]
+          },
+          {
+            "cells": [
+              "Avis d'horaires variables (temps partiel)",
+              "1 an",
+              "À partir de la fin de validité de l'horaire"
+            ],
+            "source_ids": [
+              31
+            ]
+          },
+          {
+            "cells": [
+              "Contrat d'occupation d'étudiant",
+              "5 ans",
+              "À partir du lendemain de la fin d'exécution"
+            ],
+            "source_ids": [
+              31
+            ]
+          },
+          {
+            "cells": [
+              "Autres contrats de travail",
+              "Pas d'obligation légale",
+              "Conservation conseillée 1 an après la fin (Securex) ; actions issues du contrat prescrites en principe 1 an après la fin, jusqu'à 10 ans si elles reposent sur une infraction (LexGO)"
+            ],
+            "source_ids": [
+              31,
+              32
+            ]
+          },
+          {
+            "cells": [
+              "Fiches fiscales et pièces justificatives fiscales",
+              "10 ans",
+              "Délai porté de 7 à 10 ans à partir de l'exercice d'imposition 2023"
+            ],
+            "source_ids": [
+              31,
+              32
+            ]
+          },
+          {
+            "cells": [
+              "DmfA ; accusé Dimona",
+              "5 ans ; 6 mois",
+              "Dimona : à partir de sa réception"
+            ],
+            "source_ids": [
+              31
+            ]
+          },
+          {
+            "cells": [
+              "Règlement de travail",
+              "Tant qu'il y a des travailleurs en service",
+              ""
+            ],
+            "source_ids": [
+              31
+            ]
+          },
+          {
+            "cells": [
+              "CV de candidats non retenus",
+              "Aucune durée légale belge",
+              "Repère utilisé : jusqu'à 2 ans après le dernier contact, avec information du candidat (référentiel de l'autorité française CNIL, cité comme repère pour la Belgique)"
+            ],
+            "source_ids": [
+              32
+            ]
+          }
+        ]
+      },
+      "bullets": [
+        "Droit d'accès [recht op inzage] : le travailleur n'a pas à justifier sa demande et a droit à une copie sous forme durable ; la charge de travail ne justifie pas un refus ; un refus total ou partiel doit être motivé dans un délai d'un mois (Autorité de protection des données, décision n° 97/2026 du 6 mai 2026) [33].",
+        "Données médicales : le certificat remis à l'employeur ne contient pas le diagnostic ; ne conserver que les mentions utiles (période, possibilité de contrôle) [17].",
+        "Information des travailleurs : notice RGPD au plus tard lors de la collecte, preuve de remise à conserver [27]."
+      ]
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS",
+      "bullets": [
+        "CP 311 : règles sectorielles sur le travail du dimanche (supplément éventuel), les prestations tardives, l'intervention dans les frais de transport et la prime de fin d'année : aucune source sectorielle lisible consultée.",
+        "CP 311 : barème exact des éco-chèques par régime horaire et mois de paiement : la CCT de 2023 consultée est un document scanné non lisible ; montants à confirmer.",
+        "Durée minimale des prestations à temps partiel (fraction d'un temps plein et minimum de 3 heures) : non confirmée par une source officielle lisible.",
+        "Barème complet des préavis au-delà de 6 mois pour les contrats commencés à partir du 1er août 2026, et date exacte de publication de la loi du 3 juin 2026 (1er ou 15 juin 2026 selon la même source).",
+        "Outplacement : conditions du régime spécifique des travailleurs de 45 ans et plus non vérifiées.",
+        "Flexi-jobs : condition d'occupation de référence (4/5 au trimestre T-3) citée par une source secondaire uniquement ; à contrôler sur mycareer.be.",
+        "Étudiants : obligation éventuelle de transmettre une copie du contrat au Contrôle des lois sociales (mentionnée par la page du SPF Emploi, articulation avec la Dimona non vérifiée).",
+        "Salaire garanti des employés : la page Securex sur les pourcentages date du 1er janvier 2023 ; les règles 2026 sur la rechute et la reprise partielle viennent de sources de janvier 2026.",
+        "Non traités ici : fiche 281.10 et formalités fiscales de fin d'année ; langues des documents sociaux (voir le rapport « Employeur à Bruxelles »)."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Travail à temps partiel – heures complémentaires et sursalaire",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/travail-temps-partiel/travail-temps-partiel-heures-complementaires"
+    },
+    {
+      "id": 2,
+      "label": "Horaires de travail variables – délai de communication minimal",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/travail-temps-partiel/horaires-de-travail-variables/regles"
+    },
+    {
+      "id": 3,
+      "label": "Nieuwe wet vrijwillige overuren gepubliceerd: retroactieve toepassing vanaf 1 april 2026",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/onze-inzichten/infoflashes/nieuwe-wet-vrijwillige-overuren-gepubliceerd-retroactieve-toepassing"
+    },
+    {
+      "id": 4,
+      "label": "Qu'est-ce que la limite interne des heures supplémentaires",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/duree-du-travail/principes-de-base/qu-est-la-limite-interne-des-heures-supplementaires"
+    },
+    {
+      "id": 5,
+      "label": "Rémunération du dimanche et repos compensatoire",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/duree-du-travail/travail-de-nuit-et-du-dimanche/remuneration-du-dimanche-et-repos-compensatoire"
+    },
+    {
+      "id": 6,
+      "label": "Peut-on travailler un jour férié",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/vacances-et-absences/jours-feries/peut-on-travailler-un-jour-ferie"
+    },
+    {
+      "id": 7,
+      "label": "Travail de nuit et travail posté – surveillance de santé",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/themes/bien-etre-au-travail/organisation-de-travail-et-categories-specifiques-du-travailleurs-3"
+    },
+    {
+      "id": 8,
+      "label": "Fiche étudiant (version du 15 février 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/sites/default/files/uploads/pdf/Fiche%20Etudiant%20FR%2015.02.2026def.pdf"
+    },
+    {
+      "id": 9,
+      "label": "Particularités de la déclaration Dimona pour les étudiants",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/selection-et-conclusion-du-contrat/contrats-particuliers/quelles-sont-les-particularites-de-la-declaration-dimona-pour-les-etudiants"
+    },
+    {
+      "id": 10,
+      "label": "Flexi-jobs – informations pour l'employeur",
+      "publisher": "ONSS / socialsecurity.be",
+      "url": "https://www.socialsecurity.be/site_fr/employer/infos/flexi-jobs.htm"
+    },
+    {
+      "id": 11,
+      "label": "Du nouveau pour les flexi-jobs dès juillet 2026",
+      "publisher": "UCM",
+      "url": "https://www.ucm.be/actualites/du-nouveau-pour-les-flexi-jobs-des-juillet-2026"
+    },
+    {
+      "id": 12,
+      "label": "Liste petit chômage",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/suspension-du-contrat-de-travail/causes-de-suspension-propres-au-5"
+    },
+    {
+      "id": 13,
+      "label": "C61 – Congé parental (demande électronique Break@work)",
+      "publisher": "ONEM",
+      "url": "https://www.onem.be/formulaires-attestations/c61---conge-parental"
+    },
+    {
+      "id": 14,
+      "label": "Salaire garanti en cas de maladie",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/montants-actuels/montants-socio-juridiques/salaire-garanti-en-cas-de-maladie"
+    },
+    {
+      "id": 15,
+      "label": "Nouveautés au 1er janvier 2026 en matière d'incapacité de travail et de réintégration",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22275"
+    },
+    {
+      "id": 16,
+      "label": "Politique renforcée de retour au travail : ce qui change à partir du 1er janvier 2026",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/actualites/politique-renforcee-de-retour-au-travail-quest-ce-qui-change-partir-du-1er-janvier-2026"
+    },
+    {
+      "id": 17,
+      "label": "Deuxième obligation : remettre à l'employeur un certificat médical",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/vacances-et-absences/maladie-et-accident/deuxieme-obligation-remettre-a-l-employeur-un-certificat-medical"
+    },
+    {
+      "id": 18,
+      "label": "Incapacité de travail : déclaration, indemnités, activités autorisées",
+      "publisher": "INAMI",
+      "url": "https://www.inami.fgov.be/fr/faq/citoyens/incapacite-de-travail-declaration-indemnites-activites-autorisees"
+    },
+    {
+      "id": 19,
+      "label": "Le pécule de sortie pour les employés",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/licenciement-et-fin-du-contrat-de-travail/rupture-par-l’employeur/le-pecule-de-sortie-pour-les-employes"
+    },
+    {
+      "id": 20,
+      "label": "CCT CP 311 de 2023 relative aux éco-chèques (document scanné)",
+      "publisher": "SPF Emploi",
+      "url": "https://public-search.werk.belgie.be/website-download-service/joint-work-convention/311/311-2023-017205.pdf"
+    },
+    {
+      "id": 21,
+      "label": "Dimona – quand faire la déclaration",
+      "publisher": "ONSS / socialsecurity.be",
+      "url": "https://www.socialsecurity.be/site_fr/employer/applics/dimona/general/when.htm"
+    },
+    {
+      "id": 22,
+      "label": "Contrat de travail à durée déterminée et pour un travail nettement défini",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/contrats-de-travail-particuliers/contrat-de-travail-conclu-pour-une"
+    },
+    {
+      "id": 23,
+      "label": "Contrat de travail à temps partiel",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/contrats-de-travail-particuliers/contrat-de-travail-temps-partiel"
+    },
+    {
+      "id": 24,
+      "label": "Contrat d'occupation d'étudiants",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/contrats-de-travail-particuliers/contrat-doccupation-detudiants"
+    },
+    {
+      "id": 25,
+      "label": "Loi du 7 octobre 2022 – conditions de travail transparentes et prévisibles",
+      "publisher": "SPF Emploi",
+      "url": "https://emploi.belgique.be/fr/actualites/loi-du-7-octobre-2022-visant-transposer-partiellement-la-directive-ue-20191152-du"
+    },
+    {
+      "id": 26,
+      "label": "Règlement de travail : comment le rédiger et quelles obligations",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/21889"
+    },
+    {
+      "id": 27,
+      "label": "Obligation d'information RGPD à l'égard des travailleurs",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/obligations-de-l-employeur/rgpd-et-privacy/qu%E2%80%99implique-l%E2%80%99obligation-d%E2%80%99information-a-l%E2%80%99egard-des-travailleurs%E2%80%89"
+    },
+    {
+      "id": 28,
+      "label": "Wijziging opzeggingstermijnen sinds 1 augustus 2026",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/nl/article/wijziging-opzeggingstermijnen-sinds-1-augustus-2026/32243"
+    },
+    {
+      "id": 29,
+      "label": "Outplacement – algemene regeling",
+      "publisher": "FOD WASO / SPF Emploi",
+      "url": "https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/outplacement/outplacement-algemene-regeling"
+    },
+    {
+      "id": 30,
+      "label": "Formulaire C4 – certificat de chômage",
+      "publisher": "ONEM",
+      "url": "https://www.onem.be/employeurs/chomage-complet/formulaire-c4-certificat-de-chomage"
+    },
+    {
+      "id": 31,
+      "label": "Délai de conservation des documents sociaux et fiscaux",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/themes/obligations-de-l-employeur/documents-sociaux-et-fiscaux/quel-est-le-delai-de-conservation-des-documents-sociaux-et-fiscaux"
+    },
+    {
+      "id": 32,
+      "label": "Combien de temps conserver les données RH lorsque la loi est silencieuse (Claeys & Engels)",
+      "publisher": "LexGO",
+      "url": "https://www.lexgo.be/fr/actualites-et-articles/14859-combien-de-temps-conserver-les-donnees-rh-lorsque-la-loi-est-silencieuse-le-referentiel-de-la-cnil-comme-repere-utile-pour-les-employeurs"
+    },
+    {
+      "id": 33,
+      "label": "La charge de travail n'est pas une excuse : l'APD confirme la large portée du droit d'accès (Claeys & Engels)",
+      "publisher": "LexGO",
+      "url": "https://www.lexgo.be/fr/actualites-et-articles/14867-la-charge-de-travail-n-est-pas-une-excuse-l-apd-confirme-la-large-portee-du-droit-d-acces"
+    },
+    {
+      "id": 34,
+      "label": "Vergelijking van de sectorale arbeidsvoorwaarden, deel II [comparaison des conditions de travail sectorielles CP 201, 202, 202.01, 311, 312] (mai 2026)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://werk.belgie.be/sites/default/files/content/publications/NL/FODWASO%20Studie%20kleinhandel%20deel%20II%20NL%20Vergelijking%20arbeidsvoorwaarden%20mei%202026.pdf"
+    },
+    {
+      "id": 35,
+      "label": "Travail à temps partiel",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/travail-temps-partiel"
+    }
+  ]
+}

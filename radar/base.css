@@ -45,7 +45,8 @@ a { color: var(--navy); text-decoration: none; }
 
 /* Running header content */
 .hdr { position: running(hdr); text-align: right; padding-top: 6.2mm; }
-.hdr .title { color: white; font-weight: 700; font-size: 13pt; letter-spacing: 0.04em; }
+.hdr .title { color: white; font-weight: 700; font-size: 13pt; letter-spacing: 0.04em; white-space: nowrap; }
+.hdr .title.long { font-size: 10.5pt; letter-spacing: 0.02em; padding-top: 1mm; }
 .hdr .sub { color: var(--teal); font-size: 7.6pt; font-weight: 700; letter-spacing: 0.12em; margin-top: 1.4mm; text-transform: uppercase; font-size: 6.8pt; }
 .hdrleft { position: running(hdrleft); padding-top: 7.6mm; }
 .hdrleft .mark { color: white; font-weight: 700; font-size: 8pt; letter-spacing: 0.22em; }
