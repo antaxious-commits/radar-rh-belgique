@@ -1,8 +1,8 @@
 # Radar RH Belgique
 
 Weekly Belgian employment-law and HR briefing (federal, Flanders, Wallonia, Brussels, German-speaking Community), **all output in French**. Every Monday it produces two A4 PDFs, **Actualités** and **Plan d'action**, and publishes them on a small mobile-friendly website (GitHub Pages). Single-topic reports (payroll check, 90-day deadlines, works-council gate, pay transparency, deep dives) use the same design and are listed under **Rapports** on the site.
+Live site: https://antaxious-commits.github.io/radar-rh-belgique/
 
-(The repo keeps its original name `hr-europe-radar`.)
 
 ```
 CLAUDE.md                   research rules, scope, priorities, PDF structure, quality checks

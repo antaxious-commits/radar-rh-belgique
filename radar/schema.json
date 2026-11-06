@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.invalid/hr-europe-radar/briefing.schema.json",
+  "$id": "https://example.invalid/radar-rh-belgique/briefing.schema.json",
   "title": "Radar RH Belgique weekly briefing (all text in French)",
   "type": "object",
   "additionalProperties": false,

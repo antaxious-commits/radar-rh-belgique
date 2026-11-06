@@ -58,7 +58,7 @@ def main(argv=None) -> int:
         "https://api.resend.com/emails",
         data=json.dumps(payload).encode(),
         headers={"Authorization": f"Bearer {os.environ['RESEND_API_KEY']}", "Content-Type": "application/json",
-                 "User-Agent": "hr-europe-radar"},
+                 "User-Agent": "radar-rh-belgique"},
         method="POST",
     )
     try:

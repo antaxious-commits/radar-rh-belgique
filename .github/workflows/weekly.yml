@@ -53,7 +53,7 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "hr-europe-radar bot"
+          git config user.name "radar-rh-belgique bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add briefings reports site/index.html
           git commit -m "Weekly briefing ${{ steps.window.outputs.folder }}" || echo "nothing to commit"
