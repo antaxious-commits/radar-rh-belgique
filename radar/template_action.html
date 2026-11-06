@@ -1,87 +1,87 @@
 {% import "_partials.html" as p with context %}<!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>HR Europe | Action Plan | {{ window_label }}</title>
+<title>RH Belgique | Plan d'action | {{ window_label }}</title>
 <style>{{ css | safe }}</style>
 </head>
 <body>
-{{ p.header("HR EUROPE | ACTION PLAN", "ACTION EDITION · " ~ edition) }}
+{{ p.header("RH BELGIQUE | PLAN D'ACTION", "ÉDITION PLAN D'ACTION · " ~ edition) }}
 
 {{ p.example_banner() }}
 
 <div class="intro">
-  <div class="label">Prioritized execution</div>
-  <p><b>{{ window_long }}</b> (Europe/Brussels). Owners and internal targets are recommendations, not confirmed assignments. Legal dates are shown separately and are never replaced by internal targets.</p>
-  <p class="legend"><span class="pri RED">RED action needed</span><span class="pri AMBER">AMBER prepare</span><span class="pri GREEN">GREEN monitor</span></p>
+  <div class="label">Exécution priorisée</div>
+  <p><b>{{ window_long }}</b> (Europe/Bruxelles). Les responsables et échéances internes sont des recommandations, pas des attributions confirmées. Les dates légales sont indiquées séparément et ne sont jamais remplacées par des échéances internes.</p>
+  <p class="legend"><span class="pri RED">ROUGE action requise</span><span class="pri AMBER">ORANGE préparer</span><span class="pri GREEN">VERT suivre</span></p>
 </div>
 
-<h1 class="section"><span class="num">1 /</span> Immediate{% if immediate_theme %}: {{ immediate_theme }}{% endif %}</h1>
+<h1 class="section"><span class="num">1 /</span> Immédiat{% if immediate_theme %} : {{ immediate_theme }}{% endif %}</h1>
 {% if red %}
 <table>
-  <thead><tr><th>Priority / Action</th><th>Owner / Target</th><th>Evidence of completion</th></tr></thead>
+  <thead><tr><th>Priorité / Action</th><th>Responsable / Échéance</th><th>Preuve de réalisation</th></tr></thead>
   <tbody>
   {% for a in red %}
     <tr class="RED">
-      <td class="first"><span class="pri RED">RED</span> <span class="t">{{ loop.index }}. {{ a.title }}</span> {{ p.refs(a.source_ids) }}<br>{{ a.steps }}<div class="type">{{ a.action_type }}</div></td>
-      <td><b>{{ a.proposed_owner }}</b> <span class="muted">(proposed)</span><br>{{ a.internal_target }}</td>
+      <td class="first"><span class="pri RED">ROUGE</span> <span class="t">{{ loop.index }}. {{ a.title }}</span> {{ p.refs(a.source_ids) }}<br>{{ a.steps }}<div class="type">{{ a.action_type }}</div></td>
+      <td><b>{{ a.proposed_owner }}</b> <span class="muted">(proposé)</span><br>{{ a.internal_target }}</td>
       <td>{{ a.evidence }}</td>
     </tr>
   {% endfor %}
   </tbody>
 </table>
-{% if control_line %}<p class="control"><b>Control:</b> {{ control_line }}</p>{% endif %}
+{% if control_line %}<p class="control"><b>Contrôle :</b> {{ control_line }}</p>{% endif %}
 {% else %}
-<p class="muted">No immediate payroll-affecting action identified this week.</p>
+<p class="muted">Aucune action immédiate affectant la paie n'a été identifiée cette semaine.</p>
 {% endif %}
 
-<h1 class="section"><span class="num">2 /</span> Implement deadline-driven changes</h1>
+<h1 class="section"><span class="num">2 /</span> Changements liés à des échéances</h1>
 {% if amber %}
 <table>
-  <thead><tr><th>Priority / Required update</th><th>Owner / Internal target</th><th>Legal date / Completion test</th></tr></thead>
+  <thead><tr><th>Priorité / Mise à jour requise</th><th>Responsable / Échéance interne</th><th>Date légale / Test de réalisation</th></tr></thead>
   <tbody>
   {% for a in amber %}
     <tr class="AMBER">
-      <td class="first"><span class="pri AMBER">AMBER</span> <span class="t">{{ red|length + loop.index }}. {{ a.title }}</span> {{ p.refs(a.source_ids) }}<br>{{ a.steps }}<div class="type">{{ a.action_type }}</div></td>
-      <td><b>{{ a.proposed_owner }}</b> <span class="muted">(proposed)</span><br>{{ a.internal_target }}</td>
-      <td><b>{{ a.legal_date or "No statutory date" }}</b><br>{{ a.evidence }}</td>
+      <td class="first"><span class="pri AMBER">ORANGE</span> <span class="t">{{ red|length + loop.index }}. {{ a.title }}</span> {{ p.refs(a.source_ids) }}<br>{{ a.steps }}<div class="type">{{ a.action_type }}</div></td>
+      <td><b>{{ a.proposed_owner }}</b> <span class="muted">(proposé)</span><br>{{ a.internal_target }}</td>
+      <td><b>{{ a.legal_date or "Pas de date légale" }}</b><br>{{ a.evidence }}</td>
     </tr>
   {% endfor %}
   </tbody>
 </table>
 {% endif %}
 
-<div class="label dark" style="margin-top:4mm">90-day deadline radar ({{ radar_label }})</div>
+<div class="label dark" style="margin-top:4mm">Radar des échéances à 90 jours ({{ radar_label }})</div>
 <table class="small">
-  <thead><tr><th style="width:18%">Legal date</th><th style="width:10%">Where</th><th>Deadline / effective date</th><th style="width:17%">Type</th></tr></thead>
+  <thead><tr><th style="width:18%">Date légale</th><th style="width:14%">Niveau</th><th>Échéance / date d'effet</th><th style="width:17%">Type</th></tr></thead>
   <tbody>
   {% for d in deadlines %}
-    <tr><td><b>{{ d.date | longdate }}</b></td><td>{{ d.jurisdiction }}</td><td>{{ d.description }} {{ p.refs([d.source_id]) }}</td><td>{{ "Legal deadline" if d.type == "legal_deadline" else "Application date" }}</td></tr>
+    <tr><td><b>{{ d.date | longdate }}</b></td><td>{{ d.level | level_name }}</td><td>{{ d.description }} {{ p.refs([d.source_id]) }}</td><td>{{ "Échéance légale" if d.type == "legal_deadline" else "Date d'application" }}</td></tr>
   {% else %}
-    <tr><td colspan="4" class="muted">No statutory deadline or effective date identified in the next 90 days.</td></tr>
+    <tr><td colspan="4" class="muted">Aucune échéance légale ou date d'effet identifiée dans les 90 prochains jours.</td></tr>
   {% endfor %}
   </tbody>
 </table>
 
-<h1 class="section"><span class="num">3 /</span> Targeted follow-up and monitoring</h1>
+<h1 class="section"><span class="num">3 /</span> Suivi ciblé et veille</h1>
 {% for a in green %}
 <div class="followup">
-  <span class="pri GREEN">GREEN</span> <b>{{ a.title }}</b> {{ p.refs(a.source_ids) }}
+  <span class="pri GREEN">VERT</span> <b>{{ a.title }}</b> {{ p.refs(a.source_ids) }}
   <p>{{ a.steps }}</p>
-  <p class="small muted">Proposed owner: {{ a.proposed_owner }} · {{ a.internal_target }}{% if a.evidence %} · Done when: {{ a.evidence }}{% endif %}</p>
+  <p class="small muted">Responsable proposé : {{ a.proposed_owner }} · {{ a.internal_target }}{% if a.evidence %} · Terminé quand : {{ a.evidence }}{% endif %}</p>
 </div>
 {% else %}
-<p class="muted">No additional monitoring items this week.</p>
+<p class="muted">Pas d'autre point de veille cette semaine.</p>
 {% endfor %}
 
-<h1 class="section"><span class="num">4 /</span> What this means for you</h1>
+<h1 class="section"><span class="num">4 /</span> Ce que cela signifie pour vous</h1>
 <div class="means">
 {% for w in what_this_means %}
-  {% if w.heading | lower == "tracking flow" %}
-  <p><b>{{ w.heading }}:</b></p>
+  {% if ">" in w.text and w.heading | lower in ["suivi", "flux de suivi"] %}
+  <p><b>{{ w.heading }} :</b></p>
   <div class="flow">{% for step in w.text.split(">") %}<span class="step">{{ step | trim }}</span>{% if not loop.last %}<span class="arrow">&gt;</span>{% endif %}{% endfor %}</div>
   {% else %}
-  <p><b>{{ w.heading }}:</b> {{ w.text }}</p>
+  <p><b>{{ w.heading }} :</b> {{ w.text }}</p>
   {% endif %}
 {% endfor %}
 </div>

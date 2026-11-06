@@ -16,9 +16,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BRIEFINGS = ROOT / "briefings"
+REPORTS = ROOT / "reports"
 SITE = ROOT / "site"
-PDFS = ("HR_Europe_Weekly_News.pdf", "HR_Europe_Action_Plan.pdf")
-JURIS = {"EU": "EU", "FR": "France", "BE": "Belgium", "NL": "Netherlands", "DE": "Germany", "ES": "Spain", "IT": "Italy"}
+PDFS = ("RH_Belgique_Actualites.pdf", "RH_Belgique_Plan_d_action.pdf")
+LEVELS = {"federal": "Fédéral", "flanders": "Flandre", "wallonia": "Wallonie", "brussels": "Bruxelles",
+          "german_community": "Communauté germanophone"}
+PRI_FR = {"RED": "ROUGE", "AMBER": "ORANGE", "GREEN": "VERT"}
+MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
 
 e = html.escape
 
@@ -29,16 +33,19 @@ def d(s: str) -> dt.date:
 
 def fmt(s: str, year=True) -> str:
     x = d(s)
-    return f"{x.day} {x.strftime('%b')}" + (f" {x.year}" if year else "")
+    day = "1er" if x.day == 1 else str(x.day)
+    return f"{day} {MONTHS[x.month - 1]}" + (f" {x.year}" if year else "")
 
 
 def span(w: dict) -> str:
-    return f"{fmt(w['start'], year=d(w['start']).year != d(w['end']).year)} – {fmt(w['end'])}"
+    return f"{fmt(w['start'], year=d(w['start']).year != d(w['end']).year)} au {fmt(w['end'])}"
 
 
 def load() -> list[dict]:
     weeks = []
     for p in sorted(BRIEFINGS.glob("*/briefing.json")):
+        if p.parent.name.startswith("adhoc_"):
+            continue  # ad-hoc scans are not published unless moved
         b = json.loads(p.read_text(encoding="utf-8"))
         if not all((p.parent / f).exists() for f in PDFS):
             continue  # not built yet
@@ -47,6 +54,38 @@ def load() -> list[dict]:
     real = [w for w in weeks if not w.get("example")]
     weeks = real or weeks  # the EXAMPLE week is shown only until the first real run
     return sorted(weeks, key=lambda w: w["window"]["start"], reverse=True)
+
+
+def load_reports() -> list[dict]:
+    reports = []
+    for p in REPORTS.glob("*.json"):
+        r = json.loads(p.read_text(encoding="utf-8"))
+        if r.get("example") or not p.with_suffix(".pdf").exists():
+            continue
+        r["_pdf"] = p.with_suffix(".pdf").name
+        reports.append(r)
+    return sorted(reports, key=lambda r: (r["date"], r["title"]), reverse=True)
+
+
+def stage_reports(reports: list[dict]) -> None:
+    out = SITE / "reports"
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+    for r in reports:
+        shutil.copy2(REPORTS / r["_pdf"], out / r["_pdf"])
+
+
+def reports_html(reports: list[dict]) -> str:
+    if not reports:
+        return '<li class="muted">Aucun rapport thématique pour le moment.</li>'
+    out = []
+    for r in reports:
+        title = r["title"].split("|", 1)[-1].strip().capitalize()
+        summary = f'<small>{e(r["summary"])}</small>' if r.get("summary") else ""
+        out.append(f'<li><span>{e(title)}<small>{e(r["period"])} · {e(fmt(r["date"]))}</small>{summary}</span>'
+                   f'<a href="reports/{e(r["_pdf"])}">PDF</a></li>')
+    return "".join(out)
 
 
 def stage_pdfs(weeks: list[dict]) -> None:
@@ -60,10 +99,15 @@ def stage_pdfs(weeks: list[dict]) -> None:
             shutil.copy2(BRIEFINGS / w["_dir"] / f, dst / f)
 
 
-def render(weeks: list[dict]) -> str:
+def render(weeks: list[dict], reports: list[dict]) -> str:
+    reports_section = f"""
+  <section>
+    <h2>Rapports</h2>
+    <ul class="archive reports">{reports_html(reports)}</ul>
+  </section>"""
     if not weeks:
-        body = '<p class="empty">No briefing published yet.</p>'
-        return PAGE.format(title="HR Europe Radar", body=body)
+        body = '<p class="empty">Aucune note publiée pour le moment.</p>' + reports_section
+        return PAGE.format(title="Radar RH Belgique", body=body)
 
     w = weeks[0]
     items = {i["id"]: i for i in w["items"]}
@@ -73,10 +117,10 @@ def render(weeks: list[dict]) -> str:
     cards = []
     for t in w["top3"]:
         it = items.get(t["item_id"], {})
-        cc = it.get("jurisdiction", "")
+        cc = it.get("level", "")
         cards.append(f"""
       <article class="card {e(t['priority'])}">
-        <div class="tag"><span class="pri">{e(t['priority'])}</span><span>{e(JURIS.get(cc, cc))}</span></div>
+        <div class="tag"><span class="pri">{PRI_FR[t['priority']]}</span><span>{e(LEVELS.get(cc, cc))}</span></div>
         <h3>{e(t['headline'])}</h3>
         <p>{e(t['why_it_matters'])}</p>
         {f'<p class="meta">{e(it["status"])} · {e(it["effective_date"])}</p>' if it else ''}
@@ -86,55 +130,56 @@ def render(weeks: list[dict]) -> str:
     for x in sorted(w["deadlines_90d"], key=lambda x: x["date"]):
         s = src.get(x["source_id"])
         link = f' <a href="{e(s["url"])}" rel="noopener noreferrer">source</a>' if s else ""
-        kind = "Legal deadline" if x["type"] == "legal_deadline" else "Application date"
-        rows.append(f"<tr><td class=\"date\">{e(fmt(x['date']))}</td><td>{e(x['jurisdiction'])}</td>"
+        kind = "Échéance légale" if x["type"] == "legal_deadline" else "Date d'application"
+        rows.append(f"<tr><td class=\"date\">{e(fmt(x['date']))}</td><td>{e(LEVELS.get(x['level'], x['level']))}</td>"
                     f"<td>{e(x['description'])}{link}<span class=\"kind\">{kind}</span></td></tr>")
     if not rows:
-        rows.append('<tr><td colspan="3">No deadlines identified in the next 90 days.</td></tr>')
+        rows.append('<tr><td colspan="3">Aucune échéance identifiée dans les 90 prochains jours.</td></tr>')
 
     archive = "".join(
         f'<li><span>{e(span(a["window"]))}</span>'
-        f'<a href="briefings/{e(a["_dir"])}/{PDFS[0]}">News</a>'
-        f'<a href="briefings/{e(a["_dir"])}/{PDFS[1]}">Action plan</a></li>'
+        f'<a href="briefings/{e(a["_dir"])}/{PDFS[0]}">Actualités</a>'
+        f'<a href="briefings/{e(a["_dir"])}/{PDFS[1]}">Plan d’action</a></li>'
         for a in weeks[1:]
-    ) or '<li class="muted">Earlier weeks will appear here.</li>'
+    ) or '<li class="muted">Les semaines précédentes apparaîtront ici.</li>'
 
-    example = ('<p class="example">EXAMPLE DATA – design preview. The first real briefing will replace this.</p>'
+    example = ('<p class="example">DONNÉES D’EXEMPLE – aperçu de la mise en page. La première vraie note remplacera cette page.</p>'
                if w.get("example") else "")
 
     body = f"""
   <header class="top">
-    <p class="eyebrow">HR Europe Radar · EU FR BE NL DE ES IT</p>
-    <h1>Week of {e(span(w['window']))}</h1>
-    <p class="sub">Employment-law and HR briefing for the HR Business Partner Europe. Updated every Monday.</p>
+    <p class="eyebrow">Radar RH Belgique</p>
+    <h1>Semaine du {e(span(w['window']))}</h1>
+    <p class="sub">Veille droit social et RH pour la Belgique. Mise à jour chaque lundi.</p>
   </header>
   {example}
   <section class="downloads">
-    <a class="btn primary" href="{base}/{PDFS[0]}"><b>Weekly News</b><span>What changed and potential impact · PDF</span></a>
-    <a class="btn" href="{base}/{PDFS[1]}"><b>Action Plan</b><span>Prioritized actions and deadlines · PDF</span></a>
+    <a class="btn primary" href="{base}/{PDFS[0]}"><b>Actualités</b><span>Ce qui change et impact potentiel · PDF</span></a>
+    <a class="btn" href="{base}/{PDFS[1]}"><b>Plan d’action</b><span>Actions priorisées et échéances · PDF</span></a>
   </section>
   <section>
-    <h2>Top 3 this week</h2>
+    <h2>Les 3 points clés</h2>
     <div class="cards">{''.join(cards)}
     </div>
   </section>
   <section>
-    <h2>Deadlines in the next 90 days</h2>
+    <h2>Échéances des 90 prochains jours</h2>
     <div class="table-wrap"><table>
-      <thead><tr><th>Date</th><th>Where</th><th>What</th></tr></thead>
+      <thead><tr><th>Date</th><th>Niveau</th><th>Quoi</th></tr></thead>
       <tbody>{''.join(rows)}</tbody>
     </table></div>
   </section>
+{reports_section}
   <section>
-    <h2>Archive</h2>
+    <h2>Archives</h2>
     <ul class="archive">{archive}</ul>
   </section>
-  <footer>Potential impact is an assessment, not legal advice. Applicability depends on entity, sector, workforce and collective agreement. Every item links to its source in the PDFs.</footer>"""
-    return PAGE.format(title=f"HR Europe Radar – {e(span(w['window']))}", body=body)
+  <footer>L’impact potentiel est une évaluation et non un avis juridique. L’applicabilité dépend de l’entité, de la commission paritaire, du personnel et de la CCT applicable. Chaque point renvoie à sa source dans les PDF.</footer>"""
+    return PAGE.format(title=f"Radar RH Belgique – {e(span(w['window']))}", body=body)
 
 
 PAGE = """<!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -191,6 +236,7 @@ td a {{ color: var(--teal); }}
 .archive span {{ flex: 1 1 160px; font-weight: 600; }}
 .archive a {{ color: var(--teal); font-weight: 600; padding: 2px 0; }}
 .muted {{ color: var(--muted); }}
+.archive small {{ display: block; font-weight: 400; color: var(--muted); font-size: 13px; }}
 footer {{ margin-top: 36px; color: var(--muted); font-size: 13px; }}
 @media (min-width: 640px) {{
   .downloads {{ grid-template-columns: 1fr 1fr; }}
@@ -207,10 +253,12 @@ footer {{ margin-top: 36px; color: var(--muted); font-size: 13px; }}
 
 def build() -> Path:
     weeks = load()
+    reports = load_reports()
     stage_pdfs(weeks)
+    stage_reports(reports)
     out = SITE / "index.html"
-    out.write_text(render(weeks), encoding="utf-8")
-    print(f"ok  site/index.html ({len(weeks)} week(s))")
+    out.write_text(render(weeks, reports), encoding="utf-8")
+    print(f"ok  site/index.html ({len(weeks)} week(s), {len(reports)} report(s))")
     return out
 
 

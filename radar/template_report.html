@@ -1,0 +1,51 @@
+{% import "_partials.html" as p with context %}<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>{{ title }} | {{ period }}</title>
+<style>{{ css | safe }}</style>
+</head>
+<body>
+{{ p.header(title, "RAPPORT DU " ~ (date | longdate | upper)) }}
+
+{{ p.example_banner() }}
+
+<div class="intro">
+  <div class="label">{{ period }}</div>
+  <p>{{ intro }}</p>
+  <p class="muted">L'impact potentiel est une évaluation et non un avis juridique ; l'applicabilité dépend de l'entité, de la commission paritaire, du personnel et de la CCT applicable. Les responsables et échéances internes sont des propositions.</p>
+</div>
+
+{% for s in sections %}
+<h1 class="section"><span class="num">{{ loop.index }} /</span> {{ s.heading }}</h1>
+{% for para in s.paragraphs or [] %}<p>{{ para }}</p>{% endfor %}
+{% if s.bullets %}<ul>{% for b in s.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+{% for c in s.cards or [] %}
+  <article class="card">
+    <h2>{% if c.priority %}<span class="pri {{ c.priority }}">{{ c.priority | pri_fr }}</span> {% endif %}{{ c.title }}</h2>
+    {% if c.status %}<div class="status"><b>{{ c.status }}</b></div>{% endif %}
+    <p>{{ c.body }}</p>
+    {% if c.impact %}<div class="impact"><div class="field">Impact potentiel / évaluation</div><p>{{ c.impact }}</p></div>{% endif %}
+    {% if c.tags %}<div class="meta"><b>Pertinence :</b> {{ c.tags | join(" | ") }}</div>{% endif %}
+    <div class="meta"><b>Sources :</b> {{ p.refs(c.source_ids) }}</div>
+  </article>
+{% endfor %}
+{% if s.table %}
+<table class="generic">
+  <thead><tr>{% for col in s.table.columns %}<th>{{ col }}</th>{% endfor %}{% if s.table.rows | selectattr("source_ids") | list %}<th>Sources</th>{% endif %}</tr></thead>
+  <tbody>
+  {% set has_src = s.table.rows | selectattr("source_ids") | list %}
+  {% for r in s.table.rows %}
+    <tr{% if r.priority %} class="{{ r.priority }}"{% endif %}>
+      {% for cell in r.cells %}<td{% if loop.first %} class="first"{% endif %}>{% if loop.first and r.priority %}<span class="pri {{ r.priority }}">{{ r.priority | pri_fr }}</span> {% endif %}{{ cell }}</td>{% endfor %}
+      {% if has_src %}<td>{{ p.refs(r.source_ids or []) }}</td>{% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endfor %}
+
+{{ p.register() }}
+</body>
+</html>

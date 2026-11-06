@@ -1,4 +1,4 @@
-name: Publish site
+name: Publier le site
 
 on:
   push:
@@ -35,6 +35,7 @@ jobs:
           mkdir -p _site
           cp site/index.html _site/
           cp -r site/briefings _site/ 2>/dev/null || true
+          cp -r site/reports _site/ 2>/dev/null || true
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

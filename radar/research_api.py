@@ -43,10 +43,10 @@ def system_prompt() -> str:
 
 def user_prompt(start: str, end: str) -> str:
     return (
-        f"Produce this week's HR Europe Radar briefing for the window {start} (Monday) to {end} (Sunday), "
-        f"timezone Europe/Brussels. Follow every rule in the system prompt: payroll first, at least 3 searches per "
-        f"jurisdiction including local-language searches, 8-15 verified items, a 90-day deadline radar counted from {end}, "
-        f"Top 3, RED/AMBER/GREEN actions with proposed owners, and the source register. "
+        f"Produce this week's Radar RH Belgique briefing (Belgium only, all text in French) for the window "
+        f"{start} (Monday) to {end} (Sunday), timezone Europe/Brussels. Follow every rule in the system prompt: "
+        f"payroll first, at least 10 searches in French and Dutch, 6-12 verified items, a 90-day Belgian deadline "
+        f"radar counted from {end}, Top 3, RED/AMBER/GREEN actions with proposed owners, and the source register. "
         f"Return only the JSON object as instructed."
     )
 

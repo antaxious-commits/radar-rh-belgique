@@ -1,12 +1,12 @@
 {% macro header(title, edition_label) -%}
 <div class="band-top"></div><div class="band-bottom"></div>
-<div class="hdrleft"><div class="mark">HR EUROPE RADAR</div><div class="juris">EU · FR · BE · NL · DE · ES · IT</div></div>
+<div class="hdrleft"><div class="mark">RADAR RH BELGIQUE</div><div class="juris">FÉDÉRAL · RÉGIONS · COMMUNAUTÉS</div></div>
 <div class="hdr"><div class="title">{{ title }}</div><div class="sub">{{ window_label }} / {{ edition_label }}</div></div>
-{%- if example %}<div class="watermark">EXAMPLE DATA</div>{% endif %}
+{%- if example %}<div class="watermark">EXEMPLE</div>{% endif %}
 {%- endmacro %}
 
 {% macro example_banner() -%}
-{% if example %}<div class="example-banner">EXAMPLE DATA – design sample only. Content, dates and sources below are illustrative placeholders, not real legal news.</div>{% endif %}
+{% if example %}<div class="example-banner">DONNÉES D'EXEMPLE – aperçu de la mise en page uniquement. Le contenu, les dates et les sources sont fictifs et ne constituent pas une actualité juridique réelle.</div>{% endif %}
 {%- endmacro %}
 
 {% macro refs(ids) -%}
@@ -15,10 +15,10 @@
 
 {% macro register() -%}
 <section class="register">
-  <div class="label">Source register / click to open</div>
+  <div class="label">Registre des sources / cliquer pour ouvrir</div>
   <ol>
   {% for s in sources %}
-    <li id="src-{{ s.id }}"><span class="n">[{{ '%02d' % s.id }}]</span><a href="{{ s.url }}">{{ s.label }}: {{ s.publisher }}</a><span class="url"><a href="{{ s.url }}">{{ s.url | domain }}</a></span></li>
+    <li id="src-{{ s.id }}"><span class="n">[{{ '%02d' % s.id }}]</span><a href="{{ s.url }}">{{ s.label }} : {{ s.publisher }}</a><span class="url"><a href="{{ s.url }}">{{ s.url | domain }}</a></span></li>
   {% endfor %}
   </ol>
 </section>

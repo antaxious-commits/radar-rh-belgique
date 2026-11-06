@@ -5,3 +5,5 @@ __pycache__/
 briefings/*/_render/
 site/briefings/
 _site/
+site/reports/
+reports/_render/

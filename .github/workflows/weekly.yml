@@ -1,6 +1,6 @@
 # Option B: fully automatic weekly run via the Anthropic API (billed to API credits).
 # Secrets: ANTHROPIC_API_KEY (required); RESEND_API_KEY + TO_EMAIL (+ optional FROM_EMAIL) for email.
-name: Weekly HR Europe Radar
+name: Radar RH Belgique (hebdomadaire)
 
 on:
   schedule:
@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "hr-europe-radar bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add briefings site/index.html
+          git add briefings reports site/index.html
           git commit -m "Weekly briefing ${{ steps.window.outputs.folder }}" || echo "nothing to commit"
           git push
 

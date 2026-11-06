@@ -19,14 +19,19 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
 RADAR_DIR = Path(__file__).resolve().parent
 FONT_DIR = RADAR_DIR / "fonts"
-NEWS_PDF = "HR_Europe_Weekly_News.pdf"
-ACTION_PDF = "HR_Europe_Action_Plan.pdf"
+NEWS_PDF = "RH_Belgique_Actualites.pdf"
+ACTION_PDF = "RH_Belgique_Plan_d_action.pdf"
 
-JURIS_ORDER = ["EU", "FR", "BE", "NL", "DE", "ES", "IT"]
-JURIS_NAMES = {
-    "EU": "EU", "FR": "France", "BE": "Belgium", "NL": "Netherlands",
-    "DE": "Germany", "ES": "Spain", "IT": "Italy",
+LEVEL_ORDER = ["federal", "flanders", "wallonia", "brussels", "german_community"]
+LEVEL_NAMES = {
+    "federal": "Fédéral", "flanders": "Flandre", "wallonia": "Wallonie",
+    "brussels": "Bruxelles", "german_community": "Communauté germanophone",
 }
+PRI_FR = {"RED": "ROUGE", "AMBER": "ORANGE", "GREEN": "VERT"}
+MONTHS_FR = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
+             "août", "septembre", "octobre", "novembre", "décembre"]
+MONTHS_FR_SHORT = ["JANV.", "FÉVR.", "MARS", "AVR.", "MAI", "JUIN", "JUIL.",
+                   "AOÛT", "SEPT.", "OCT.", "NOV.", "DÉC."]
 PRI_ORDER = {"RED": 0, "AMBER": 1, "GREEN": 2}
 
 
@@ -41,16 +46,17 @@ def parse_date(s: str) -> dt.date:
 
 
 def long_date(s: str) -> str:
-    d = parse_date(s)
-    return f"{d.day} {d.strftime('%B')} {d.year}"
+    d = parse_date(s) if isinstance(s, str) else s
+    day = "1er" if d.day == 1 else str(d.day)
+    return f"{day} {MONTHS_FR[d.month - 1]} {d.year}"
 
 
 def window_label(start: dt.date, end: dt.date) -> str:
-    """e.g. '26 OCT - 01 NOV 2026' (upper case for the header line)."""
-    a = f"{start.day:02d} {start.strftime('%b').upper()}"
+    """e.g. '26 OCT. – 01 NOV. 2026' (upper case for the header line)."""
+    a = f"{start.day:02d} {MONTHS_FR_SHORT[start.month - 1]}"
     if start.year != end.year:
         a += f" {start.year}"
-    return f"{a} – {end.day:02d} {end.strftime('%b').upper()} {end.year}"
+    return f"{a} – {end.day:02d} {MONTHS_FR_SHORT[end.month - 1]} {end.year}"
 
 
 def domain(url: str) -> str:
@@ -109,17 +115,15 @@ def validate(b: dict) -> None:
         print(f"note: sources never cited: {sorted(unused)}", file=sys.stderr)
 
     start, end = parse_date(b["window"]["start"]), parse_date(b["window"]["end"])
-    if (end - start).days != 6:
-        errors.append("window must span 7 days (Mon-Sun)")
+    if end < start:
+        errors.append("window end is before window start")
 
     for it in b["items"]:
-        if re.search(r"\b(owner|internal target)\b", it["what_changed"] + it["potential_impact"], re.I):
+        if re.search(r"\b(responsable|échéance interne|owner)\b", it["what_changed"] + it["potential_impact"], re.I):
             errors.append(f"item {it['id']}: PDF 1 must not contain owners or internal targets")
 
-    covered = {i["jurisdiction"] for i in b["items"]} | set(b.get("no_change", []))
-    missing = [j for j in JURIS_ORDER if j not in covered]
-    if missing:
-        errors.append(f"jurisdictions neither covered nor marked no_change: {missing}")
+    if not b["items"] and not b.get("quiet_week_note"):
+        errors.append("no items: add quiet_week_note explaining what was searched")
 
     if errors:
         raise BuildError("briefing.json failed checks:\n  " + "\n  ".join(errors))
@@ -137,16 +141,17 @@ def make_env() -> Environment:
     )
     env.filters["domain"] = domain
     env.filters["longdate"] = long_date
-    env.filters["juris_name"] = lambda c: JURIS_NAMES[c]
+    env.filters["level_name"] = lambda c: LEVEL_NAMES[c]
+    env.filters["pri_fr"] = lambda p: PRI_FR[p]
     return env
 
 
 def context(b: dict) -> dict:
     start, end = parse_date(b["window"]["start"]), parse_date(b["window"]["end"])
-    items = sorted(b["items"], key=lambda i: JURIS_ORDER.index(i["jurisdiction"]))
+    items = sorted(b["items"], key=lambda i: LEVEL_ORDER.index(i["level"]))
     groups = []
-    for j in JURIS_ORDER:
-        g = [i for i in items if i["jurisdiction"] == j]
+    for j in LEVEL_ORDER:
+        g = [i for i in items if i["level"] == j]
         if g:
             groups.append((j, g))
     actions = sorted(b["actions"], key=lambda a: PRI_ORDER[a["priority"]])
@@ -154,15 +159,15 @@ def context(b: dict) -> dict:
     return {
         "css": (RADAR_DIR / "base.css").read_text(encoding="utf-8"),
         "example": bool(b.get("example")),
-        "edition": b.get("edition") or f"WEEK {start.isocalendar().week}",
+        "edition": b.get("edition") or f"SEMAINE {start.isocalendar().week}",
         "window_label": window_label(start, end),
-        "window_long": f"{long_date(b['window']['start'])} to {long_date(b['window']['end'])}",
-        "radar_label": f"to {radar_end.day} {radar_end.strftime('%B')} {radar_end.year}",
+        "window_long": f"Du {long_date(b['window']['start'])} au {long_date(b['window']['end'])}",
+        "radar_label": f"jusqu'au {long_date(radar_end)}",
         "top3": b["top3"],
         "items": items,
-        "items_by_juris": groups,
-        "juris_names": JURIS_NAMES,
-        "no_change": [j for j in JURIS_ORDER if j in b.get("no_change", [])],
+        "items_by_level": groups,
+        "level_names": LEVEL_NAMES,
+        "quiet_week_note": b.get("quiet_week_note", ""),
         "immediate_theme": b.get("immediate_theme", ""),
         "control_line": b.get("control_line", ""),
         "red": [a for a in actions if a["priority"] == "RED"],
@@ -175,9 +180,12 @@ def context(b: dict) -> dict:
 
 
 def render_pdf(template: str, ctx: dict, out: Path) -> None:
+    render_pdf_html(make_env().get_template(template).render(**ctx), out)
+
+
+def render_pdf_html(html: str, out: Path) -> None:
     from weasyprint import HTML  # imported late so --help works without it
 
-    html = make_env().get_template(template).render(**ctx)
     HTML(string=html, base_url=RADAR_DIR.as_uri() + "/").write_pdf(str(out))
 
 
@@ -300,7 +308,7 @@ def build(briefing_path: Path) -> tuple[Path, Path]:
     # Content-separation check: PDF 1 must not show owners / internal targets.
     news_text = "\n".join(extract_text(news))
     for a in b["actions"]:
-        if a["proposed_owner"] and a["proposed_owner"] in news_text and "Owner" in news_text:
+        if a["proposed_owner"] and a["proposed_owner"] in news_text and "Responsable" in news_text:
             raise BuildError(f"PDF 1 appears to contain owner '{a['proposed_owner']}'")
     return news, action
 

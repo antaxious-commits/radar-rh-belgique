@@ -29,28 +29,28 @@ def main(argv=None) -> int:
         return 2
     folder = ROOT / argv[0]
     b = json.loads((folder / "briefing.json").read_text(encoding="utf-8"))
-    window = f"{long_date(b['window']['start'])} – {long_date(b['window']['end'])}"
+    window = f"du {long_date(b['window']['start'])} au {long_date(b['window']['end'])}"
     e = html.escape
 
     top3 = "".join(
         f"<li><b style='color:{ {'RED': '#C0392B', 'AMBER': '#B7791F', 'GREEN': '#2F855A'}[t['priority']] }'>"
-        f"{e(t['priority'])}</b> <b>{e(t['headline'])}</b><br>{e(t['why_it_matters'])}</li>"
+        f"{ {'RED': 'ROUGE', 'AMBER': 'ORANGE', 'GREEN': 'VERT'}[t['priority']] }</b> <b>{e(t['headline'])}</b><br>{e(t['why_it_matters'])}</li>"
         for t in b["top3"]
     )
     site = os.environ.get("SITE_URL", "")
     body = (
-        f"<p>HR Europe Radar, week of {e(window)}.</p><p><b>Top 3</b></p><ol>{top3}</ol>"
-        "<p>Both PDFs are attached (Weekly News and Action Plan).</p>"
-        + (f"<p>Archive: <a href='{e(site)}'>{e(site)}</a></p>" if site else "")
+        f"<p>Radar RH Belgique, semaine {e(window)}.</p><p><b>Les 3 points clés</b></p><ol>{top3}</ol>"
+        "<p>Les deux PDF sont joints (Actualités et Plan d’action).</p>"
+        + (f"<p>Archives : <a href='{e(site)}'>{e(site)}</a></p>" if site else "")
     )
     attachments = [
         {"filename": f, "content": base64.b64encode((folder / f).read_bytes()).decode()}
         for f in (NEWS_PDF, ACTION_PDF)
     ]
     payload = {
-        "from": os.environ.get("FROM_EMAIL") or "HR Europe Radar <onboarding@resend.dev>",
+        "from": os.environ.get("FROM_EMAIL") or "Radar RH Belgique <onboarding@resend.dev>",
         "to": [x.strip() for x in os.environ["TO_EMAIL"].split(",") if x.strip()],
-        "subject": f"HR Europe Radar | {window}",
+        "subject": f"Radar RH Belgique | semaine {window}",
         "html": body,
         "attachments": attachments,
     }

@@ -44,7 +44,18 @@ def main(argv=None) -> int:
     ap.add_argument("--start", help="a date inside the week to build (default: preceding completed week)")
     ap.add_argument("--print-window", action="store_true", help="print window and folder, then exit")
     ap.add_argument("--research-api", action="store_true", help="research via the Anthropic API first (needs ANTHROPIC_API_KEY)")
+    ap.add_argument("--input", type=Path, help="build this briefing.json instead (e.g. an ad-hoc scan in briefings/adhoc_<date>/)")
+    ap.add_argument("--no-site", action="store_true", help="do not rebuild the website")
     args = ap.parse_args(argv)
+
+    if args.input:
+        from radar import build_pdfs
+        try:
+            build_pdfs.build(args.input)
+        except build_pdfs.BuildError as e:
+            print(f"ERROR: {e}", file=sys.stderr)
+            return 1
+        return 0 if args.no_site else subprocess.call([sys.executable, str(ROOT / "site" / "build_site.py")])
 
     start, end = parse_start(args.start) if args.start else preceding_week()
     folder = briefing_dir(start, end)
@@ -72,6 +83,8 @@ def main(argv=None) -> int:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1
 
+    if args.no_site:
+        return 0
     return subprocess.call([sys.executable, str(ROOT / "site" / "build_site.py")])
 
 

@@ -1,30 +1,72 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://example.invalid/hr-europe-radar/briefing.schema.json",
-  "title": "HR Europe Radar weekly briefing",
+  "title": "Radar RH Belgique weekly briefing (all text in French)",
   "type": "object",
   "additionalProperties": false,
-  "required": ["window", "top3", "items", "actions", "deadlines_90d", "what_this_means", "sources"],
+  "required": [
+    "window",
+    "top3",
+    "items",
+    "actions",
+    "deadlines_90d",
+    "what_this_means",
+    "sources"
+  ],
   "$defs": {
-    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
-    "jurisdiction": { "enum": ["EU", "FR", "BE", "NL", "DE", "ES", "IT"] },
-    "source_id": { "type": "integer", "minimum": 1 },
-    "source_ids": { "type": "array", "items": { "$ref": "#/$defs/source_id" }, "minItems": 1 }
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "source_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source_id"
+      },
+      "minItems": 1
+    },
+    "level": {
+      "enum": [
+        "federal",
+        "flanders",
+        "wallonia",
+        "brussels",
+        "german_community"
+      ],
+      "description": "Belgian level of government"
+    }
   },
   "properties": {
     "example": {
       "type": "boolean",
       "description": "true only for the design sample; prints an EXAMPLE DATA watermark. Never true for real runs."
     },
-    "edition": { "type": "string", "description": "Optional edition label, e.g. 'Week 45'. Defaults to the ISO week of the window start." },
+    "edition": {
+      "type": "string",
+      "description": "Optional edition label, e.g. 'Week 45'. Defaults to the ISO week of the window start."
+    },
     "window": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["start", "end", "timezone"],
+      "required": [
+        "start",
+        "end",
+        "timezone"
+      ],
       "properties": {
-        "start": { "$ref": "#/$defs/date" },
-        "end": { "$ref": "#/$defs/date" },
-        "timezone": { "const": "Europe/Brussels" }
+        "start": {
+          "$ref": "#/$defs/date"
+        },
+        "end": {
+          "$ref": "#/$defs/date"
+        },
+        "timezone": {
+          "const": "Europe/Brussels"
+        }
       }
     },
     "top3": {
@@ -34,59 +76,161 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["item_id", "headline", "why_it_matters", "priority"],
+        "required": [
+          "item_id",
+          "headline",
+          "why_it_matters",
+          "priority"
+        ],
         "properties": {
-          "item_id": { "type": "string", "description": "id of an entry in items[]" },
-          "headline": { "type": "string" },
-          "why_it_matters": { "type": "string" },
-          "priority": { "enum": ["RED", "AMBER", "GREEN"] }
+          "item_id": {
+            "type": "string",
+            "description": "id of an entry in items[]"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "why_it_matters": {
+            "type": "string"
+          },
+          "priority": {
+            "enum": [
+              "RED",
+              "AMBER",
+              "GREEN"
+            ]
+          }
         }
       }
     },
     "items": {
       "type": "array",
-      "description": "News cards for PDF 1. Order: EU, FR, BE, NL, DE, ES, IT (builder sorts).",
+      "description": "News cards for PDF 1. Order: federal, flanders, wallonia, brussels, german_community (builder sorts).",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "jurisdiction", "topic", "status", "effective_date", "what_changed", "potential_impact", "relevance_tags", "consultation", "source_ids"],
+        "required": [
+          "id",
+          "level",
+          "topic",
+          "status",
+          "effective_date",
+          "what_changed",
+          "potential_impact",
+          "relevance_tags",
+          "consultation",
+          "source_ids"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "jurisdiction": { "$ref": "#/$defs/jurisdiction" },
-          "topic": { "type": "string" },
-          "status": { "type": "string", "description": "e.g. In force, Published, Adopted, Proposal, Announced, Ruling" },
-          "effective_date": { "type": "string", "description": "Free text, e.g. '1 January 2027' or 'Not specified'" },
-          "what_changed": { "type": "string", "description": "2-4 sentences, concrete facts, original terms in [brackets]" },
-          "potential_impact": { "type": "string", "description": "2-3 conditional sentences" },
-          "relevance_tags": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
-          "consultation": { "enum": ["confirmed", "conditional", "none"] },
-          "source_ids": { "$ref": "#/$defs/source_ids" }
+          "id": {
+            "type": "string"
+          },
+          "level": {
+            "$ref": "#/$defs/level"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "description": "French, e.g. En vigueur, Publié au Moniteur belge, Adopté, Proposition, Annoncé, Arrêt"
+          },
+          "effective_date": {
+            "type": "string",
+            "description": "French free text, e.g. '1er janvier 2027' or 'Non précisée'"
+          },
+          "what_changed": {
+            "type": "string",
+            "description": "2-4 sentences, concrete facts, original terms in [brackets]"
+          },
+          "potential_impact": {
+            "type": "string",
+            "description": "2-3 conditional sentences"
+          },
+          "relevance_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "consultation": {
+            "enum": [
+              "confirmed",
+              "conditional",
+              "none"
+            ]
+          },
+          "source_ids": {
+            "$ref": "#/$defs/source_ids"
+          }
         }
       }
     },
-    "no_change": {
-      "type": "array",
-      "description": "Jurisdictions where real searching found no relevant change this week.",
-      "items": { "$ref": "#/$defs/jurisdiction" }
+    "immediate_theme": {
+      "type": "string",
+      "description": "French theme for section 1, e.g. 'SÉCURISER LA PAIE DE NOVEMBRE'"
     },
-    "immediate_theme": { "type": "string", "description": "Theme for section 1, e.g. 'SECURE NOVEMBER PAYROLL'" },
-    "control_line": { "type": "string", "description": "One-line 'Control:' rule under the RED table" },
+    "control_line": {
+      "type": "string",
+      "description": "One-line 'Contrôle :' rule under the RED table (French)"
+    },
     "actions": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["priority", "title", "steps", "proposed_owner", "internal_target", "evidence", "source_ids", "action_type"],
+        "required": [
+          "priority",
+          "title",
+          "steps",
+          "proposed_owner",
+          "internal_target",
+          "evidence",
+          "source_ids",
+          "action_type"
+        ],
         "properties": {
-          "priority": { "enum": ["RED", "AMBER", "GREEN"] },
-          "title": { "type": "string" },
-          "steps": { "type": "string", "description": "2-3 sentences of concrete steps" },
-          "proposed_owner": { "type": "string", "description": "Role, a proposal only" },
-          "internal_target": { "type": "string", "description": "Recommended internal date; never a statutory deadline" },
-          "legal_date": { "type": ["string", "null"], "description": "Statutory date, if any (AMBER rows)" },
-          "evidence": { "type": "string", "description": "Evidence of completion / completion test" },
-          "source_ids": { "$ref": "#/$defs/source_ids" },
-          "action_type": { "type": "string", "description": "e.g. Payroll update, Policy/process update, CSE consultation, Monitoring" }
+          "priority": {
+            "enum": [
+              "RED",
+              "AMBER",
+              "GREEN"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "steps": {
+            "type": "string",
+            "description": "2-3 sentences of concrete steps"
+          },
+          "proposed_owner": {
+            "type": "string",
+            "description": "Role, a proposal only"
+          },
+          "internal_target": {
+            "type": "string",
+            "description": "Recommended internal date; never a statutory deadline"
+          },
+          "legal_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Statutory date, if any (AMBER rows)"
+          },
+          "evidence": {
+            "type": "string",
+            "description": "Evidence of completion / completion test"
+          },
+          "source_ids": {
+            "$ref": "#/$defs/source_ids"
+          },
+          "action_type": {
+            "type": "string",
+            "description": "e.g. Payroll update, Policy/process update, CSE consultation, Monitoring"
+          }
         }
       }
     },
@@ -95,26 +239,52 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["date", "jurisdiction", "description", "type", "source_id"],
+        "required": [
+          "date",
+          "level",
+          "description",
+          "type",
+          "source_id"
+        ],
         "properties": {
-          "date": { "$ref": "#/$defs/date" },
-          "jurisdiction": { "$ref": "#/$defs/jurisdiction" },
-          "description": { "type": "string" },
-          "type": { "enum": ["legal_deadline", "application_date"] },
-          "source_id": { "$ref": "#/$defs/source_id" }
+          "date": {
+            "$ref": "#/$defs/date"
+          },
+          "level": {
+            "$ref": "#/$defs/level"
+          },
+          "description": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "legal_deadline",
+              "application_date"
+            ]
+          },
+          "source_id": {
+            "$ref": "#/$defs/source_id"
+          }
         }
       }
     },
     "what_this_means": {
       "type": "array",
-      "description": "Section 4 of PDF 2. Use headings 'Your first move', 'Escalate first', 'Tracking flow'.",
+      "description": "Section 4 of PDF 2. Headings: 'Votre première action', 'À escalader en priorité', 'Suivi' (Suivi text: steps separated by '>').",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["heading", "text"],
+        "required": [
+          "heading",
+          "text"
+        ],
         "properties": {
-          "heading": { "type": "string" },
-          "text": { "type": "string" }
+          "heading": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
         }
       }
     },
@@ -124,14 +294,33 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "label", "publisher", "url"],
+        "required": [
+          "id",
+          "label",
+          "publisher",
+          "url"
+        ],
         "properties": {
-          "id": { "$ref": "#/$defs/source_id" },
-          "label": { "type": "string", "description": "'Country topic', e.g. 'FR URSSAF ceiling 2027'" },
-          "publisher": { "type": "string" },
-          "url": { "type": "string", "pattern": "^https?://" }
+          "id": {
+            "$ref": "#/$defs/source_id"
+          },
+          "label": {
+            "type": "string",
+            "description": "Short French label, e.g. 'Indexation CP 200'"
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://"
+          }
         }
       }
+    },
+    "quiet_week_note": {
+      "type": "string",
+      "description": "Optional French sentence when real searching found few or no developments"
     }
   }
 }

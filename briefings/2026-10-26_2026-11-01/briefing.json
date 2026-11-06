@@ -1,128 +1,262 @@
 {
-  "example": true,
-  "edition": "EXAMPLE",
   "window": { "start": "2026-10-26", "end": "2026-11-01", "timezone": "Europe/Brussels" },
   "top3": [
-    { "item_id": "be-index", "priority": "RED", "headline": "EXAMPLE: Belgian sector wage indexation applies to November payroll", "why_it_matters": "Placeholder text showing how a payroll-first Top 3 entry reads on the website and in PDF 1." },
-    { "item_id": "eu-paytransparency", "priority": "AMBER", "headline": "EXAMPLE: Pay transparency transposition step in a member state", "why_it_matters": "Placeholder showing a deadline-driven item that feeds the 90-day radar." },
-    { "item_id": "fr-ceiling", "priority": "AMBER", "headline": "EXAMPLE: Social-security ceiling for next year published", "why_it_matters": "Placeholder showing a 1 January payroll parameter change." }
+    {
+      "item_id": "pp-novembre",
+      "priority": "RED",
+      "headline": "Nouvelles règles de précompte professionnel sur les rémunérations de novembre",
+      "why_it_matters": "Le salaire net change dès la paie de novembre, à la hausse ou à la baisse selon la situation familiale ; les travailleurs doivent être prévenus avant la fiche de paie."
+    },
+    {
+      "item_id": "index-cp-novembre",
+      "priority": "RED",
+      "headline": "Indexation au 1er novembre dans plusieurs commissions paritaires, avec plafonnement au-delà de 4 000 EUR",
+      "why_it_matters": "Les barèmes de novembre doivent intégrer l'indexation sectorielle et, pour les salaires de plus de 4 000 EUR bruts, la modération salariale en vigueur depuis le 1er juin 2026."
+    },
+    {
+      "item_id": "paa-2027",
+      "priority": "AMBER",
+      "headline": "Plan annuel d'action 2027 : l'échéance de soumission au CPPT tombait le 1er novembre",
+      "why_it_matters": "Si le projet n'a pas été soumis à temps, il faut régulariser rapidement pour que l'avis du CPPT soit rendu avant le 1er janvier 2027."
+    }
   ],
   "items": [
     {
-      "id": "eu-paytransparency", "jurisdiction": "EU", "topic": "Pay Transparency Directive: transposition step (EXAMPLE)",
-      "status": "Proposal", "effective_date": "Not specified",
-      "what_changed": "EXAMPLE DATA. A national government publishes a draft transposition bill for the Pay Transparency Directive [Directive (EU) 2023/970]. The draft sets out pay-range disclosure in job adverts and a gender pay-gap reporting threshold. This paragraph only demonstrates length and tone.",
-      "potential_impact": "If adopted as drafted, recruitment templates and pay-range governance may need to change before the transposition deadline. Applicability depends on headcount thresholds per entity.",
-      "relevance_tags": ["Reward", "Recruitment", "Reporting"], "consultation": "conditional", "source_ids": [1]
+      "id": "pp-novembre",
+      "level": "federal",
+      "topic": "Précompte professionnel : nouvelles règles de calcul",
+      "status": "En vigueur",
+      "effective_date": "Rémunérations à partir du 1er novembre 2026",
+      "what_changed": "L'arrêté royal du 27 septembre 2026 portant des modifications en matière de précompte professionnel (Moniteur belge du 2 octobre 2026), qui exécute la loi du 15 juillet 2026 portant réforme de l'impôt des personnes physiques, s'applique dès novembre. Trois mesures : augmentation de la quotité exemptée d'impôt, renforcement des réductions pour un ou deux enfants à charge (un enfant : de 52 à 57 EUR par mois) et réduction du quotient conjugal ; la réduction pour quatre enfants passe de 635 à 624 EUR par mois. Les pensions et le chômage avec complément d'entreprise ne sont pas encore adaptés en 2026.",
+      "potential_impact": "Le net de novembre pourrait augmenter pour certains travailleurs et diminuer pour d'autres, notamment les familles nombreuses et les couples bénéficiant du quotient conjugal (exemple Securex : -29,90 EUR nets par mois pour un salaire de 5 000 EUR bruts, marié, quatre enfants). Des questions des travailleurs sont probables à réception de la fiche de paie, et la prime de fin d'année pourrait aussi être touchée.",
+      "relevance_tags": ["Paie", "Fiscalité", "Communication aux travailleurs"],
+      "consultation": "none",
+      "source_ids": [1, 2]
     },
     {
-      "id": "fr-ceiling", "jurisdiction": "FR", "topic": "Social-security ceiling 2027 (EXAMPLE)",
-      "status": "Published", "effective_date": "1 January 2027",
-      "what_changed": "EXAMPLE DATA. An order sets the annual social-security ceiling [plafond annuel de la sécurité sociale, PASS] for next year. Contribution bases and several benefit caps are indexed on this ceiling. Figures intentionally omitted in this sample.",
-      "potential_impact": "Payroll parameters may need updating for January payroll; capped benefits and contribution bases could shift. Impact depends on payroll provider set-up.",
-      "relevance_tags": ["Payroll", "Benefits"], "consultation": "none", "source_ids": [2]
+      "id": "index-cp-novembre",
+      "level": "federal",
+      "topic": "Indexations sectorielles au 1er novembre et plafonnement au-delà de 4 000 EUR",
+      "status": "En vigueur",
+      "effective_date": "1er novembre 2026",
+      "what_changed": "Selon la CNE, six commissions paritaires d'employés indexent les salaires au 1er novembre 2026 : CP 201 (+2 %), CP 202 (+1 %), CP 202.01 (+2 %), CP 207 (+2 %), CP 310 (+0,77 %) et CP 312 (+2 %) ; cette liste ne couvre que les secteurs suivis par la CNE. Depuis le 1er juin 2026, la loi-programme du 30 mai 2026 limite l'indexation des salaires de référence supérieurs à 4 000 EUR bruts par mois [index centimes] : la partie au-delà de 4 000 EUR n'est pas indexée tant qu'une modération de 2 % n'a pas été appliquée. Seul le salaire mensuel de base à temps plein est visé, et aucune dérogation conventionnelle n'est permise.",
+      "potential_impact": "Pour les entités relevant de ces commissions paritaires, les barèmes de novembre devraient être adaptés. Pour les salaires au-delà de 4 000 EUR, l'indexation de novembre pourrait être partielle selon le moment où la modération de 2 % est atteinte dans le mécanisme sectoriel ; l'applicabilité dépend de la commission paritaire de chaque entité.",
+      "relevance_tags": ["Paie", "Indexation", "Commissions paritaires"],
+      "consultation": "none",
+      "source_ids": [3, 4]
     },
     {
-      "id": "fr-cse", "jurisdiction": "FR", "topic": "Cour de cassation ruling on CSE consultation (EXAMPLE)",
-      "status": "Ruling", "effective_date": "Immediate (case law)",
-      "what_changed": "EXAMPLE DATA. The social chamber [chambre sociale] rules on when a reorganisation project triggers prior consultation of the works council [comité social et économique, CSE]. Shown here to illustrate a confirmed consultation tag.",
-      "potential_impact": "Projects with a material effect on working conditions could require prior CSE consultation before implementation. Applicability depends on the project scope.",
-      "relevance_tags": ["Employee relations", "Change management"], "consultation": "confirmed", "source_ids": [3]
+      "id": "index-octobre",
+      "level": "federal",
+      "topic": "Indice des prix d'octobre 2026 : indice-pivot non dépassé",
+      "status": "Publié",
+      "effective_date": "Non précisée",
+      "what_changed": "Les chiffres d'octobre 2026 (Statbel, relayés le 29 octobre 2026) donnent un indice des prix à la consommation de 105,37, une inflation de 5,26 %, un indice santé de 104,68 et un indice santé lissé de 101,72. L'indice-pivot, fixé à 102,29, n'a pas été dépassé. Le gaz (+11,3 % sur un mois) et l'électricité (+8,5 %) expliquent l'essentiel de la hausse.",
+      "potential_impact": "Un dépassement de l'indice-pivot dans les prochains mois déclencherait l'indexation des allocations sociales et des traitements du secteur public, et pourrait accélérer certaines indexations sectorielles liées à l'indice santé lissé. Le calendrier exact reste à confirmer à la publication des prochains indices.",
+      "relevance_tags": ["Paie", "Indexation", "Budget salarial"],
+      "consultation": "none",
+      "source_ids": [5]
     },
     {
-      "id": "be-index", "jurisdiction": "BE", "topic": "Sector wage indexation, joint committee 200 (EXAMPLE)",
-      "status": "In force", "effective_date": "Payroll of November 2026",
-      "what_changed": "EXAMPLE DATA. A sector indexation applies to salaries in a joint committee [paritair comité / commission paritaire]. The percentage and rounding rules are set by the sector agreement [CAO/CCT]. No real figure is given in this sample.",
-      "potential_impact": "If the entity falls under this joint committee, November payroll may need the indexed scales. Applicability depends on the joint committee of each Belgian entity.",
-      "relevance_tags": ["Payroll", "Collective agreement"], "consultation": "none", "source_ids": [4]
+      "id": "pecule-ouvriers",
+      "level": "federal",
+      "topic": "Pécule de vacances des ouvriers : hausse des cotisations suspendue",
+      "status": "Projet suspendu",
+      "effective_date": "Non précisée (1er janvier 2027 non confirmé)",
+      "what_changed": "Un projet d'arrêté royal prévoyait de relever la cotisation trimestrielle de vacances des ouvriers de 5,57 % à 5,69 % au 1er octobre 2026, puis à 5,84 % au 1er janvier 2027, ainsi que la cotisation de solidarité sur le pécule de 1 % à 1,16 %, pour la période du 1er octobre 2026 au 31 décembre 2033. Selon Partena (29 octobre 2026), les instructions ONSS du trimestre 2026/4 ne reprennent pas cette hausse et le projet ne sera pas signé pour l'instant. Une entrée en vigueur au 1er janvier 2027 reste possible mais non confirmée.",
+      "potential_impact": "Aucune hausse ne devrait être appliquée sur les cotisations du 4e trimestre 2026. Le coût salarial ouvrier 2027 pourrait toutefois augmenter si le projet est repris ; les hypothèses budgétaires 2027 devraient prévoir les deux scénarios.",
+      "relevance_tags": ["Paie", "Cotisations ONSS", "Ouvriers", "Budget 2027"],
+      "consultation": "none",
+      "source_ids": [6]
     },
     {
-      "id": "nl-dba", "jurisdiction": "NL", "topic": "Self-employed enforcement guidance (EXAMPLE)",
-      "status": "Announced", "effective_date": "Not specified",
-      "what_changed": "EXAMPLE DATA. The tax authority announces updated guidance on assessing self-employed contractors under the Wet DBA [Wet deregulering beoordeling arbeidsrelaties]. Illustrates an 'Announced' status line.",
-      "potential_impact": "Contractor engagements could need a renewed employment-status review. Impact depends on the number and type of contractors engaged.",
-      "relevance_tags": ["Contingent workforce", "Tax"], "consultation": "none", "source_ids": [5]
+      "id": "paa-2027",
+      "level": "federal",
+      "topic": "Bien-être au travail : plan annuel d'action 2027",
+      "status": "Échéance légale",
+      "effective_date": "1er novembre 2026 (soumission du projet)",
+      "what_changed": "Le projet de plan annuel d'action [jaaractieplan] doit être soumis pour avis au comité pour la prévention et la protection au travail (CPPT) au plus tard le premier jour du deuxième mois précédant l'exercice, soit le 1er novembre 2026 pour un exercice calendaire 2027. À défaut de CPPT, il est transmis à la délégation syndicale ou, à défaut, directement aux travailleurs. Le plan fixe les objectifs prioritaires de l'année ainsi que les moyens et méthodes, dans le cadre du plan global de prévention de cinq ans.",
+      "potential_impact": "Une soumission tardive exposerait l'employeur à une irrégularité dans la procédure de bien-être et pourrait retarder l'avis du CPPT au-delà du 1er janvier 2027. La consultation du CPPT est une obligation confirmée.",
+      "relevance_tags": ["Bien-être au travail", "Prévention", "Concertation sociale"],
+      "consultation": "confirmed",
+      "source_ids": [7, 8]
     },
     {
-      "id": "de-zeit", "jurisdiction": "DE", "topic": "Working-time recording bill (EXAMPLE)",
-      "status": "Proposal", "effective_date": "Not specified",
-      "what_changed": "EXAMPLE DATA. A ministry draft would codify electronic working-time recording [Arbeitszeiterfassung] following earlier Federal Labour Court [BAG] case law. Shown to illustrate a conditional works-council tag.",
-      "potential_impact": "If adopted, time-recording systems and the related works agreement [Betriebsvereinbarung] may need review. Co-determination rights of the works council [Betriebsrat] would likely apply to new systems.",
-      "relevance_tags": ["Working time", "HR systems"], "consultation": "conditional", "source_ids": [6]
+      "id": "toussaint-dimanche",
+      "level": "federal",
+      "topic": "Toussaint un dimanche : jour férié de remplacement",
+      "status": "Rappel réglementaire",
+      "effective_date": "1er novembre 2026",
+      "what_changed": "Novembre compte deux jours fériés : le 1er novembre (Toussaint) et le 11 novembre (Armistice). La Toussaint tombant un dimanche en 2026, un jour férié de remplacement doit être accordé un autre jour habituel d'activité, comme le rappelle Securex dans son agenda RH de novembre (26 octobre 2026).",
+      "potential_impact": "Si le jour de remplacement n'a pas été fixé ou communiqué, le planning et la paie pourraient être erronés. Les modalités dépendent de la commission paritaire et, à défaut, de la décision prise au niveau de l'entreprise.",
+      "relevance_tags": ["Temps de travail", "Paie", "Règlement de travail"],
+      "consultation": "conditional",
+      "source_ids": [9]
     },
     {
-      "id": "es-jornada", "jurisdiction": "ES", "topic": "Digital time registration regulation (EXAMPLE)",
-      "status": "Published", "effective_date": "Not specified",
-      "what_changed": "EXAMPLE DATA. A regulation on digital working-time registration [registro horario digital] is published in the BOE. Illustrates a Spain card with original terms in brackets.",
-      "potential_impact": "Existing time-registration tools may need to meet new access and retention requirements. Applicability depends on the tool in use per Spanish entity.",
-      "relevance_tags": ["Working time", "Compliance"], "consultation": "conditional", "source_ids": [7]
+      "id": "cp14902-werkbaar",
+      "level": "federal",
+      "topic": "CP 149.02 carrosserie : CCT travail faisable et afflux rendue obligatoire",
+      "status": "Publié au Moniteur belge",
+      "effective_date": "Effet au 1er janvier 2026",
+      "what_changed": "L'arrêté royal du 18 octobre 2026, publié au Moniteur belge du 26 octobre 2026, rend obligatoire la CCT du 19 décembre 2025 conclue au sein de la sous-commission paritaire pour la carrosserie [paritair subcomité voor het koetswerk, 149.02] relative au travail faisable et à l'afflux [werkbaar werk en instroom]. Elle prévoit notamment un modèle de travail faisable (stress, ergonomie, compétences, formation, travailleurs âgés), des formations de mentor et d'accueil via EDUCAM, l'orientation de carrière, les emplois d'atterrissage et le remboursement de frais de garde d'enfants.",
+      "potential_impact": "Uniquement pour les entités relevant de la CP 149.02 : les mesures deviennent opposables à tous les employeurs du secteur, avec effet rétroactif au 1er janvier 2026. Les politiques de formation et d'accueil pourraient devoir être alignées.",
+      "relevance_tags": ["CCT sectorielle", "Formation", "Fin de carrière"],
+      "consultation": "conditional",
+      "source_ids": [10]
     },
     {
-      "id": "it-smart", "jurisdiction": "IT", "topic": "Smart working agreement guidance (EXAMPLE)",
-      "status": "Published", "effective_date": "Not specified",
-      "what_changed": "EXAMPLE DATA. The labour ministry publishes guidance on individual smart working agreements [accordo individuale di lavoro agile]. Illustrates an Italy card.",
-      "potential_impact": "Smart working templates may need a check against the guidance. Impact depends on the applicable CCNL.",
-      "relevance_tags": ["Hybrid work", "Contracts"], "consultation": "none", "source_ids": [8]
+      "id": "prime-reprise",
+      "level": "federal",
+      "topic": "Prime de reprise du travail pour l'engagement de travailleurs en invalidité",
+      "status": "Annoncé (base légale à confirmer)",
+      "effective_date": "Autorisations débutant à partir du 1er novembre 2026",
+      "what_changed": "Selon Partena (22 octobre 2026), la prime de reprise du travail versée à l'employeur qui engage un travailleur en invalidité autorisé à reprendre une activité passe de 1 725 EUR à 3 000 EUR, lorsque la période d'autorisation de la mutualité débute à partir du 1er novembre 2026 et que l'occupation dure au moins trois mois. La source citée est le projet de loi exécutant une politique renforcée de retour au travail (II) (doc. Chambre 56K1789) ; sa publication au Moniteur belge n'a pas été vérifiée. La demande se fait en ligne auprès du Collège intermutualiste national.",
+      "potential_impact": "Pour les recrutements de travailleurs en invalidité, l'incitant financier pourrait presque doubler. Le montant final dépend de l'adoption définitive du texte ; les flexi-jobs et travailleurs occasionnels sont exclus.",
+      "relevance_tags": ["Recrutement", "Retour au travail", "Incitants"],
+      "consultation": "none",
+      "source_ids": [11]
     }
   ],
-  "no_change": [],
-  "immediate_theme": "SECURE NOVEMBER PAYROLL",
-  "control_line": "EXAMPLE: no November payroll is released before the indexation check is signed off by Payroll and HRBP.",
+  "quiet_week_note": "Aucune mesure régionale (Flandre, Wallonie, Bruxelles, Communauté germanophone) publiée dans la période n'a été identifiée après recherche en français et en néerlandais.",
+  "immediate_theme": "SÉCURISER LA PAIE DE NOVEMBRE",
+  "control_line": "aucune paie de novembre n'est clôturée avant validation par le secrétariat social du nouveau précompte professionnel, des barèmes indexés et du jour férié de remplacement.",
   "actions": [
     {
-      "priority": "RED", "title": "Confirm Belgian indexation for November payroll (EXAMPLE)",
-      "steps": "Map each Belgian entity to its joint committee. Confirm with the payroll provider that the indexed scales are loaded before cut-off.",
-      "proposed_owner": "Payroll Lead BE", "internal_target": "Internal target: before November cut-off",
-      "legal_date": null, "evidence": "Provider confirmation and test payslip reviewed.",
-      "source_ids": [4], "action_type": "Payroll update"
+      "priority": "RED",
+      "title": "Vérifier le nouveau précompte professionnel sur la paie de novembre",
+      "steps": "Demander au secrétariat social la confirmation que les nouvelles règles sont appliquées aux rémunérations de novembre et contrôler un échantillon de fiches (célibataire avec enfant, marié avec quotient conjugal, famille nombreuse). Préparer une note courte aux travailleurs expliquant pourquoi le net peut varier.",
+      "proposed_owner": "Responsable paie Belgique",
+      "internal_target": "Échéance interne : avant la clôture de la paie de novembre",
+      "legal_date": null,
+      "evidence": "Confirmation écrite du secrétariat social, échantillon de fiches contrôlé, note aux travailleurs envoyée.",
+      "source_ids": [1, 2],
+      "action_type": "Mise à jour paie"
     },
     {
-      "priority": "AMBER", "title": "Update French payroll parameters for 2027 (EXAMPLE)",
-      "steps": "Load the new ceiling into payroll and review capped benefits. Test on December parallel run.",
-      "proposed_owner": "Payroll Lead FR", "internal_target": "Internal target: 15 December 2026",
-      "legal_date": "1 January 2027", "evidence": "January payslip test reconciles to new ceiling.",
-      "source_ids": [2], "action_type": "Payroll update"
+      "priority": "RED",
+      "title": "Appliquer les indexations sectorielles de novembre et le plafonnement au-delà de 4 000 EUR",
+      "steps": "Lister les commissions paritaires de chaque entité belge et vérifier si une indexation s'applique au 1er novembre (CP 201, 202, 202.01, 207, 310, 312 notamment). Pour les salaires de base supérieurs à 4 000 EUR, vérifier avec le secrétariat social l'application de la modération de 2 % et des cotisations de modération ONSS.",
+      "proposed_owner": "Responsable paie Belgique",
+      "internal_target": "Échéance interne : avant la clôture de la paie de novembre",
+      "legal_date": null,
+      "evidence": "Tableau entité / CP / taux appliqué validé ; contrôle de trois fiches au-dessus de 4 000 EUR.",
+      "source_ids": [3, 4],
+      "action_type": "Mise à jour paie"
     },
     {
-      "priority": "AMBER", "title": "Prepare pay-range disclosure in job adverts (EXAMPLE)",
-      "steps": "Inventory job-advert templates across entities and draft a pay-range field. Align with Reward on range governance.",
-      "proposed_owner": "Talent Acquisition Lead", "internal_target": "Internal target: Q1 2027",
-      "legal_date": "7 June 2026 (transposition deadline, illustrative)", "evidence": "Templates updated and approved by Legal.",
-      "source_ids": [1], "action_type": "Policy/process update"
+      "priority": "RED",
+      "title": "Confirmer le jour férié de remplacement de la Toussaint",
+      "steps": "Vérifier que le jour de remplacement du 1er novembre est fixé (décision sectorielle ou d'entreprise) et communiqué, puis qu'il est correctement encodé dans les plannings et la paie.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "Échéance interne : cette semaine",
+      "legal_date": null,
+      "evidence": "Date de remplacement communiquée et visible dans l'outil de temps et la paie.",
+      "source_ids": [9],
+      "action_type": "Politique/processus"
     },
     {
-      "priority": "GREEN", "title": "Monitor German working-time recording bill (EXAMPLE)",
-      "steps": "Track the parliamentary stage and check whether the current time-recording tool would comply.",
-      "proposed_owner": "HRBP Germany", "internal_target": "Review monthly",
-      "legal_date": null, "evidence": "Gap note shared with works council liaison.",
-      "source_ids": [6], "action_type": "Monitoring"
+      "priority": "AMBER",
+      "title": "Régulariser le plan annuel d'action 2027 auprès du CPPT",
+      "steps": "Vérifier avec le conseiller en prévention que le projet de plan annuel d'action 2027 a été soumis au CPPT (ou à défaut à la délégation syndicale ou aux travailleurs) au plus tard le 1er novembre. Si ce n'est pas le cas, le soumettre immédiatement et planifier l'avis avant le 1er janvier 2027.",
+      "proposed_owner": "Conseiller en prévention interne",
+      "internal_target": "Échéance interne : avant la prochaine réunion du CPPT",
+      "legal_date": "1er novembre 2026 (soumission du projet)",
+      "evidence": "Procès-verbal du CPPT mentionnant la soumission et l'avis sur le plan 2027.",
+      "source_ids": [7, 8],
+      "action_type": "Information-consultation du CPPT"
     },
     {
-      "priority": "GREEN", "title": "Review contractor population in the Netherlands (EXAMPLE)",
-      "steps": "Pull the list of active contractors and flag engagements with employee-like features.",
-      "proposed_owner": "HR Operations NL", "internal_target": "Internal target: January 2027",
-      "legal_date": null, "evidence": "Risk-rated contractor list.",
-      "source_ids": [5], "action_type": "Monitoring"
+      "priority": "AMBER",
+      "title": "Prévoir deux scénarios pour la cotisation de vacances des ouvriers en 2027",
+      "steps": "Intégrer dans le budget 2027 un scénario sans hausse et un scénario à 5,84 % au 1er janvier 2027. Ne pas appliquer de hausse sur le 4e trimestre 2026.",
+      "proposed_owner": "Contrôle de gestion RH",
+      "internal_target": "Échéance interne : clôture du budget 2027",
+      "legal_date": null,
+      "evidence": "Budget 2027 avec les deux hypothèses chiffrées.",
+      "source_ids": [6],
+      "action_type": "Budget"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Suivre l'indice de novembre et le dépassement de l'indice-pivot",
+      "steps": "Surveiller la publication de l'indice de novembre fin novembre et mettre à jour les prévisions d'indexation sectorielle 2027.",
+      "proposed_owner": "Responsable paie Belgique",
+      "internal_target": "Fin novembre 2026",
+      "legal_date": null,
+      "evidence": "Prévision d'indexation mise à jour.",
+      "source_ids": [5],
+      "action_type": "Veille"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Fixer et communiquer les vacances collectives 2027",
+      "steps": "Si l'entreprise ferme collectivement en 2027, faire décider les dates par le conseil d'entreprise (à défaut avec la délégation syndicale ou les travailleurs), les reprendre dans le règlement de travail et les afficher. Partena recommande de le faire au plus tard le 31 décembre 2026 ; il ne s'agit pas d'une échéance légale.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "Échéance interne : 15 décembre 2026",
+      "legal_date": null,
+      "evidence": "Décision du conseil d'entreprise et avis affiché.",
+      "source_ids": [12],
+      "action_type": "Information-consultation du conseil d'entreprise"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Suivre l'avant-projet d'enregistrement obligatoire du temps de travail",
+      "steps": "Un avant-projet prévoit un enregistrement obligatoire du temps de travail à partir du 1er janvier 2027, avec une période transitoire jusqu'au 31 mars 2027 ; aucun texte n'est publié. Inventorier les outils de pointage existants par entité pour être prêt si le texte est adopté.",
+      "proposed_owner": "HR Operations Belgique",
+      "internal_target": "Revue mensuelle",
+      "legal_date": null,
+      "evidence": "Inventaire des outils de pointage par entité.",
+      "source_ids": [13],
+      "action_type": "Veille"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Rappeler la prise des vacances légales 2026",
+      "steps": "Identifier les travailleurs avec un solde important de jours de vacances légales 2026 et leur rappeler de les planifier avant la fin de l'année.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "Échéance interne : 20 novembre 2026",
+      "legal_date": null,
+      "evidence": "Liste des soldes envoyée aux managers.",
+      "source_ids": [14],
+      "action_type": "Politique/processus"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Anticiper la manifestation nationale du 23 novembre",
+      "steps": "Les syndicats en front commun ont annoncé une manifestation nationale à Bruxelles le 23 novembre 2026. Prévoir la continuité des activités et les règles d'absence ; aucune grève générale n'est confirmée à ce stade.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "Échéance interne : 16 novembre 2026",
+      "legal_date": null,
+      "evidence": "Note de continuité partagée avec les managers.",
+      "source_ids": [15],
+      "action_type": "Relations collectives"
     }
   ],
   "deadlines_90d": [
-    { "date": "2026-12-31", "jurisdiction": "BE", "description": "EXAMPLE: temporary exemption ends", "type": "legal_deadline", "source_id": 4 },
-    { "date": "2027-01-01", "jurisdiction": "FR", "description": "EXAMPLE: new social-security ceiling applies", "type": "application_date", "source_id": 2 },
-    { "date": "2027-01-01", "jurisdiction": "NL", "description": "EXAMPLE: annual minimum wage update applies", "type": "application_date", "source_id": 5 }
+    { "date": "2026-11-11", "level": "federal", "description": "Jour férié de l'Armistice", "type": "application_date", "source_id": 9 },
+    { "date": "2026-12-31", "level": "federal", "description": "Fin de l'année de vacances 2026 : les jours de vacances légales 2026 doivent être pris", "type": "legal_deadline", "source_id": 14 }
   ],
   "what_this_means": [
-    { "heading": "Your first move", "text": "EXAMPLE: confirm the Belgian joint-committee mapping with payroll this week." },
-    { "heading": "Escalate first", "text": "EXAMPLE: any entity where the indexation cannot be confirmed before cut-off." },
-    { "heading": "Tracking flow", "text": "Applicability confirmed > Change approved > Tested > Communicated" }
+    { "heading": "Votre première action", "text": "Obtenir cette semaine du secrétariat social la confirmation écrite que la paie de novembre intègre le nouveau précompte professionnel, les indexations sectorielles et le jour férié de remplacement." },
+    { "heading": "À escalader en priorité", "text": "Toute entité belge dont le plan annuel d'action 2027 n'a pas été soumis au CPPT au 1er novembre, et toute baisse de net importante signalée par des travailleurs après la paie de novembre." },
+    { "heading": "Suivi", "text": "Applicabilité confirmée > Changement approuvé > Testé > Communiqué" }
   ],
   "sources": [
-    { "id": 1, "label": "EU Pay transparency (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/eu-pay-transparency" },
-    { "id": 2, "label": "FR Social-security ceiling (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/fr-ceiling" },
-    { "id": 3, "label": "FR CSE consultation ruling (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/fr-cse" },
-    { "id": 4, "label": "BE Sector indexation (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/be-index" },
-    { "id": 5, "label": "NL Self-employed guidance (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/nl-dba" },
-    { "id": 6, "label": "DE Working-time recording (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/de-zeit" },
-    { "id": 7, "label": "ES Digital time registration (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/es-jornada" },
-    { "id": 8, "label": "IT Smart working guidance (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/it-smart" }
+    { "id": 1, "label": "Précompte professionnel novembre 2026", "publisher": "Securex", "url": "https://www.securex.be/fr/lex4you/employeur/actualites/les-salaires-nets-changent-a-partir-de-novembre" },
+    { "id": 2, "label": "Précompte professionnel novembre 2026", "publisher": "Liantis", "url": "https://www.liantis.be/fr/nouvelles/nouvelles-r%C3%A8gles-de-pr%C3%A9compte-professionnel-d%C3%A8s-le-1er-novembre-2026-quel-impact-sur-le" },
+    { "id": 3, "label": "Indexations sectorielles novembre 2026", "publisher": "CNE (CSC)", "url": "https://www.lacsc.be/cne/actualites/2026/11/03/indexations-des-salaires-en-novembre-2026-en-belgique-voici-les-secteurs-qui-en-beneficient" },
+    { "id": 4, "label": "Index centimes", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/remuneration/indexation-automatique-des-salaires/index-centimes" },
+    { "id": 5, "label": "Indice des prix octobre 2026", "publisher": "Syndicats Magazine (FGTB), données Statbel", "url": "https://syndicatsmagazine.be/index-octobre-2026/" },
+    { "id": 6, "label": "Cotisations pécule de vacances des ouvriers", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/financement-du-pecule-de-vacances-des-ouvriers-pas-encore-de-hausse" },
+    { "id": 7, "label": "Plan annuel d'action 2027 et CPPT", "publisher": "UCM", "url": "https://www.ucm.be/actualites/bien-etre-au-travail-presentez-votre-plan-daction-annuel-2026-au-cppt" },
+    { "id": 8, "label": "Règle de soumission du plan annuel d'action", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22151" },
+    { "id": 9, "label": "Agenda RH novembre 2026", "publisher": "Securex", "url": "https://www.securex.be/de/lex4you/arbeitgeber/news/was-bringt-der-monat-november-2026-im-bereich-hr" },
+    { "id": 10, "label": "AR du 18 octobre 2026, CP 149.02", "publisher": "Moniteur belge (via OpenJustice)", "url": "https://etaamb.openjustice.be/nl/koninklijk-besluit-van-18-oktober-2026_n2026202545" },
+    { "id": 11, "label": "Prime de reprise du travail", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/la-prime-de-reprise-du-travail-en-cas-dengagement-de-travailleurs-en" },
+    { "id": 12, "label": "Vacances collectives 2027", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/fermeture-collective-en-2027-communiquez-la-date-des-vacances" },
+    { "id": 13, "label": "Enregistrement du temps de travail 2027", "publisher": "Liantis", "url": "https://www.liantis.be/fr/inspirationnouvelles/enregistrement-obligatoire-du-temps-de-travail-%C3%A0-partir-du-1er-janvier-2027" },
+    { "id": 14, "label": "Agenda RH novembre 2026 (vacances légales)", "publisher": "Securex", "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-november-2026-op-hr-vlak" },
+    { "id": 15, "label": "Manifestation nationale du 23 novembre", "publisher": "RTBF", "url": "https://www.rtbf.be/article/les-trois-syndicats-appellent-a-une-nouvelle-manifestation-nationale-a-bruxelles-le-23-novembre-11803807" }
   ]
 }
