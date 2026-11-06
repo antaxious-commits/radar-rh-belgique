@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/radar-rh-belgique/conges.schema.json",
+  "title": "data/conges.json – public holidays, school holidays, retail peaks",
+  "type": "object",
+  "required": ["updated", "public_holidays", "school_holidays", "retail_peaks", "sources"],
+  "properties": {
+    "updated": {"type": "string", "format": "date"},
+    "public_holidays": {"type": "array", "items": {
+      "type": "object", "required": ["date", "name", "source_id"],
+      "properties": {"date": {"type": "string", "format": "date"}, "name": {"type": "string"},
+                     "note": {"type": "string"}, "source_id": {"type": "integer"}}}},
+    "replacement_rule": {"type": "object", "required": ["text", "source_id"],
+      "properties": {"text": {"type": "string"}, "source_id": {"type": "integer"}}},
+    "school_holidays": {"type": "array", "items": {
+      "type": "object", "required": ["community", "name", "start", "end", "source_id"],
+      "properties": {"community": {"enum": ["fr", "nl", "de"]}, "name": {"type": "string"},
+                     "start": {"type": "string", "format": "date"}, "end": {"type": "string", "format": "date"},
+                     "source_id": {"type": "integer"}}}},
+    "retail_peaks": {"type": "array", "items": {
+      "type": "object", "required": ["start", "end", "name", "status", "source_id"],
+      "properties": {"start": {"type": "string", "format": "date"}, "end": {"type": "string", "format": "date"},
+                     "name": {"type": "string"}, "status": {"enum": ["Légal", "Usage commercial", "Déduit"]},
+                     "note": {"type": "string"}, "source_id": {"type": "integer"}}}},
+    "sources": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "label", "publisher", "url"],
+      "properties": {"id": {"type": "integer", "minimum": 1}, "label": {"type": "string"},
+                     "publisher": {"type": "string"}, "url": {"type": "string", "pattern": "^https?://"}}}}
+  }
+}

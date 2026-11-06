@@ -1,0 +1,861 @@
+{
+  "title": "RH BELGIQUE | 2026 PAR RAPPORT À 2025",
+  "slug": "annee-2026",
+  "date": "2026-11-06",
+  "period": "Année 2026 (et ce qui est déjà connu pour 2027)",
+  "summary": "Référence côte à côte des montants et droits RH belges 2025 et 2026 (et 2027 lorsque c'est officiel) pour un magasin de la CP 311 : RMMMG et barèmes indexés, heures supplémentaires 360/240, préavis réduit, incapacité, jours fériés 2027, précompte et avantages.",
+  "intro": "Tableau de référence des montants et des droits qui comptent pour l'administration RH d'un magasin de la CP 311 (grandes entreprises de vente au détail) à Bruxelles : valeur 2025, valeur 2026 et, lorsqu'elle est officiellement connue, valeur 2027. Recherche menée en français et en néerlandais auprès du SPF Emploi (base de données des salaires minimums), de l'ONSS, du SPF Finances, du Moniteur belge et des secrétariats sociaux. Les mesures seulement annoncées sont signalées comme telles ; un chiffre sans source fraîche est noté « Non vérifié ».",
+  "sections": [
+    {
+      "heading": "LECTURE DU TABLEAU",
+      "paragraphs": [
+        "Situation au 6 novembre 2026. Montants bruts mensuels pour un temps plein, sauf mention contraire ; les barèmes de la CP 311 sont exprimés dans le régime sectoriel de 35 heures par semaine. Chaque ligne renvoie aux sources consultées pour ce rapport ; « Non vérifié » signifie qu'aucune source fraîche n'a permis de confirmer un chiffre, qui n'a donc pas été repris.",
+        "Priorités : ROUGE = à contrôler sur les prochaines paies ou avant une échéance proche ; ORANGE = règle modifiée à intégrer dans les contrôles et les modèles ; VERT = repère stable ou à suivre."
+      ],
+      "bullets": [
+        "ROUGE : nouveau précompte professionnel depuis la paie de novembre 2026, nouveau régime des heures supplémentaires volontaires (360/240 heures), cotisation de solidarité de 30 % sur les incapacités longues, avis des jours de remplacement 2027 à afficher avant le 15 décembre 2026.",
+        "ORANGE : barèmes et RMMMG de la CP 311 indexés de 2 % au 1er juillet 2026, préavis d'une semaine pendant les six premiers mois pour les contrats débutant depuis le 1er août 2026, flexi-jobs ouverts à tous les secteurs, ouverture des magasins jusqu'à 21 heures depuis le 13 août 2026."
+      ]
+    },
+    {
+      "heading": "SALAIRES MINIMUMS ET INDEXATION (CP 311)",
+      "table": {
+        "columns": [
+          "Sujet",
+          "2025",
+          "2026",
+          "2027 (si connu)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Revenu minimum mensuel moyen garanti (RMMMG) national [GGMMI], CCT n° 43, 18 ans et plus",
+              "2 111,89 EUR depuis le 1er février 2025 (indexation).",
+              "2 154,11 EUR au 1er janvier 2026 (indexation) ; 2 189,81 EUR au 1er avril 2026 (hausse conventionnelle) ; 2 233,61 EUR au 1er juillet 2026 (indexation).",
+              "Non vérifié (dépend des prochains dépassements d'indice)."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "cells": [
+              "RMMMG sectoriel CP 311, employés de 21 ans et plus",
+              "2 167,23 EUR (en vigueur au 1er janvier 2025).",
+              "2 210,57 EUR depuis le 1er décembre 2025 ; 2 254,78 EUR au 1er juillet 2026.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "cells": [
+              "Barème CP 311, catégorie I, salaire à l'embauche (0 an d'expérience, 35 h/semaine)",
+              "2 111,98 EUR au 1er janvier 2025 ; 2 154,22 EUR dès le 1er décembre 2025.",
+              "2 154,22 EUR jusqu'au 30 juin 2026 ; 2 197,30 EUR au 1er juillet 2026.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "cells": [
+              "Indexation CP 311 : dates et pourcentages",
+              "+2 % en janvier 2025 et +2 % en décembre 2025 (barèmes et salaires réels).",
+              "+2 % au 1er juillet 2026 (indice-pivot sectoriel 101,94 dépassé en juin 2026). La loi-programme du 30 mai 2026 limite l'indexation de 2026 au-delà d'un salaire de référence plafonné (« index en centimes », 4 000 EUR bruts) : application concrète en CP 311 à confirmer.",
+              "Non vérifié : aucune date d'indexation CP 311 publiée. Le Bureau du Plan prévoit un dépassement de l'indice-pivot général en novembre 2026, sans effet automatique en CP 311."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1,
+              2,
+              3,
+              7,
+              9,
+              18,
+              48
+            ]
+          },
+          {
+            "cells": [
+              "Étudiants CP 311, employés catégorie I (mensuel, 35 h)",
+              "18 ans : 2 074,80 EUR ; 20 ans : 2 099,59 EUR (1er janvier 2025) ; puis 2 117,04 et 2 141,83 EUR dès décembre 2025.",
+              "18 ans : 2 160,12 EUR ; 20 ans : 2 184,91 EUR au 1er juillet 2026.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "PERSONNEL FLEXIBLE, TEMPS DE TRAVAIL ET OUVERTURE",
+      "table": {
+        "columns": [
+          "Sujet",
+          "2025",
+          "2026",
+          "2027 (si connu)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Travail étudiant : contingent d'heures [studentencontingent]",
+              "650 heures par année civile depuis le 1er janvier 2025.",
+              "650 heures par année civile ; compteur remis à zéro au 1er janvier ; Dimona « STU » obligatoire.",
+              "Non vérifié (aucune modification trouvée)."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              10,
+              11
+            ]
+          },
+          {
+            "cells": [
+              "Travail étudiant : cotisation de solidarité",
+              "8,13 % : 5,42 % employeur et 2,71 % étudiant.",
+              "Inchangée : 8,13 % (5,42 % employeur, 2,71 % étudiant). Au-delà de 650 heures, cotisations ordinaires.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              12,
+              13,
+              11
+            ]
+          },
+          {
+            "cells": [
+              "Flexi-jobs : secteurs ouverts",
+              "Liste limitative de secteurs ; la CP 311 est ouverte aux flexi-jobs depuis le 1er janvier 2018.",
+              "Tous les secteurs privés et publics depuis le 1er juillet 2026 (loi du 28 juin 2026), avec opt-out sectoriel possible ; le travailleur doit avoir presté au moins 4/5 d'un temps plein ailleurs au trimestre T-3 (pensionnés : règle propre).",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1,
+              14,
+              18
+            ]
+          },
+          {
+            "cells": [
+              "Flexi-jobs : plafond annuel exonéré d'impôt (non-pensionnés)",
+              "18 000 EUR (revenus 2025).",
+              "18 440 EUR (revenus 2026).",
+              "Non vérifié (indexation annuelle prévue)."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              14
+            ]
+          },
+          {
+            "cells": [
+              "Flexi-salaire minimum",
+              "Hors horeca : au moins le salaire barémique de la fonction (à défaut, le RMMMG). Horeca : 11,64 EUR/heure depuis le 1er février 2025.",
+              "Même règle hors horeca. Horeca : 11,87 EUR/heure au 1er mars 2026, 12,11 EUR/heure au 1er septembre 2026, maximum 21,00 EUR/heure. Depuis le 1er juillet 2026, le plafond de 150 % ne vise plus que le salaire de base. Flexi-pécule : 7,67 %.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              4,
+              5,
+              7,
+              14,
+              1
+            ]
+          },
+          {
+            "cells": [
+              "Heures supplémentaires volontaires et sursalaire",
+              "120 heures par an, avec sursalaire ; en plus, 120 heures « de relance » sans sursalaire, exonérées d'ONSS et d'impôt (régime prolongé jusqu'au 31 mars 2026).",
+              "Depuis le 1er avril 2026 (loi publiée au Moniteur belge du 1er juin 2026, effet rétroactif) : 360 heures par an, dont 240 sans sursalaire, exonérées d'ONSS et de précompte ; les heures avec sursalaire restent exonérées d'ONSS mais soumises au précompte. Heures de relance du 1er trimestre imputées sur le quota ; accord écrit valable un an ; temps partiels admis après 3 ans de temps partiel.",
+              "Non vérifié"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "cells": [
+              "Temps partiel : durée hebdomadaire minimale et horaires au règlement de travail",
+              "1/3 d'un temps plein ; chaque horaire à temps plein repris au règlement de travail.",
+              "1/10 d'un temps plein depuis le 1er juin 2026 (loi du 18 mai 2026), dérogations possibles par arrêté royal ; possibilité d'un cadre horaire général au règlement de travail sans lister chaque horaire.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              18
+            ]
+          },
+          {
+            "cells": [
+              "Heures d'ouverture des magasins et travail du dimanche",
+              "Fermeture obligatoire avant 5 heures et après 20 heures (21 heures le vendredi et la veille d'un jour férié) ; jour de repos hebdomadaire de 24 heures obligatoire.",
+              "Depuis le 13 août 2026 (loi du 20 juillet 2026, MB du 3 août 2026) : ouverture possible de 5 à 21 heures ; jour de repos hebdomadaire obligatoire supprimé. Les règles du droit du travail (travail du dimanche, heures supplémentaires) ne sont pas modifiées par cette loi.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "FIN DE CONTRAT ET ABSENCES",
+      "table": {
+        "columns": [
+          "Sujet",
+          "2025",
+          "2026",
+          "2027 (si connu)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Préavis pendant les six premiers mois [opzeggingstermijn]",
+              "Congé par l'employeur : 1 semaine (moins de 3 mois), puis 3, 4 et 5 semaines (de 3 à 6 mois). Démission : 1 ou 2 semaines.",
+              "Contrats dont l'exécution débute à partir du 1er août 2026 : 1 semaine pour les deux parties pendant les six premiers mois (loi du 3 juin 2026, MB du 15 juin 2026). Contrats antérieurs : anciens délais.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              19,
+              20
+            ]
+          },
+          {
+            "cells": [
+              "Plafond du préavis donné par l'employeur",
+              "Pas de plafond (par exemple 65 semaines entre 23 et 24 ans d'ancienneté).",
+              "52 semaines dès 17 ans d'ancienneté, pour les contrats dont l'exécution débute à partir du 1er juin 2026 ; démission inchangée.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              19,
+              18
+            ]
+          },
+          {
+            "cells": [
+              "Outplacement (régime général)",
+              "Préavis ou indemnité d'au moins 30 semaines : 60 heures, valeur de 1/12 de la rémunération annuelle, entre 1 800 et 5 500 EUR ; 4 semaines imputées sur l'indemnité.",
+              "Aucune modification trouvée dans les sources officielles consultées.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              21
+            ]
+          },
+          {
+            "cells": [
+              "Certificat médical : dispense pour le premier jour",
+              "3 fois par année civile.",
+              "2 fois par année civile depuis le 1er janvier 2026 (règle particulière possible pour les employeurs de moins de 50 travailleurs via le règlement de travail).",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              22
+            ]
+          },
+          {
+            "cells": [
+              "Salaire garanti et rechute [herval]",
+              "Salaire garanti de 30 jours (employés) ; rechute : délai de 14 jours.",
+              "Salaire garanti inchangé ; délai de rechute porté à 8 semaines pour les incapacités débutant dès le 1er janvier 2026 ; fin de la limite de 20 semaines en reprise partielle.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              22,
+              23
+            ]
+          },
+          {
+            "cells": [
+              "Cotisation de solidarité de 30 % (incapacité de longue durée)",
+              "Cotisation de responsabilisation (supprimée au 31 décembre 2025).",
+              "30 % des indemnités de maladie des 2e et 3e mois d'incapacité primaire, pour les employeurs de plus de 50 travailleurs ; travailleurs de 18 à 54 ans ; étudiants, flexi-jobbers et intérimaires exclus ; perçue par l'ONSS au 3e trimestre suivant.",
+              "Extension aux 4e et 5e mois au 1er janvier 2027 (annoncée ; Securex la présente comme acquise)."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              22,
+              23
+            ]
+          },
+          {
+            "cells": [
+              "Réintégration et force majeure médicale",
+              "Force majeure médicale possible après 9 mois d'incapacité.",
+              "Après 6 mois ; politique de contact au règlement de travail ; évaluation du potentiel de travail après 8 semaines ; trajet de réintégration obligatoire (20 travailleurs ou plus) au plus tard 6 mois après le début de l'incapacité.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              22
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "VACANCES ET JOURS FÉRIÉS",
+      "table": {
+        "columns": [
+          "Sujet",
+          "2025",
+          "2026",
+          "2027 (si connu)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Jours de vacances légaux",
+              "20 jours (4 semaines) en régime de 5 jours.",
+              "Inchangé : 20 jours en régime de 5 jours.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              24
+            ]
+          },
+          {
+            "cells": [
+              "Pécule de vacances des employés",
+              "Simple pécule : rémunération normale des jours de vacances ; double pécule : 92 % de la rémunération mensuelle brute.",
+              "Aucune modification trouvée : simple pécule et double pécule de 92 %.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              24
+            ]
+          },
+          {
+            "cells": [
+              "Jours fériés légaux et jours de remplacement",
+              "10 jours fériés légaux (liste des jours tombant un week-end non revérifiée pour 2025).",
+              "10 jours ; samedi 15 août et dimanche 1er novembre 2026 (un jour férié tombant un dimanche est toujours remplacé ; un samedi, seulement si c'est un jour habituel d'inactivité).",
+              "10 jours ; samedi 1er mai, dimanche 15 août et samedi 25 décembre 2027. Avis des jours de remplacement à afficher avant le 15 décembre 2026."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "FISCALITÉ, AVANTAGES ET MOBILITÉ",
+      "table": {
+        "columns": [
+          "Sujet",
+          "2025",
+          "2026",
+          "2027 (si connu)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Quotité exemptée d'impôt et précompte professionnel",
+              "10 910 EUR (revenus 2025).",
+              "11 550 EUR (revenus 2026, réforme IPP, loi du 15 juillet 2026) ; nouveau précompte sur les rémunérations payées depuis le 1er novembre 2026 (AR du 27 septembre 2026).",
+              "Non vérifié"
+            ],
+            "priority": "RED",
+            "source_ids": [
+              28,
+              29
+            ]
+          },
+          {
+            "cells": [
+              "Bonus à l'emploi social (employés, temps plein)",
+              "Au 1er février 2025 : volet A 120,59 EUR jusqu'à 2 777,83 EUR ; volet B 162,62 EUR jusqu'à 2 175,25 EUR.",
+              "Au 1er juillet 2026 : volet A 127,54 EUR jusqu'à 2 937,93 EUR ; volet B 171,99 EUR jusqu'à 2 300,62 EUR. Au 1er septembre 2026, le volet A s'éteint à 3 403,62 EUR.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              30,
+              31
+            ]
+          },
+          {
+            "cells": [
+              "Bonus à l'emploi fiscal",
+              "33,14 % (volet A) et 52,54 % (volet B) du bonus social.",
+              "Volet B porté à 63 % pour les revenus 2026, intégré au précompte depuis le 1er août 2026.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              8,
+              29
+            ]
+          },
+          {
+            "cells": [
+              "Chèques-repas [maaltijdcheques]",
+              "Valeur maximale 8,00 EUR : part patronale 6,91 EUR au plus, part du travailleur 1,09 EUR au moins.",
+              "Valeur maximale 10,00 EUR depuis le 1er janvier 2026 : part patronale 8,91 EUR au plus (AR du 10 novembre 2025, MB du 17 novembre 2025), part du travailleur 1,09 EUR au moins. Hausse non automatique (CCT requise) ; déduction fiscale de l'employeur portée de 2 à 4 EUR si la part patronale maximale est appliquée.",
+              "Non vérifié"
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              32,
+              33,
+              36
+            ]
+          },
+          {
+            "cells": [
+              "Éco-chèques",
+              "250 EUR maximum par travailleur et par année civile.",
+              "250 EUR maximum ; aucune modification dans les instructions ONSS 2026/3.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              34,
+              35
+            ]
+          },
+          {
+            "cells": [
+              "Indemnité vélo (domicile-travail), exonération",
+              "0,36 EUR/km, plafond annuel de 3 610 EUR.",
+              "0,37 EUR/km, plafond annuel de 3 700 EUR.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              37,
+              38,
+              39
+            ]
+          },
+          {
+            "cells": [
+              "Intervention dans le train (CCT n° 19/9)",
+              "Non vérifié (montants 2025).",
+              "Barème forfaitaire indexé au 1er février 2026 (tarifs SNCB +2,6 %) ; exemple Ottignies–Bruxelles : 93 EUR par mois dans les secteurs qui appliquent la CCT n° 19. Régime propre à la CP 311 non vérifié.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              37
+            ]
+          },
+          {
+            "cells": [
+              "Indemnité de bureau (télétravail), maximum ONSS",
+              "157,83 EUR par mois depuis le 1er mars 2025.",
+              "160,99 EUR par mois jusqu'au 30 août 2026 ; 164,21 EUR par mois depuis le 1er septembre 2026.",
+              "Non vérifié"
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              40,
+              41
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "PENSIONS",
+      "table": {
+        "columns": [
+          "Sujet",
+          "2025",
+          "2026",
+          "2027 (si connu)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Âge légal de la pension",
+              "66 ans.",
+              "66 ans.",
+              "66 ans ; 67 ans en 2030."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              42
+            ]
+          },
+          {
+            "cells": [
+              "Pension anticipée et réforme",
+              "63 ans et 42 ans de carrière ; carrières longues : 60 ans avec 44 ans, 61 ans avec 43 ans.",
+              "Mêmes conditions ; réforme adoptée par le Parlement (juin 2026) ; nouveau bonus pension constitué dès le 1er janvier 2026.",
+              "Nouvelles règles au 1er janvier 2027 : une année de carrière compte si 156 jours prestés ou assimilés (au lieu de 104) ; malus en cas de départ anticipé, sauf si les conditions étaient remplies avant le 1er janvier 2027 ; taux du malus non vérifiés."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              42,
+              43,
+              44
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "CE QUE CELA CHANGE POUR LE MAGASIN",
+      "bullets": [
+        "Plancher salarial : depuis le 1er juillet 2026, le barème CP 311 de catégorie I à l'embauche (2 197,30 EUR) est inférieur au RMMMG national (2 233,61 EUR) et au RMMMG sectoriel (2 254,78 EUR). Vérifier avec le secrétariat social que la rémunération des nouveaux engagés atteint le plancher applicable, y compris pour les étudiants.",
+        "Heures supplémentaires : contrôler sur chaque paie l'accord écrit (valable un an), le compteur annuel de 360 heures dont 240 sans sursalaire, et l'imputation des heures de relance prestées entre janvier et mars 2026.",
+        "Étudiants : contingent inchangé (650 heures) et cotisation inchangée ; seuls les taux CP 311 ont été indexés au 1er juillet 2026. Demander l'attestation Student@work à l'engagement.",
+        "Flexi-jobs : la CP 311 était déjà ouverte ; depuis le 1er juillet 2026, contrôler la condition des 4/5 en T-3 et un flexi-salaire au moins égal au barème de la fonction.",
+        "Contrats : pour les contrats débutant depuis le 1er août 2026, préavis d'une semaine pendant six mois ; adapter les modèles qui citent des délais chiffrés. Le temps partiel peut descendre à 1/10 d'un temps plein depuis le 1er juin 2026, sous réserve des règles sectorielles CP 311 (non vérifiées).",
+        "Absences : dispense de certificat limitée à 2 fois par an, délai de rechute de 8 semaines (impact sur le salaire garanti), cotisation de 30 % sur les 2e et 3e mois d'incapacité ; la politique de contact doit figurer au règlement de travail.",
+        "Jours fériés 2027 : afficher l'avis des jours de remplacement avant le 15 décembre 2026 (le 15 août 2027 tombe un dimanche ; les 1er mai et 25 décembre 2027 tombent un samedi, jour habituel d'activité dans un magasin).",
+        "Ouverture jusqu'à 21 heures : la loi le permet depuis le 13 août 2026, mais tout nouvel horaire du soir ou du dimanche reste soumis au droit du travail, à la CP 311 et, le cas échéant, à une modification du règlement de travail.",
+        "Paie de novembre 2026 : nouveau précompte (quotité exemptée de 11 550 EUR pour les revenus 2026) ; le net peut varier selon la situation familiale. Chèques-repas à 10 EUR seulement si une CCT le prévoit."
+      ]
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS",
+      "bullets": [
+        "Date et pourcentage de la prochaine indexation CP 311 (2027) ; seuil du prochain indice-pivot sectoriel.",
+        "Application concrète de l'« index en centimes » (plafond de 4 000 EUR) à l'indexation CP 311 du 1er juillet 2026.",
+        "Montants 2027 : RMMMG, quotité exemptée, plafond flexi-jobs, bonus à l'emploi, indemnité de bureau, indemnité vélo.",
+        "Régimes propres à la CP 311 : chèques-repas, éco-chèques, intervention dans les frais de transport, sursalaire et nombre de dimanches travaillés, éventuelle dérogation sectorielle à la durée minimale de 1/10 pour le temps partiel.",
+        "La base de données du SPF Emploi (CP 311, mise à jour du 16 juillet 2026) renvoie encore au flexi-salaire de la CP 302, alors que l'ONSS exige hors horeca un flexi-salaire au moins égal au barème de la fonction : à confirmer.",
+        "Application du plancher RMMMG (CCT n° 43) aux contrats d'étudiants de la CP 311.",
+        "Montants 2025 de l'intervention dans le train (CCT n° 19/9) et liste 2025 des jours fériés tombant un week-end.",
+        "Taux du malus et du bonus pension (sources divergentes) et date de publication au Moniteur belge de la loi de réforme des pensions.",
+        "Outplacement : aucune modification trouvée pour 2026, sans confirmation par un texte officiel de 2026.",
+        "Extension de la cotisation de solidarité aux 4e et 5e mois au 1er janvier 2027 : présentée comme annoncée par Partena et comme acquise par Securex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Salaires minimums CP 311, en vigueur au 1er juillet 2026 (indexation de 2 % en 7/2026)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://www.salairesminimums.be/document.html?jcId=6439af9d3c664efab301fead723b94ba&date=06/11/2026"
+    },
+    {
+      "id": 2,
+      "label": "Salaires minimums CP 311, en vigueur au 1er décembre 2025 (indexation de 2 % en 12/2025)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://www.salairesminimums.be/document.html?jcId=6439af9d3c664efab301fead723b94ba&date=01/01/2026"
+    },
+    {
+      "id": 3,
+      "label": "Salaires minimums CP 311, en vigueur au 1er janvier 2025 (indexation de 2 % en 1/2025)",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://www.salairesminimums.be/document.html?jcId=6439af9d3c664efab301fead723b94ba&date=01/07/2025"
+    },
+    {
+      "id": 4,
+      "label": "Instructions intermédiaires 2024/4 : RMMMG au 1er février 2025, flexi-salaire",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2024-4/intermediates"
+    },
+    {
+      "id": 5,
+      "label": "Instructions intermédiaires 2025/4 : RMMMG au 1er janvier 2026, flexi-salaire au 1er mars 2026",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2025-4/intermediates"
+    },
+    {
+      "id": 6,
+      "label": "Instructions intermédiaires 2026/1 : RMMMG au 1er avril 2026 (CCT n° 43-18)",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2026-1/intermediates"
+    },
+    {
+      "id": 7,
+      "label": "Instructions intermédiaires 2026/2 : RMMMG au 1er juillet 2026, flexi-salaire, loi-programme du 30 mai 2026",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2026-2/intermediates"
+    },
+    {
+      "id": 8,
+      "label": "Le RMMMG augmente au 1er avril 2026 (31 mars 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/le-rmmmg-augmente-au-1er-avril-2026"
+    },
+    {
+      "id": 9,
+      "label": "Indexation : mécanismes et dates par commission paritaire (CP 311, 312, 201)",
+      "publisher": "CNE / CSC",
+      "url": "https://www.lacsc.be/cne/campagnes/indexation"
+    },
+    {
+      "id": 10,
+      "label": "Student@work : contingent de 650 heures",
+      "publisher": "Student@work (Sécurité sociale)",
+      "url": "https://www.studentatwork.be/fr/"
+    },
+    {
+      "id": 11,
+      "label": "Un job étudiant pendant les vacances : que devez-vous faire (24 juin 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22522"
+    },
+    {
+      "id": 12,
+      "label": "Cotisation de solidarité étudiants, instructions 2025/4",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2025-4/instructions/special_contributions/students.html"
+    },
+    {
+      "id": 13,
+      "label": "Cotisation de solidarité étudiants, instructions 2026/3",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/latest/instructions/special_contributions/students.html"
+    },
+    {
+      "id": 14,
+      "label": "Flexi-jobs généralisés : le mode d'emploi complet pour l'employeur et le travailleur",
+      "publisher": "Forum for the Future (Deg & Partners)",
+      "url": "https://blog.forumforthefuture.be/fr/article/flexi-jobs-generalises-le-mode-demploi-complet-pour-lemployeur-et-le-travailleur/31710"
+    },
+    {
+      "id": 15,
+      "label": "Heures supplémentaires volontaires, instructions 2026/3",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/latest/instructions/salary/salary_exclusions/voluntary_overtime.html"
+    },
+    {
+      "id": 16,
+      "label": "Heures supplémentaires volontaires : application rétroactive au 1er avril 2026 de la nouvelle loi publiée (10 juin 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/heures-supplementaires-volontaires-application-retroactive-au-1er-avril-2026-de-la-nouvelle-loi"
+    },
+    {
+      "id": 17,
+      "label": "Vers une prolongation des heures de relance jusqu'au 31 mars 2026 (mise à jour 25 février 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22273"
+    },
+    {
+      "id": 18,
+      "label": "Actualités RH – juin 2026 (24 juin 2026)",
+      "publisher": "Baker Tilly",
+      "url": "https://bakertilly.be/fr/news/actualites-rh-juin-2026/"
+    },
+    {
+      "id": 19,
+      "label": "Délais de préavis – contrats ayant débuté à partir du 1er janvier 2014 – licenciement",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/fin-du-contrat-de-travail/fin-du-contrat-duree-indeterminee-11"
+    },
+    {
+      "id": 20,
+      "label": "La période d'essai est de retour (ou presque) : ce qui change dès le 1er août 2026",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/fr/article/la-periode-dessai-est-de-retour-ou-presque-ce-qui-change-des-le-1er-aout-2026/31807"
+    },
+    {
+      "id": 21,
+      "label": "Outplacement – régime général",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/outplacement/outplacement-regime-general?id=42125"
+    },
+    {
+      "id": 22,
+      "label": "Nieuwigheden op 1 januari 2026 op het vlak van arbeidsongeschiktheid en re-integratie van langdurig zieken (14 janvier 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22275"
+    },
+    {
+      "id": 23,
+      "label": "Werkgever betaalt solidariteitsbijdrage voor langdurig arbeidsongeschikte werknemers (2 janvier 2026, mis à jour)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/werkgever-betaalt-solidariteitsbijdrage-voor-langdurig-arbeidsongeschikte-werknemers"
+    },
+    {
+      "id": 24,
+      "label": "Vacances annuelles (citoyens)",
+      "publisher": "Sécurité sociale (socialsecurity.be)",
+      "url": "https://www.socialsecurity.be/citizen/fr/conges-credit-temps-et-interruption-de-carriere/vacances-annuelles"
+    },
+    {
+      "id": 25,
+      "label": "Feestdagen in 2026: leg de vervangingsdagen vast vóór 15 december 2025",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22144"
+    },
+    {
+      "id": 26,
+      "label": "Feestdagen in 2027: leg de vervangingsdagen vast vóór 15 december 2026 (7 septembre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22629"
+    },
+    {
+      "id": 27,
+      "label": "Jours fériés",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries"
+    },
+    {
+      "id": 28,
+      "label": "Taux d'imposition et quotité exemptée (revenus 2025 et 2026)",
+      "publisher": "SPF Finances",
+      "url": "https://fin.belgium.be/fr/particuliers/declaration-impot/revenus/taux-imposition"
+    },
+    {
+      "id": 29,
+      "label": "Précompte professionnel : ce que la réforme IPP laisse à régulariser en 2027 depuis la nouvelle paie de novembre 2026",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/fr/article/precompte-professionnel-ce-que-la-reforme-ipp-laisse-a-regulariser-en-2027-depuis-la-nouvelle-paie-de-novembre-2026/32846"
+    },
+    {
+      "id": 30,
+      "label": "Le bonus à l'emploi au 1er février 2025",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/le-bonus-lemploi-au-1er-fevrier-2025"
+    },
+    {
+      "id": 31,
+      "label": "Le bonus à l'emploi au 1er juillet et au 1er septembre 2026 (7 juillet 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22543"
+    },
+    {
+      "id": 32,
+      "label": "Titres-repas, instructions 2025/4",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2025-4/instructions/salary/particularcases/lunchcheques/salaryfeatures.html"
+    },
+    {
+      "id": 33,
+      "label": "Titres-repas, instructions 2026/3 (AR du 10 novembre 2025)",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/latest/instructions/salary/particularcases/lunchcheques/salaryfeatures.html"
+    },
+    {
+      "id": 34,
+      "label": "Éco-chèques, instructions 2025/4",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2025-4/instructions/salary/particularcases/ecocheques.html"
+    },
+    {
+      "id": 35,
+      "label": "Éco-chèques, instructions 2026/3",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/latest/instructions/salary/particularcases/ecocheques.html"
+    },
+    {
+      "id": 36,
+      "label": "Chèques-repas : cadre législatif finalisé pour l'augmentation jusqu'à 10 EUR à partir de 2026 (23 décembre 2025)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22252"
+    },
+    {
+      "id": 37,
+      "label": "Mobilité : à quelle intervention mes travailleurs ont-ils droit à partir de février 2026 (mise à jour 23 février 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22314"
+    },
+    {
+      "id": 38,
+      "label": "Fietsvergoedingen en voordelen in 2026: alles wat je moet weten (13 janvier 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/fietsvergoedingen-en-voordelen-in-2026-alles-wat-je-moet-weten-2026"
+    },
+    {
+      "id": 39,
+      "label": "Indemnité vélo 2025 : jusqu'à 3 610 EUR pour les trajets domicile-travail",
+      "publisher": "Forum for the Future",
+      "url": "https://blog.forumforthefuture.be/fr/article/jusqua-3.610-dindemnite-pour-les-trajets-domicile-travail-des-cyclistes/27291"
+    },
+    {
+      "id": 40,
+      "label": "Légère majoration de l'indemnité maximale forfaitaire de télétravail : 157,83 EUR depuis le 1er mars 2025",
+      "publisher": "Forum for the Future",
+      "url": "https://blog.forumforthefuture.be/fr/article/legere-majoration-de-lindemnite-maximale-forfaitaire-de-teletravail-15783-eur-depuis-le-1er-mars-2025/26263"
+    },
+    {
+      "id": 41,
+      "label": "Augmentation de l'indemnité de bureau au 1er septembre 2026 (12 août 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22594"
+    },
+    {
+      "id": 42,
+      "label": "La pension de retraite légale et la pension anticipée, instructions 2026/1",
+      "publisher": "ONSS",
+      "url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/2026-1/instructions/obligations/obligations_branches/pensions.html"
+    },
+    {
+      "id": 43,
+      "label": "Réforme des pensions approuvée : ce que cela signifie pour votre retraite (16 juin 2026)",
+      "publisher": "Sécurité sociale (socialsecurity.be)",
+      "url": "https://www.socialsecurity.be/citizen/fr/actualites/reforme-des-pensions-approuvee-qu-est-ce-que-cela-signifie-pour-votre-retraite"
+    },
+    {
+      "id": 44,
+      "label": "Réformes des pensions 2025-2029",
+      "publisher": "Forum for the Future",
+      "url": "https://blog.forumforthefuture.be/fr/article/reformes-des-pensions-2025-2029/30557"
+    },
+    {
+      "id": 45,
+      "label": "Loi du 20 juillet 2026 modifiant la loi du 10 novembre 2006 relative aux heures d'ouverture dans le commerce, l'artisanat et les services (MB 3 août 2026)",
+      "publisher": "Moniteur belge (Justel)",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/2026/07/20/2026005905/justel"
+    },
+    {
+      "id": 46,
+      "label": "Soepelere openingsuren op komst: tot 21u en geen verplichte sluitingsdag meer (13 mai 2026)",
+      "publisher": "LEXGO (Claeys & Engels)",
+      "url": "https://www.lexgo.be/en/news-and-articles/14808-soepelere-openingsuren-op-komst-tot-21u-en-geen-verplichte-sluitingsdag-meer"
+    },
+    {
+      "id": 47,
+      "label": "Wetgeving openingsuren kleinhandel (mise à jour 11 septembre 2026)",
+      "publisher": "UNIZO",
+      "url": "https://www.unizo.be/ondernemersgids/bedrijfsvoering/marketing-en-verkoop/openingstijden-0"
+    },
+    {
+      "id": 48,
+      "label": "L'indice-pivot sera-t-il encore une fois dépassé en 2026 (12 octobre 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/l-indice-pivot-sera-t-il-encore-une-fois-depasse-en-2026"
+    }
+  ]
+}

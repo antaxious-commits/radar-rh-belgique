@@ -23,7 +23,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 300
     env:
       HAS_EMAIL: ${{ secrets.RESEND_API_KEY != '' && secrets.TO_EMAIL != '' }}
     outputs:
@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "radar-rh-belgique bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add briefings reports site/index.html
+          git add briefings reports data
           git commit -m "Weekly briefing ${{ steps.window.outputs.folder }}" || echo "nothing to commit"
           git push
 

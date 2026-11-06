@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/radar-rh-belgique/transport.schema.json",
+  "title": "data/transport.json – announced strikes/works, access to the store, live links",
+  "type": "object",
+  "required": ["updated", "announced", "access", "links", "sources"],
+  "properties": {
+    "updated": {"type": "string", "format": "date"},
+    "announced": {"type": "array", "items": {
+      "type": "object", "required": ["start", "end", "operator", "title", "detail", "status", "source_id"],
+      "properties": {
+        "start": {"type": "string", "format": "date"}, "end": {"type": "string", "format": "date"},
+        "operator": {"type": "string"}, "title": {"type": "string", "minLength": 3},
+        "detail": {"type": "string", "minLength": 10},
+        "status": {"enum": ["Confirmé", "Préavis déposé", "Annoncé"]},
+        "source_id": {"type": "integer"}
+      }}},
+    "access": {"type": "array", "items": {
+      "type": "object", "required": ["mode", "lines", "note"],
+      "properties": {"mode": {"type": "string"}, "lines": {"type": "string"}, "note": {"type": "string"},
+                     "source_id": {"type": "integer"}}}},
+    "links": {"type": "array", "items": {
+      "type": "object", "required": ["label", "url", "why"],
+      "properties": {"label": {"type": "string"}, "url": {"type": "string", "pattern": "^https?://"},
+                     "why": {"type": "string"}}}},
+    "sources": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "label", "publisher", "url"],
+      "properties": {"id": {"type": "integer", "minimum": 1}, "label": {"type": "string"},
+                     "publisher": {"type": "string"}, "url": {"type": "string", "pattern": "^https?://"}}}}
+  }
+}

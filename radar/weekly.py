@@ -46,6 +46,8 @@ def main(argv=None) -> int:
     ap.add_argument("--research-api", action="store_true", help="research via the Anthropic API first (needs ANTHROPIC_API_KEY)")
     ap.add_argument("--input", type=Path, help="build this briefing.json instead (e.g. an ad-hoc scan in briefings/adhoc_<date>/)")
     ap.add_argument("--no-site", action="store_true", help="do not rebuild the website")
+    ap.add_argument("--no-standing", action="store_true",
+                    help="with --research-api: skip the standing reports/data due today (see radar/standing.py)")
     args = ap.parse_args(argv)
 
     if args.input:
@@ -82,6 +84,12 @@ def main(argv=None) -> int:
     except build_pdfs.BuildError as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1
+
+    if args.research_api and not args.no_standing:
+        # Standing reports and site data (90-day deadlines, transport, payroll, holidays, ...):
+        # refreshed automatically by cadence, no slash command needed.
+        from radar import standing
+        standing.main([])
 
     if args.no_site:
         return 0

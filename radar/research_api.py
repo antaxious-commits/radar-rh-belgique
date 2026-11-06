@@ -27,7 +27,8 @@ MAX_REPAIRS = 2          # extra turns to fix schema errors
 SCHEMA = json.loads((ROOT / "radar" / "schema.json").read_text(encoding="utf-8"))
 
 
-def system_prompt() -> str:
+def system_prompt(schema: dict | None = None) -> str:
+    schema = schema or SCHEMA
     rules = (ROOT / "CLAUDE.md").read_text(encoding="utf-8")
     return (
         rules
@@ -58,18 +59,18 @@ def extract_json(text: str) -> dict:
     return json.loads(raw)
 
 
-def schema_errors(obj: dict) -> list[str]:
+def schema_errors(obj: dict, schema: dict | None = None) -> list[str]:
     import jsonschema
 
-    v = jsonschema.Draft202012Validator(SCHEMA)
+    v = jsonschema.Draft202012Validator(schema or SCHEMA)
     return [f"{'/'.join(map(str, e.path)) or '<root>'}: {e.message}" for e in v.iter_errors(obj)]
 
 
-def call(client: anthropic.Anthropic, messages: list) -> "anthropic.types.beta.BetaMessage":
+def call(client: anthropic.Anthropic, messages: list, schema: dict | None = None) -> "anthropic.types.beta.BetaMessage":
     with client.beta.messages.stream(
         model=MODEL,
         max_tokens=64000,
-        system=system_prompt(),
+        system=system_prompt(schema),
         thinking={"type": "adaptive"},
         output_config={"effort": "high"},
         betas=["server-side-fallback-2026-07-01"],
@@ -83,10 +84,10 @@ def call(client: anthropic.Anthropic, messages: list) -> "anthropic.types.beta.B
         return stream.get_final_message()
 
 
-def run_turn(client, messages: list) -> str:
+def run_turn(client, messages: list, schema: dict | None = None) -> str:
     """Run one user turn to completion, resuming pause_turn. Returns final text."""
     for _ in range(MAX_CONTINUATIONS + 1):
-        resp = call(client, messages)
+        resp = call(client, messages, schema)
         messages.append({"role": "assistant", "content": resp.content})
         if resp.stop_reason == "pause_turn":
             continue  # server tool loop paused; resend as-is to resume
@@ -121,6 +122,51 @@ def research(start: str, end: str) -> dict:
             "in one ```json block (no other text). Do not invent sources to fill gaps.\n- " + "\n- ".join(errs[:30])
         )})
         text = run_turn(client, messages)
+    raise AssertionError("unreachable")
+
+
+def ref_errors(obj: dict) -> list[str]:
+    """Every source_id / source_ids used anywhere must exist in obj['sources']."""
+    known = {s.get("id") for s in obj.get("sources", []) if isinstance(s, dict)}
+    errs: list[str] = []
+
+    def walk(o, path):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k == "source_id" and isinstance(v, int) and v not in known:
+                    errs.append(f"{path}: unknown source_id {v}")
+                elif k == "source_ids" and isinstance(v, list):
+                    errs.extend(f"{path}: unknown source id {i}" for i in v if i not in known)
+                elif k != "sources":
+                    walk(v, f"{path}/{k}")
+        elif isinstance(o, list):
+            for i, v in enumerate(o):
+                walk(v, f"{path}/{i}")
+
+    walk(obj, "")
+    return errs
+
+
+def research_json(prompt: str, schema: dict, check=None) -> dict:
+    """Generic research turn for standing reports and site data: returns a schema-valid JSON object."""
+    client = anthropic.Anthropic()
+    messages: list = [{"role": "user", "content": prompt}]
+    text = run_turn(client, messages, schema)
+    for attempt in range(MAX_REPAIRS + 1):
+        try:
+            obj = extract_json(text)
+            errs = schema_errors(obj, schema) + ref_errors(obj) + (check(obj) if check else [])
+        except (json.JSONDecodeError, ValueError) as e:
+            obj, errs = None, [f"not valid JSON: {e}"]
+        if not errs:
+            return obj
+        if attempt == MAX_REPAIRS:
+            raise RuntimeError("JSON still invalid:\n  " + "\n  ".join(errs[:30]))
+        messages.append({"role": "user", "content": (
+            "The JSON did not validate. Fix these errors and return the complete corrected JSON object "
+            "in one ```json block (no other text). Do not invent sources to fill gaps.\n- " + "\n- ".join(errs[:30])
+        )})
+        text = run_turn(client, messages, schema)
     raise AssertionError("unreachable")
 
 

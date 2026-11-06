@@ -33,8 +33,8 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site
-          cp site/index.html _site/
-          cp site/echeances.ics _site/ 2>/dev/null || true
+          cp site/index.html site/manifest.webmanifest site/*.png _site/
+          cp site/*.ics _site/ 2>/dev/null || true
           cp -r site/briefings _site/ 2>/dev/null || true
           cp -r site/reports _site/ 2>/dev/null || true
           touch _site/.nojekyll

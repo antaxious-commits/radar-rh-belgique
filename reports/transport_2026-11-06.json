@@ -1,0 +1,187 @@
+{
+  "title": "RH BELGIQUE | TRANSPORT ET GRÈVES",
+  "slug": "transport",
+  "date": "2026-11-06",
+  "period": "Du 6 novembre 2026 au 31 janvier 2027",
+  "summary": "Manifestation nationale le lundi 23 novembre et action des jeunes avec préavis FGTB le 17 novembre à Bruxelles, nombreux travaux ferroviaires le week-end en novembre et nouvel horaire SNCB le 13 décembre ; rappel des règles de paie en cas de retard ou d'absence liés à une grève ou à une panne de transport.",
+  "intro": "Perturbations annoncées entre le 6 novembre 2026 et le 31 janvier 2027 pour le personnel qui rejoint le magasin de Porte de Namur (Ixelles) depuis Bruxelles et sa périphérie, et règles RH applicables aux retards et absences. Recherche menée en français et en néerlandais auprès de la SNCB, de la STIB, de De Lijn, de LETEC, des organisations syndicales, de l'ONEM, du SPF Emploi et des secrétariats sociaux (situation au 6 novembre 2026). Les actions seulement annoncées sont signalées comme telles ; les grèves sont souvent confirmées quelques jours avant : la liste doit être revue chaque semaine.",
+  "sections": [
+    {
+      "heading": "SYNTHÈSE",
+      "paragraphs": [
+        "Aucun préavis de grève sur le rail (SNCB) ni de grève annoncée à la STIB ou chez De Lijn n'a été trouvé pour la période au 6 novembre 2026. Deux journées d'action syndicale à Bruxelles sont toutefois annoncées en novembre, et l'offre de trains vers Bruxelles est réduite presque tous les week-ends de novembre, ce qui touche directement les samedis en magasin."
+      ],
+      "bullets": [
+        "ROUGE : lundi 23 novembre 2026, manifestation nationale en front commun syndical (CSC, FGTB, Synova) à Bruxelles – prévoir le planning et la communication dès maintenant.",
+        "ORANGE : mardi 17 novembre 2026, manifestation des jeunes à Bruxelles couverte par un préavis de grève de la FGTB pour ses membres participants.",
+        "ORANGE : travaux SNCB les week-ends de novembre (Bruxelles-Luxembourg, Bruxelles-Luxembourg–Ottignies le 7-8, Bruxelles-Midi–Nivelles le 14-15, axe Anvers–Malines–Bruxelles) et grève de sous-traitants LETEC le lundi 9 novembre."
+      ]
+    },
+    {
+      "heading": "PERTURBATIONS ANNONCÉES",
+      "paragraphs": [
+        "Classement par date de début. ROUGE = action requise pour le planning du magasin ; ORANGE = préparer (informer le personnel concerné) ; VERT = suivre."
+      ],
+      "table": {
+        "columns": ["Dates", "Opérateur", "Perturbation", "Statut", "Impact sur le trajet vers Porte de Namur"],
+        "rows": [
+          {"cells": ["31 oct. – 29 nov. 2026 (week-ends)", "SNCB", "Travaux entre Anvers-Central, Malines et Bruxelles-Midi", "Confirmé", "Trains S1, IC et EC adaptés ; certains samedis, un train S1 sur deux ne circule pas ou seulement sur une partie du parcours."], "priority": "GREEN", "source_ids": [9]},
+          {"cells": ["En cours le 6 nov. – au plus tôt 9 nov. 2026", "SNCB", "Aucun train entre Liedekerke et Jette (travaux urgents près de Ternat)", "Confirmé", "Bus de remplacement SNCB ; bus De Lijn (R10) et STIB (9, 19, 51, 82, 87) acceptés avec le ticket de train."], "priority": "AMBER", "source_ids": [8]},
+          {"cells": ["7 – 8 nov. 2026", "SNCB", "Tous les trains remplacés par des bus entre Bruxelles-Luxembourg et Ottignies", "Confirmé", "Trajet du samedi nettement plus long depuis le Brabant wallon."], "priority": "AMBER", "source_ids": [8]},
+          {"cells": ["7 – 22 nov. 2026 (week-ends)", "SNCB", "Travaux à Bruxelles-Luxembourg", "Confirmé", "Parcours des trains S5 et S19 adapté ; bus et trams STIB et De Lijn acceptés avec le ticket de train. Gare la plus proche du magasin."], "priority": "AMBER", "source_ids": [8]},
+          {"cells": ["Lundi 9 nov. 2026", "TEC (LETEC)", "Grève de sociétés privées exploitant des lignes pour LETEC", "Annoncé", "Perturbations à craindre sur certaines lignes non précisées ; personnel venant du Brabant wallon en bus."], "priority": "AMBER", "source_ids": [7]},
+          {"cells": ["Mardi 10 nov. 2026, 9 h 30 – 13 h", "STIB", "Bus 71 : arrêts Royale et Gare Centrale remplacés (activités diplomatiques)", "Confirmé", "Prévoir le métro 1 ou 5 puis 2 ou 6 via Arts-Loi depuis Bruxelles-Central."], "priority": "GREEN", "source_ids": [11]},
+          {"cells": ["Mercredi 11 nov. 2026 (jour férié)", "SNCB", "Bus de remplacement entre Louvain et Landen", "Confirmé", "Personnel venant de l'est du Brabant flamand, s'il travaille ce jour-là."], "priority": "GREEN", "source_ids": [8]},
+          {"cells": ["14 – 15 nov. 2026", "SNCB", "Tous les trains remplacés par des bus entre Bruxelles-Midi et Nivelles", "Confirmé", "Samedi très allongé depuis Nivelles, Braine-l'Alleud ou Waterloo ; parcours S19 adapté."], "priority": "AMBER", "source_ids": [8, 9]},
+          {"cells": ["Dès la mi-nov. 2026 (date non précisée)", "STIB", "Hôtel des Monnaies (métro 2 et 6) : fond des quais isolé pour travaux", "Annoncé", "Station ouverte, toutes les portes du métro accessibles : impact faible."], "priority": "GREEN", "source_ids": [15]},
+          {"cells": ["Mardi 17 nov. 2026", "Tous", "Manifestation des jeunes à Bruxelles ; préavis de grève FGTB pour ses membres participants", "Préavis déposé", "Absences possibles de membres du personnel affiliés ; perturbations de surface possibles dans le centre. Aucun préavis STIB ou SNCB trouvé."], "priority": "AMBER", "source_ids": [4, 5, 6]},
+          {"cells": ["21 – 29 nov. 2026 (week-ends)", "SNCB", "Bus entre Malines et Louvain ; circulation adaptée entre Bruxelles-Luxembourg et Malines ou Louvain (21-22 nov.)", "Confirmé", "Samedis plus longs pour le personnel venant du Brabant flamand."], "priority": "GREEN", "source_ids": [8, 9]},
+          {"cells": ["Lundi 23 nov. 2026", "Tous", "Manifestation nationale en front commun syndical (CSC, FGTB, Synova) à Bruxelles", "Annoncé", "Forte perturbation probable dans le centre ; le 9 octobre, la STIB avait annoncé interruptions de lignes ou fermetures de stations. Préavis éventuels dans les transports non encore publiés."], "priority": "RED", "source_ids": [1, 2, 3, 33]},
+          {"cells": ["Dès le dimanche 13 déc. 2026", "SNCB", "Nouvelle offre de trains (plan de transport 2026-2029, phase 1)", "Confirmé", "Nombreux horaires modifiés (S4, S5, S8, S9, S19, nouvelle gare Braine-Alliance) : revérifier les trajets du personnel."], "priority": "GREEN", "source_ids": [10]}
+        ]
+      }
+    },
+    {
+      "heading": "POINTS D'ATTENTION SUR LES ACTIONS SYNDICALES",
+      "paragraphs": [
+        "Le 23 novembre 2026 est annoncé par la CSC, la FGTB et Synova comme une manifestation nationale à Bruxelles ; le communiqué syndical et la presse ne mentionnent ni grève ni préavis dans les transports à ce stade. Une page d'une fédération d'employeurs du secteur socioculturel évoque en revanche une « journée de grève en front commun » le 23 novembre : la nature exacte de la journée (manifestation seule ou grève) reste donc ambiguë et doit être revérifiée la semaine précédente.",
+        "Le 17 novembre 2026, la FGTB a déposé un préavis de grève couvrant ses membres qui participent à la manifestation des étudiants francophones à Bruxelles ; la même page sectorielle présente cette date comme une journée d'action de la FGTB fédérale contre les mesures socio-économiques du gouvernement fédéral.",
+        "Aucun préavis SNCB, ni grève STIB, De Lijn ou TEC n'a été trouvé pour décembre 2026 et janvier 2027. Sur le rail, les préavis sont souvent connus quelques jours seulement à l'avance."
+      ]
+    },
+    {
+      "heading": "ACCÈS AU MAGASIN (PORTE DE NAMUR)",
+      "table": {
+        "columns": ["Mode", "Lignes", "Remarque"],
+        "rows": [
+          {"cells": ["Métro", "2 et 6", "Station Porte de Namur : métro 2 (Simonis–Elisabeth) et 6 (Roi Baudouin–Elisabeth). Correspondance avec les métros 1 et 5 à Arts-Loi."], "source_ids": [11, 14]},
+          {"cells": ["Bus", "34, 54, 64, 71, 80 ; Noctis N06, N08, N09, N10", "Lignes affichées à l'arrêt STIB Porte de Namur."], "source_ids": [11]},
+          {"cells": ["Train", "Bruxelles-Luxembourg (S5, S8, S9 en semaine, S19 le week-end) puis bus 34, 64 ou 80", "Gare la plus proche ; les bus 34, 64 et 80 de l'arrêt Luxembourg desservent Porte de Namur. Travaux les week-ends du 7 au 22 novembre."], "source_ids": [10, 12]},
+          {"cells": ["Train", "Bruxelles-Midi puis métro 2 ou 6", "La station Gare du Midi est desservie par les métros 2 et 6 : trajet sans correspondance. Trams 4 et 10 interrompus entre Gare du Midi et Porte de Hal / Gare du Nord."], "source_ids": [13]},
+          {"cells": ["Train", "Bruxelles-Central puis bus 71, ou métro 1 ou 5 et correspondance à Arts-Loi", "Le bus 71 dessert l'arrêt Gare Centrale ; la station Gare Centrale est sur les métros 1 et 5."], "source_ids": [11, 14, 16]},
+          {"cells": ["Tram", "Aucune ligne à l'arrêt Porte de Namur", "Prévoir une correspondance vers le métro 2 ou 6 ou vers un bus."], "source_ids": [11]}
+        ]
+      }
+    },
+    {
+      "heading": "RÈGLES RH : RETARD OU ABSENCE LIÉS AU TRANSPORT",
+      "cards": [
+        {
+          "title": "Salaire journalier garanti : la règle de base",
+          "status": "Loi du 3 juillet 1978 relative aux contrats de travail, art. 27, 1°",
+          "body": "Le travailleur apte au travail au moment de se rendre au travail, qui arrive en retard ou ne peut pas arriver pour une cause survenue sur le chemin du travail et indépendante de sa volonté, a droit à la rémunération qu'il aurait perçue s'il avait pu accomplir normalement sa tâche journalière [gewaarborgd dagloon]. Il doit avoir fait de son mieux pour arriver à l'heure ou réduire le retard, et c'est à lui de prouver, le cas échéant, que la cause lui est totalement étrangère. Le 2° du même article (impossibilité de commencer ou poursuivre le travail) exclut expressément la grève.",
+          "impact": "Un retard ponctuel et imprévu (panne, incident, grève soudaine) d'un membre du personnel qui a pris son trajet habituel donne en principe droit au salaire de la journée complète.",
+          "tags": ["Paie", "Art. 27 loi 1978"],
+          "source_ids": [20, 24]
+        },
+        {
+          "title": "Grève des transports annoncée à l'avance",
+          "status": "Interprétation des secrétariats sociaux",
+          "body": "Lorsque la grève ou la perturbation est annoncée plusieurs jours à l'avance (préavis SNCB, journée nationale d'action), la cause n'est plus imprévue : selon Partena Professional et Securex, l'employeur n'est en principe pas tenu de payer les heures non prestées par le travailleur qui arrive en retard ou ne vient pas. Les mêmes sources recommandent une approche de « bon sens » pour le travailleur qui n'a aucune alternative (pas de véhicule, pas de covoiturage) malgré ses efforts, et une appréciation au cas par cas pour les barrages annoncés.",
+          "impact": "Pour le 23 novembre, une absence ou un retard dû à des perturbations connues à l'avance ne serait en principe pas couvert par le salaire garanti ; la décision d'assouplir relève de l'employeur et doit être appliquée de manière cohérente à tout le personnel.",
+          "tags": ["Paie", "Grève annoncée"],
+          "source_ids": [21, 22, 23]
+        },
+        {
+          "title": "Preuve du retard : les attestations des opérateurs",
+          "status": "Pratique",
+          "body": "La SNCB délivre en ligne une attestation de retard, par numéro de train ou par gare, pour des trajets jusqu'à sept jours dans le passé. De Lijn délivre une attestation de retard [attest vertraging] via un formulaire en ligne, envoyée par e-mail sous 72 heures et demandable jusqu'à un mois après les faits. Aucune procédure actuelle d'attestation n'a été trouvée pour la STIB ni pour LETEC.",
+          "impact": "Demander l'attestation le jour même ou dans la semaine (délai SNCB de sept jours) et la classer avec le relevé de pointage du jour.",
+          "tags": ["Preuve", "Paie"],
+          "source_ids": [17, 18, 28]
+        },
+        {
+          "title": "Absence non rémunérée, congé ou récupération",
+          "status": "Interprétation des secrétariats sociaux",
+          "body": "Si les conditions de l'article 27 ne sont pas remplies, les heures non prestées ne sont pas rémunérées. Pour éviter toute perte de salaire, le travailleur peut, avec l'accord de l'employeur, prendre un jour de congé ou de récupération ; le télétravail n'est une option que là où il existe déjà dans l'entreprise, ce qui ne concerne pas le personnel de vente.",
+          "impact": "Le choix entre absence non rémunérée, congé ou récupération doit être noté par écrit avant la clôture de la paie. Imposer unilatéralement le rattrapage des heures n'est pas couvert par les sources consultées (voir Points non vérifiés).",
+          "tags": ["Paie", "Planning"],
+          "source_ids": [22, 23, 21]
+        },
+        {
+          "title": "Le travailleur qui fait lui-même grève ou manifeste",
+          "status": "Droit de grève reconnu (Cour de cassation, 21 décembre 1981 ; Charte sociale européenne)",
+          "body": "Le droit de grève n'est pas défini par la loi belge mais il est reconnu par la Cour de cassation (arrêt du 21 décembre 1981) et par la Charte sociale européenne. La grève suspend l'exécution du contrat : l'employeur ne doit pas rémunérer les heures de grève, et le travailleur syndiqué peut recevoir une indemnité de grève de son syndicat si l'action est reconnue. Selon Securex, les principes de la grève s'appliquent aussi à la participation à une manifestation syndicale ; des sanctions ne sont possibles qu'en cas de comportement fautif (actions non couvertes, violences, entrave méchante à la circulation) et, pour les sanctions disciplinaires, seulement si le règlement de travail les prévoit.",
+          "impact": "Le 17 et le 23 novembre, un membre du personnel qui participe à l'action est absent sans rémunération ; selon Securex, seul un comportement fautif, et non la participation en tant que telle, peut justifier une sanction.",
+          "tags": ["Paie", "Relations collectives"],
+          "source_ids": [32, 29, 30, 31, 25, 6]
+        },
+        {
+          "title": "Chômage temporaire lié à une grève",
+          "status": "ONEM, page mise à jour le 25 août 2026",
+          "body": "Un travailleur non gréviste empêché de travailler à cause d'une grève peut être mis en chômage temporaire pour grève, notamment en cas d'absence de transports en commun ou de blocage d'accès, mais l'indemnisation dépend d'une décision du comité de gestion de l'ONEM, qui examine si le travailleur a intérêt aux revendications ; pour les actions interprofessionnelles, ces revendications concernent souvent tous les secteurs. Selon Securex, le comité refuse le plus souvent. L'employeur doit communiquer le chômage temporaire à l'ONEM par voie électronique dès que les circonstances sont connues, puis déclarer les jours en DRS scénario 5 (code 5.9). Utiliser une communication de manque de travail uniquement pour des jours de grève est considéré comme un abus.",
+          "impact": "Le chômage temporaire n'est pas une solution par défaut un jour de grève générale : à décider avec le secrétariat social, avant la paie du mois.",
+          "tags": ["Chômage temporaire", "ONEM"],
+          "source_ids": [26, 27]
+        }
+      ]
+    },
+    {
+      "heading": "CHECKLIST MAGASIN POUR LES JOURS DE GRÈVE",
+      "paragraphs": [
+        "Propositions d'organisation ; les responsables indiqués sont des suggestions, pas des attributions."
+      ],
+      "bullets": [
+        "J-7 (responsable de magasin, proposé) : relever pour chaque membre du personnel planifié le trajet habituel (train, métro, bus, De Lijn, TEC) et repérer les personnes sans alternative.",
+        "J-5 : vérifier la page Perturbations de la SNCB, l'info trafic STIB, De Lijn et LETEC ; noter si un préavis ou un service alternatif est publié.",
+        "J-3 : adapter le planning (permutations d'horaires avec le personnel habitant Bruxelles, renfort étudiant si le contingent le permet), en respectant les délais d'information des horaires du règlement de travail.",
+        "J-2 : informer le personnel par écrit des règles applicables : grève annoncée = heures non prestées non payées sauf accord de congé ou récupération ; prévenir dès que possible en cas de retard ; demander l'attestation de retard.",
+        "Jour J : tenir une liste horodatée des arrivées, des appels reçus et des absences ; distinguer gréviste ou manifestant, empêché par les transports, congé ou récupération accordé.",
+        "Personnes à appeler : le responsable de magasin ou son adjoint ouvre le magasin ; le responsable RH ou le secrétariat social est consulté en cas de doute sur la paie ou le chômage temporaire.",
+        "J+1 à J+7 : collecter les attestations SNCB (délai de sept jours) et De Lijn (délai d'un mois), les accords écrits de congé ou de récupération et toute preuve d'efforts du travailleur.",
+        "Avant la clôture de paie : coder chaque cas (salaire garanti, absence non rémunérée, grève, congé, récupération) et, le cas échéant, valider avec le secrétariat social une communication de chômage temporaire à l'ONEM.",
+        "Après le 13 décembre : revérifier les horaires de train du personnel avec le nouveau plan de transport SNCB."
+      ]
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS",
+      "bullets": [
+        "Nature exacte du 23 novembre 2026 : les syndicats annoncent une manifestation nationale ; une page sectorielle parle d'une journée de grève en front commun. Aucun préavis SNCB, STIB, De Lijn ou TEC trouvé à ce jour.",
+        "Grève générale fin novembre : évoquée par la FGTB en septembre-octobre 2026 en cas de franchissement de ses « lignes rouges » budgétaires ; aucune décision trouvée (les articles en question n'ont pas été ouverts dans cette recherche).",
+        "Ampleur des perturbations STIB les 17 et 23 novembre : non publiée au 6 novembre.",
+        "Lignes LETEC touchées par la grève des sous-traitants du 9 novembre, notamment dans le Brabant wallon : non précisées.",
+        "Date exacte de l'isolement partiel des quais à Hôtel des Monnaies (« mi-novembre ») et date de fin du chantier sur les lignes 2 et 6.",
+        "Attestation de retard STIB et LETEC : aucune procédure actuelle trouvée.",
+        "Récupération des heures perdues : seule la récupération avec l'accord de l'employeur est documentée ; la possibilité d'imposer un rattrapage (règles d'heures supplémentaires ou complémentaires pour les temps partiels) n'a pas été vérifiée.",
+        "Dispositions éventuelles de la CP 311 ou du règlement de travail sur les retards et les jours de grève : non vérifiées.",
+        "Les pages de la SNCB se chargent dans un navigateur mais renvoient une erreur 403 aux requêtes automatisées : liens vérifiés manuellement le 6 novembre 2026.",
+        "Calendrier SNCB 2027 (travaux de semaine et préavis éventuels en janvier 2027) : non publié ou non trouvé."
+      ]
+    }
+  ],
+  "sources": [
+    {"id": 1, "label": "23 novembre : manifestation nationale à Bruxelles (communiqué du 21 octobre 2026) [nationale manifestatie]", "publisher": "ACV-CSC", "url": "https://www.hetacv.be/actualiteit/nieuws-en-persberichten/newsdetail/2026/10/21/we-bouwen-de-toekomst-samen--we-ondergaan-ze-niet--afspraak-op-23-november-in-brussel"},
+    {"id": 2, "label": "Les trois syndicats appellent à une nouvelle manifestation nationale à Bruxelles, le 23 novembre (21 octobre 2026)", "publisher": "RTBF", "url": "https://www.rtbf.be/article/les-trois-syndicats-appellent-a-une-nouvelle-manifestation-nationale-a-bruxelles-le-23-novembre-11803807"},
+    {"id": 3, "label": "Brussel op maandag 23 november andermaal decor van nationale betoging (21 octobre 2026)", "publisher": "Bruzz", "url": "https://www.bruzz.be/actua/politiek/brussel-op-maandag-23-november-andermaal-decor-van-nationale-betoging-2026-10-21"},
+    {"id": 4, "label": "La FGTB soutient l'action étudiante du 17 novembre avec un préavis de grève (6 novembre 2026)", "publisher": "La Libre Belgique (Belga)", "url": "https://www.lalibre.be/dernieres-depeches/2026/11/06/mobilisation-de-la-jeunesse-la-fgtb-soutient-laction-etudiante-du-17-novembre-avec-un-preavis-de-greve-FLIF52IHVNCPRJBRTP2VK3ZDJA/"},
+    {"id": 5, "label": "Page d'accueil : actions des 17 et 23 novembre 2026", "publisher": "FGTB Bruxelles", "url": "https://www.fgtbbruxelles.be/"},
+    {"id": 6, "label": "Journée d'action syndicale le 17 novembre 2026 (mise à jour du 3 novembre 2026)", "publisher": "CESSoC", "url": "https://cessoc.be/content/article/25368"},
+    {"id": 7, "label": "Grève des sociétés privées le lundi 9 novembre 2026", "publisher": "LETEC", "url": "https://www.letec.be/disruptions/619ccfc4-9863-4c6e-d5cb-08df1ef3ae8e"},
+    {"id": 8, "label": "Perturbations et travaux en cours (consulté le 6 novembre 2026)", "publisher": "SNCB", "url": "https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works"},
+    {"id": 9, "label": "Travaux entre Anvers-Central, Malines et Bruxelles-Midi, week-ends du 31 octobre au 29 novembre 2026", "publisher": "SNCB", "url": "https://www.belgiantrain.be/fr/news/works-anvers-central-malines-bruxelles-midi"},
+    {"id": 10, "label": "Dès le 13 décembre : nouvelle offre de trains (mise à jour du 29 septembre 2026)", "publisher": "SNCB", "url": "https://www.belgiantrain.be/fr/news/new-offer-dec-2026"},
+    {"id": 11, "label": "Arrêt Porte de Namur : lignes, temps réel et perturbations", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749"},
+    {"id": 12, "label": "Arrêt Luxembourg : lignes et temps réel", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90569"},
+    {"id": 13, "label": "Arrêt Gare du Midi : lignes et perturbations", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90366"},
+    {"id": 14, "label": "Arrêt Arts-Loi : métros 1, 2, 5 et 6", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90039"},
+    {"id": 15, "label": "Hôtel des Monnaies fait peau neuve, avec deux ascenseurs (27 octobre 2026)", "publisher": "STIB", "url": "https://www.stib-mivb.be/voyager/chantiers-et-projets/chantiers-en-cours/hotel-des-monnaies-fait-peau-neuve-avec-deux-ascenseurs"},
+    {"id": 16, "label": "Chantiers en cours (dont Gare Centrale, métros 1 et 5)", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/chantiers-et-projets/chantiers-en-cours"},
+    {"id": 17, "label": "Attestation de retard : demandez votre justificatif", "publisher": "SNCB", "url": "https://www.belgiantrain.be/fr/support/customer-service/delay-certificate"},
+    {"id": 18, "label": "Attestation de retard pour un bus ou un tram en retard [attest vertraging]", "publisher": "De Lijn", "url": "https://help.delijn.be/hc/en-us/articles/360039676191-How-can-I-request-a-transport-delay-certificate"},
+    {"id": 19, "label": "Grèves et actions syndicales [staking en vakbondsactie]", "publisher": "De Lijn", "url": "https://www.delijn.be/nl/content/storingen-omleidingen/staking-vakbondsactie/"},
+    {"id": 20, "label": "Loi du 3 juillet 1978 relative aux contrats de travail (texte coordonné, art. 27)", "publisher": "Justel – SPF Justice", "url": "https://www.ejustice.just.fgov.be/eli/loi/1978/07/03/1978070303/justel"},
+    {"id": 21, "label": "Le travailleur qui ne participe pas à la grève et qui arrive en retard ou est absent a-t-il droit à la rémunération journalière garantie (mise à jour du 3 mars 2026)", "publisher": "Securex Lex4you", "url": "https://www.securex.be/fr/lex4you/employeur/themes/concertation-sociale/greve/le-travailleur-qui-ne-participe-pas-a-la-greve-et-qui-arrive-en-retard-ou-est-absent-a-t-il-droit-a"},
+    {"id": 22, "label": "Un préavis de grève à la SNCB du 11 au 12 octobre 2026 (7 octobre 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/un-preavis-de-greve-la-sncb-du-11-au-12-octobre-2026"},
+    {"id": 23, "label": "Retard au travail pour cause de grève : droit au salaire (21 novembre 2025)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22203"},
+    {"id": 24, "label": "Mon travailleur ne s'est pas présenté sur le lieu de travail : dois-je le rémunérer (salaire journalier garanti)", "publisher": "UCM", "url": "https://www.ucm.be/faq/je-gere-mon-personnel/cause-des-routes-trop-enneigees-mon-travailleur-ne-sest-pas-presente-sur-le-lieu-de-travail-dois-je-le-remunerer"},
+    {"id": 25, "label": "Dois-je rémunérer les travailleurs grévistes", "publisher": "UCM", "url": "https://www.ucm.be/faq/je-gere-mon-personnel/dois-je-remunerer-les-travailleurs-grevistes"},
+    {"id": 26, "label": "Chômage temporaire – grève et lock-out (action sociale), mise à jour du 25 août 2026", "publisher": "ONEM", "url": "https://www.onem.be/employeurs/chomage-temporaire/chomage-temporaire---greve-et-lock-out"},
+    {"id": 27, "label": "Le travailleur empêché de travailler qui ne participe pas à la grève peut-il prétendre à une allocation de chômage (mise à jour du 3 mars 2026)", "publisher": "Securex Lex4you", "url": "https://www.securex.be/fr/lex4you/employeur/themes/concertation-sociale/greve/le-travailleur-empeche-de-travailler-qui-ne-participe-pas-a-la-greve-peut-il-pretendre-a-une-allocat"},
+    {"id": 28, "label": "Train en retard : le travailleur risque-t-il une sanction (10 octobre 2019)", "publisher": "Droits Quotidiens", "url": "https://www.droitsquotidiens.be/fr/actualites/train-en-retard-le-travailleur-risque-t-il-une-sanction"},
+    {"id": 29, "label": "Le droit de grève [het stakingsrecht] (mise à jour du 3 mars 2026)", "publisher": "Securex Lex4you", "url": "https://www.securex.be/nl/lex4you/werkgever/themas/sociaal-overleg/staking/het-stakingsrecht"},
+    {"id": 30, "label": "Le droit de grève est-il absolu ; l'employeur peut-il sanctionner les grévistes [sancties ten aanzien van stakende werknemers] (mise à jour du 3 mars 2026)", "publisher": "Securex Lex4you", "url": "https://www.securex.be/nl/lex4you/werkgever/themas/sociaal-overleg/staking/is-het-stakingsrecht-absoluut-mag-de-werkgever-sancties-treffen-ten-aanzien-van-de-stakende-werkne"},
+    {"id": 31, "label": "Différence entre grève et manifestation syndicale [staking en vakbondsmanifestatie] (mise à jour du 3 mars 2026)", "publisher": "Securex Lex4you", "url": "https://www.securex.be/nl/lex4you/werkgever/themas/sociaal-overleg/staking/is-er-een-verschil-tussen-een-staking-en-een-vakbondsmanifestatie"},
+    {"id": 32, "label": "Grève et lock-out [staking en lock-out]", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://werk.belgie.be/nl/themas/sociaal-overleg/collectieve-conflicten/staking-en-lock-out"},
+    {"id": 33, "label": "Le réseau de la STIB sera perturbé le vendredi 9 octobre (2 octobre 2026)", "publisher": "BX1", "url": "https://bx1.be/?p=833965"}
+  ]
+}

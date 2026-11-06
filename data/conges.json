@@ -1,0 +1,338 @@
+{
+  "updated": "2026-11-06",
+  "public_holidays": [
+    {
+      "date": "2026-11-11",
+      "name": "Armistice",
+      "note": "Tombe un mercredi : pas de remplacement.",
+      "source_id": 1
+    },
+    {
+      "date": "2026-12-25",
+      "name": "Noël",
+      "note": "Tombe un vendredi : pas de remplacement.",
+      "source_id": 1
+    },
+    {
+      "date": "2027-01-01",
+      "name": "Nouvel An",
+      "note": "Tombe un vendredi : pas de remplacement.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-03-29",
+      "name": "Lundi de Pâques",
+      "note": "Pâques tombe le dimanche 28 mars 2027.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-05-01",
+      "name": "Fête du Travail",
+      "note": "Tombe un samedi : jour habituel d'activité en magasin, donc férié chômé et payé pour le personnel qui travaille habituellement le samedi ; jour de remplacement à fixer pour les travailleurs dont le samedi est un jour habituel d'inactivité.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-05-06",
+      "name": "Ascension",
+      "note": "Tombe un jeudi : pas de remplacement.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Lundi de Pentecôte",
+      "note": "Tombe un lundi : pas de remplacement.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-07-21",
+      "name": "Fête nationale",
+      "note": "Tombe un mercredi : pas de remplacement.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-08-15",
+      "name": "Assomption",
+      "note": "Tombe un dimanche : jour de remplacement à fixer (toujours obligatoire pour un férié qui coïncide avec un dimanche).",
+      "source_id": 2
+    },
+    {
+      "date": "2027-11-01",
+      "name": "Toussaint",
+      "note": "Tombe un lundi : pas de remplacement.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-11-11",
+      "name": "Armistice",
+      "note": "Tombe un jeudi : pas de remplacement.",
+      "source_id": 2
+    },
+    {
+      "date": "2027-12-25",
+      "name": "Noël",
+      "note": "Tombe un samedi : jour habituel d'activité en magasin, donc férié chômé et payé pour le personnel qui travaille habituellement le samedi ; jour de remplacement à fixer pour les travailleurs dont le samedi est un jour habituel d'inactivité.",
+      "source_id": 2
+    }
+  ],
+  "replacement_rule": {
+    "text": "Un jour férié qui tombe un dimanche ou un jour habituel d'inactivité doit être remplacé par un jour habituel d'activité de l'entreprise. Le jour de remplacement est fixé en priorité par la commission (ou sous-commission) paritaire, à défaut par le conseil d'entreprise, puis par accord avec la délégation syndicale, avec les travailleurs ou, en dernier lieu, par accord individuel ; sans décision valable, le férié est reporté au premier jour habituel d'activité qui suit. L'employeur doit afficher un avis reprenant les jours de remplacement avant le 15 décembre de l'année précédente, soit avant le 15 décembre 2026 pour 2027.",
+    "source_id": 1
+  },
+  "school_holidays": [
+    {
+      "community": "fr",
+      "name": "Vacances d'automne (Toussaint)",
+      "start": "2026-10-19",
+      "end": "2026-11-01",
+      "source_id": 3
+    },
+    {
+      "community": "fr",
+      "name": "Vacances d'hiver (Noël)",
+      "start": "2026-12-21",
+      "end": "2027-01-03",
+      "source_id": 3
+    },
+    {
+      "community": "fr",
+      "name": "Vacances de détente (Carnaval)",
+      "start": "2027-02-22",
+      "end": "2027-03-07",
+      "source_id": 3
+    },
+    {
+      "community": "fr",
+      "name": "Vacances de printemps (Pâques)",
+      "start": "2027-04-26",
+      "end": "2027-05-09",
+      "source_id": 3
+    },
+    {
+      "community": "fr",
+      "name": "Vacances d'été (fin déduite de la rentrée du lundi 30 août 2027)",
+      "start": "2027-07-03",
+      "end": "2027-08-29",
+      "source_id": 3
+    },
+    {
+      "community": "nl",
+      "name": "Vacances d'automne [herfstvakantie]",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "source_id": 4
+    },
+    {
+      "community": "nl",
+      "name": "Vacances de Noël [kerstvakantie]",
+      "start": "2026-12-21",
+      "end": "2027-01-03",
+      "source_id": 4
+    },
+    {
+      "community": "nl",
+      "name": "Congé de Carnaval [krokusvakantie]",
+      "start": "2027-02-08",
+      "end": "2027-02-14",
+      "source_id": 4
+    },
+    {
+      "community": "nl",
+      "name": "Vacances de Pâques [paasvakantie]",
+      "start": "2027-03-29",
+      "end": "2027-04-11",
+      "source_id": 4
+    },
+    {
+      "community": "nl",
+      "name": "Vacances d'été [zomervakantie]",
+      "start": "2027-07-01",
+      "end": "2027-08-31",
+      "source_id": 4
+    },
+    {
+      "community": "de",
+      "name": "Vacances de Toussaint [Allerheiligenferien]",
+      "start": "2026-11-02",
+      "end": "2026-11-07",
+      "source_id": 5
+    },
+    {
+      "community": "de",
+      "name": "Vacances de Noël [Weihnachtsferien]",
+      "start": "2026-12-21",
+      "end": "2027-01-02",
+      "source_id": 5
+    },
+    {
+      "community": "de",
+      "name": "Vacances de Carnaval [Karnevalsferien]",
+      "start": "2027-02-08",
+      "end": "2027-02-13",
+      "source_id": 5
+    },
+    {
+      "community": "de",
+      "name": "Vacances de Pâques [Osterferien]",
+      "start": "2027-03-29",
+      "end": "2027-04-10",
+      "source_id": 5
+    },
+    {
+      "community": "de",
+      "name": "Vacances d'été (déduites : fin d'année le 30 juin, rentrée le 1er septembre 2027)",
+      "start": "2027-07-01",
+      "end": "2027-08-31",
+      "source_id": 5
+    }
+  ],
+  "retail_peaks": [
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "name": "Black Friday",
+      "status": "Usage commercial",
+      "note": "Dernier vendredi de novembre (date calculée). Selon une enquête citée en 2021, environ un Belge sur trois attend le Black Friday pour ses achats de fin d'année. Pas une période de soldes légale.",
+      "source_id": 7
+    },
+    {
+      "start": "2026-12-02",
+      "end": "2027-01-01",
+      "name": "Période d'attente avant les soldes d'hiver",
+      "status": "Déduit",
+      "note": "Habillement, maroquinerie et chaussures : interdiction d'annoncer des réductions de prix pendant le mois qui précède les soldes (art. VI.29 CDE). Dates déduites de la règle, les soldes d'hiver 2027 commençant le 2 janvier.",
+      "source_id": 6
+    },
+    {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "name": "Saint-Nicolas",
+      "status": "Usage commercial",
+      "note": "Tombe un dimanche en 2026. Près de la moitié des ventes annuelles de jouets se fait en novembre et décembre (Saint-Nicolas et Noël), selon un article de 2024.",
+      "source_id": 8
+    },
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "name": "Dernier week-end avant Noël",
+      "status": "Usage commercial",
+      "note": "Traditionnellement le dimanche le plus important de l'année pour le commerce selon le SNI (article de 2017). Dates 2026 calculées ; ouverture dominicale du magasin à vérifier selon les règles de repos du dimanche du personnel.",
+      "source_id": 9
+    },
+    {
+      "start": "2026-12-24",
+      "end": "2026-12-24",
+      "name": "Veille de Noël",
+      "status": "Usage commercial",
+      "note": "Fermeture anticipée habituelle des grandes enseignes (vers 17 h ou 18 h selon un article de 2020) : prévoir les horaires du personnel en conséquence.",
+      "source_id": 10
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "name": "Saint-Sylvestre",
+      "status": "Usage commercial",
+      "note": "Fermeture anticipée habituelle des grandes enseignes (vers 17 h ou 18 h selon un article de 2020).",
+      "source_id": 10
+    },
+    {
+      "start": "2027-01-02",
+      "end": "2027-01-31",
+      "name": "Soldes d'hiver 2027",
+      "status": "Déduit",
+      "note": "Règle légale : du 3 au 31 janvier ; lorsque le 3 janvier est un dimanche, la période commence le 2 janvier (art. VI.25 CDE). Le 3 janvier 2027 étant un dimanche, début déduit au samedi 2 janvier 2027. Le Roi peut modifier la période par arrêté royal.",
+      "source_id": 6
+    },
+    {
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "name": "Période d'attente avant les soldes d'été",
+      "status": "Déduit",
+      "note": "Habillement, maroquinerie et chaussures : pas d'annonce de réductions de prix pendant le mois qui précède les soldes (art. VI.29 CDE). Dates déduites de la règle.",
+      "source_id": 6
+    },
+    {
+      "start": "2027-07-01",
+      "end": "2027-07-31",
+      "name": "Soldes d'été 2027",
+      "status": "Déduit",
+      "note": "Règle légale : du 1er au 31 juillet (art. VI.25 CDE) ; le 1er juillet 2027 tombe un jeudi, pas de décalage. Dates déduites de la règle.",
+      "source_id": 6
+    },
+    {
+      "start": "2026-08-13",
+      "end": "2026-08-13",
+      "name": "Ouverture possible 7 jours sur 7 jusqu'à 21 h",
+      "status": "Légal",
+      "note": "En vigueur depuis le 13 août 2026 (publication au Moniteur belge le 3 août) : suppression du jour de fermeture hebdomadaire obligatoire et fermeture au plus tard à 21 h. Possibilité et non obligation ; les règles de repos du dimanche du droit du travail restent applicables au personnel de vente. Source médiatique, texte au Moniteur belge non consulté.",
+      "source_id": 11
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Jours fériés",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries"
+    },
+    {
+      "id": 2,
+      "label": "Tous les jours fériés en 2027 et leurs modalités de remplacement",
+      "publisher": "UCM",
+      "url": "https://www.ucm.be/actualites/tous-les-jours-feries-en-2027-et-leurs-modalites-de-remplacement"
+    },
+    {
+      "id": 3,
+      "label": "Calendrier scolaire 2026-2027",
+      "publisher": "Fédération Wallonie-Bruxelles (enseignement.be)",
+      "url": "http://www.enseignement.be/public/docs/calendrier-scolaire-2026-2027.pdf"
+    },
+    {
+      "id": 4,
+      "label": "Schoolvakanties",
+      "publisher": "Vlaamse overheid (vlaanderen.be)",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/wat-mag-en-moet-op-school/schoolvakanties-vrije-dagen-en-afwezigheden/schoolvakanties"
+    },
+    {
+      "id": 5,
+      "label": "Kalender für die Schuljahre 2025-2026 bis 2028-2029",
+      "publisher": "Ministerium der Deutschsprachigen Gemeinschaft (Ostbelgien Bildung)",
+      "url": "https://ostbelgienbildung.be/PortalData/21/Resources/downloads/home/schulvorschriften/25_2730_Schulkalender_fuer_die_Schuljahre_2025-2026_bis_2028-2029.pdf"
+    },
+    {
+      "id": 6,
+      "label": "Code de droit économique, art. VI.25 à VI.30 (ventes en solde, période d'attente) – texte consolidé",
+      "publisher": "Moniteur belge / Justel",
+      "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2013022819&table_name=loi"
+    },
+    {
+      "id": 7,
+      "label": "1 Belge sur 3 attend le Black Friday pour faire ses achats de fin d'année (24 novembre 2021)",
+      "publisher": "RTBF",
+      "url": "https://www.rtbf.be/article/1-belge-sur-3-attend-le-black-friday-pour-faire-ses-achats-de-fin-dannee-10884919"
+    },
+    {
+      "id": 8,
+      "label": "Saint-Nicolas approche : comment se porte le marché du jouet ? (6 novembre 2024)",
+      "publisher": "RTBF",
+      "url": "https://www.rtbf.be/article/saint-nicolas-approche-comment-se-porte-le-marche-du-jouet-11459881"
+    },
+    {
+      "id": 9,
+      "label": "Le week-end le plus chaud de l'année a débuté pour les commerces (16 décembre 2017)",
+      "publisher": "DH Les Sports+",
+      "url": "https://www.dhnet.be/conso/consommation/2017/12/16/le-week-end-le-plus-chaud-de-lannee-a-debute-pour-les-commerces-6DR3BJCSTRCXRPABLDLZ76SFVY/"
+    },
+    {
+      "id": 10,
+      "label": "Les supermarchés adaptent leurs heures d'ouverture pendant les fêtes de fin d'année (4 décembre 2020)",
+      "publisher": "DH Les Sports+",
+      "url": "https://www.dhnet.be/conso/consommation/2020/12/04/colruyt-delhaize-carrefour-les-supermarches-adaptent-leurs-heures-douverture-pendant-les-fetes-de-fin-dannee-OJRERRHMBNCG7NYUPPRD2LQHM4/"
+    },
+    {
+      "id": 11,
+      "label": "Les commerces de détail peuvent désormais ouvrir 7 jours sur 7 et jusqu'à 21 h (13 août 2026)",
+      "publisher": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/fr/2026/08/13/les-commerces-de-detail-peuvent-desormais-ouvrir-7-jours-sur-7-e/"
+    }
+  ]
+}

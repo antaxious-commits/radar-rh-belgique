@@ -8,3 +8,5 @@ _site/
 site/reports/
 reports/_render/
 site/echeances.ics
+site/conges.ics
+site/manifest.webmanifest

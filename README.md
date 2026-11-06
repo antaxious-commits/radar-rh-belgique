@@ -22,18 +22,30 @@ reports/                    single-topic report JSON + PDF
 .github/workflows/          pages.yml (publish site), weekly.yml (Option B)
 ```
 
-## Slash commands (in Claude Code, inside this folder)
+## What the site contains (all automatic)
+
+Tabs: **Semaine** (at-a-glance tiles, both weekly PDFs, Top 3, every item, archive) · **Transport** (announced strikes and works, live SNCB disruptions, links to STIB / De Lijn / TEC, access to the store) · **Congés** (public holidays with countdown, school holidays of the three Communities, sales and retail peaks, `.ics`) · **Échéances** (next 90 days, `.ics`) · **Rapports** · **Infos**. On a phone: "Add to home screen" installs it like an app.
+
+## Standing reports – refreshed automatically, no command needed
+
+`radar/standing.py` runs after the weekly briefing (API mode: `python -m radar.weekly --research-api`; Claude Code routine: step 7 of CLAUDE.md). `python -m radar.standing --list` shows what is due.
+
+| Every Monday | First Monday of the month |
+|---|---|
+| Transport data (strikes, works) · 90-day deadlines | Payroll check · Last 90 days · Transport & strikes report · Holidays data · Retail CP 311 · Pre-payroll checks · Employer in Brussels · Works council · This year vs last year · Pay transparency |
+
+A failed job never blocks the others; the previous version stays online.
+
+## Slash commands (optional, to refresh something on demand)
 
 | Command | Output |
 |---|---|
 | `/monday-briefing [date]` | weekly briefing, both PDFs, website update |
 | `/adhoc-scan [days] [levels]` | both PDFs for a chosen period in `briefings/adhoc_<date>/`, not published |
-| `/payroll-check` | report: payroll changes this month and next |
-| `/deadlines-90` | report: all statutory deadlines in the next 90 days |
-| `/works-council-gate` | report: which changes need conseil d'entreprise / CPPT / délégation syndicale |
-| `/pay-transparency` | report: Belgian transposition of Directive 2023/970 |
-| `/retail-check` | report: retail CP 311/312/201 – pay, schedules, Sundays, students, flexi-jobs, soldes |
-| `/brussels-check` | report: employer in Brussels – document languages, Actiris aids, inspection, FR/NL glossary |
+| `/payroll-check` · `/deadlines-90` · `/retro-90` · `/annual-changes` | payroll, next 90 days, last 90 days, this year vs last year |
+| `/retail-check` · `/pre-payroll` · `/brussels-check` | CP 311 retail, pre-payroll checklist, employer in Brussels (FR/NL glossary) |
+| `/transport-check` · `/holidays` | transport data + report, holidays data |
+| `/works-council-gate` · `/pay-transparency` | consultation of employee bodies, Directive 2023/970 |
 | `/deep-dive <theme or region>` | report: 30 days back, 90 days ahead on one theme or region |
 | `/explain-for-managers` | plain-language French note for line managers, chat only |
 

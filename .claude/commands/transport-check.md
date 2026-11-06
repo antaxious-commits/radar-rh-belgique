@@ -1,0 +1,8 @@
+---
+description: Transport et grèves – perturbations annoncées (SNCB, STIB, De Lijn, TEC), accès au magasin, règles de paie en cas de retard – données du site + 1 PDF
+argument-hint: "[précisions facultatives]"
+---
+Following CLAUDE.md (Belgium only, French output; never name the reader or the employer), refresh the transport information for staff commuting to the store at Porte de Namur (Brussels) from Brussels and its periphery. $ARGUMENTS
+1. data/transport.json matching radar/transport_schema.json: "announced" = every strike, national action day, union demonstration, rail strike notice (préavis), STIB / De Lijn / TEC strike, and major planned works or closures (metro 2/6, Porte de Namur / Louise / Trône area, North–South junction, main lines into Brussels) from today to 90 days ahead, sorted by start, status Confirmé / Préavis déposé / Annoncé; "access" = metro, bus and train access to Porte de Namur; "links" = official live disruption pages (SNCB, SNCB delay certificate, STIB, De Lijn, TEC, Brussels Mobility), each URL checked.
+2. reports/transport_<today>.json matching radar/report_schema.json, title "RH BELGIQUE | TRANSPORT ET GRÈVES": the announced disruptions table (priority + sources), HR rules when staff arrive late or cannot come because of a strike or transport failure (loi du 3 juillet 1978, art. 27 – salaire journalier garanti; proof such as the SNCB delay certificate; employee's own strike), a store checklist for strike days, "Points non vérifiés".
+Every fact needs a fresh external source opened in this run (never a repo file). Build the report with `python -m radar.build_report <file>` and check the site with `python site/build_site.py`.

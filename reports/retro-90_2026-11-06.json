@@ -1,0 +1,718 @@
+{
+  "title": "RH BELGIQUE | CE QUI A CHANGÉ (90 DERNIERS JOURS)",
+  "slug": "retro-90",
+  "date": "2026-11-06",
+  "period": "Du 8 août au 6 novembre 2026",
+  "summary": "Rétrospective de 90 jours : magasins ouverts jusqu'à 21 h sans jour de fermeture depuis le 13 août, Code pénal social adapté au 1er septembre, nouveau précompte professionnel dès la paie de novembre, fin de la transition Activa à Bruxelles et avant-projets clés au CNT (enregistrement du temps de travail, annualisation, cotisation incapacité).",
+  "intro": "Rétrospective des changements belges en droit du travail, paie et sécurité sociale publiés, adoptés ou entrés en vigueur entre le 8 août et le 6 novembre 2026, lus du point de vue d'un magasin bruxellois de grande distribution non alimentaire relevant de la commission paritaire 311 [paritair comité 311]. Recherche menée en français et en néerlandais auprès du SPF Emploi, du Conseil national du Travail, d'Actiris, de l'ONEM et des secrétariats sociaux, avec vérification sur la source primaire lorsque c'était possible. Les mesures seulement annoncées ou au stade d'avant-projet sont signalées comme telles. Les éléments entrés en vigueur juste avant la fenêtre (indexation CP 311 de juillet, préavis d'une semaine) sont rappelés à part.",
+  "sections": [
+    {
+      "heading": "EN BREF",
+      "bullets": [
+        "ROUGE : nouveau précompte professionnel sur toutes les rémunérations payées ou attribuées à partir du 1er novembre 2026 (arrêté royal du 27 septembre 2026, Moniteur belge du 2 octobre 2026) ; le net de novembre bouge selon la situation familiale, sans recalcul de janvier à octobre.",
+        "ORANGE : depuis le 13 août 2026, les magasins peuvent ouvrir tous les jours jusqu'à 21 h et le jour de fermeture hebdomadaire obligatoire est supprimé (loi du 20 juillet 2026, Moniteur belge du 3 août 2026) ; le droit du travail (travail du dimanche, durée du travail, règlement de travail) ne change pas.",
+        "ORANGE : Bruxelles – plus de prime activa.brussels pour les engagements depuis le 15 juillet 2026 ; les contrats antérieurs en bénéficient jusqu'au 31 décembre 2026, puis l'employeur supporte tout le salaire.",
+        "ORANGE : Code pénal social adapté au nouveau Code pénal depuis le 1er septembre 2026 (montants finaux inchangés, nouvelles peines de travail et de probation) ; Dimona, horaires et documents sociaux restent les premiers points de contrôle.",
+        "ORANGE : exonération de précompte professionnel pour les jeunes travailleurs engagés en octobre, novembre ou décembre 2026 (salaire imposable de 5 000 EUR maximum par mois), jusqu'au 31 décembre 2026.",
+        "ORANGE : au CNT, avis sur trois avant-projets qui toucheront le magasin – obligation générale d'enregistrer le temps de travail, annualisation du temps de travail et du temps partiel, cotisation de solidarité renforcée pour les 4e et 5e mois d'incapacité dès le 1er janvier 2027.",
+        "ORANGE : élections sociales 2028 – la période de référence pour l'effectif moyen a démarré le 1er octobre 2026 ; le CNT propose de voter du 15 au 28 mai 2028.",
+        "VERT : flexi-jobs – un arrêté royal du 30 août 2026 (Moniteur belge du 9 septembre 2026) confirme une première série d'opt-out sectoriels ; la source consultée ne cite pas le commerce de détail.",
+        "VERT : la hausse annoncée des cotisations de vacances des ouvriers au 1er octobre 2026 est suspendue ; indemnité kilométrique à 0,4452 EUR/km du 1er octobre au 31 décembre 2026.",
+        "Hors fenêtre mais à garder en tête : indexation CP 311 de 2 % au 1er juillet 2026 et préavis d'une semaine pendant les six premiers mois pour les contrats commençant depuis le 1er août 2026."
+      ]
+    },
+    {
+      "heading": "AOÛT 2026 (À PARTIR DU 8 AOÛT)",
+      "table": {
+        "columns": [
+          "Date",
+          "Niveau",
+          "Ce qui a changé",
+          "Effet pour le magasin"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "13 août 2026",
+              "Fédéral",
+              "Loi du 20 juillet 2026 modifiant la loi du 10 novembre 2006 sur les heures d'ouverture (Moniteur belge du 3 août 2026) : ouverture possible tous les jours jusqu'à 21 h, suppression du jour de fermeture hebdomadaire obligatoire.",
+              "Option commerciale, pas une obligation. Toute extension d'horaire passe par le règlement de travail et les horaires à temps partiel ; l'interdiction du travail du dimanche après-midi et les limites de durée du travail restent applicables."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              1,
+              2
+            ]
+          },
+          {
+            "cells": [
+              "15 août 2026",
+              "Fédéral",
+              "Nouveau cadre de séjour pour le travail frontalier : régime simplifié pour les ressortissants UE/EEE/Suisse, nouvelle annexe 64 pour certains ressortissants de pays tiers résidant en France, en Allemagne, au Luxembourg ou aux Pays-Bas.",
+              "Utile seulement si le magasin engage des frontaliers non européens ; le permis de travail reste requis lorsqu'il est exigé."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              8
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "SEPTEMBRE 2026",
+      "table": {
+        "columns": [
+          "Date",
+          "Niveau",
+          "Ce qui a changé",
+          "Effet pour le magasin"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "1er septembre 2026",
+              "Fédéral",
+              "Code pénal social aligné sur le nouveau Code pénal (loi du 16 mars 2026) : montants de base multipliés par 8 et décimes réduits (x1,25), montants finaux identiques ; peine de travail et probation ; niveau 4 : amende pénale de 6 000 à 70 000 EUR.",
+              "Pas de nouvelle obligation, mais des sanctions plus diversifiées. Priorités de contrôle : paiement correct du salaire, Dimona, horaires à temps partiel, documents sociaux."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "cells": [
+              "1er septembre 2026",
+              "Fédéral",
+              "Indemnité forfaitaire de télétravail portée à 164,21 EUR par mois ; frais de séjour en Belgique : 22,08 EUR par jour et 165,60 EUR par nuit.",
+              "Concerne surtout le siège ; à vérifier si des responsables de magasin perçoivent ces indemnités."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              10
+            ]
+          },
+          {
+            "cells": [
+              "1er septembre 2026",
+              "Fédéral",
+              "Nouvelle modification du mode de calcul du bonus social à l'emploi [sociale werkbonus], après celle de juillet 2026 ; indemnité complémentaire de chômage temporaire à charge de l'employeur : 5,41 EUR par jour.",
+              "Le bonus à l'emploi touche directement les bas salaires : contrôler le net des vendeurs à temps partiel sur les fiches de septembre."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              11
+            ]
+          },
+          {
+            "cells": [
+              "1er septembre 2026",
+              "Flandre",
+              "Réforme du congé-formation flamand [Vlaams opleidingsverlof] et redevance flamande de 180 EUR par demande de permis unique.",
+              "En principe sans effet pour un siège d'exploitation bruxellois ; à vérifier pour le personnel occupé en Flandre."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              10,
+              11
+            ]
+          },
+          {
+            "cells": [
+              "8 septembre 2026",
+              "Fédéral",
+              "Annonce par la FGTB et la CSC d'une manifestation nationale le 9 octobre à Bruxelles ; la FGTB se dit mandatée pour une grève générale la semaine du 23 novembre si le gouvernement touche à l'indexation, à la TVA ou annualise le temps de travail (menace conditionnelle).",
+              "Prévoir les retards et absences du personnel les jours d'action (transports bruxellois) ; aucune grève générale n'est confirmée à ce stade."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              28
+            ]
+          },
+          {
+            "cells": [
+              "9 septembre 2026",
+              "Fédéral",
+              "Arrêté royal du 30 août 2026 (Moniteur belge du 9 septembre 2026) confirmant une première série d'opt-out sectoriels des flexi-jobs à partir du 1er juillet 2026.",
+              "La source ne cite pas le commerce de détail ; le recours aux flexi-jobs reste soumis aux règles du secteur."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              17
+            ]
+          },
+          {
+            "cells": [
+              "10 septembre 2026",
+              "Fédéral",
+              "Arrêt de la Cour constitutionnelle sur la réforme du chômage : réforme largement confirmée, annulation partielle du régime transitoire (droits limités à 6, 8 ou 9 mois jugés discriminatoires).",
+              "Pas d'effet direct pour l'employeur ; effet indirect possible sur le vivier de candidats à Bruxelles."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              21
+            ]
+          },
+          {
+            "cells": [
+              "22 septembre 2026",
+              "Fédéral",
+              "Avis unanime du CNT n° 2.498 sur la réforme des chèques sociaux : aucune piste examinée ne convient, maintien des éco-chèques demandé.",
+              "Aucun changement à ce stade : éco-chèques et titres-repas restent dus selon les règles actuelles."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              12
+            ]
+          },
+          {
+            "cells": [
+              "30 septembre 2026",
+              "Fédéral",
+              "Avis du CNT n° 2.499 sur un avant-projet de loi créant une obligation générale d'enregistrer le temps de travail, et n° 2.500 sur une cotisation de solidarité renforcée pour les 4e et 5e mois d'incapacité primaire (incapacités débutant à partir du 1er janvier 2027).",
+              "Avant-projets, pas encore de loi. L'enregistrement du temps de travail visera directement le pointage en magasin ; la cotisation renforcée augmenterait le coût des absences longues."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              13
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "OCTOBRE 2026",
+      "table": {
+        "columns": [
+          "Date",
+          "Niveau",
+          "Ce qui a changé",
+          "Effet pour le magasin"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "1er octobre 2026",
+              "Fédéral",
+              "Exonération de précompte professionnel pour les jeunes travailleurs engagés par un contrat débutant en octobre, novembre ou décembre 2026 (salaire mensuel imposable de 5 000 EUR maximum), jusqu'au 31 décembre 2026.",
+              "Pertinent pour les recrutements de fin d'année : vérifier les conditions de la réglementation chômage avant d'appliquer l'exonération."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              9,
+              10
+            ]
+          },
+          {
+            "cells": [
+              "1er octobre 2026",
+              "Fédéral",
+              "Début de la période de référence (1er octobre 2026 au 30 septembre 2027) pour calculer l'effectif moyen en vue des élections sociales 2028 (seuils de 50 et 100 travailleurs).",
+              "Étudiants, intérimaires et temps partiels pèsent dans le calcul au niveau de l'unité technique d'exploitation : fiabiliser les données dès maintenant."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              16
+            ]
+          },
+          {
+            "cells": [
+              "1er octobre 2026",
+              "Fédéral",
+              "Indemnité kilométrique (barème trimestriel) : 0,4452 EUR/km du 1er octobre au 31 décembre 2026 ; recharge à domicile des voitures de société en Région bruxelloise : 36,88 c/kWh.",
+              "Faible : déplacements de service ponctuels des responsables."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              23
+            ]
+          },
+          {
+            "cells": [
+              "1er octobre 2026",
+              "Fédéral",
+              "Hausse prévue des cotisations de vacances des ouvriers (projet d'arrêté royal) suspendue : absente du fichier provisoire ONSS 2026/4 ; un départ en 2027 n'est pas confirmé.",
+              "Sans effet pour les employés de la CP 311 ; ne pas appliquer de nouveau taux."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              15,
+              16
+            ]
+          },
+          {
+            "cells": [
+              "9 octobre 2026",
+              "Fédéral",
+              "Manifestation nationale FGTB-CSC à Bruxelles, couverte par un préavis de grève.",
+              "Absences pour grève non rémunérées ; retards liés aux perturbations en principe non payés, sauf choix de l'employeur."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              22,
+              28
+            ]
+          },
+          {
+            "cells": [
+              "13 octobre 2026",
+              "Bruxelles",
+              "Accord budgétaire bruxellois (annoncé, à transposer) : économies sur la politique de l'emploi (environ 55 millions EUR en 2027), réductions de charges ciblées sur certains sites, après la suppression d'Activa.",
+              "Annoncé seulement. Aucun dispositif de remplacement d'Activa n'est encore connu."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              20
+            ]
+          },
+          {
+            "cells": [
+              "20 octobre 2026",
+              "Fédéral (CP)",
+              "Premières indexations sectorielles avec plafonnement au-delà de 4 000 EUR bruts temps plein (par exemple CP 109 : 1,82 %, limitée à 72,80 EUR au-delà de 4 000 EUR).",
+              "Pas de CP 311 dans la liste d'octobre ; illustre le mécanisme qui s'appliquera à la prochaine indexation plafonnée."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              25
+            ]
+          },
+          {
+            "cells": [
+              "27 octobre 2026",
+              "Fédéral",
+              "Avis du CNT n° 2.502 (élections sociales proposées du 15 au 28 mai 2028), n° 2.504 (avant-projet de crédit familial) et n° 2.505 (avant-projet d'annualisation du temps de travail et de modifications du temps partiel).",
+              "Annualisation et temps partiel : sujets centraux pour les horaires variables en magasin. Avant-projets, sans date d'effet."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              14
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "NOVEMBRE 2026 (JUSQU'AU 6 NOVEMBRE)",
+      "table": {
+        "columns": [
+          "Date",
+          "Niveau",
+          "Ce qui a changé",
+          "Effet pour le magasin"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "1er novembre 2026",
+              "Fédéral",
+              "Nouveau précompte professionnel (AR du 27 septembre 2026, Moniteur belge du 2 octobre 2026, exécutant la loi du 15 juillet 2026 portant réforme de l'IPP) : quotité exemptée 2026 portée à 11 550 EUR, plafond du quotient conjugal abaissé, réductions pour enfants et situations familiales adaptées.",
+              "Paie de novembre : écarts de net à expliquer aux équipes ; fiches de situation familiale à jour ; pas de recalcul janvier-octobre (régularisation à l'avertissement-extrait de rôle 2027)."
+            ],
+            "priority": "RED",
+            "source_ids": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "cells": [
+              "1er novembre 2026",
+              "Fédéral",
+              "La Toussaint tombe un dimanche : un jour de remplacement doit être fixé.",
+              "Vérifier le jour de remplacement retenu et son traitement en paie."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              5
+            ]
+          },
+          {
+            "cells": [
+              "1er novembre 2026",
+              "Fédéral (CP)",
+              "Indexation de 2 % annoncée par la CSC pour la CP 312 (grands magasins) et la CP 201 (commerce de détail indépendant).",
+              "Pas la CP du magasin ; utile pour comparer avec la concurrence. Information non confirmée par une seconde source."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              24
+            ]
+          },
+          {
+            "cells": [
+              "Novembre 2026",
+              "Fédéral",
+              "Dépassement de l'indice-pivot prévu en novembre 2026 selon les dernières prévisions du Bureau du Plan citées par Securex.",
+              "Prévision : aucun effet automatique sur les salaires de la CP 311, dont l'indexation suit ses propres règles."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              5
+            ]
+          },
+          {
+            "cells": [
+              "30 novembre et 31 décembre 2026",
+              "Bruxelles",
+              "Fin d'activa.brussels : plus d'avantage pour les engagements depuis le 15 juillet 2026 ; contrats antérieurs couverts jusqu'au 31 décembre 2026 ; activation auprès de l'ONEM au plus tard le 30 novembre 2026 selon l'UCM.",
+              "Recenser les travailleurs sous Activa ; à partir de janvier 2027, l'allocation de travail ne peut plus être déduite du salaire net."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              18,
+              19
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "LES CHANGEMENTS LES PLUS IMPORTANTS",
+      "cards": [
+        {
+          "title": "FÉDÉRAL / Nouveau précompte professionnel dès la paie de novembre",
+          "priority": "RED",
+          "status": "Publié | Date d'effet : 1er novembre 2026",
+          "body": "L'arrêté royal du 27 septembre 2026 (Moniteur belge du 2 octobre 2026) modifie l'annexe III de l'AR/CIR 92 pour intégrer les premières mesures de la loi du 15 juillet 2026 portant réforme de l'impôt des personnes physiques. Il vise les revenus payés ou attribués à partir du 1er novembre 2026 : quotité exemptée relevée (11 550 EUR pour les revenus 2026), plafond du quotient conjugal abaissé (11 780 EUR), réductions pour enfants à charge et situations familiales adaptées. Les pensions et le chômage avec complément d'entreprise ne sont pas visés en 2026, et les mois de janvier à octobre ne sont pas recalculés.",
+          "impact": "Le net des vendeurs peut monter ou baisser de quelques euros selon la situation familiale. Si les fiches de situation familiale sont incomplètes, les écarts risquent d'être mal compris ; l'écart mensuel multiplié par dix donne l'ordre de grandeur de la régularisation fiscale 2027.",
+          "tags": [
+            "Précompte professionnel [bedrijfsvoorheffing]",
+            "Paie de novembre",
+            "Communication aux équipes"
+          ],
+          "source_ids": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Magasins ouverts tous les jours jusqu'à 21 h",
+          "priority": "AMBER",
+          "status": "En vigueur | Date d'effet : 13 août 2026",
+          "body": "La loi du 20 juillet 2026 modifiant la loi du 10 novembre 2006 relative aux heures d'ouverture dans le commerce, l'artisanat et les services, et la loi du 24 juin 2013 relative aux sanctions administratives communales (Moniteur belge du 3 août 2026), permet d'ouvrir tous les jours jusqu'à 21 h et supprime le jour de fermeture hebdomadaire obligatoire [verplichte wekelijkse rustdag]. L'ouverture élargie est une faculté, pas une obligation.",
+          "impact": "Si l'enseigne étend ses horaires, le règlement de travail, les horaires à temps partiel et la planification devront être adaptés selon la procédure habituelle. L'interdiction d'occuper du personnel le dimanche après 12 h (hors centres touristiques et dérogations sectorielles) n'est pas modifiée, y compris pour les étudiants et les flexi-jobbers.",
+          "tags": [
+            "Heures d'ouverture",
+            "Règlement de travail",
+            "Travail du dimanche"
+          ],
+          "source_ids": [
+            1,
+            2
+          ]
+        },
+        {
+          "title": "BRUXELLES / Fin d'activa.brussels",
+          "priority": "AMBER",
+          "status": "En vigueur (suppression au 15 juillet 2026) | Fin de la transition : 31 décembre 2026",
+          "body": "Les mesures activa.brussels, activa.brussels plus et activa.brussels aptitude réduite sont supprimées depuis le 15 juillet 2026. Pour les contrats débutés avant cette date, l'allocation de travail peut encore être déduite du salaire jusqu'au 31 décembre 2026 ; à partir du 1er janvier 2027, l'employeur paie tout le salaire. La prime handicap et la prime de formation ne sont plus accessibles. Actiris prépare des mesures de remplacement non encore précisées ; l'accord budgétaire bruxellois d'octobre 2026 annonce de nouvelles économies sur l'emploi.",
+          "impact": "Le coût salarial des travailleurs sous Activa augmentera en janvier 2027. Les nouvelles embauches ne bénéficient plus de cette aide ; le budget 2027 du magasin est à revoir si plusieurs contrats sont concernés.",
+          "tags": [
+            "Actiris",
+            "Aides à l'emploi",
+            "Bruxelles"
+          ],
+          "source_ids": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Code pénal social adapté au nouveau Code pénal",
+          "priority": "AMBER",
+          "status": "En vigueur | Date d'effet : 1er septembre 2026",
+          "body": "La loi du 16 mars 2026 aligne le Code pénal social sur le nouveau Code pénal : montants de base multipliés par 8 et coefficient des décimes ramené de 10 à 1,25, de sorte que les montants finaux restent ceux appliqués depuis le 1er février 2026. Les niveaux 2 à 4 visent désormais la peine de travail et la probation ; au niveau 4, amende pénale de 6 000 à 70 000 EUR ou emprisonnement de six mois à trois ans.",
+          "impact": "Pas de nouvelle obligation, mais des infractions sur la Dimona, les horaires à temps partiel ou le paiement du salaire peuvent déboucher sur des sanctions alternatives. Un contrôle interne des documents sociaux du magasin réduit ce risque.",
+          "tags": [
+            "Code pénal social [Sociaal Strafwetboek]",
+            "Inspection",
+            "Dimona"
+          ],
+          "source_ids": [
+            6,
+            7
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Pas de précompte pour les jeunes engagés au 4e trimestre",
+          "priority": "AMBER",
+          "status": "En vigueur | Contrats débutant entre le 1er octobre et le 31 décembre 2026",
+          "body": "Les rémunérations de jeunes travailleurs engagés par un contrat débutant en octobre, novembre ou décembre 2026 sont exonérées de précompte professionnel jusqu'au 31 décembre 2026, si le jeune remplit les conditions de l'article 36 de l'AR du 25 novembre 1991 (fin de l'obligation scolaire et des études) et si le salaire mensuel imposable ne dépasse pas 5 000 EUR. Base citée : AR du 11 décembre 2025 modifiant l'AR/CIR 92 (Moniteur belge du 29 décembre 2025). Le précompte redevient dû dès le 1er janvier 2027.",
+          "impact": "Si le magasin recrute de jeunes diplômés en fin d'année, leur net de fin 2026 sera plus élevé ; il faut les prévenir de la baisse visible en janvier 2027.",
+          "tags": [
+            "Précompte professionnel",
+            "Recrutement",
+            "Jeunes travailleurs"
+          ],
+          "source_ids": [
+            9,
+            10
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Temps de travail et incapacité : avant-projets au CNT",
+          "priority": "AMBER",
+          "status": "Avant-projet | Date d'effet : non précisée (cotisation renforcée visée au 1er janvier 2027)",
+          "body": "Le CNT a rendu un avis divisé (n° 2.499, 30 septembre 2026) sur un avant-projet de loi créant une obligation générale d'enregistrer le temps de travail, un avis (n° 2.500) sur une cotisation de solidarité renforcée due par l'employeur pour les 4e et 5e mois d'incapacité primaire commençant à partir du 1er janvier 2027, et un avis divisé (n° 2.505, 27 octobre 2026) sur l'annualisation du temps de travail et des modifications du travail à temps partiel. Aucun de ces textes n'est encore voté.",
+          "impact": "Si ces textes aboutissent, le pointage, la publicité des horaires à temps partiel et le coût des absences longues changeront en magasin. À suivre jusqu'au dépôt à la Chambre.",
+          "tags": [
+            "Avant-projet",
+            "Temps de travail",
+            "Incapacité de travail"
+          ],
+          "source_ids": [
+            13,
+            14
+          ]
+        },
+        {
+          "title": "FÉDÉRAL / Élections sociales 2028 : la période de référence a commencé",
+          "priority": "AMBER",
+          "status": "En cours | Période de référence : 1er octobre 2026 au 30 septembre 2027",
+          "body": "L'effectif moyen qui détermine l'obligation d'organiser des élections pour le CPPT (50 travailleurs) et le conseil d'entreprise (100 travailleurs) se calcule sur la période du 1er octobre 2026 au 30 septembre 2027. Dans son avis n° 2.502 du 27 octobre 2026, le CNT propose de tenir les élections du 15 au 28 mai 2028 et d'adapter la loi du 4 décembre 2007.",
+          "impact": "Si plusieurs magasins forment une même unité technique d'exploitation, le calcul se fait à ce niveau ; intérimaires et temps partiels comptent selon des règles propres.",
+          "tags": [
+            "Élections sociales",
+            "CPPT",
+            "Conseil d'entreprise"
+          ],
+          "source_ids": [
+            14,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "JUSTE AVANT LA FENÊTRE : À GARDER EN TÊTE",
+      "table": {
+        "columns": [
+          "Date",
+          "Niveau",
+          "Ce qui a changé",
+          "Effet pour le magasin"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "1er juillet 2026",
+              "Fédéral (CP 311)",
+              "Indexation de 2 % des salaires de la CP 311 (employés des grandes entreprises de vente au détail), selon la CSC.",
+              "Hors fenêtre : normalement déjà appliquée en paie de juillet ; contrôle utile si ce n'est pas le cas."
+            ],
+            "priority": "GREEN",
+            "source_ids": [
+              24
+            ]
+          },
+          {
+            "cells": [
+              "1er août 2026",
+              "Fédéral",
+              "Préavis d'une semaine pendant les six premiers mois pour les contrats qui commencent à partir du 1er août 2026 (loi du 3 juin 2026) ; plafond de 52 semaines pour les contrats commencés depuis le 1er juin 2026.",
+              "Hors fenêtre de quelques jours mais touche toutes les embauches depuis le 1er août : mettre à jour le règlement de travail et les modèles de rupture."
+            ],
+            "priority": "AMBER",
+            "source_ids": [
+              26,
+              27
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS",
+      "bullets": [
+        "Heure d'ouverture minimale : Partena indique 5 h-21 h, La Libre 8 h-21 h ; le texte au Moniteur belge n'a pas été consulté. Les sources divergent aussi sur la date du vote à la Chambre.",
+        "Précompte professionnel : le texte de l'AR du 27 septembre 2026 n'a pas été ouvert sur ejustice ni sur finances.belgium.be ; les montants cités viennent de l'OEC/CCBB.",
+        "Indexation de 2 % au 1er novembre 2026 en CP 312 et CP 201 : seule source la CSC, qui l'attribue à un dépassement de l'indice-pivot en octobre, alors que Securex prévoit ce dépassement pour novembre.",
+        "Bonus social à l'emploi au 1er septembre 2026 : nouveau mode de calcul annoncé par Partena, sans formule ni montants vérifiés.",
+        "Activa : le délai d'activation du 30 novembre 2026 provient de l'UCM et ne figure pas sur la page employeurs d'Actiris.",
+        "Cotisation de solidarité renforcée (4e et 5e mois d'incapacité) : seuil d'effectif et montant non vérifiés ; avant-projet non encore déposé à la Chambre.",
+        "Flexi-jobs : la liste des secteurs exclus par l'AR du 30 août 2026 n'a pas été consultée ; l'absence du commerce de détail repose sur une source secondaire.",
+        "Grève générale de la semaine du 23 novembre 2026 : menace conditionnelle annoncée en septembre ; aucune confirmation ni préavis n'a été trouvé à la date du rapport.",
+        "Accord budgétaire fédéral d'octobre 2026 : aucune source fiable confirmant un accord ou son contenu n'a été trouvée.",
+        "Réforme des pensions, heures supplémentaires volontaires, travail de nuit : aucune nouvelle étape publiée dans la fenêtre n'a été trouvée (textes de mai-juin 2026, effets principaux en 2027).",
+        "Jurisprudence : aucun arrêt de la Cour de cassation ou des juridictions du travail changeant la pratique d'un magasin n'a été identifié dans la fenêtre."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Heures d'ouverture étendues des magasins : entrée en vigueur définitive, les règles du travail restent d'application (13 août 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22591"
+    },
+    {
+      "id": 2,
+      "label": "Les commerces de détail pourront ouvrir 7 jours sur 7 à partir du 13 août (6 août 2026)",
+      "publisher": "La Libre Belgique",
+      "url": "https://www.lalibre.be/economie/conjoncture/2026/08/06/les-commerces-de-detail-pourront-ouvrir-7-jours-sur-7-a-partir-du-13-aout-SIUDGHFXZBFYREF2ECSAGBH4MA/"
+    },
+    {
+      "id": 3,
+      "label": "Précompte professionnel : nouvelles règles à partir du 1er novembre 2026 (13 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22682"
+    },
+    {
+      "id": 4,
+      "label": "Précompte professionnel : ce que la réforme IPP laisse à régulariser en 2027 depuis la nouvelle paie de novembre 2026",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/fr/article/precompte-professionnel-ce-que-la-reforme-ipp-laisse-a-regulariser-en-2027-depuis-la-nouvelle-paie-de-novembre-2026/32846"
+    },
+    {
+      "id": 5,
+      "label": "Wat brengt de maand november 2026 op hr-vlak? (26 octobre 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-november-2026-op-hr-vlak"
+    },
+    {
+      "id": 6,
+      "label": "Modifications du Code pénal social à partir du 1er septembre 2026",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/actualites/modifications-du-code-penal-social-partir-du-1er-septembre-2026"
+    },
+    {
+      "id": 7,
+      "label": "Wat brengt de maand september 2026 op hr-vlak? (26 août 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-september-2026-op-hr-vlak"
+    },
+    {
+      "id": 8,
+      "label": "Nouvelles lois et chiffres récents : quelles conséquences pour les employeurs en Belgique ? (9 octobre 2026)",
+      "publisher": "Lexgo (Andersen)",
+      "url": "https://www.lexgo.be/fr/actualites-et-articles/15139-nouvelles-lois-et-chiffres-recents-quelles-consequences-pour-les-employeurs-en-belgique"
+    },
+    {
+      "id": 9,
+      "label": "Vrijstelling van bedrijfsvoorheffing voor jonge werknemers (2026) (15 septembre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22648"
+    },
+    {
+      "id": 10,
+      "label": "Wat is er veranderd in HR vanaf september 2026? (25 septembre 2026)",
+      "publisher": "Baker Tilly",
+      "url": "https://bakertilly.be/nl/news/wat-is-er-veranderd-in-hr-vanaf-september-2026/"
+    },
+    {
+      "id": 11,
+      "label": "Wat verandert er vanaf 1 september 2026? (1er septembre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22625"
+    },
+    {
+      "id": 12,
+      "label": "Communiqué de presse du 22 septembre 2026 (avis n° 2.497 et 2.498)",
+      "publisher": "Conseil national du Travail",
+      "url": "https://cnt-nar.be/sites/default/files/press_releases/fr/2026-09-22-F.pdf"
+    },
+    {
+      "id": 13,
+      "label": "Communiqué de presse du 30 septembre 2026 (avis n° 2.499 et 2.500)",
+      "publisher": "Conseil national du Travail",
+      "url": "https://cnt-nar.be/sites/default/files/press_releases/fr/2026-09-30-F.pdf"
+    },
+    {
+      "id": 14,
+      "label": "Communiqué de presse du 27 octobre 2026 (avis n° 2.502 à 2.505)",
+      "publisher": "Conseil national du Travail",
+      "url": "https://cnt-nar.be/sites/default/files/press_releases/fr/2026-10-27-F.pdf"
+    },
+    {
+      "id": 15,
+      "label": "Financiering vakantiegeld arbeiders: voorlopig dan toch geen verhoging van de sociale zekerheidsbijdragen in 2026 (29 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/nl/node/22705"
+    },
+    {
+      "id": 16,
+      "label": "Wat brengt de maand oktober 2026 op hr-vlak? (24 septembre 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-oktober-2026-op-hr-vlak"
+    },
+    {
+      "id": 17,
+      "label": "Flexi-jobs : état des lieux des opt-outs au 1er octobre 2026 (27 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22695"
+    },
+    {
+      "id": 18,
+      "label": "Afschaffing van de maatregel activa.brussels (werkgevers)",
+      "publisher": "Actiris",
+      "url": "https://www.actiris.brussels/nl/werkgevers/detail-d-une-news/20736-afschaffing-van-de-maatregel-activa-brussels-emp"
+    },
+    {
+      "id": 19,
+      "label": "Bruxelles : deux importantes aides à l'emploi sont supprimées",
+      "publisher": "UCM",
+      "url": "https://www.ucm.be/actualites/bruxelles-deux-importantes-aides-lemploi-sont-supprimees"
+    },
+    {
+      "id": 20,
+      "label": "Quelles mesures prévoit l'accord sur le budget du gouvernement bruxellois ? (13 octobre 2026)",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22678"
+    },
+    {
+      "id": 21,
+      "label": "Gevolgen van het arrest van het Grondwettelijk Hof van 10 september 2026 (11 septembre 2026)",
+      "publisher": "ONEM/RVA",
+      "url": "https://www.onem.be/nieuws/2026/09/11/gevolgen-van-het-arrest-van-het-grondwettelijk-hof-van-10-september-2026"
+    },
+    {
+      "id": 22,
+      "label": "Action syndicale le vendredi 9 octobre 2026",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/action-syndicale-le-vendredi-9-octobre-2026"
+    },
+    {
+      "id": 23,
+      "label": "Au 1er octobre 2026 : les paramètres qui changent pour l'employeur, l'indépendant et le propriétaire wallon",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/fr/article/dossiers-au-1er-octobre-2026-les-parametres-qui-changent-pour-lemployeur-lindependant-et-le-proprietaire-wallon/32577"
+    },
+    {
+      "id": 24,
+      "label": "Indexation : secteurs indexés en 2026",
+      "publisher": "CSC/CNE",
+      "url": "https://www.lacsc.be/cne/campagnes/indexation"
+    },
+    {
+      "id": 25,
+      "label": "Adaptations salariales - octobre 2026 (liste du 20 octobre 2026)",
+      "publisher": "UCM",
+      "url": "https://www.ucm.be/sites/default/files/2026-10/2026-octobre-adaptations-salariales-ucm_0.pdf"
+    },
+    {
+      "id": 26,
+      "label": "Wijziging opzeggingstermijnen sinds 1 augustus 2026",
+      "publisher": "OEC/CCBB",
+      "url": "https://blog.oeccbb.be/nl/article/wijziging-opzeggingstermijnen-sinds-1-augustus-2026/32243"
+    },
+    {
+      "id": 27,
+      "label": "Wat brengt de maand augustus 2026 op hr-vlak? (29 juillet 2026)",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-augustus-2026-op-hr-vlak"
+    },
+    {
+      "id": 28,
+      "label": "Une manifestation de la FGTB et de la CSC prévue le 9 octobre à Bruxelles, une menace de grève générale pour fin novembre (8 septembre 2026)",
+      "publisher": "Paris Match Belgique (Belga)",
+      "url": "https://www.parismatch.be/actualites/2026/09/08/une-manifestation-de-la-fgtb-et-de-la-csc-prevue-le-9-octobre-a-bruxelles-une-menace-de-greve-generale-pour-fin-novembre-KNURWE5PXFG25C2MADN4FJT4GM/"
+    }
+  ]
+}

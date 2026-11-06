@@ -2,38 +2,63 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1F2A44">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-title" content="Radar RH">
 <title>Radar RH Belgique – 26 oct. au 1er nov. 2026</title>
 <style>
 :root {
   --bg: #f6f7f9; --panel: #ffffff; --ink: #1d2433; --muted: #5b6475; --rule: #dfe3ea;
-  --navy: #1F2A44; --teal: #3FB8AF; --teal-fill: #E8F6F5;
+  --navy: #1F2A44; --teal: #3FB8AF; --teal-ink: #1f7f78; --teal-fill: #E8F6F5;
   --red: #C0392B; --amber: #B7791F; --green: #2F855A;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #10151f; --panel: #182030; --ink: #e7ebf2; --muted: #9aa5b8; --rule: #2a3447;
-          --teal-fill: #15302f; --red: #ef7a6c; --amber: #e3b25b; --green: #6cc795; }
+          --teal-ink: #5fd0c7; --teal-fill: #15302f; --red: #ef7a6c; --amber: #e3b25b; --green: #6cc795; }
 }
 * { box-sizing: border-box; }
+html { scroll-padding-top: 64px; }
 body { margin: 0; background: var(--bg); color: var(--ink);
   font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 main { max-width: 860px; margin: 0 auto; padding: 0 16px 48px; }
-.top { background: var(--navy); color: #fff; margin: 0 -16px; padding: 28px 16px 22px; border-bottom: 4px solid var(--teal); }
+.top { background: var(--navy); color: #fff; margin: 0 -16px; padding: 24px 16px 18px; }
 .eyebrow { margin: 0; color: var(--teal); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
-h1 { margin: 6px 0 4px; font-size: 26px; line-height: 1.2; }
-.sub { margin: 0; color: #c9d2e3; font-size: 15px; }
-h2 { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 32px 0 12px; }
-.example { border: 2px solid var(--red); color: var(--red); font-weight: 700; padding: 10px 12px; border-radius: 8px; margin: 20px 0 0; }
-.downloads { display: grid; gap: 12px; margin-top: 20px; }
-.btn { display: block; padding: 16px 18px; border-radius: 12px; text-decoration: none; color: var(--ink);
+h1 { margin: 6px 0 4px; font-size: 24px; line-height: 1.2; }
+.sub { margin: 0; color: #c9d2e3; font-size: 14px; }
+.tabs { position: sticky; top: 0; z-index: 5; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
+  margin: 0 -16px; padding: 8px 12px; background: var(--navy); border-bottom: 3px solid var(--teal); }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs a { flex: 0 0 auto; color: #c9d2e3; text-decoration: none; font-weight: 600; font-size: 15px;
+  padding: 10px 14px; border-radius: 999px; min-height: 44px; display: flex; align-items: center; }
+.tabs a[aria-selected="true"] { background: var(--teal); color: #0d1b2a; }
+.tabs a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.js .panel { display: none; } .js .panel.on { display: block; }
+.panel { padding-top: 4px; }
+h2 { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 28px 0 10px; }
+h2 small { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.sub-h { font-size: 16px; margin: 22px 0 8px; }
+.example { border: 2px solid var(--red); color: var(--red); font-weight: 700; padding: 10px 12px; border-radius: 8px; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+.tile { display: flex; flex-direction: column; gap: 2px; background: var(--panel); border: 1px solid var(--rule);
+  border-radius: 12px; padding: 12px; text-decoration: none; color: var(--ink); min-height: 96px; }
+.tile small { color: var(--muted); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+.tile b { font-size: 22px; line-height: 1.2; }
+.tile span { font-size: 13px; color: var(--muted); line-height: 1.35; }
+.tile.alert { border-color: var(--red); } .tile.alert b { color: var(--red); }
+.downloads { display: grid; gap: 10px; margin-top: 14px; }
+.btn { display: block; padding: 14px 16px; border-radius: 12px; text-decoration: none; color: var(--ink);
   background: var(--panel); border: 1px solid var(--rule); min-height: 64px; }
-.btn b { display: block; font-size: 18px; }
+.btn b { display: block; font-size: 17px; }
 .btn span { color: var(--muted); font-size: 14px; }
 .btn.primary { background: var(--teal); border-color: var(--teal); color: #0d1b2a; }
 .btn.primary span { color: #0d1b2a; opacity: .8; }
-.cards { display: grid; gap: 12px; }
+.cards { display: grid; gap: 10px; }
 .card { background: var(--panel); border: 1px solid var(--rule); border-left: 5px solid var(--teal); border-radius: 10px; padding: 14px 16px; }
 .card.RED { border-left-color: var(--red); } .card.AMBER { border-left-color: var(--amber); } .card.GREEN { border-left-color: var(--green); }
 .card h3 { margin: 6px 0; font-size: 17px; line-height: 1.3; }
@@ -41,41 +66,76 @@ h2 { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: v
 .card .meta { margin-top: 8px; color: var(--muted); font-size: 14px; }
 .tag { display: flex; gap: 10px; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .RED .pri { color: var(--red); } .AMBER .pri { color: var(--amber); } .GREEN .pri { color: var(--green); }
+.pri { font-weight: 700; font-size: 12px; letter-spacing: .06em; }
+.pri-RED { color: var(--red); } .pri-AMBER { color: var(--amber); } .pri-GREEN { color: var(--green); }
 .table-wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; }
 table { width: 100%; border-collapse: collapse; font-size: 15px; }
 th { text-align: left; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 10px 12px; border-bottom: 1px solid var(--rule); }
 td { padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
 tr:last-child td { border-bottom: 0; }
-td.date { white-space: nowrap; font-weight: 700; }
-.kind { display: block; color: var(--muted); font-size: 13px; }
+tr.past { display: none; }
+td.date { white-space: nowrap; font-weight: 700; width: 1%; }
+.kind { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
 a { color: inherit; }
-td a { color: var(--teal); }
-.archive { list-style: none; padding: 0; margin: 0; background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; }
-.archive li { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 12px 14px; border-bottom: 1px solid var(--rule); }
-.archive li:last-child { border-bottom: 0; }
-.archive span { flex: 1 1 160px; font-weight: 600; }
-.archive a { color: var(--teal); font-weight: 600; padding: 2px 0; }
+td a, .src, .item a, .more, .cal { color: var(--teal-ink); }
+.src { font-size: 13px; white-space: nowrap; }
+.list { list-style: none; padding: 0; margin: 0; background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; }
+.list li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding: 12px 14px; border-bottom: 1px solid var(--rule); }
+.list li:last-child { border-bottom: 0; }
+.list span { flex: 1 1 200px; font-weight: 600; }
+.list a { color: var(--teal-ink); font-weight: 600; padding: 4px 0; }
+.list small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
+.list .d { font-weight: 700; white-space: nowrap; }
+.list li.dl { display: block; }
+.list li.dl .d { display: inline-block; margin-right: 8px; }
+.list li.dl p { margin: 4px 0; font-weight: 400; }
+.list li.dl small { display: block; }
+.list li.dl small a { padding: 0; font-weight: 600; }
+.list .cd { font-style: normal; font-size: 13px; color: var(--teal-ink); font-weight: 700; }
+.list li.soon { background: var(--teal-fill); }
+.list li.now { background: var(--teal-fill); box-shadow: inset 4px 0 0 var(--teal); }
+.list li.past { display: none; }
+.status { display: inline-block; font-style: normal; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--muted); border: 1px solid var(--rule); border-radius: 999px; padding: 1px 8px; }
 .muted { color: var(--muted); }
-.archive small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
-.cal { display: inline-block; margin-top: 10px; color: var(--teal); font-weight: 600; }
+.small { font-size: 13px; }
+.note { font-size: 14px; margin-top: 10px; }
+.cal, .more { display: inline-block; margin-top: 12px; font-weight: 600; min-height: 44px; padding: 10px 0; }
+.more { display: block; }
 .items { display: grid; gap: 8px; }
 .item { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 0 14px; }
-.item summary { cursor: pointer; padding: 12px 0; font-weight: 600; list-style-position: outside; }
+.item summary { cursor: pointer; padding: 12px 0; font-weight: 600; }
 .item summary small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
-.item .lvl { display: inline-block; margin-right: 8px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }
+.item .lvl { display: inline-block; margin-right: 8px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--teal-ink); }
 .item p { margin: 0 0 10px; }
 .item .impact { background: var(--teal-fill); border-left: 3px solid var(--teal); padding: 8px 10px; border-radius: 4px; }
 .item .meta { color: var(--muted); font-size: 14px; }
-.item a { color: var(--teal); }
-.note { font-size: 14px; margin-top: 10px; }
+.older { margin-top: 10px; }
+.older summary { cursor: pointer; font-weight: 600; padding: 10px 0; min-height: 44px; }
+.events { display: grid; gap: 8px; }
+.event { display: grid; grid-template-columns: 1fr; gap: 4px; background: var(--panel); border: 1px solid var(--rule);
+  border-left: 5px solid var(--amber); border-radius: 10px; padding: 12px 14px; }
+.event.social { border-left-color: var(--red); }
+.event.social .op::after { content: ' · ACTION SOCIALE'; color: var(--red); }
+.event.now .when::after { content: ' · en cours'; color: var(--teal-ink); font-weight: 600; }
+.event.past { display: none; }
+.event .when { font-weight: 700; }
+.event .op { font-weight: 700; color: var(--teal-ink); font-size: 13px; }
+.event h3 { margin: 4px 0; font-size: 16px; }
+.event p { margin: 0; font-size: 15px; }
+.live .toggle { display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 15px; }
+.live .toggle input { width: 20px; height: 20px; }
+.live li p { margin: 4px 0 0; font-size: 14px; color: var(--muted); flex-basis: 100%; }
 .guide { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 4px 16px; }
 .guide ul { padding-left: 20px; }
-.pri-RED { color: var(--red); font-weight: 700; } .pri-AMBER { color: var(--amber); font-weight: 700; } .pri-GREEN { color: var(--green); font-weight: 700; }
+.guide-p { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; font-size: 15px; }
 footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
 @media (min-width: 640px) {
+  .tiles { grid-template-columns: repeat(4, 1fr); }
   .downloads { grid-template-columns: 1fr 1fr; }
   .cards { grid-template-columns: repeat(3, 1fr); }
-  h1 { font-size: 32px; }
+  .event { grid-template-columns: 170px 1fr; gap: 14px; }
+  h1 { font-size: 30px; }
 }
 </style>
 </head>
@@ -83,14 +143,26 @@ footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
   <header class="top">
     <p class="eyebrow">Radar RH Belgique</p>
     <h1>Semaine du 26 oct. au 1er nov. 2026</h1>
-    <p class="sub">Veille droit social et RH pour la Belgique, avec un accent sur le commerce de détail (CP 311) et Bruxelles. Mise à jour chaque lundi.</p>
+    <p class="sub">Droit social, paie et RH en Belgique, avec un accent sur le commerce de détail (CP 311) et Bruxelles.</p>
   </header>
-  
-  <section class="downloads">
-    <a class="btn primary" href="briefings/2026-10-26_2026-11-01/RH_Belgique_Actualites.pdf"><b>Actualités</b><span>Ce qui change et impact potentiel · PDF</span></a>
-    <a class="btn" href="briefings/2026-10-26_2026-11-01/RH_Belgique_Plan_d_action.pdf"><b>Plan d’action</b><span>Actions priorisées et échéances · PDF</span></a>
-  </section>
-  <section>
+  <nav class="tabs" role="tablist">
+    <a href="#semaine" role="tab">Semaine</a><a href="#transport" role="tab">Transport</a><a href="#conges" role="tab">Congés</a><a href="#echeances" role="tab">Échéances</a><a href="#rapports" role="tab">Rapports</a><a href="#infos" role="tab">Infos</a>
+  </nav>
+  <section class="panel" id="semaine" role="tabpanel">
+    <h2 class="sr">En un coup d’œil</h2>
+    
+    <div class="tiles">
+      <a class="tile" href="#transport"><small>Trains SNCB · Bruxelles</small><b id="tile-live">…</b><span>perturbation(s) en cours</span></a>
+      <a class="tile" href="#transport"><small>Prochaine grève / action</small><b>9 nov.</b><span>Grève de sociétés privées sous-traitantes de LETEC</span></a>
+      <a class="tile" href="#conges"><small>Prochain jour férié</small><b>11 nov.</b><span>Armistice</span></a>
+      <a class="tile" href="#echeances"><small>Prochaine échéance</small><b>13 nov.</b><span>ONSS : date ultime de transfert par les secrétariats sociaux agréés de la 1re provision du…</span></a>
+    </div>
+    
+    <div class="downloads">
+      <a class="btn primary" href="briefings/2026-10-26_2026-11-01/RH_Belgique_Actualites.pdf"><b>Actualités</b><span>Ce qui change et impact potentiel · PDF</span></a>
+      <a class="btn" href="briefings/2026-10-26_2026-11-01/RH_Belgique_Plan_d_action.pdf"><b>Plan d’action</b><span>Actions priorisées et échéances · PDF</span></a>
+    </div>
+    
     <h2>Les 3 points clés</h2>
     <div class="cards">
       <article class="card RED">
@@ -112,17 +184,7 @@ footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
         <p class="meta">Échéance légale · 1er novembre 2026 (soumission du projet)</p>
       </article>
     </div>
-  </section>
-  <section>
-    <h2>Échéances des 90 prochains jours</h2>
-    <div class="table-wrap"><table>
-      <thead><tr><th>Date</th><th>Niveau</th><th>Quoi</th></tr></thead>
-      <tbody><tr><td class="date">11 nov. 2026</td><td>Fédéral</td><td>Jour férié de l&#x27;Armistice <a href="https://www.securex.be/de/lex4you/arbeitgeber/news/was-bringt-der-monat-november-2026-im-bereich-hr" rel="noopener noreferrer">source</a><span class="kind">Date d'application</span></td></tr><tr><td class="date">31 déc. 2026</td><td>Fédéral</td><td>Fin de l&#x27;année de vacances 2026 : les jours de vacances légales 2026 doivent être pris <a href="https://www.securex.be/nl/lex4you/werkgever/nieuws/wat-brengt-de-maand-november-2026-op-hr-vlak" rel="noopener noreferrer">source</a><span class="kind">Échéance légale</span></td></tr></tbody>
-    </table></div>
-    <a class="cal" href="echeances.ics">Ajouter ces échéances à mon agenda (.ics)</a>
-  </section>
-  <section>
-    <h2>Tous les points de la semaine</h2>
+    <h2>Tous les points de la semaine <small>touchez pour ouvrir</small></h2>
     <div class="items">
       <details class="item">
         <summary><span class="lvl">Fédéral</span>Précompte professionnel : nouvelles règles de calcul
@@ -198,34 +260,220 @@ footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
       </details>
     </div>
     <p class="muted note">Aucune mesure régionale (Flandre, Wallonie, Bruxelles, Communauté germanophone) publiée dans la période n&#x27;a été identifiée après recherche en français et en néerlandais.</p>
+    <h2>Semaines précédentes</h2>
+    <ul class="list"><li class="muted">Les semaines précédentes apparaîtront ici.</li></ul>
   </section>
-
-  <section>
-    <h2>Rapports</h2>
-    <ul class="archive reports"><li><span>Échéances à 90 jours<small>Du 6 novembre 2026 au 4 février 2027 · 6 nov. 2026</small><small>Échéances et dates d&#x27;application RH belges du 6 novembre 2026 au 4 février 2027 : indexation CP 200 avec premier plafonnement en centimes, jours fériés de remplacement avant le 15 décembre, fin du régime Activa bruxellois, déclaration des accidents du travail chez l&#x27;assureur, cotisation CO2, réforme des pensions et projets annoncés pour le 1er janvier 2027.</small></span><a href="reports/deadlines_2026-11-06.pdf">PDF</a></li><li><span>Transparence salariale<small>Novembre 2026 · 6 nov. 2026</small><small>Cinq mois après l&#x27;échéance du 7 juin 2026, aucun projet de loi fédéral de transposition de la directive (UE) 2023/970 n&#x27;a été identifié pour le secteur privé, les travaux du CNT sont à l&#x27;arrêt, tandis que la Flandre (décret du 12 juin 2026) et la Fédération Wallonie-Bruxelles (décret du 16 mai 2024) ont transposé pour leur propre personnel.</small></span><a href="reports/pay-transparency_2026-11-06.pdf">PDF</a></li><li><span>Organes de concertation<small>Semaine du 26 octobre au 1er novembre 2026 · 6 nov. 2026</small><small>Sur les sujets récents, seul le plan annuel d&#x27;action 2027 impose avec certitude un avis du CPPT (échéance du 1er novembre 2026 dépassée) ; les jours de remplacement 2027, les vacances collectives 2027, la CCT carrosserie (CP 149.02) et le futur enregistrement du temps de travail sont conditionnels, le reste n&#x27;appelle aucune consultation.</small></span><a href="reports/works-council_2026-11-06.pdf">PDF</a></li><li><span>Employeur à bruxelles<small>Situation au 6 novembre 2026 · 6 nov. 2026</small><small>Guide pratique pour un magasin établi à Bruxelles : langue des documents sociaux (article 52 des lois coordonnées du 18 juillet 1966), fin d&#x27;activa.brussels au 31 décembre 2026 sans successeur adopté, discrimination à l&#x27;embauche, mobilité, permis unique, contacts utiles et glossaire FR | NL.</small></span><a href="reports/bruxelles_2026-11-06.pdf">PDF</a></li><li><span>Contrôles avant paie<small>Guide opérationnel – situation au 6 novembre 2026 · 6 nov. 2026</small><small>Guide pratique et sourcé du contrôle mensuel avant paie (heures, absences, étudiants, flexi-jobs, entrées et sorties) et du cycle de vie du travailleur en magasin, intégrant les règles 2026 sur l&#x27;incapacité de travail, les heures supplémentaires volontaires et les délais de préavis.</small></span><a href="reports/pre-paie_2026-11-06.pdf">PDF</a></li><li><span>Contrôle de paie<small>Novembre et décembre 2026 · 6 nov. 2026</small><small>Nouveau calcul du précompte professionnel dès la paie de novembre 2026, prime de fin d&#x27;année et clôture d&#x27;année en décembre, et préparation de la première indexation plafonnée de la CP 200 au 1er janvier 2027.</small></span><a href="reports/payroll_2026-11-06.pdf">PDF</a></li><li><span>Commerce de détail<small>Novembre 2026 à fin janvier 2027 · 6 nov. 2026</small><small>Référence pratique pour l&#x27;administration RH d&#x27;un magasin de vêtements d&#x27;une grande chaîne en CP 311 à Bruxelles : barèmes et primes, horaires, dimanches de décembre, renforts étudiants et flexi-jobs, soldes d&#x27;hiver 2027.</small></span><a href="reports/retail_2026-11-06.pdf">PDF</a></li></ul>
+  <section class="panel" id="transport" role="tabpanel">
+    <h2>Grèves et travaux annoncés</h2>
+    <div class="events" id="announced">
+      <article class="event" data-start="2026-10-31" data-end="2026-11-29">
+        <div class="when">31 oct. → 29 nov. 2026</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Travaux le week-end entre Anvers-Central, Malines et Bruxelles-Midi</h3><p>Chaque week-end jusqu&#x27;au 29 novembre, offre adaptée sur l&#x27;axe Anvers–Malines–Bruxelles (trains S1, IC, EC) ; certains samedis, un train S1 sur deux ne circule pas ou seulement sur une partie du parcours. Allongement possible des trajets du samedi pour le personnel venant du nord (Malines, Vilvorde) et de Nivelles. <a class="src" href="https://www.belgiantrain.be/fr/news/works-anvers-central-malines-bruxelles-midi" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-06" data-end="2026-11-09">
+        <div class="when">6 nov. → 9 nov. 2026</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Aucun train entre Liedekerke et Jette (travaux urgents)</h3><p>Circulation interrompue entre Liedekerke et Jette en raison de travaux urgents d&#x27;Infrabel près de Ternat ; bus de remplacement SNCB et bus De Lijn ou STIB acceptés avec le ticket de train. Fin estimée au plus tôt le 9 novembre : retards probables pour le personnel venant de la vallée de la Dendre et de l&#x27;ouest de la périphérie. <a class="src" href="https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-07" data-end="2026-11-08">
+        <div class="when">7 nov. → 8 nov. 2026</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Bus de remplacement entre Bruxelles-Luxembourg et Ottignies</h3><p>Le week-end des 7 et 8 novembre, tous les trains sont remplacés par des bus SNCB entre Bruxelles-Luxembourg et Ottignies. Trajets nettement plus longs le samedi pour le personnel venant du Brabant wallon par la ligne Ottignies–Bruxelles. <a class="src" href="https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-07" data-end="2026-11-22">
+        <div class="when">7 nov. → 22 nov. 2026</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Travaux à Bruxelles-Luxembourg les week-ends</h3><p>Les week-ends du 7 au 22 novembre, le parcours des trains S5 Malines–Bruxelles-Luxembourg–Hal et S19 Landen–Bruxelles-Luxembourg–Nivelles est adapté ; bus et trams STIB et De Lijn acceptés avec le ticket de train. Bruxelles-Luxembourg est la gare la plus proche de Porte de Namur : vérifier les trajets du samedi. <a class="src" href="https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event social" data-start="2026-11-09" data-end="2026-11-09">
+        <div class="when">lun. 9 nov. 2026</div>
+        <div><span class="op">TEC</span> <span class="status">Annoncé</span>
+          <h3>Grève de sociétés privées sous-traitantes de LETEC</h3><p>LETEC annonce des perturbations à craindre sur certaines lignes le lundi 9 novembre à la suite d&#x27;un mouvement de grève de certaines entreprises privées qui exploitent des lignes pour son compte. Les lignes touchées ne sont pas précisées : impact possible pour le personnel venant du Brabant wallon en bus. <a class="src" href="https://www.letec.be/disruptions/619ccfc4-9863-4c6e-d5cb-08df1ef3ae8e" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-10" data-end="2026-11-10">
+        <div class="when">mar. 10 nov. 2026</div>
+        <div><span class="op">STIB</span> <span class="status">Confirmé</span>
+          <h3>Bus 71 dévié (activités diplomatiques), de 9 h 30 à 13 h</h3><p>Le 10 novembre de 9 h 30 à 13 h, les arrêts Royale et Gare Centrale du bus 71 sont remplacés. Impact pour le personnel qui rejoint Porte de Namur en bus 71 depuis la gare de Bruxelles-Central. <a class="src" href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-11" data-end="2026-11-11">
+        <div class="when">mer. 11 nov. 2026</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Bus de remplacement entre Louvain et Landen</h3><p>Le mercredi 11 novembre (jour férié), tous les trains sont remplacés par des bus SNCB entre Louvain et Landen. Concerne le personnel venant de l&#x27;est du Brabant flamand s&#x27;il travaille ce jour-là. <a class="src" href="https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-14" data-end="2026-11-15">
+        <div class="when">14 nov. → 15 nov. 2026</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Bus de remplacement entre Bruxelles-Midi et Nivelles</h3><p>Le week-end des 14 et 15 novembre, tous les trains sont remplacés par des bus SNCB entre Bruxelles-Midi et Nivelles ; le parcours des trains S19 est adapté. Trajet du samedi nettement allongé pour le personnel venant de Nivelles, Braine-l&#x27;Alleud ou Waterloo. <a class="src" href="https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-15" data-end="2027-01-31">
+        <div class="when">15 nov. 2026 → 31 janv. 2027</div>
+        <div><span class="op">STIB</span> <span class="status">Annoncé</span>
+          <h3>Hôtel des Monnaies (métro 2 et 6) : quais partiellement isolés</h3><p>À partir de la mi-novembre 2026 (date exacte non précisée), une partie du fond des quais est isolée pour les travaux ; la station reste ouverte et toutes les portes du métro restent accessibles. Impact faible sur les lignes 2 et 6 ; les travaux se poursuivent au-delà de janvier 2027. <a class="src" href="https://www.stib-mivb.be/voyager/chantiers-et-projets/chantiers-en-cours/hotel-des-monnaies-fait-peau-neuve-avec-deux-ascenseurs" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event social" data-start="2026-11-17" data-end="2026-11-17">
+        <div class="when">mar. 17 nov. 2026</div>
+        <div><span class="op">Tous</span> <span class="status">Préavis déposé</span>
+          <h3>Manifestation des jeunes à Bruxelles, préavis de grève FGTB</h3><p>Les étudiants francophones manifestent à nouveau à Bruxelles le mardi 17 novembre ; la FGTB a déposé un préavis de grève couvrant ses membres qui y participent. Perturbations possibles en surface dans le centre ; aucun préavis propre à la STIB ou à la SNCB n&#x27;a été trouvé. <a class="src" href="https://www.lalibre.be/dernieres-depeches/2026/11/06/mobilisation-de-la-jeunesse-la-fgtb-soutient-laction-etudiante-du-17-novembre-avec-un-preavis-de-greve-FLIF52IHVNCPRJBRTP2VK3ZDJA/" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-11-21" data-end="2026-11-29">
+        <div class="when">21 nov. → 29 nov. 2026</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Travaux Malines–Louvain et autour de Bruxelles-Luxembourg (week-ends)</h3><p>Les week-ends des 21-22 et 28-29 novembre, des bus SNCB remplacent les trains L entre Malines et Louvain ; le week-end des 21-22 novembre, la circulation est aussi adaptée entre Bruxelles-Luxembourg et Malines ou Louvain. Vérifier les trajets du samedi pour le personnel venant du Brabant flamand. <a class="src" href="https://www.belgiantrain.be/fr/news/works-anvers-central-malines-bruxelles-midi" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event social" data-start="2026-11-23" data-end="2026-11-23">
+        <div class="when">lun. 23 nov. 2026</div>
+        <div><span class="op">Tous</span> <span class="status">Annoncé</span>
+          <h3>Manifestation nationale en front commun syndical à Bruxelles</h3><p>La CSC, la FGTB et Synova appellent à une manifestation nationale à Bruxelles le lundi 23 novembre. Lors de la manifestation nationale du 9 octobre, la STIB avait annoncé des interruptions de lignes ou des fermetures de stations : forte perturbation probable dans le centre, détails et éventuels préavis dans les transports non encore publiés. <a class="src" href="https://www.hetacv.be/actualiteit/nieuws-en-persberichten/newsdetail/2026/10/21/we-bouwen-de-toekomst-samen--we-ondergaan-ze-niet--afspraak-op-23-november-in-brussel" rel="noopener noreferrer">source</a></p></div>
+      </article>
+      <article class="event" data-start="2026-12-13" data-end="2027-01-31">
+        <div class="when">13 déc. 2026 → 31 janv. 2027</div>
+        <div><span class="op">SNCB</span> <span class="status">Confirmé</span>
+          <h3>Nouvelle offre de trains (plan de transport 2026-2029, phase 1)</h3><p>À partir du dimanche 13 décembre, de nombreux horaires changent : trains S4 prolongés vers Louvain-la-Neuve, deux S8 par heure le samedi via Bruxelles-Luxembourg, nouvelle gare de Braine-Alliance (S9 et S19), deuxième S5 par heure le samedi entre Vilvorde et Hal. Les horaires de travail fondés sur un train précis doivent être revérifiés. <a class="src" href="https://www.belgiantrain.be/fr/news/new-offer-dec-2026" rel="noopener noreferrer">source</a></p></div>
+      </article>
+    </div>
+    <p class="muted small">Liste vérifiée au 6 nov. 2026, mise à jour chaque lundi. Les dates passées disparaissent d’elles-mêmes.</p>
+    <a class="more" href="reports/transport_2026-11-06.pdf">Grève ou retard : quelles règles de paie ? Le rapport complet (PDF)</a>
+    
+    <h2>Trains SNCB en ce moment <small id="live-time"></small></h2>
+    <div class="live" id="live">
+      <label class="toggle"><input type="checkbox" id="live-bxl" checked> Seulement autour de Bruxelles</label>
+      <ul class="list" id="live-list"><li class="muted">Chargement des perturbations SNCB…</li></ul>
+      <details class="older" id="live-planned-wrap"><summary>Travaux planifiés SNCB</summary><ul class="list" id="live-planned"></ul></details>
+      <p class="muted small">Données en direct : iRail (API ouverte basée sur les données SNCB). En cas de doute, vérifiez sur sncb.be.</p>
+    </div>
+    <h2>Suivre en direct</h2>
+    <ul class="list"><li><span>SNCB – Perturbations et travaux en cours<small>Perturbations en direct, travaux par semaine et services alternatifs en cas de grève sur le rail.</small></span><a href="https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works" rel="noopener noreferrer">Ouvrir</a></li><li><span>SNCB – Attestation de retard<small>Justificatif à télécharger par numéro de train ou par gare, jusqu&#x27;à sept jours dans le passé : preuve pour la paie.</small></span><a href="https://www.belgiantrain.be/fr/support/customer-service/delay-certificate" rel="noopener noreferrer">Ouvrir</a></li><li><span>STIB – Info trafic<small>État en direct des métros, trams et bus bruxellois, y compris les jours de grève ou de manifestation.</small></span><a href="https://www.stib-mivb.be/accueil/voyager/info-trafic" rel="noopener noreferrer">Ouvrir</a></li><li><span>STIB – Arrêt Porte de Namur (temps réel)<small>Temps d&#x27;attente et perturbations affichées pour l&#x27;arrêt du magasin (métros 2 et 6, bus).</small></span><a href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749" rel="noopener noreferrer">Ouvrir</a></li><li><span>STIB – Chantiers en cours<small>Travaux de longue durée sur le réseau STIB (stations de métro, voies de tram).</small></span><a href="https://www.stib-mivb.be/accueil/voyager/chantiers-et-projets/chantiers-en-cours" rel="noopener noreferrer">Ouvrir</a></li><li><span>De Lijn – Grèves et actions syndicales [staking en vakbondsactie]<small>Situation du réseau De Lijn en cas de grève ou d&#x27;action syndicale.</small></span><a href="https://www.delijn.be/nl/content/storingen-omleidingen/staking-vakbondsactie/" rel="noopener noreferrer">Ouvrir</a></li><li><span>De Lijn – Attestation de retard [attest vertraging]<small>Formulaire d&#x27;attestation de retard De Lijn, envoyée par e-mail sous 72 heures, demande possible jusqu&#x27;à un mois après les faits.</small></span><a href="https://www.delijn.be/nl/content/attest-vertraging/" rel="noopener noreferrer">Ouvrir</a></li><li><span>LETEC – Actualités et info trafic<small>Perturbations et grèves sur le réseau de bus wallon, dont le Brabant wallon.</small></span><a href="https://www.letec.be/News/" rel="noopener noreferrer">Ouvrir</a></li><li><span>Infrabel<small>Gestionnaire du réseau ferroviaire : travaux sur les voies qui modifient l&#x27;offre de trains.</small></span><a href="https://infrabel.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>Bruxelles Mobilité – Transport et mobilité<small>Portail régional bruxellois sur la mobilité, les chantiers et la circulation.</small></span><a href="https://be.brussels/fr/transport-mobilite" rel="noopener noreferrer">Ouvrir</a></li></ul>
+    <h2>Accès au magasin (Porte de Namur)</h2>
+    <ul class="list"><li><span>Métro · 2 et 6<small>Station Porte de Namur, desservie par les métros 2 (Simonis–Elisabeth) et 6 (Roi Baudouin–Elisabeth). Correspondance avec les métros 1 et 5 à Arts-Loi.</small></span> <a class="src" href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749" rel="noopener noreferrer">source</a></li><li><span>Bus · 34, 54, 64, 71, 80 ; Noctis N06, N08, N09, N10<small>Lignes listées à l&#x27;arrêt STIB Porte de Namur. Les bus 34, 64 et 80 relient aussi l&#x27;arrêt Luxembourg (gare de Bruxelles-Luxembourg) ; le bus 71 dessert l&#x27;arrêt Gare Centrale.</small></span> <a class="src" href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749" rel="noopener noreferrer">source</a></li><li><span>Train · Bruxelles-Luxembourg : S5, S8, S9 (semaine), S19 (week-end) ; puis bus 34, 64 ou 80<small>Gare la plus proche. Depuis l&#x27;arrêt STIB Luxembourg, les bus 34, 64 et 80 ont pour destination ou pour passage Porte de Namur. Travaux les week-ends du 7 au 22 novembre 2026.</small></span> <a class="src" href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90569" rel="noopener noreferrer">source</a></li><li><span>Train · Bruxelles-Midi : métro 2 ou 6<small>La station Gare du Midi est desservie par les métros 2 et 6, comme Porte de Namur : trajet sans correspondance. Les trams 4 et 10 sont interrompus entre Gare du Midi et Porte de Hal / Gare du Nord.</small></span> <a class="src" href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90366" rel="noopener noreferrer">source</a></li><li><span>Train · Bruxelles-Central : bus 71, ou métro 1 ou 5 puis 2 ou 6 à Arts-Loi<small>Le bus 71 dessert l&#x27;arrêt Gare Centrale et Porte de Namur. Alternative : métro 1 ou 5 jusqu&#x27;à Arts-Loi, puis métro 2 ou 6 jusqu&#x27;à Porte de Namur.</small></span> <a class="src" href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90039" rel="noopener noreferrer">source</a></li><li><span>Tram · Aucune ligne de tram à l&#x27;arrêt Porte de Namur<small>L&#x27;arrêt STIB Porte de Namur ne liste que des métros et des bus ; les personnes venant en tram doivent prévoir une correspondance vers le métro 2 ou 6 ou vers un bus.</small></span> <a class="src" href="https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749" rel="noopener noreferrer">source</a></li></ul>
   </section>
-  <section>
-    <h2>Archives</h2>
-    <ul class="archive"><li class="muted">Les semaines précédentes apparaîtront ici.</li></ul>
+  <section class="panel" id="conges" role="tabpanel">
+    <h2>Prochains jours fériés</h2>
+    <ul class="list" id="holidays"><li class="hol" data-date="2026-11-11"><span>Armistice<small>Tombe un mercredi : pas de remplacement.</small></span><b class="d">mer. 11 nov. 2026</b><em class="cd"></em></li><li class="hol" data-date="2026-12-25"><span>Noël<small>Tombe un vendredi : pas de remplacement.</small></span><b class="d">ven. 25 déc. 2026</b><em class="cd"></em></li><li class="hol" data-date="2027-01-01"><span>Nouvel An<small>Tombe un vendredi : pas de remplacement.</small></span><b class="d">ven. 1er janv. 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-03-29"><span>Lundi de Pâques<small>Pâques tombe le dimanche 28 mars 2027.</small></span><b class="d">lun. 29 mars 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-05-01"><span>Fête du Travail<small>Tombe un samedi : jour habituel d&#x27;activité en magasin, donc férié chômé et payé pour le personnel qui travaille habituellement le samedi ; jour de remplacement à fixer pour les travailleurs dont le samedi est un jour habituel d&#x27;inactivité.</small></span><b class="d">sam. 1er mai 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-05-06"><span>Ascension<small>Tombe un jeudi : pas de remplacement.</small></span><b class="d">jeu. 6 mai 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-05-17"><span>Lundi de Pentecôte<small>Tombe un lundi : pas de remplacement.</small></span><b class="d">lun. 17 mai 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-07-21"><span>Fête nationale<small>Tombe un mercredi : pas de remplacement.</small></span><b class="d">mer. 21 juil. 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-08-15"><span>Assomption<small>Tombe un dimanche : jour de remplacement à fixer (toujours obligatoire pour un férié qui coïncide avec un dimanche).</small></span><b class="d">dim. 15 août 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-11-01"><span>Toussaint<small>Tombe un lundi : pas de remplacement.</small></span><b class="d">lun. 1er nov. 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-11-11"><span>Armistice<small>Tombe un jeudi : pas de remplacement.</small></span><b class="d">jeu. 11 nov. 2027</b><em class="cd"></em></li><li class="hol" data-date="2027-12-25"><span>Noël<small>Tombe un samedi : jour habituel d&#x27;activité en magasin, donc férié chômé et payé pour le personnel qui travaille habituellement le samedi ; jour de remplacement à fixer pour les travailleurs dont le samedi est un jour habituel d&#x27;inactivité.</small></span><b class="d">sam. 25 déc. 2027</b><em class="cd"></em></li></ul>
+    <p class="muted small">Sources : <a class="src" href="https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries" rel="noopener noreferrer">SPF Emploi, Travail et Concertation sociale</a>  <a class="src" href="https://www.ucm.be/actualites/tous-les-jours-feries-en-2027-et-leurs-modalites-de-remplacement" rel="noopener noreferrer">UCM</a></p>
+    <p class="guide-p"><b>Jour férié un dimanche ?</b> Un jour férié qui tombe un dimanche ou un jour habituel d&#x27;inactivité doit être remplacé par un jour habituel d&#x27;activité de l&#x27;entreprise. Le jour de remplacement est fixé en priorité par la commission (ou sous-commission) paritaire, à défaut par le conseil d&#x27;entreprise, puis par accord avec la délégation syndicale, avec les travailleurs ou, en dernier lieu, par accord individuel ; sans décision valable, le férié est reporté au premier jour habituel d&#x27;activité qui suit. L&#x27;employeur doit afficher un avis reprenant les jours de remplacement avant le 15 décembre de l&#x27;année précédente, soit avant le 15 décembre 2026 pour 2027. <a class="src" href="https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries" rel="noopener noreferrer">source</a></p>
+    <a class="cal" href="conges.ics">Ajouter jours fériés, vacances scolaires et temps forts à mon agenda (.ics)</a>
+    <h2>Temps forts du commerce</h2>
+    <ul class="list"><li class="range" data-start="2026-08-13" data-end="2026-08-13"><span>Ouverture possible 7 jours sur 7 jusqu&#x27;à 21 h <i class="status">Légal</i><small>En vigueur depuis le 13 août 2026 (publication au Moniteur belge le 3 août) : suppression du jour de fermeture hebdomadaire obligatoire et fermeture au plus tard à 21 h. Possibilité et non obligation ; les règles de repos du dimanche du droit du travail restent applicables au personnel de vente. Source médiatique, texte au Moniteur belge non consulté.</small></span><b class="d">jeu. 13 août 2026</b> <a class="src" href="https://www.vrt.be/vrtnws/fr/2026/08/13/les-commerces-de-detail-peuvent-desormais-ouvrir-7-jours-sur-7-e/" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-11-27" data-end="2026-11-27"><span>Black Friday <i class="status">Usage commercial</i><small>Dernier vendredi de novembre (date calculée). Selon une enquête citée en 2021, environ un Belge sur trois attend le Black Friday pour ses achats de fin d&#x27;année. Pas une période de soldes légale.</small></span><b class="d">ven. 27 nov. 2026</b> <a class="src" href="https://www.rtbf.be/article/1-belge-sur-3-attend-le-black-friday-pour-faire-ses-achats-de-fin-dannee-10884919" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-02" data-end="2027-01-01"><span>Période d&#x27;attente avant les soldes d&#x27;hiver <i class="status">Déduit</i><small>Habillement, maroquinerie et chaussures : interdiction d&#x27;annoncer des réductions de prix pendant le mois qui précède les soldes (art. VI.29 CDE). Dates déduites de la règle, les soldes d&#x27;hiver 2027 commençant le 2 janvier.</small></span><b class="d">2 déc. 2026 → 1er janv. 2027</b> <a class="src" href="https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&amp;la=F&amp;cn=2013022819&amp;table_name=loi" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-06" data-end="2026-12-06"><span>Saint-Nicolas <i class="status">Usage commercial</i><small>Tombe un dimanche en 2026. Près de la moitié des ventes annuelles de jouets se fait en novembre et décembre (Saint-Nicolas et Noël), selon un article de 2024.</small></span><b class="d">dim. 6 déc. 2026</b> <a class="src" href="https://www.rtbf.be/article/saint-nicolas-approche-comment-se-porte-le-marche-du-jouet-11459881" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-19" data-end="2026-12-20"><span>Dernier week-end avant Noël <i class="status">Usage commercial</i><small>Traditionnellement le dimanche le plus important de l&#x27;année pour le commerce selon le SNI (article de 2017). Dates 2026 calculées ; ouverture dominicale du magasin à vérifier selon les règles de repos du dimanche du personnel.</small></span><b class="d">19 déc. → 20 déc. 2026</b> <a class="src" href="https://www.dhnet.be/conso/consommation/2017/12/16/le-week-end-le-plus-chaud-de-lannee-a-debute-pour-les-commerces-6DR3BJCSTRCXRPABLDLZ76SFVY/" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-24" data-end="2026-12-24"><span>Veille de Noël <i class="status">Usage commercial</i><small>Fermeture anticipée habituelle des grandes enseignes (vers 17 h ou 18 h selon un article de 2020) : prévoir les horaires du personnel en conséquence.</small></span><b class="d">jeu. 24 déc. 2026</b> <a class="src" href="https://www.dhnet.be/conso/consommation/2020/12/04/colruyt-delhaize-carrefour-les-supermarches-adaptent-leurs-heures-douverture-pendant-les-fetes-de-fin-dannee-OJRERRHMBNCG7NYUPPRD2LQHM4/" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-31" data-end="2026-12-31"><span>Saint-Sylvestre <i class="status">Usage commercial</i><small>Fermeture anticipée habituelle des grandes enseignes (vers 17 h ou 18 h selon un article de 2020).</small></span><b class="d">jeu. 31 déc. 2026</b> <a class="src" href="https://www.dhnet.be/conso/consommation/2020/12/04/colruyt-delhaize-carrefour-les-supermarches-adaptent-leurs-heures-douverture-pendant-les-fetes-de-fin-dannee-OJRERRHMBNCG7NYUPPRD2LQHM4/" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-01-02" data-end="2027-01-31"><span>Soldes d&#x27;hiver 2027 <i class="status">Déduit</i><small>Règle légale : du 3 au 31 janvier ; lorsque le 3 janvier est un dimanche, la période commence le 2 janvier (art. VI.25 CDE). Le 3 janvier 2027 étant un dimanche, début déduit au samedi 2 janvier 2027. Le Roi peut modifier la période par arrêté royal.</small></span><b class="d">2 janv. → 31 janv. 2027</b> <a class="src" href="https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&amp;la=F&amp;cn=2013022819&amp;table_name=loi" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-06-01" data-end="2027-06-30"><span>Période d&#x27;attente avant les soldes d&#x27;été <i class="status">Déduit</i><small>Habillement, maroquinerie et chaussures : pas d&#x27;annonce de réductions de prix pendant le mois qui précède les soldes (art. VI.29 CDE). Dates déduites de la règle.</small></span><b class="d">1er juin → 30 juin 2027</b> <a class="src" href="https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&amp;la=F&amp;cn=2013022819&amp;table_name=loi" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-07-01" data-end="2027-07-31"><span>Soldes d&#x27;été 2027 <i class="status">Déduit</i><small>Règle légale : du 1er au 31 juillet (art. VI.25 CDE) ; le 1er juillet 2027 tombe un jeudi, pas de décalage. Dates déduites de la règle.</small></span><b class="d">1er juil. → 31 juil. 2027</b> <a class="src" href="https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&amp;la=F&amp;cn=2013022819&amp;table_name=loi" rel="noopener noreferrer">source</a></li></ul>
+    <h2>Vacances scolaires 2026-2027 <small>utile pour les étudiants et les demandes de congé</small></h2>
+    <details class="older" open><summary>Fédération Wallonie-Bruxelles</summary><ul class="list"><li class="range" data-start="2026-10-19" data-end="2026-11-01"><span>Vacances d&#x27;automne (Toussaint)</span><b class="d">19 oct. → 1er nov. 2026</b> <a class="src" href="http://www.enseignement.be/public/docs/calendrier-scolaire-2026-2027.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-21" data-end="2027-01-03"><span>Vacances d&#x27;hiver (Noël)</span><b class="d">21 déc. 2026 → 3 janv. 2027</b> <a class="src" href="http://www.enseignement.be/public/docs/calendrier-scolaire-2026-2027.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-02-22" data-end="2027-03-07"><span>Vacances de détente (Carnaval)</span><b class="d">22 févr. → 7 mars 2027</b> <a class="src" href="http://www.enseignement.be/public/docs/calendrier-scolaire-2026-2027.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-04-26" data-end="2027-05-09"><span>Vacances de printemps (Pâques)</span><b class="d">26 avr. → 9 mai 2027</b> <a class="src" href="http://www.enseignement.be/public/docs/calendrier-scolaire-2026-2027.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-07-03" data-end="2027-08-29"><span>Vacances d&#x27;été (fin déduite de la rentrée du lundi 30 août 2027)</span><b class="d">3 juil. → 29 août 2027</b> <a class="src" href="http://www.enseignement.be/public/docs/calendrier-scolaire-2026-2027.pdf" rel="noopener noreferrer">source</a></li></ul></details><details class="older" ><summary>Communauté flamande</summary><ul class="list"><li class="range" data-start="2026-11-02" data-end="2026-11-08"><span>Vacances d&#x27;automne [herfstvakantie]</span><b class="d">2 nov. → 8 nov. 2026</b> <a class="src" href="https://www.vlaanderen.be/onderwijs-en-vorming/wat-mag-en-moet-op-school/schoolvakanties-vrije-dagen-en-afwezigheden/schoolvakanties" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-21" data-end="2027-01-03"><span>Vacances de Noël [kerstvakantie]</span><b class="d">21 déc. 2026 → 3 janv. 2027</b> <a class="src" href="https://www.vlaanderen.be/onderwijs-en-vorming/wat-mag-en-moet-op-school/schoolvakanties-vrije-dagen-en-afwezigheden/schoolvakanties" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-02-08" data-end="2027-02-14"><span>Congé de Carnaval [krokusvakantie]</span><b class="d">8 févr. → 14 févr. 2027</b> <a class="src" href="https://www.vlaanderen.be/onderwijs-en-vorming/wat-mag-en-moet-op-school/schoolvakanties-vrije-dagen-en-afwezigheden/schoolvakanties" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-03-29" data-end="2027-04-11"><span>Vacances de Pâques [paasvakantie]</span><b class="d">29 mars → 11 avr. 2027</b> <a class="src" href="https://www.vlaanderen.be/onderwijs-en-vorming/wat-mag-en-moet-op-school/schoolvakanties-vrije-dagen-en-afwezigheden/schoolvakanties" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-07-01" data-end="2027-08-31"><span>Vacances d&#x27;été [zomervakantie]</span><b class="d">1er juil. → 31 août 2027</b> <a class="src" href="https://www.vlaanderen.be/onderwijs-en-vorming/wat-mag-en-moet-op-school/schoolvakanties-vrije-dagen-en-afwezigheden/schoolvakanties" rel="noopener noreferrer">source</a></li></ul></details><details class="older" ><summary>Communauté germanophone</summary><ul class="list"><li class="range" data-start="2026-11-02" data-end="2026-11-07"><span>Vacances de Toussaint [Allerheiligenferien]</span><b class="d">2 nov. → 7 nov. 2026</b> <a class="src" href="https://ostbelgienbildung.be/PortalData/21/Resources/downloads/home/schulvorschriften/25_2730_Schulkalender_fuer_die_Schuljahre_2025-2026_bis_2028-2029.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2026-12-21" data-end="2027-01-02"><span>Vacances de Noël [Weihnachtsferien]</span><b class="d">21 déc. 2026 → 2 janv. 2027</b> <a class="src" href="https://ostbelgienbildung.be/PortalData/21/Resources/downloads/home/schulvorschriften/25_2730_Schulkalender_fuer_die_Schuljahre_2025-2026_bis_2028-2029.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-02-08" data-end="2027-02-13"><span>Vacances de Carnaval [Karnevalsferien]</span><b class="d">8 févr. → 13 févr. 2027</b> <a class="src" href="https://ostbelgienbildung.be/PortalData/21/Resources/downloads/home/schulvorschriften/25_2730_Schulkalender_fuer_die_Schuljahre_2025-2026_bis_2028-2029.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-03-29" data-end="2027-04-10"><span>Vacances de Pâques [Osterferien]</span><b class="d">29 mars → 10 avr. 2027</b> <a class="src" href="https://ostbelgienbildung.be/PortalData/21/Resources/downloads/home/schulvorschriften/25_2730_Schulkalender_fuer_die_Schuljahre_2025-2026_bis_2028-2029.pdf" rel="noopener noreferrer">source</a></li><li class="range" data-start="2027-07-01" data-end="2027-08-31"><span>Vacances d&#x27;été (déduites : fin d&#x27;année le 30 juin, rentrée le 1er septembre 2027)</span><b class="d">1er juil. → 31 août 2027</b> <a class="src" href="https://ostbelgienbildung.be/PortalData/21/Resources/downloads/home/schulvorschriften/25_2730_Schulkalender_fuer_die_Schuljahre_2025-2026_bis_2028-2029.pdf" rel="noopener noreferrer">source</a></li></ul></details>
+    <p class="muted small">Calendrier vérifié au 6 nov. 2026.</p>
   </section>
-
-  <section>
+  <section class="panel" id="echeances" role="tabpanel">
+    <h2>Échéances légales et dates d’application <small>les dates passées sont masquées</small></h2>
+    <ul class="list" id="deadlines"><li class="dl" data-date="2026-11-13" data-exact="1"><b class="d">13 novembre 2026</b><span class="pri pri-GREEN">VERT</span> <p>ONSS : date ultime de transfert par les secrétariats sociaux agréés de la 1re provision du 4e trimestre 2026 (instruction DGII n° 141 ; art. 34 AR du 28 novembre 1969). L&#x27;employeur doit avoir payé son secrétariat avant cette date.</p><small>Fédéral · Échéance légale · <a href="https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2026_F.pdf" rel="noopener noreferrer">ONSS – Portail de la sécurité sociale</a></small></li><li class="dl" data-date="2026-11-18" data-exact="1"><b class="d">18 novembre 2026</b><span class="pri pri-GREEN">VERT</span> <p>ONSS : date ultime de transfert par les secrétariats sociaux agréés du solde des cotisations du 3e trimestre 2026.</p><small>Fédéral · Échéance légale · <a href="https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2026_F.pdf" rel="noopener noreferrer">ONSS – Portail de la sécurité sociale</a></small></li><li class="dl" data-date="2026-11-30" data-exact="1"><b class="d">30 novembre 2026</b><span class="pri pri-RED">ROUGE</span> <p>Activa.brussels (abrogé par l&#x27;ordonnance du 9 juillet 2026, M.B. 14 juillet 2026) : dernier délai pour activer l&#x27;allocation de travail d&#x27;un travailleur entré en service au plus tard le 15 juillet 2026 (activation possible jusqu&#x27;à 4 mois après le mois d&#x27;entrée en service).</p><small>Bruxelles · Échéance légale · <a href="https://www.partena-professional.be/fr/node/22558" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2026-12-01" data-exact="0"><b class="d">Décembre 2026</b><span class="pri pri-AMBER">ORANGE</span> <p>Prime de fin d&#x27;année CP 200 : premier paiement de fin d&#x27;année sous les règles adaptées par l&#x27;accord sectoriel 2025-2026 (au plus 5 jours de chômage temporaire assimilés ; prorata dès 6 mois d&#x27;ancienneté en cas de licenciement, dès 3 ans en cas de démission ou de rupture de commun accord). Date de paiement exacte selon la CCT : non vérifiée.</p><small>Fédéral (CP 200) · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22253" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2026-12-02" data-exact="1"><b class="d">2 décembre 2026</b><span class="pri pri-GREEN">VERT</span> <p>Date limite de transposition de la directive (UE) 2024/2831 sur le travail via une plateforme (présomption légale de relation de travail). État de la transposition belge non vérifié.</p><small>Fédéral (UE) · Échéance légale · <a href="https://eur-lex.europa.eu/eli/dir/2024/2831/oj/fra" rel="noopener noreferrer">EUR-Lex – Journal officiel de l&#x27;Union européenne</a></small></li><li class="dl" data-date="2026-12-05" data-exact="1"><b class="d">5 décembre 2026</b><span class="pri pri-AMBER">ORANGE</span> <p>ONSS : provision mensuelle (novembre) à payer par l&#x27;employeur, en règle générale le 5 du mois ; la date exacte figure sur la facture du secrétariat social. Transfert ultime par les secrétariats : 11 décembre 2026.</p><small>Fédéral · Échéance légale · <a href="https://www.ucm.be/faq/mon-premier-engagement/quest-ce-quune-provision-lonss" rel="noopener noreferrer">UCM</a> <a href="https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2026_F.pdf" rel="noopener noreferrer">ONSS – Portail de la sécurité sociale</a></small></li><li class="dl" data-date="2026-12-15" data-exact="1"><b class="d">Avant le 15 décembre 2026</b><span class="pri pri-RED">ROUGE</span> <p>Jours fériés 2027 : afficher un avis daté et signé fixant les jours de remplacement (15 août 2027 tombe un dimanche ; 1er mai et 25 décembre 2027 tombent un samedi, à remplacer s&#x27;il s&#x27;agit d&#x27;un jour habituel d&#x27;inactivité). Copie annexée au règlement de travail et communiquée au Contrôle des lois sociales (loi du 4 janvier 1974).</p><small>Fédéral · Échéance légale · <a href="https://www.partena-professional.be/fr/node/22629" rel="noopener noreferrer">Partena Professional</a> <a href="https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries" rel="noopener noreferrer">SPF Emploi, Travail et Concertation sociale</a></small></li><li class="dl" data-date="2026-12-31" data-exact="1"><b class="d">31 décembre 2026</b><span class="pri pri-RED">ROUGE</span> <p>Vacances annuelles : les jours légaux de 2026 doivent être pris ; seuls 7 motifs (maladie ou accident, maternité, congé prophylactique, naissance, adoption, congé parental d&#x27;accueil, missions d&#x27;accueil) permettent un report sur 24 mois, avec paiement des jours reportés au 31 décembre. Les jours reportés depuis 2024 arrivent au terme des 24 mois (déduction du délai).</p><small>Fédéral · Échéance légale · <a href="https://www.lacsc.be/actualite/actualites-et-communiques-de-presse/newsdetail/2024/06/14/vacances-annuelles-en-belgique-le-droit-au-report-rendu-possible-depuis-le-1er-janvier-2024" rel="noopener noreferrer">CSC</a></small></li><li class="dl" data-date="2026-12-31" data-exact="1"><b class="d">31 décembre 2026</b><span class="pri pri-RED">ROUGE</span> <p>Fin du régime transitoire Activa.brussels et Activa aptitude réduite : l&#x27;allocation de travail déduite du salaire net cesse au plus tard à cette date. À partir de janvier 2027, la paie doit être versée sans déduction.</p><small>Bruxelles · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22558" rel="noopener noreferrer">Partena Professional</a> <a href="https://www.securex.be/nl/lex4you/werkgever/nieuws/brussel-de-activa-premie-en-de-doelgroepvermindering-voor-oudere-werknemers-verdwijnen" rel="noopener noreferrer">Securex Lex4You</a></small></li><li class="dl" data-date="2026-12-31" data-exact="1"><b class="d">31 décembre 2026</b><span class="pri pri-AMBER">ORANGE</span> <p>Dernier jour pour déclarer un accident du travail (ni bénin ni grave) via la « DRS Accidents du travail » du portail de la sécurité sociale.</p><small>Fédéral · Échéance légale · <a href="https://www.partena-professional.be/fr/node/22692" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-RED">ROUGE</span> <p>Indexation annuelle des salaires CP 200 : première application importante de l&#x27;indexation plafonnée [index en centimes] (loi-programme du 30 mai 2026). Les premiers 2 % sont calculés sur 4 000 EUR maximum (salaire de base temps plein), le surplus sur le salaire complet ; cotisation de modération salariale égale à 50 % de l&#x27;économie. Pourcentage définitif après l&#x27;indice de décembre 2026 (prévisions publiées : 3,76 % selon SD Worx, 4,32 % selon Securex, 4,65 % selon Acerta).</p><small>Fédéral (CP 200) · Date d&#x27;application · <a href="https://blog.forumforthefuture.be/fr/article/lindexation-des-centimes-perceptible-a-partir-de-juin-dans-plusieurs-secteurs-avec-une-prevision-pour-la-cp-200-en-janvier/31360" rel="noopener noreferrer">Forum for the Future (TamTam)</a> <a href="https://blog.forumforthefuture.be/fr/article/droit-du-travail-cap-sur-le-1er-janvier-2027/32722" rel="noopener noreferrer">Forum for the Future (TamTam)</a> <a href="https://www.claeysengels.be/sites/default/files/2026-06/newsletter_-_loi-programme_du_30_mai_2026.pdf" rel="noopener noreferrer">Claeys &amp; Engels</a> <a href="https://www.securex.be/nl/lex4you/werkgever/nieuws/wordt-de-spilindex-nogmaals-overschreden-in-2026" rel="noopener noreferrer">Securex</a> <a href="https://selectra.be/fr/energie/actualites/indice-pivot-depassement-novembre-allocations-salaires" rel="noopener noreferrer">Selectra</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-RED">ROUGE</span> <p>Accidents du travail : déclaration directement auprès de l&#x27;assureur (application de l&#x27;assureur, papier ou intermédiaire) ; fin de la DRS. Accident grave : signalement immédiat à l&#x27;inspection du travail.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22692" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-RED">ROUGE</span> <p>Cotisation de solidarité CO2 sur véhicules de société : nouveaux montants indexés ; coefficient de 5,50 pour les véhicules non électriques achetés, loués ou en leasing à partir du 1er juillet 2023 ; véhicules électriques à la cotisation minimale sans coefficient. Montants sous réserve de confirmation par l&#x27;ONSS.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.partena-professional.be/nl/node/22698" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-RED">ROUGE</span> <p>Précompte professionnel : facteur de correction de 97 % sur le total des dispenses de versement (travail de nuit et en équipe, heures supplémentaires, R&amp;D, etc.) pour les rémunérations payées ou attribuées en 2027 (loi-programme du 30 mai 2026, M.B. 1er juin 2026).</p><small>Fédéral · Date d&#x27;application · <a href="https://www.claeysengels.be/sites/default/files/2026-06/newsletter_-_loi-programme_du_30_mai_2026.pdf" rel="noopener noreferrer">Claeys &amp; Engels</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>Réforme des pensions (adoptée par la Chambre, mai 2026) : entrée en vigueur du bonus et du malus de pension et du seuil de 156 jours par année de carrière pour la pension anticipée.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.socialsecurity.be/citizen/fr/actualites/reforme-des-pensions-approuvee-qu-est-ce-que-cela-signifie-pour-votre-retraite" rel="noopener noreferrer">Portail de la sécurité sociale / Service fédéral des Pensions</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>Enregistrement général du temps de travail (nouvel art. 38quinquies de la loi du 16 mars 1971). Avant-projet de loi, avis CNT n° 2.499 divisé ; période transitoire envisagée jusqu&#x27;au 31 mars 2027. Non adopté.</p><small>Fédéral · Date d&#x27;application · <a href="https://blog.forumforthefuture.be/fr/article/droit-du-travail-cap-sur-le-1er-janvier-2027/32722" rel="noopener noreferrer">Forum for the Future (TamTam)</a> <a href="https://www.partena-professional.be/fr/node/22640" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>Obligation de proposer un budget mobilité pour les employeurs de 50 travailleurs et plus (1er janvier 2028 pour 15 à 49). Avant-projet approuvé en Conseil des ministres le 9 janvier 2026 ; pas encore déposé à la Chambre.</p><small>Fédéral · Date d&#x27;application · <a href="https://blog.forumforthefuture.be/fr/article/droit-du-travail-cap-sur-le-1er-janvier-2027/32722" rel="noopener noreferrer">Forum for the Future (TamTam)</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>Plan d&#x27;action annuel 2027 (bien-être) : début de l&#x27;exercice ; le projet devait être soumis au CPPT (à défaut, à la délégation syndicale ou aux travailleurs) au plus tard le 1er novembre 2026.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22151" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>Travail étudiant : nouveau contingent de 650 heures par année civile (compteur remis à zéro) ; vérification du solde via l&#x27;attestation student@work et Dimona STU.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22522" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-GREEN">VERT</span> <p>Cotisation de solidarité de l&#x27;employeur (50 travailleurs et plus) pour incapacité primaire : extension annoncée aux 4e et 5e mois. Annoncé ; pas de texte légal identifié, les instructions ONSS 2026/3 visent encore 2 mois.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.partena-professional.be/nl/node/22275" rel="noopener noreferrer">Partena Professional</a> <a href="https://www.socialsecurity.be/employer/instructions/dmfa/fr/latest/instructions/special_contributions/other_specialcontributions/soli_sickness.html" rel="noopener noreferrer">ONSS – Portail de la sécurité sociale</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-GREEN">VERT</span> <p>Pécule de vacances des ouvriers : cotisation patronale trimestrielle prévue à 5,84 % (contre 5,57 %) et cotisation personnelle à 1,16 % à partir de l&#x27;année de vacances 2027. Projet d&#x27;AR non publié ; la hausse prévue au 1er octobre 2026 n&#x27;a pas été appliquée.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22649" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-GREEN">VERT</span> <p>Restaurant d&#x27;entreprise : coût d&#x27;un repas normal porté de 6,91 EUR à 8,91 EUR (montant annoncé en décembre 2025, confirmation à vérifier).</p><small>Fédéral · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22245" rel="noopener noreferrer">Partena Professional</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-GREEN">VERT</span> <p>Remplacement annoncé des aides à l&#x27;emploi supprimées par un système plus léger (piste : prime versée directement à l&#x27;employeur). Annoncé ; modalités inconnues.</p><small>Bruxelles · Date d&#x27;application · <a href="https://www.partena-professional.be/fr/node/22558" rel="noopener noreferrer">Partena Professional</a> <a href="https://www.securex.be/nl/lex4you/werkgever/nieuws/brussel-en-wallonie-zetten-hun-koers-uit-voor-2027-wat-betekent-dat-voor-jouw-onderneming" rel="noopener noreferrer">Securex Lex4You</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">1er janvier 2027</b><span class="pri pri-GREEN">VERT</span> <p>Abrogation du dispositif APE annoncée par le Gouvernement wallon (avant-projet de décret-cadre adopté en première lecture le 19 mars 2026) ; transfert des moyens vers des dispositifs sectoriels, période transitoire jusqu&#x27;en 2029 si nécessaire. Adoption définitive non vérifiée.</p><small>Wallonie · Date d&#x27;application · <a href="https://jeholet.wallonie.be/files/Communiqu%c3%a9s%20de%20presse/20260318_CP%20APE%20decret%20cadre.pdf" rel="noopener noreferrer">Gouvernement wallon – cabinet du ministre de l&#x27;Emploi</a> <a href="https://www.leforem.be/articles/reforme-aides-emploi.html" rel="noopener noreferrer">Le Forem</a></small></li><li class="dl" data-date="2027-01-01" data-exact="1"><b class="d">Au plus tard le 1er janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>Checkinatwork : enregistrement obligatoire aussi à la sortie des chantiers temporaires ou mobiles ; date exacte à fixer par arrêté royal (loi-programme du 30 mai 2026).</p><small>Fédéral · Date d&#x27;application · <a href="https://www.claeysengels.be/sites/default/files/2026-06/newsletter_-_loi-programme_du_30_mai_2026.pdf" rel="noopener noreferrer">Claeys &amp; Engels</a></small></li><li class="dl" data-date="2027-01-05" data-exact="1"><b class="d">5 janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>ONSS : provision mensuelle (décembre) à payer par l&#x27;employeur, en règle générale le 5 du mois ; transfert ultime par les secrétariats : 12 janvier 2027.</p><small>Fédéral · Échéance légale · <a href="https://www.ucm.be/faq/mon-premier-engagement/quest-ce-quune-provision-lonss" rel="noopener noreferrer">UCM</a> <a href="https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2027_F.pdf" rel="noopener noreferrer">ONSS – Portail de la sécurité sociale</a></small></li><li class="dl" data-date="2027-01-31" data-exact="1"><b class="d">31 janvier 2027</b><span class="pri pri-AMBER">ORANGE</span> <p>ONSS : DmfA et paiement du solde du 4e trimestre 2026 (règle : dernier jour du mois qui suit le trimestre ; le 31 janvier 2027 est un dimanche, date exacte publiée par l&#x27;ONSS non vérifiée). Première DmfA reprenant la cotisation de modération salariale liée à l&#x27;index de janvier pour la CP 200 : à partir du 1er trimestre 2027.</p><small>Fédéral · Échéance légale · <a href="https://www.socialsecurity.be/site_fr/employer/applics/dmfa/index.htm" rel="noopener noreferrer">ONSS – Portail de la sécurité sociale</a> <a href="https://www.ucm.be/faq/mon-premier-engagement/quest-ce-quune-provision-lonss" rel="noopener noreferrer">UCM</a> <a href="https://blog.forumforthefuture.be/fr/article/droit-du-travail-cap-sur-le-1er-janvier-2027/32722" rel="noopener noreferrer">Forum for the Future (TamTam)</a></small></li><li class="dl" data-date="2027-02-01" data-exact="0"><b class="d">Février 2027 (prévision)</b><span class="pri pri-GREEN">VERT</span> <p>Indice pivot : le Bureau fédéral du Plan prévoit son dépassement en novembre 2026 (prévision du 3 novembre 2026). Règle depuis le 1er juillet 2025 : allocations sociales et traitements publics indexés de 2 % trois mois plus tard, avec plafonnement en centimes. Prochain dépassement prévu en février 2027.</p><small>Fédéral · Date d&#x27;application · <a href="https://www.plan.be/fr/donn%C3%A9es/indice-des-prix-la-consommation-previsions" rel="noopener noreferrer">Bureau fédéral du Plan</a> <a href="https://www.partena-professional.be/fr/node/22534" rel="noopener noreferrer">Partena Professional</a></small></li></ul>
+    <a class="cal" href="echeances.ics">Ajouter ces échéances à mon agenda (.ics)</a>
+    <a class="more" href="reports/deadlines_2026-11-06.pdf">Le rapport complet avec le détail de chaque échéance (PDF)</a>
+  </section>
+  <section class="panel" id="rapports" role="tabpanel">
+    <h2>Rapports thématiques</h2>
+    <h3 class="sub-h">Vue d’ensemble : avant, après, cette année</h3><ul class="list"><li><span>Échéances à 90 jours<small>Du 6 novembre 2026 au 4 février 2027 · 6 nov. 2026</small><small>Échéances et dates d&#x27;application RH belges du 6 novembre 2026 au 4 février 2027 : indexation CP 200 avec premier plafonnement en centimes, jours fériés de remplacement avant le 15 décembre, fin du régime Activa bruxellois, déclaration des accidents du travail chez l&#x27;assureur, cotisation CO2, réforme des pensions et projets annoncés pour le 1er janvier 2027.</small></span><a href="reports/deadlines_2026-11-06.pdf">PDF</a></li><li><span>Ce qui a changé (90 derniers jours)<small>Du 8 août au 6 novembre 2026 · 6 nov. 2026</small><small>Rétrospective de 90 jours : magasins ouverts jusqu&#x27;à 21 h sans jour de fermeture depuis le 13 août, Code pénal social adapté au 1er septembre, nouveau précompte professionnel dès la paie de novembre, fin de la transition Activa à Bruxelles et avant-projets clés au CNT (enregistrement du temps de travail, annualisation, cotisation incapacité).</small></span><a href="reports/retro-90_2026-11-06.pdf">PDF</a></li><li><span>2026 par rapport à 2025<small>Année 2026 (et ce qui est déjà connu pour 2027) · 6 nov. 2026</small><small>Référence côte à côte des montants et droits RH belges 2025 et 2026 (et 2027 lorsque c&#x27;est officiel) pour un magasin de la CP 311 : RMMMG et barèmes indexés, heures supplémentaires 360/240, préavis réduit, incapacité, jours fériés 2027, précompte et avantages.</small></span><a href="reports/annee-2026_2026-11-06.pdf">PDF</a></li></ul><h3 class="sub-h">Au quotidien au magasin</h3><ul class="list"><li><span>Transport et grèves<small>Du 6 novembre 2026 au 31 janvier 2027 · 6 nov. 2026</small><small>Manifestation nationale le lundi 23 novembre et action des jeunes avec préavis FGTB le 17 novembre à Bruxelles, nombreux travaux ferroviaires le week-end en novembre et nouvel horaire SNCB le 13 décembre ; rappel des règles de paie en cas de retard ou d&#x27;absence liés à une grève ou à une panne de transport.</small></span><a href="reports/transport_2026-11-06.pdf">PDF</a></li><li><span>Employeur à bruxelles<small>Situation au 6 novembre 2026 · 6 nov. 2026</small><small>Guide pratique pour un magasin établi à Bruxelles : langue des documents sociaux (article 52 des lois coordonnées du 18 juillet 1966), fin d&#x27;activa.brussels au 31 décembre 2026 sans successeur adopté, discrimination à l&#x27;embauche, mobilité, permis unique, contacts utiles et glossaire FR | NL.</small></span><a href="reports/bruxelles_2026-11-06.pdf">PDF</a></li><li><span>Contrôles avant paie<small>Guide opérationnel – situation au 6 novembre 2026 · 6 nov. 2026</small><small>Guide pratique et sourcé du contrôle mensuel avant paie (heures, absences, étudiants, flexi-jobs, entrées et sorties) et du cycle de vie du travailleur en magasin, intégrant les règles 2026 sur l&#x27;incapacité de travail, les heures supplémentaires volontaires et les délais de préavis.</small></span><a href="reports/pre-paie_2026-11-06.pdf">PDF</a></li><li><span>Commerce de détail<small>Novembre 2026 à fin janvier 2027 · 6 nov. 2026</small><small>Référence pratique pour l&#x27;administration RH d&#x27;un magasin de vêtements d&#x27;une grande chaîne en CP 311 à Bruxelles : barèmes et primes, horaires, dimanches de décembre, renforts étudiants et flexi-jobs, soldes d&#x27;hiver 2027.</small></span><a href="reports/retail_2026-11-06.pdf">PDF</a></li></ul><h3 class="sub-h">Paie et droit du travail</h3><ul class="list"><li><span>Transparence salariale<small>Novembre 2026 · 6 nov. 2026</small><small>Cinq mois après l&#x27;échéance du 7 juin 2026, aucun projet de loi fédéral de transposition de la directive (UE) 2023/970 n&#x27;a été identifié pour le secteur privé, les travaux du CNT sont à l&#x27;arrêt, tandis que la Flandre (décret du 12 juin 2026) et la Fédération Wallonie-Bruxelles (décret du 16 mai 2024) ont transposé pour leur propre personnel.</small></span><a href="reports/pay-transparency_2026-11-06.pdf">PDF</a></li><li><span>Organes de concertation<small>Semaine du 26 octobre au 1er novembre 2026 · 6 nov. 2026</small><small>Sur les sujets récents, seul le plan annuel d&#x27;action 2027 impose avec certitude un avis du CPPT (échéance du 1er novembre 2026 dépassée) ; les jours de remplacement 2027, les vacances collectives 2027, la CCT carrosserie (CP 149.02) et le futur enregistrement du temps de travail sont conditionnels, le reste n&#x27;appelle aucune consultation.</small></span><a href="reports/works-council_2026-11-06.pdf">PDF</a></li><li><span>Contrôle de paie<small>Novembre et décembre 2026 · 6 nov. 2026</small><small>Nouveau calcul du précompte professionnel dès la paie de novembre 2026, prime de fin d&#x27;année et clôture d&#x27;année en décembre, et préparation de la première indexation plafonnée de la CP 200 au 1er janvier 2027.</small></span><a href="reports/payroll_2026-11-06.pdf">PDF</a></li></ul>
+  </section>
+  <section class="panel" id="infos" role="tabpanel">
     <h2>Mode d’emploi</h2>
     <div class="guide">
-      <p><b>Chaque lundi</b>, la semaine écoulée (lundi–dimanche) est analysée : législation fédérale et régionale, paie et sécurité sociale, CCT, jurisprudence. Deux PDF en sortent :</p>
+      <p><b>Chaque lundi</b>, la semaine écoulée (lundi–dimanche) est analysée : législation fédérale et régionale, paie et sécurité sociale, CCT (dont la CP 311), jurisprudence, Bruxelles. Deux PDF en sortent :</p>
       <ul>
         <li><b>Actualités</b> : ce qui change, le statut, la date d’effet et l’impact potentiel, sans tâches. À transmettre tel quel.</li>
         <li><b>Plan d’action</b> : ce qu’il faut faire, dans quel ordre, avec un responsable et une échéance interne <i>proposés</i>. Les dates légales sont indiquées à part.</li>
       </ul>
-      <p class="legend"><span class="pri-RED">ROUGE</span> action requise (souvent la paie du mois) · <span class="pri-AMBER">ORANGE</span> préparer avant une date légale ou une concertation · <span class="pri-GREEN">VERT</span> suivre.</p>
-      <p>Les <b>rapports</b> approfondissent un sujet (paie, échéances, organes de concertation, transparence salariale). Chaque fait renvoie à une source officielle ou professionnelle cliquable ; les annonces non adoptées sont signalées comme telles.</p>
+      <p class="legend"><span class="pri pri-RED">ROUGE</span> action requise (souvent la paie du mois) · <span class="pri pri-AMBER">ORANGE</span> préparer avant une date légale ou une concertation · <span class="pri pri-GREEN">VERT</span> suivre.</p>
+      <p><b>Onglets</b> : <i>Transport</i> (grèves annoncées, trains en direct, liens STIB, De Lijn, TEC), <i>Congés</i> (jours fériés, vacances scolaires, soldes), <i>Échéances</i> (dates légales, à ajouter à l’agenda), <i>Rapports</i> (fiches pratiques en PDF).</p>
+      <p><b>Sur téléphone</b> : menu du navigateur → « Ajouter à l’écran d’accueil » pour l’ouvrir comme une application.</p>
+      <p>Chaque fait renvoie à une source officielle ou professionnelle cliquable ; les annonces non adoptées sont signalées comme telles. L’impact potentiel est une évaluation et non un avis juridique.</p>
     </div>
-  </section>
-
-  <section>
     <h2>Sites officiels</h2>
-    <ul class="archive links"><li><span>Moniteur belge<small>textes publiés</small></span><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl" rel="noopener noreferrer">Ouvrir</a></li><li><span>SPF Emploi, Travail et Concertation sociale<small>droit du travail, CCT, salaires minimums</small></span><a href="https://emploi.belgique.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>ONSS / Sécurité sociale<small>cotisations, réductions, instructions</small></span><a href="https://www.socialsecurity.be/site_fr/employer/index.htm" rel="noopener noreferrer">Ouvrir</a></li><li><span>SPF Finances – précompte professionnel<small>barèmes, fiches</small></span><a href="https://finances.belgium.be/fr/entreprises/personnel_et_remuneration" rel="noopener noreferrer">Ouvrir</a></li><li><span>Conseil national du Travail<small>CCT interprofessionnelles, avis</small></span><a href="https://cnt-nar.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>INAMI<small>incapacité de travail, réintégration</small></span><a href="https://www.inami.fgov.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>Forem<small>aides à l’emploi en Wallonie</small></span><a href="https://www.leforem.be/" rel="noopener noreferrer">Ouvrir</a></li><li><span>Actiris<small>aides à l’emploi à Bruxelles</small></span><a href="https://www.actiris.brussels/fr/employeurs/" rel="noopener noreferrer">Ouvrir</a></li><li><span>VDAB<small>aides à l’emploi en Flandre</small></span><a href="https://www.vdab.be/werkgevers" rel="noopener noreferrer">Ouvrir</a></li></ul>
+    <ul class="list"><li><span>Moniteur belge<small>textes publiés</small></span><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl" rel="noopener noreferrer">Ouvrir</a></li><li><span>SPF Emploi, Travail et Concertation sociale<small>droit du travail, CCT, salaires minimums</small></span><a href="https://emploi.belgique.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>ONSS / Sécurité sociale<small>cotisations, réductions, instructions</small></span><a href="https://www.socialsecurity.be/site_fr/employer/index.htm" rel="noopener noreferrer">Ouvrir</a></li><li><span>SPF Finances – précompte professionnel<small>barèmes, fiches</small></span><a href="https://finances.belgium.be/fr/entreprises/personnel_et_remuneration" rel="noopener noreferrer">Ouvrir</a></li><li><span>Conseil national du Travail<small>CCT interprofessionnelles, avis</small></span><a href="https://cnt-nar.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>INAMI<small>incapacité de travail, réintégration</small></span><a href="https://www.inami.fgov.be/fr" rel="noopener noreferrer">Ouvrir</a></li><li><span>Forem<small>aides à l’emploi en Wallonie</small></span><a href="https://www.leforem.be/" rel="noopener noreferrer">Ouvrir</a></li><li><span>Actiris<small>aides à l’emploi à Bruxelles</small></span><a href="https://www.actiris.brussels/fr/employeurs/" rel="noopener noreferrer">Ouvrir</a></li><li><span>VDAB<small>aides à l’emploi en Flandre</small></span><a href="https://www.vdab.be/werkgevers" rel="noopener noreferrer">Ouvrir</a></li></ul>
   </section>
-  <footer>L’impact potentiel est une évaluation et non un avis juridique. L’applicabilité dépend de l’entité, de la commission paritaire, du personnel et de la CCT applicable. Chaque point renvoie à sa source dans les PDF.</footer>
-</main></body>
+  <footer>L’impact potentiel est une évaluation et non un avis juridique. L’applicabilité dépend de l’entité, de la commission paritaire, du personnel et de la CCT applicable. Site généré le 06/11/2026.</footer>
+</main>
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  var ids = ['semaine', 'transport', 'conges', 'echeances', 'rapports', 'infos'];
+  document.addEventListener('click', function (ev) {
+    var a = ev.target.closest && ev.target.closest('a[href^="#"]'); if (!a) return;
+    var id = a.getAttribute('href').slice(1); if (ids.indexOf(id) < 0) return;
+    ev.preventDefault();
+    try { history.pushState(null, '', '#' + id); } catch (err) {}
+    show(id); window.scrollTo(0, 0);
+  });
+  window.addEventListener('popstate', function () { show(); });
+  function show(force) {
+    var h = force || location.hash.slice(1); if (ids.indexOf(h) < 0) h = 'semaine';
+    ids.forEach(function (id) { document.getElementById(id).classList.toggle('on', id === h); });
+    document.querySelectorAll('.tabs a').forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + h; a.setAttribute('aria-selected', on);
+      if (on && a.scrollIntoView) a.scrollIntoView({block: 'nearest', inline: 'center'});
+    });
+  }
+  window.addEventListener('hashchange', function () { show(); });
+  show();
+
+  // Dates: hide what is over, highlight what is current or close.
+  function iso(d) { return d.toISOString().slice(0, 10); }
+  var now = new Date(); var today = iso(new Date(now.getTime() - now.getTimezoneOffset() * 60000));
+  function days(a) { return Math.round((new Date(a) - new Date(today)) / 86400000); }
+  document.querySelectorAll('[data-end]').forEach(function (el) {
+    var end = el.getAttribute('data-end'), start = el.getAttribute('data-start') || '';
+    if (end < today) el.classList.add('past');
+    else if (start && start <= today) el.classList.add('now');
+  });
+  document.querySelectorAll('.event[data-end]').forEach(function (el) {
+    var t = el.querySelector('.when'); if (!t || el.classList.contains('past')) return;
+  });
+  document.querySelectorAll('li.hol').forEach(function (el) {
+    var n = days(el.getAttribute('data-date')), cd = el.querySelector('.cd');
+    if (n < 0) { el.classList.add('past'); return; }
+    cd.textContent = n === 0 ? "aujourd’hui" : n === 1 ? 'demain' : 'dans ' + n + ' jours';
+    if (n <= 14) el.classList.add('soon');
+  });
+  document.querySelectorAll('#deadlines li[data-date]').forEach(function (tr) {
+    var dd = tr.getAttribute('data-date'); if (!dd) return;
+    var exact = tr.getAttribute('data-exact') === '1';
+    if (exact ? dd < today : dd.slice(0, 7) < today.slice(0, 7)) tr.classList.add('past');
+  });
+
+  // Live SNCB disruptions (iRail open API).
+  var BXL = /brux|brus|bxl|etterbeek|schaerbeek|schaarbeek|jette|uccle|ukkel|anderlecht|evere|forest|vorst|boitsfort|bosvoorde|watermael|zaventem|halle|vilvoorde|ottignies|louvain|leuven|nivelles|braine|waterloo|denderleeuw|liedekerke|mechelen|malines|alost|aalst|dilbeek|merode|schuman|luxembourg|luxemburg|midi|zuid|nord|noord|central|centraal|toute|ensemble|national|grève|staking/i;
+  var all = [];
+  function li(x) {
+    var el = document.createElement('li');
+    var s = document.createElement('span'); s.textContent = x.title; el.appendChild(s);
+    var t = document.createElement('small'); t.className = 'd';
+    var dt = new Date(Number(x.timestamp) * 1000);
+    t.textContent = dt.toLocaleString('fr-BE', {weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'});
+    el.appendChild(t);
+    var p = document.createElement('p'); p.textContent = (x.description || '').split('\n')[0]; el.appendChild(p);
+    if (x.link) { var a = document.createElement('a'); a.href = x.link; a.rel = 'noopener noreferrer'; a.textContent = 'Détail SNCB'; el.appendChild(a); }
+    return el;
+  }
+  function draw() {
+    var only = document.getElementById('live-bxl').checked;
+    var live = all.filter(function (x) { return x.type !== 'planned' && (!only || BXL.test(x.title + ' ' + x.description)); });
+    var planned = all.filter(function (x) { return x.type === 'planned' && (!only || BXL.test(x.title + ' ' + x.description)); });
+    var ul = document.getElementById('live-list'); ul.innerHTML = '';
+    if (!live.length) { var e = document.createElement('li'); e.className = 'muted'; e.textContent = 'Aucune perturbation SNCB signalée' + (only ? ' autour de Bruxelles' : '') + '.'; ul.appendChild(e); }
+    live.forEach(function (x) { ul.appendChild(li(x)); });
+    var pl = document.getElementById('live-planned'); pl.innerHTML = '';
+    planned.forEach(function (x) { pl.appendChild(li(x)); });
+    document.querySelector('#live-planned-wrap summary').textContent = 'Travaux planifiés SNCB (' + planned.length + ')';
+    var bx = all.filter(function (x) { return x.type !== 'planned' && BXL.test(x.title + ' ' + x.description); }).length;
+    var tile = document.getElementById('tile-live'); tile.textContent = bx;
+    if (bx > 0) tile.parentNode.classList.add('alert');
+  }
+  document.getElementById('live-bxl').addEventListener('change', draw);
+  fetch('https://api.irail.be/v1/disturbances/?format=json&lang=fr')
+    .then(function (r) { if (!r.ok) throw r; return r.json(); })
+    .then(function (d) {
+      all = d.disturbance || []; draw();
+      document.getElementById('live-time').textContent = 'mis à jour à ' + new Date().toLocaleTimeString('fr-BE', {hour: '2-digit', minute: '2-digit'});
+    })
+    .catch(function () {
+      document.getElementById('live-list').innerHTML = '<li class="muted">Données en direct indisponibles. <a href="https://www.belgiantrain.be/fr/travel-info/current-traffic">Voir l’info trafic SNCB</a></li>';
+      document.getElementById('tile-live').textContent = '?';
+    });
+})();
+</script>
+</body>
 </html>

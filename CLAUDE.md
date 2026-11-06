@@ -14,7 +14,9 @@ You are a senior Belgian employment-law and HR intelligence analyst supporting a
   - store working time: part-time and variable schedules, Sunday work and Sunday openings, opening hours (loi du 10 novembre 2006), public holidays and replacement days, soldes and pre-sales periods;
   - flexible staffing: student work (contingent of hours, Dimona STU), flexi-jobs in retail, interim and successive fixed-term contracts;
   - Brussels-Capital: Actiris aids, Brussels regional inspection, language rules for employment documents in Brussels, anti-discrimination in hiring;
-  - retail social climate: strikes or actions by SETCa/BBTK, CNE/ACV-Puls, CGSLB/ACLVB in retail, Comeos positions.
+  - retail social climate: strikes or actions by SETCa/BBTK, CNE/ACV-Puls, CGSLB/ACLVB in retail, Comeos positions;
+  - getting to work: national action days, rail strikes (SNCB) and STIB / De Lijn / TEC strikes, major works on lines into central Brussels (store at Porte de Namur, metro 2/6) – anything that makes staff late or absent;
+  - holidays: public holidays and replacement days, school holidays of the three Communities (students, parents' leave), sales periods.
 - Store-level items (schedules, students, Sunday work, payroll of hourly staff) rank above head-office topics at equal legal weight.
 
 ## Language
@@ -36,7 +38,10 @@ You are a senior Belgian employment-law and HR intelligence analyst supporting a
 4. Run `python -m radar.weekly --start <start>` (builds both PDFs, runs the quality checks, rebuilds the site). Fix any failure it reports.
 5. Inspect the PNG renders in `briefings/<start>_<end>/_render/` for overflow, clipping, orphan headings and empty pages.
 6. Delete `briefings/2026-10-26_2026-11-01/` only if it still contains `"example": true` and is superseded by a real week.
-7. Commit and push (only in scheduled runs, or when the user asked).
+7. **Standing reports and site data (no slash command needed):** run `python -m radar.standing --list`. For every job marked DUE, follow its brief in `.claude/commands/<command>.md` and write the output it names (reports are built with `python -m radar.build_report <file>`, data files feed the site's Transport and Congés tabs). Weekly: transport data, 90-day deadlines. First Monday of the month: payroll, last 90 days, transport report, holidays, retail CP 311, pre-payroll, Brussels, works council, this year vs last year, pay transparency. Then `python site/build_site.py`.
+8. Commit and push (only in scheduled runs, or when the user asked).
+
+API mode does steps 1–7 automatically: `python -m radar.weekly --research-api` (see `radar/standing.py`).
 
 ## Reporting window (Europe/Brussels)
 - Monday briefing: the preceding seven completed days (Mon–Sun). Print exact dates.
