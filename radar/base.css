@@ -1,0 +1,146 @@
+/* Shared design for both PDFs. Neutral branding: navy #1F2A44, teal #3FB8AF. */
+@font-face { font-family: "DejaVu Sans"; src: url("fonts/DejaVuSans.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "DejaVu Sans"; src: url("fonts/DejaVuSans-Bold.ttf"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "DejaVu Sans"; src: url("fonts/DejaVuSans-Oblique.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "DejaVu Sans"; src: url("fonts/DejaVuSans-BoldOblique.ttf"); font-weight: 700; font-style: italic; }
+
+:root {
+  --navy: #1F2A44;
+  --teal: #3FB8AF;
+  --teal-fill: #E8F6F5;
+  --ink: #1d2433;
+  --muted: #5b6475;
+  --rule: #d5d9e0;
+  --red: #C0392B;
+  --amber: #B7791F;
+  --green: #2F855A;
+}
+
+@page {
+  size: A4;
+  margin: 31mm 16mm 22mm 16mm;
+  /* Navy header band (0-21mm), teal rule (21-22mm), navy footer band (bottom 12mm). */
+
+  @top-left  { content: element(hdrleft); width: 40%; vertical-align: top; }
+  @top-right { content: element(hdr); width: 60%; vertical-align: top; }
+  @bottom-left {
+    content: "HR BUSINESS PARTNER BRIEFING";
+    width: 70%; vertical-align: bottom; padding-bottom: 4.4mm;
+    font-family: "DejaVu Sans"; font-size: 7pt; font-weight: 700; letter-spacing: 0.12em; color: white;
+  }
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages);
+    width: 30%; text-align: right; vertical-align: bottom; padding-bottom: 4.4mm;
+    font-family: "DejaVu Sans"; font-size: 7pt; color: white;
+  }
+}
+
+html { font-family: "DejaVu Sans", sans-serif; font-size: 9.3pt; line-height: 1.42; color: var(--ink); }
+body { margin: 0; }
+a { color: var(--navy); text-decoration: none; }
+
+/* Header/footer bands: fixed boxes repeat on every page; offsets reach into the page margins. */
+.band-top { position: fixed; top: -31mm; left: -16mm; width: 210mm; height: 21mm; background: #1F2A44; border-bottom: 1mm solid #3FB8AF; z-index: -1; }
+.band-bottom { position: fixed; bottom: -22mm; left: -16mm; width: 210mm; height: 12mm; background: #1F2A44; z-index: -1; }
+
+/* Running header content */
+.hdr { position: running(hdr); text-align: right; padding-top: 6.2mm; }
+.hdr .title { color: white; font-weight: 700; font-size: 13pt; letter-spacing: 0.04em; }
+.hdr .sub { color: var(--teal); font-size: 7.6pt; font-weight: 700; letter-spacing: 0.12em; margin-top: 1.4mm; text-transform: uppercase; font-size: 6.8pt; }
+.hdrleft { position: running(hdrleft); padding-top: 7.6mm; }
+.hdrleft .mark { color: white; font-weight: 700; font-size: 8pt; letter-spacing: 0.22em; }
+.hdrleft .juris { color: #9fb0c8; font-size: 6.8pt; letter-spacing: 0.18em; margin-top: 1.2mm; }
+
+/* Example watermark (design sample only) */
+.watermark {
+  position: fixed; top: 105mm; left: -8mm; width: 200mm;
+  text-align: center; transform: rotate(-32deg);
+  font-size: 54pt; font-weight: 700; letter-spacing: 0.08em;
+  color: rgba(192, 57, 43, 0.10);
+}
+.example-banner {
+  border: 1.2pt solid var(--red); color: var(--red); font-weight: 700; font-size: 8pt;
+  padding: 2mm 3mm; margin-bottom: 4mm; letter-spacing: 0.04em;
+}
+
+/* Section labels */
+.label { font-size: 7.4pt; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); }
+.label.dark { color: var(--navy); }
+h1.section {
+  font-size: 11pt; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--navy); margin: 7mm 0 3mm; padding-bottom: 1.5mm; border-bottom: 0.8pt solid var(--rule);
+  break-after: avoid;
+}
+h1.section .num { color: var(--teal); }
+
+.intro {
+  border-left: 2.4pt solid var(--teal); padding: 1mm 0 1mm 4mm; margin-bottom: 6mm;
+}
+.intro p { margin: 1.5mm 0 0; }
+.intro .muted, .muted { color: var(--muted); }
+
+/* Top 3 */
+.top3 { margin: 0 0 6mm; }
+.top3 ol { margin: 2mm 0 0; padding-left: 5mm; }
+.top3 li { margin-bottom: 1.6mm; }
+
+/* News cards */
+.juris-group { break-before: auto; }
+.card { break-inside: avoid; padding: 3.5mm 0 4.5mm; border-bottom: 0.6pt solid var(--rule); }
+.card h2 { font-size: 10.6pt; margin: 0; color: var(--navy); }
+.card h2 .cc { letter-spacing: 0.06em; }
+.status { font-size: 8pt; color: var(--muted); margin: 0.8mm 0 2mm; }
+.status b { color: var(--ink); }
+.field { font-size: 7.2pt; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); margin-top: 1.5mm; }
+.card p { margin: 0.6mm 0 0; }
+.impact {
+  background: var(--teal-fill); border: 0.9pt solid var(--teal); border-radius: 1.2mm;
+  padding: 2.4mm 3.2mm; margin: 2.4mm 0;
+}
+.impact .field { margin-top: 0; color: #217a73; }
+.meta { font-size: 8pt; margin-top: 1.4mm; }
+.meta b { color: var(--navy); }
+.consult { font-weight: 700; }
+.consult.confirmed { color: var(--red); }
+.consult.conditional { color: var(--amber); }
+.nochange { margin-top: 4mm; font-size: 8.4pt; color: var(--muted); }
+
+/* Priority labels (coloured text, no emoji) */
+.pri { font-weight: 700; font-size: 7.2pt; letter-spacing: 0.1em; }
+.pri.RED { color: var(--red); }
+.pri.AMBER { color: var(--amber); }
+.pri.GREEN { color: var(--green); }
+.legend .pri { margin-right: 4mm; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: 2mm 0 2mm; font-size: 8.4pt; }
+thead { display: table-header-group; }
+th {
+  background: var(--navy); color: white; text-align: left; font-size: 7pt; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase; padding: 2mm 2.4mm;
+}
+td { vertical-align: top; padding: 2.4mm; border-bottom: 0.6pt solid var(--rule); }
+tr { break-inside: avoid; }
+td.first { width: 50%; }
+td.first .t { font-weight: 700; color: var(--navy); }
+tr.RED td.first { border-left: 2.4pt solid var(--red); background: #fbf1f0; }
+tr.AMBER td.first { border-left: 2.4pt solid var(--amber); background: #fbf6ec; }
+.type { font-size: 7pt; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+.control { font-size: 8.4pt; margin: 1.5mm 0 0; padding: 2mm 3mm; background: var(--teal-fill); border-left: 2.4pt solid var(--teal); }
+.small { font-size: 7.8pt; }
+
+.followup { break-inside: avoid; margin: 0 0 3mm; padding-left: 3.5mm; border-left: 2.4pt solid var(--green); }
+.followup p { margin: 0.6mm 0 0; }
+
+.means p { margin: 0 0 2.4mm; }
+.flow { margin-top: 2mm; font-weight: 700; color: var(--navy); }
+.flow span.step { display: inline-block; padding: 1mm 2.4mm; border: 0.9pt solid var(--teal); border-radius: 1mm; background: var(--teal-fill); margin: 0.8mm 0; }
+.flow span.arrow { color: var(--teal); padding: 0 1mm; }
+
+/* Source register */
+.register { break-before: page; }
+.register ol { list-style: none; padding: 0; margin: 3mm 0 0; }
+.register li { padding: 1.4mm 0; border-bottom: 0.5pt solid var(--rule); font-size: 8.4pt; break-inside: avoid; }
+.register .n { display: inline-block; width: 10mm; font-weight: 700; color: var(--teal); }
+.register a { color: var(--navy); }
+.register .url { display: block; margin-left: 10mm; font-size: 7pt; color: var(--muted); }

@@ -1,0 +1,73 @@
+# Option B: fully automatic weekly run via the Anthropic API (billed to API credits).
+# Secrets: ANTHROPIC_API_KEY (required); RESEND_API_KEY + TO_EMAIL (+ optional FROM_EMAIL) for email.
+name: Weekly HR Europe Radar
+
+on:
+  schedule:
+    - cron: "30 5 * * 1"   # Monday 05:30 UTC (06:30 Brussels in winter, 07:30 in summer)
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "Any date in the week to build (default: preceding completed week)"
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: weekly-radar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      HAS_EMAIL: ${{ secrets.RESEND_API_KEY != '' && secrets.TO_EMAIL != '' }}
+    outputs:
+      folder: ${{ steps.window.outputs.folder }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: System libraries for WeasyPrint and pdftoppm
+        run: sudo apt-get update && sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 poppler-utils
+      - run: pip install -r requirements.txt
+
+      - id: window
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.start }}" ]; then ARGS="--start ${{ inputs.start }}"; fi
+          echo "args=$ARGS" >> "$GITHUB_OUTPUT"
+          python -m radar.weekly $ARGS --print-window | tee /tmp/window.txt
+          echo "folder=$(sed -n 's/^folder: //p' /tmp/window.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Research (API) and build PDFs + site
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m radar.weekly ${{ steps.window.outputs.args }} --research-api
+
+      - name: Commit and push
+        run: |
+          git config user.name "hr-europe-radar bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add briefings site/index.html
+          git commit -m "Weekly briefing ${{ steps.window.outputs.folder }}" || echo "nothing to commit"
+          git push
+
+      - name: Email both PDFs (optional)
+        if: env.HAS_EMAIL == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python -m radar.send_email "${{ steps.window.outputs.folder }}"
+
+  publish:
+    needs: build
+    uses: ./.github/workflows/pages.yml

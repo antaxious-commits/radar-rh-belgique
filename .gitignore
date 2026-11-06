@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+briefings/*/_render/
+site/briefings/
+_site/

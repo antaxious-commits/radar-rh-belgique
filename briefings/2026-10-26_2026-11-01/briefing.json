@@ -1,0 +1,128 @@
+{
+  "example": true,
+  "edition": "EXAMPLE",
+  "window": { "start": "2026-10-26", "end": "2026-11-01", "timezone": "Europe/Brussels" },
+  "top3": [
+    { "item_id": "be-index", "priority": "RED", "headline": "EXAMPLE: Belgian sector wage indexation applies to November payroll", "why_it_matters": "Placeholder text showing how a payroll-first Top 3 entry reads on the website and in PDF 1." },
+    { "item_id": "eu-paytransparency", "priority": "AMBER", "headline": "EXAMPLE: Pay transparency transposition step in a member state", "why_it_matters": "Placeholder showing a deadline-driven item that feeds the 90-day radar." },
+    { "item_id": "fr-ceiling", "priority": "AMBER", "headline": "EXAMPLE: Social-security ceiling for next year published", "why_it_matters": "Placeholder showing a 1 January payroll parameter change." }
+  ],
+  "items": [
+    {
+      "id": "eu-paytransparency", "jurisdiction": "EU", "topic": "Pay Transparency Directive: transposition step (EXAMPLE)",
+      "status": "Proposal", "effective_date": "Not specified",
+      "what_changed": "EXAMPLE DATA. A national government publishes a draft transposition bill for the Pay Transparency Directive [Directive (EU) 2023/970]. The draft sets out pay-range disclosure in job adverts and a gender pay-gap reporting threshold. This paragraph only demonstrates length and tone.",
+      "potential_impact": "If adopted as drafted, recruitment templates and pay-range governance may need to change before the transposition deadline. Applicability depends on headcount thresholds per entity.",
+      "relevance_tags": ["Reward", "Recruitment", "Reporting"], "consultation": "conditional", "source_ids": [1]
+    },
+    {
+      "id": "fr-ceiling", "jurisdiction": "FR", "topic": "Social-security ceiling 2027 (EXAMPLE)",
+      "status": "Published", "effective_date": "1 January 2027",
+      "what_changed": "EXAMPLE DATA. An order sets the annual social-security ceiling [plafond annuel de la sécurité sociale, PASS] for next year. Contribution bases and several benefit caps are indexed on this ceiling. Figures intentionally omitted in this sample.",
+      "potential_impact": "Payroll parameters may need updating for January payroll; capped benefits and contribution bases could shift. Impact depends on payroll provider set-up.",
+      "relevance_tags": ["Payroll", "Benefits"], "consultation": "none", "source_ids": [2]
+    },
+    {
+      "id": "fr-cse", "jurisdiction": "FR", "topic": "Cour de cassation ruling on CSE consultation (EXAMPLE)",
+      "status": "Ruling", "effective_date": "Immediate (case law)",
+      "what_changed": "EXAMPLE DATA. The social chamber [chambre sociale] rules on when a reorganisation project triggers prior consultation of the works council [comité social et économique, CSE]. Shown here to illustrate a confirmed consultation tag.",
+      "potential_impact": "Projects with a material effect on working conditions could require prior CSE consultation before implementation. Applicability depends on the project scope.",
+      "relevance_tags": ["Employee relations", "Change management"], "consultation": "confirmed", "source_ids": [3]
+    },
+    {
+      "id": "be-index", "jurisdiction": "BE", "topic": "Sector wage indexation, joint committee 200 (EXAMPLE)",
+      "status": "In force", "effective_date": "Payroll of November 2026",
+      "what_changed": "EXAMPLE DATA. A sector indexation applies to salaries in a joint committee [paritair comité / commission paritaire]. The percentage and rounding rules are set by the sector agreement [CAO/CCT]. No real figure is given in this sample.",
+      "potential_impact": "If the entity falls under this joint committee, November payroll may need the indexed scales. Applicability depends on the joint committee of each Belgian entity.",
+      "relevance_tags": ["Payroll", "Collective agreement"], "consultation": "none", "source_ids": [4]
+    },
+    {
+      "id": "nl-dba", "jurisdiction": "NL", "topic": "Self-employed enforcement guidance (EXAMPLE)",
+      "status": "Announced", "effective_date": "Not specified",
+      "what_changed": "EXAMPLE DATA. The tax authority announces updated guidance on assessing self-employed contractors under the Wet DBA [Wet deregulering beoordeling arbeidsrelaties]. Illustrates an 'Announced' status line.",
+      "potential_impact": "Contractor engagements could need a renewed employment-status review. Impact depends on the number and type of contractors engaged.",
+      "relevance_tags": ["Contingent workforce", "Tax"], "consultation": "none", "source_ids": [5]
+    },
+    {
+      "id": "de-zeit", "jurisdiction": "DE", "topic": "Working-time recording bill (EXAMPLE)",
+      "status": "Proposal", "effective_date": "Not specified",
+      "what_changed": "EXAMPLE DATA. A ministry draft would codify electronic working-time recording [Arbeitszeiterfassung] following earlier Federal Labour Court [BAG] case law. Shown to illustrate a conditional works-council tag.",
+      "potential_impact": "If adopted, time-recording systems and the related works agreement [Betriebsvereinbarung] may need review. Co-determination rights of the works council [Betriebsrat] would likely apply to new systems.",
+      "relevance_tags": ["Working time", "HR systems"], "consultation": "conditional", "source_ids": [6]
+    },
+    {
+      "id": "es-jornada", "jurisdiction": "ES", "topic": "Digital time registration regulation (EXAMPLE)",
+      "status": "Published", "effective_date": "Not specified",
+      "what_changed": "EXAMPLE DATA. A regulation on digital working-time registration [registro horario digital] is published in the BOE. Illustrates a Spain card with original terms in brackets.",
+      "potential_impact": "Existing time-registration tools may need to meet new access and retention requirements. Applicability depends on the tool in use per Spanish entity.",
+      "relevance_tags": ["Working time", "Compliance"], "consultation": "conditional", "source_ids": [7]
+    },
+    {
+      "id": "it-smart", "jurisdiction": "IT", "topic": "Smart working agreement guidance (EXAMPLE)",
+      "status": "Published", "effective_date": "Not specified",
+      "what_changed": "EXAMPLE DATA. The labour ministry publishes guidance on individual smart working agreements [accordo individuale di lavoro agile]. Illustrates an Italy card.",
+      "potential_impact": "Smart working templates may need a check against the guidance. Impact depends on the applicable CCNL.",
+      "relevance_tags": ["Hybrid work", "Contracts"], "consultation": "none", "source_ids": [8]
+    }
+  ],
+  "no_change": [],
+  "immediate_theme": "SECURE NOVEMBER PAYROLL",
+  "control_line": "EXAMPLE: no November payroll is released before the indexation check is signed off by Payroll and HRBP.",
+  "actions": [
+    {
+      "priority": "RED", "title": "Confirm Belgian indexation for November payroll (EXAMPLE)",
+      "steps": "Map each Belgian entity to its joint committee. Confirm with the payroll provider that the indexed scales are loaded before cut-off.",
+      "proposed_owner": "Payroll Lead BE", "internal_target": "Internal target: before November cut-off",
+      "legal_date": null, "evidence": "Provider confirmation and test payslip reviewed.",
+      "source_ids": [4], "action_type": "Payroll update"
+    },
+    {
+      "priority": "AMBER", "title": "Update French payroll parameters for 2027 (EXAMPLE)",
+      "steps": "Load the new ceiling into payroll and review capped benefits. Test on December parallel run.",
+      "proposed_owner": "Payroll Lead FR", "internal_target": "Internal target: 15 December 2026",
+      "legal_date": "1 January 2027", "evidence": "January payslip test reconciles to new ceiling.",
+      "source_ids": [2], "action_type": "Payroll update"
+    },
+    {
+      "priority": "AMBER", "title": "Prepare pay-range disclosure in job adverts (EXAMPLE)",
+      "steps": "Inventory job-advert templates across entities and draft a pay-range field. Align with Reward on range governance.",
+      "proposed_owner": "Talent Acquisition Lead", "internal_target": "Internal target: Q1 2027",
+      "legal_date": "7 June 2026 (transposition deadline, illustrative)", "evidence": "Templates updated and approved by Legal.",
+      "source_ids": [1], "action_type": "Policy/process update"
+    },
+    {
+      "priority": "GREEN", "title": "Monitor German working-time recording bill (EXAMPLE)",
+      "steps": "Track the parliamentary stage and check whether the current time-recording tool would comply.",
+      "proposed_owner": "HRBP Germany", "internal_target": "Review monthly",
+      "legal_date": null, "evidence": "Gap note shared with works council liaison.",
+      "source_ids": [6], "action_type": "Monitoring"
+    },
+    {
+      "priority": "GREEN", "title": "Review contractor population in the Netherlands (EXAMPLE)",
+      "steps": "Pull the list of active contractors and flag engagements with employee-like features.",
+      "proposed_owner": "HR Operations NL", "internal_target": "Internal target: January 2027",
+      "legal_date": null, "evidence": "Risk-rated contractor list.",
+      "source_ids": [5], "action_type": "Monitoring"
+    }
+  ],
+  "deadlines_90d": [
+    { "date": "2026-12-31", "jurisdiction": "BE", "description": "EXAMPLE: temporary exemption ends", "type": "legal_deadline", "source_id": 4 },
+    { "date": "2027-01-01", "jurisdiction": "FR", "description": "EXAMPLE: new social-security ceiling applies", "type": "application_date", "source_id": 2 },
+    { "date": "2027-01-01", "jurisdiction": "NL", "description": "EXAMPLE: annual minimum wage update applies", "type": "application_date", "source_id": 5 }
+  ],
+  "what_this_means": [
+    { "heading": "Your first move", "text": "EXAMPLE: confirm the Belgian joint-committee mapping with payroll this week." },
+    { "heading": "Escalate first", "text": "EXAMPLE: any entity where the indexation cannot be confirmed before cut-off." },
+    { "heading": "Tracking flow", "text": "Applicability confirmed > Change approved > Tested > Communicated" }
+  ],
+  "sources": [
+    { "id": 1, "label": "EU Pay transparency (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/eu-pay-transparency" },
+    { "id": 2, "label": "FR Social-security ceiling (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/fr-ceiling" },
+    { "id": 3, "label": "FR CSE consultation ruling (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/fr-cse" },
+    { "id": 4, "label": "BE Sector indexation (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/be-index" },
+    { "id": 5, "label": "NL Self-employed guidance (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/nl-dba" },
+    { "id": 6, "label": "DE Working-time recording (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/de-zeit" },
+    { "id": 7, "label": "ES Digital time registration (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/es-jornada" },
+    { "id": 8, "label": "IT Smart working guidance (EXAMPLE)", "publisher": "Example publisher", "url": "https://example.org/it-smart" }
+  ]
+}

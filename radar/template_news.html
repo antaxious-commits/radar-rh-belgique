@@ -1,0 +1,55 @@
+{% import "_partials.html" as p with context %}<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HR Europe | Weekly News | {{ window_label }}</title>
+<style>{{ css | safe }}</style>
+</head>
+<body>
+{{ p.header("HR EUROPE | WEEKLY NEWS", "NEWS EDITION · " ~ edition) }}
+
+{{ p.example_banner() }}
+
+<div class="intro">
+  <div class="label">Weekly news / business context</div>
+  <p><b>{{ window_long }}</b> (Europe/Brussels). Scope: EU level, France, Belgium, Netherlands, Germany, Spain and Italy. {{ items|length }} developments in window.</p>
+  <p class="muted">Potential impact is an assessment, not legal advice; applicability depends on entity, sector, workforce and collective agreement.</p>
+</div>
+
+{% if top3 %}
+<div class="top3">
+  <div class="label dark">Top 3 this week</div>
+  <ol>
+  {% for t in top3 %}
+    <li><span class="pri {{ t.priority }}">{{ t.priority }}</span> <b>{{ t.headline }}</b>. {{ t.why_it_matters }}</li>
+  {% endfor %}
+  </ol>
+</div>
+{% endif %}
+
+{% for j, group in items_by_juris %}
+<div class="juris-group">
+{% for it in group %}
+  <article class="card">
+    <h2><span class="cc">{{ juris_names[it.jurisdiction] | upper }}</span> / {{ it.topic }}</h2>
+    <div class="status"><b>{{ it.status }}</b> | {{ it.effective_date }}</div>
+    <div class="field">What changed</div>
+    <p>{{ it.what_changed }}</p>
+    <div class="impact">
+      <div class="field">Potential impact / assessment</div>
+      <p>{{ it.potential_impact }}</p>
+    </div>
+    <div class="meta"><b>Relevance:</b> {{ it.relevance_tags | join(" | ") }}{% if it.consultation == "confirmed" %} | <span class="consult confirmed">Works council: confirmed consultation requirement</span>{% elif it.consultation == "conditional" %} | <span class="consult conditional">Works council: existing conditional requirement</span>{% endif %}</div>
+    <div class="meta"><b>Sources:</b> {{ p.refs(it.source_ids) }}</div>
+  </article>
+{% endfor %}
+</div>
+{% endfor %}
+
+{% if no_change %}
+<p class="nochange"><b>No relevant change found this week after targeted searches:</b> {{ no_change | map("juris_name") | join(", ") }}.</p>
+{% endif %}
+
+{{ p.register() }}
+</body>
+</html>
