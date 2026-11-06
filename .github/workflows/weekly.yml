@@ -3,8 +3,10 @@
 name: Radar RH Belgique (hebdomadaire)
 
 on:
-  schedule:
-    - cron: "30 5 * * 1"   # Monday 05:30 UTC (06:30 Brussels in winter, 07:30 in summer)
+  # The Monday run is a Claude Code scheduled task on the owner's PC (Option A).
+  # To switch to Option B, add the ANTHROPIC_API_KEY secret and restore:
+  # schedule:
+  #   - cron: "30 5 * * 1"   # Monday 05:30 UTC
   workflow_dispatch:
     inputs:
       start:
