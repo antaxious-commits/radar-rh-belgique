@@ -16,7 +16,6 @@ import re
 import sys
 from pathlib import Path
 
-import anthropic
 
 from radar.weekly import ROOT, briefing_dir, preceding_week, parse_start
 
@@ -66,7 +65,7 @@ def schema_errors(obj: dict, schema: dict | None = None) -> list[str]:
     return [f"{'/'.join(map(str, e.path)) or '<root>'}: {e.message}" for e in v.iter_errors(obj)]
 
 
-def call(client: anthropic.Anthropic, messages: list, schema: dict | None = None) -> "anthropic.types.beta.BetaMessage":
+def call(client, messages: list, schema: dict | None = None):
     with client.beta.messages.stream(
         model=MODEL,
         max_tokens=64000,
@@ -100,6 +99,7 @@ def run_turn(client, messages: list, schema: dict | None = None) -> str:
 
 
 def research(start: str, end: str) -> dict:
+    import anthropic  # imported lazily: validation helpers must work without the SDK
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
     messages: list = [{"role": "user", "content": user_prompt(start, end)}]
     text = run_turn(client, messages)
@@ -149,6 +149,7 @@ def ref_errors(obj: dict) -> list[str]:
 
 def research_json(prompt: str, schema: dict, check=None) -> dict:
     """Generic research turn for standing reports and site data: returns a schema-valid JSON object."""
+    import anthropic
     client = anthropic.Anthropic()
     messages: list = [{"role": "user", "content": prompt}]
     text = run_turn(client, messages, schema)
@@ -179,7 +180,7 @@ def main(argv=None) -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     try:
         obj = research(start.isoformat(), end.isoformat())
-    except (anthropic.APIError, RuntimeError) as e:
+    except Exception as e:  # anthropic.APIError or RuntimeError
         print(f"ERROR: {e}", file=sys.stderr)
         return 1
     out.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

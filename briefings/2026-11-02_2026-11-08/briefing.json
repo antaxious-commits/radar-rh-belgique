@@ -1,0 +1,607 @@
+{
+  "window": {
+    "start": "2026-11-02",
+    "end": "2026-11-08",
+    "timezone": "Europe/Brussels"
+  },
+  "top3": [
+    {
+      "item_id": "actions-17-23-novembre",
+      "priority": "RED",
+      "headline": "Deux journées d'action à Bruxelles : manifestation étudiante du 17 novembre couverte par un préavis FGTB, manifestation nationale du 23 novembre",
+      "why_it_matters": "Les retards et absences du personnel de magasin et des étudiants jobistes sont probables ces deux jours ; les plannings et l'encodage paie de novembre doivent être préparés dès maintenant."
+    },
+    {
+      "item_id": "crise-federale",
+      "priority": "GREEN",
+      "headline": "Crise gouvernementale fédérale : démission refusée le 6 novembre, rapport au Roi le 16 novembre",
+      "why_it_matters": "Les réformes annoncées (travail étudiant, flexi-jobs, annualisation du temps de travail) restent en suspens ; rien ne change pour l'instant, mais la planification 2027 doit prévoir plusieurs scénarios."
+    },
+    {
+      "item_id": "elections-sociales-2028",
+      "priority": "AMBER",
+      "headline": "Élections sociales 2028 : le CNT propose la période du 15 au 28 mai 2028",
+      "why_it_matters": "La période de référence proposée pour le calcul de l'effectif a déjà commencé le 1er octobre 2026 ; les intérimaires du 2e trimestre 2027 y seront comptés."
+    }
+  ],
+  "items": [
+    {
+      "id": "crise-federale",
+      "level": "federal",
+      "topic": "Crise gouvernementale et réformes sociales en suspens",
+      "status": "Situation politique – mesures non adoptées",
+      "effective_date": "Non précisée",
+      "what_changed": "Dans la nuit du 1er au 2 novembre 2026, le comité ministériel restreint [kern] n'a pas trouvé d'accord sur le budget 2027 et l'effort de 10 milliards EUR d'ici 2029 ; le Premier ministre a présenté la démission du gouvernement au Roi le 2 novembre. Le Roi a refusé cette démission le 6 novembre et les négociations ont repris en bilatérales ; le Premier ministre doit faire rapport au Roi le 16 novembre. Selon la presse du 31 octobre, les pistes discutées comprenaient un âge maximal de 25 ans pour le travail étudiant, une hausse des cotisations étudiantes (aujourd'hui 2,7 % travailleur et 5,4 % employeur) et une cotisation patronale flexi-job portée de 28 % à 30 % ; aucune de ces mesures n'est décidée.",
+      "potential_impact": "Tant qu'aucun accord n'est conclu, les règles actuelles du travail étudiant et des flexi-jobs restent applicables. Si les pistes évoquées étaient retenues, le coût et le vivier des étudiants jobistes en magasin pourraient changer en 2027 ; un accord ou un échec le 16 novembre pourrait aussi peser sur la mobilisation syndicale du 23 novembre.",
+      "relevance_tags": [
+        "Travail étudiant",
+        "Flexi-jobs",
+        "Budget 2027",
+        "Climat social"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "annualisation",
+      "level": "federal",
+      "topic": "Annualisation du temps de travail : avis divisé du CNT",
+      "status": "Avant-projet de loi – avis du CNT",
+      "effective_date": "Non précisée",
+      "what_changed": "Dans son avis n° 2.505 du 27 octobre 2026, relayé le 2 novembre, le Conseil national du travail [Nationale Arbeidsraad] rend un avis divisé sur l'avant-projet d'annualisation du temps de travail : jusqu'à 12 heures par jour et 48 heures par semaine sur la base d'un accord individuel, avec un salaire mensuel fixe, la durée hebdomadaire normale étant respectée en moyenne sur l'année. Pour les temps partiels à horaire variable, la période de référence passerait d'un trimestre au maximum à un an au maximum, sans CCT sectorielle, modification du règlement de travail ni arrêté royal supplémentaires. La « petite flexibilité » [art. 20bis] passerait de plus ou moins 2 heures par jour et 5 heures par semaine à plus ou moins 4 heures et 10 heures (maximum 10 heures par jour et 50 heures par semaine). Les organisations patronales soutiennent l'orientation, les organisations syndicales demandent le rejet du texte.",
+      "potential_impact": "Pour l'instant, rien ne change. Si le texte était adopté, les horaires variables à temps partiel en magasin pourraient être lissés sur un an, ce qui modifierait le suivi des heures complémentaires et des moyennes. L'annualisation est aussi l'une des lignes rouges syndicales dans le conflit budgétaire en cours.",
+      "relevance_tags": [
+        "Temps de travail",
+        "Temps partiel variable",
+        "Plannings magasin"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "elections-sociales-2028",
+      "level": "federal",
+      "topic": "Élections sociales 2028 : propositions du CNT",
+      "status": "Avis du CNT – projet de loi à venir",
+      "effective_date": "Période proposée : 15 au 28 mai 2028",
+      "what_changed": "L'avis n° 2.502 du 27 octobre 2026 du Conseil national du travail, publié par le SPF Emploi et commenté les 2 et 6 novembre, propose d'organiser les élections sociales du 15 au 28 mai 2028. Les seuils restent inchangés (50 travailleurs pour le CPPT, 100 pour le conseil d'entreprise) et la période de référence proposée pour l'effectif court du 1er octobre 2026 au 30 septembre 2027. Autres propositions : diviseur de 91 jours pour les intérimaires du 2e trimestre 2027, un intérimaire engagé ensuite à durée indéterminée par l'utilisateur ne compte qu'une fois, vote électronique élargi sous conditions et communications davantage numérisées. L'avis doit encore être traduit dans un projet de loi modifiant la loi du 4 décembre 2007.",
+      "potential_impact": "Si ces propositions sont confirmées, l'effectif des entités belges, y compris les intérimaires employés en renfort, serait déjà mesuré depuis le 1er octobre 2026. Une entité proche des seuils de 50 ou 100 travailleurs pourrait devoir organiser des élections pour la première fois ; les dates restent à confirmer par la loi.",
+      "relevance_tags": [
+        "Élections sociales",
+        "Concertation sociale",
+        "Intérim"
+      ],
+      "consultation": "conditional",
+      "source_ids": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "voiture-societe-2027",
+      "level": "federal",
+      "topic": "Voiture de société : cotisation de solidarité CO2 en 2027",
+      "status": "Montants annoncés, sous réserve de confirmation ONSS",
+      "effective_date": "1er janvier 2027",
+      "what_changed": "Selon Securex (3 novembre 2026), le coefficient d'indexation de la cotisation de solidarité CO2 [solidariteitsbijdrage] passe de 1,6291 à 1,6942 au 1er janvier 2027 (indice santé de septembre 2026 de 193,27 divisé par celui de septembre 2004 de 114,08). Pour les véhicules commandés, achetés ou pris en leasing à partir du 1er juillet 2023, le multiplicateur passe de 4,00 à 5,50. Le minimum mensuel est de 35,29 EUR pour les véhicules acquis avant le 1er juillet 2023 et de 48,40 EUR à partir de cette date ; les véhicules électriques paient le minimum. Securex écrit aussi 35,93 EUR dans son texte : il s'agit vraisemblablement d'une coquille, Partena et le tableau de Securex indiquant 35,29 EUR.",
+      "potential_impact": "Le coût patronal des voitures de société commandées depuis juillet 2023 pourrait fortement augmenter dès la paie de janvier 2027. L'impact concerne surtout le siège et l'encadrement de magasin disposant d'un véhicule ; les paramètres devraient être validés avec le secrétariat social avant la première paie de 2027.",
+      "relevance_tags": [
+        "Paie",
+        "Mobilité",
+        "Cotisations ONSS",
+        "Budget 2027"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "retour-au-travail",
+      "level": "federal",
+      "topic": "Retour au travail : quatrième vague de mesures",
+      "status": "Projet de loi (non publié)",
+      "effective_date": "1er février 2027 envisagé pour le Fonds Retour au travail",
+      "what_changed": "Le projet de loi du 8 octobre 2026 [DOC 56 1789/001], toujours pendant à la Chambre au 5 novembre, prévoit d'ouvrir le Fonds Retour au travail dès le septième mois d'incapacité primaire et d'indexer son plafond de 1 800 EUR, avec une entrée en vigueur envisagée au 1er février 2027. Le travailleur en invalidité devrait voir son médecin traitant au moins une fois par an, chaque certificat couvrant au maximum un an. Une amende administrative de 3 500 EUR par certificat frauduleux (plafond 28 000 EUR) viserait les prestataires de soins. La prime de reprise du travail portée à 3 000 EUR dépend du même texte.",
+      "potential_impact": "Aucune nouvelle obligation générale ne pèse sur l'employeur ; la cotisation de 1 800 EUR reste limitée aux ruptures pour force majeure médicale. Les dossiers de travailleurs de magasin en incapacité de longue durée pourraient être orientés plus tôt vers un trajet de retour au travail si le texte est adopté.",
+      "relevance_tags": [
+        "Incapacité de travail",
+        "Réintégration",
+        "Certificats médicaux"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "cheques-cadeaux",
+      "level": "federal",
+      "topic": "Cadeaux et chèques-cadeaux de fin d'année : conditions d'exonération",
+      "status": "Rappel réglementaire",
+      "effective_date": "En vigueur",
+      "what_changed": "Liantis rappelle (3 novembre 2026) que les cadeaux et chèques-cadeaux offerts à l'occasion de la Saint-Nicolas, de Noël ou du Nouvel An ne sont pas considérés comme de la rémunération jusqu'à 40 EUR par travailleur et par an, majorés de 40 EUR par enfant à charge. Les chèques doivent être utilisables uniquement auprès d'entreprises affiliées à l'émetteur, avoir une durée de validité limitée et ne pas être convertibles en espèces. Pour l'exonération fiscale, tous les travailleurs doivent recevoir le même avantage, les temps partiels pouvant recevoir un montant au prorata.",
+      "potential_impact": "Si un geste de fin d'année est prévu pour les équipes de magasin, un dépassement des plafonds ou un traitement inégal rendrait l'ensemble du montant soumis aux cotisations ONSS et au précompte professionnel.",
+      "relevance_tags": [
+        "Paie",
+        "Avantages",
+        "Fin d'année"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        17
+      ]
+    },
+    {
+      "id": "flexi-enregistrement",
+      "level": "federal",
+      "topic": "Flexi-jobs : systèmes d'enregistrement des présences",
+      "status": "Instructions ONSS",
+      "effective_date": "Non précisée",
+      "what_changed": "Selon Securex (2 novembre 2026), les instructions administratives ONSS 2026/3 acceptent désormais le tachygraphe numérique dans tous les secteurs pour enregistrer les prestations des flexi-jobbers, et le système Check In at Work dans le secteur du nettoyage [CP 121]. L'obligation d'enregistrer le début et la fin de chaque prestation de chaque flexi-jobber reste inchangée ; la Dimona périodique impose un système électronique d'enregistrement distinct.",
+      "potential_impact": "Pour une entité qui occupe des flexi-jobbers en magasin, un enregistrement absent ou incomplet expose à une sanction de niveau 3 et à la présomption que le travailleur a presté à temps plein comme travailleur ordinaire pour tout le trimestre.",
+      "relevance_tags": [
+        "Flexi-jobs",
+        "Temps de travail",
+        "Contrôle ONSS"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        15
+      ]
+    },
+    {
+      "id": "securite-sociale-transfrontaliere",
+      "level": "federal",
+      "topic": "Sécurité sociale du travail transfrontalier : révision des règlements européens",
+      "status": "Règlement européen en vigueur, application différée",
+      "effective_date": "Application au 2 novembre 2028",
+      "what_changed": "Le règlement n° 2026/2359, qui modifie les règlements 883/2004 et 987/2009, est entré en vigueur le 1er novembre 2026 ; ses nouvelles règles ne s'appliqueront qu'à partir du 2 novembre 2028. En cas de détachement, l'affiliation préalable passe d'un à trois mois et le formulaire A1 doit être demandé avant le début du travail, sauf voyages d'affaires et détachements très courts. En cas d'activité dans plusieurs États, la période d'évaluation passe de 12 à 24 mois au maximum ; un régime transitoire peut s'appliquer jusqu'au 2 novembre 2036.",
+      "potential_impact": "Pas d'impact immédiat. Les détachements ponctuels de personnel belge vers des magasins ou le siège à l'étranger devraient être revus d'ici 2028.",
+      "relevance_tags": [
+        "Mobilité internationale",
+        "ONSS",
+        "Détachement"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        16
+      ]
+    },
+    {
+      "id": "actions-17-23-novembre",
+      "level": "brussels",
+      "topic": "Journées d'action à Bruxelles les 17 et 23 novembre",
+      "status": "Annoncé",
+      "effective_date": "17 et 23 novembre 2026",
+      "what_changed": "Le mardi 17 novembre 2026, journée internationale des étudiants, les étudiants francophones manifestent à Bruxelles contre les économies dans l'enseignement de la Fédération Wallonie-Bruxelles ; la FGTB [ABVV] a déposé le 6 novembre un préavis de grève couvrant ses membres qui y participent et la CSC francophone appelle ses membres à rejoindre l'action. Le lundi 23 novembre, la CSC, la FGTB et Synova organisent une manifestation nationale au départ de la gare du Nord à 11 heures ; les membres CSC qui perdent du salaire ont droit à une indemnité de grève. Aucun préavis de grève SNCB ou STIB pour ces dates n'a été identifié au 10 novembre.",
+      "potential_impact": "Les deux journées pourraient perturber la circulation et les transports vers le centre de Bruxelles, et donc l'arrivée du personnel et des étudiants jobistes en magasin. Le préavis de la FGTB couvre la participation de ses membres le 17 novembre, ce qui pourrait entraîner des absences annoncées tardivement.",
+      "relevance_tags": [
+        "Grèves et actions",
+        "Mobilité du personnel",
+        "Plannings magasin",
+        "Travail étudiant"
+      ],
+      "consultation": "none",
+      "source_ids": [
+        9,
+        10
+      ]
+    }
+  ],
+  "quiet_week_note": "Aucune CCT des commissions paritaires 311, 312 ou 201 publiée ou rendue obligatoire, ni aucune mesure régionale nouvelle (Flandre, Wallonie, Bruxelles, Communauté germanophone), n'a été identifiée dans la période après recherche en français et en néerlandais.",
+  "immediate_theme": "SÉCURISER LES PLANNINGS ET LA PAIE DE NOVEMBRE",
+  "control_line": "aucune absence des 17 et 23 novembre n'est encodée en paie sans motif vérifié (grève, retard, absence autorisée) et sans validation du code d'absence par le secrétariat social.",
+  "actions": [
+    {
+      "priority": "RED",
+      "title": "Préparer les plannings des 17 et 23 novembre",
+      "steps": "Identifier les membres du personnel et les étudiants jobistes qui dépendent de la STIB, de la SNCB ou de De Lijn pour rejoindre le magasin et prévoir des renforts ou des horaires décalés. Vérifier la veille de chaque journée les avis de la STIB et de la SNCB et rappeler aux équipes la procédure de signalement d'un retard ou d'une absence.",
+      "proposed_owner": "Direction du magasin, avec l'administration RH",
+      "internal_target": "Vendredi 13 novembre 2026",
+      "legal_date": null,
+      "evidence": "Plannings des 17 et 23 novembre ajustés et message envoyé aux équipes.",
+      "source_ids": [
+        9,
+        10
+      ],
+      "action_type": "Politique/processus"
+    },
+    {
+      "priority": "RED",
+      "title": "Fixer l'encodage paie des absences liées aux actions",
+      "steps": "Demander au secrétariat social les codes à utiliser pour la participation à une grève couverte par un préavis, les retards dus aux perturbations et les absences autorisées. Prévoir un relevé des absences des 17 et 23 novembre à transmettre avant la clôture de la paie de novembre.",
+      "proposed_owner": "Administration RH du magasin",
+      "internal_target": "Avant la clôture de la paie de novembre",
+      "legal_date": null,
+      "evidence": "Confirmation écrite des codes d'absence et relevé transmis au secrétariat social.",
+      "source_ids": [
+        9,
+        10
+      ],
+      "action_type": "Mise à jour paie"
+    },
+    {
+      "priority": "AMBER",
+      "title": "Afficher les jours de remplacement des jours fériés 2027",
+      "steps": "En 2027, le 1er mai et le 25 décembre tombent un samedi et le 15 août un dimanche. Vérifier si la commission paritaire a fixé les jours de remplacement ; à défaut, les faire décider selon l'ordre légal (conseil d'entreprise, délégation syndicale, travailleurs), afficher l'avis daté et signé, l'annexer au règlement de travail et l'envoyer au Contrôle des lois sociales.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "1er décembre 2026",
+      "legal_date": "15 décembre 2026",
+      "evidence": "Avis affiché, annexé au règlement de travail et accusé d'envoi au Contrôle des lois sociales.",
+      "source_ids": [
+        18,
+        19
+      ],
+      "action_type": "Information-consultation du conseil d'entreprise"
+    },
+    {
+      "priority": "AMBER",
+      "title": "Mettre à jour les paramètres de cotisation CO2 pour 2027",
+      "steps": "Faire valider par le secrétariat social le coefficient 1,6942, le multiplicateur 5,50 et les minima 2027 dès leur confirmation par l'ONSS, puis chiffrer l'impact par véhicule commandé depuis le 1er juillet 2023.",
+      "proposed_owner": "Responsable paie Belgique",
+      "internal_target": "15 décembre 2026",
+      "legal_date": "1er janvier 2027",
+      "evidence": "Simulation du coût 2027 par véhicule et paramètres validés dans l'outil de paie.",
+      "source_ids": [
+        13,
+        14
+      ],
+      "action_type": "Mise à jour paie"
+    },
+    {
+      "priority": "AMBER",
+      "title": "Suivre l'effectif de référence pour les élections sociales 2028",
+      "steps": "Mettre en place un suivi mensuel de l'effectif par entité technique d'exploitation depuis le 1er octobre 2026, intérimaires compris, pour repérer tôt un passage des seuils de 50 ou 100 travailleurs. Adapter le suivi lorsque le projet de loi sera publié.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "31 décembre 2026",
+      "legal_date": "Non fixée (période proposée : 15 au 28 mai 2028)",
+      "evidence": "Tableau mensuel de l'effectif par entité, intérimaires inclus.",
+      "source_ids": [
+        6,
+        7,
+        8
+      ],
+      "action_type": "Préparation des élections sociales"
+    },
+    {
+      "priority": "AMBER",
+      "title": "Vérifier les contrats encore couverts par activa.brussels",
+      "steps": "Lister les travailleurs engagés avant le 15 juillet 2026 dont l'allocation activa.brussels est encore déduite du salaire ; pour les entrées juste avant cette date, vérifier l'activation auprès de l'ONEM avant le 30 novembre. Prévoir l'arrêt de la déduction au 31 décembre 2026 dans le budget salarial 2027.",
+      "proposed_owner": "Administration RH du magasin",
+      "internal_target": "20 novembre 2026",
+      "legal_date": "30 novembre 2026 (activation) ; 31 décembre 2026 (fin du régime transitoire)",
+      "evidence": "Liste des contrats concernés et coût 2027 intégré au budget.",
+      "source_ids": [
+        20
+      ],
+      "action_type": "Mise à jour paie"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Suivre l'issue de la crise fédérale et les mesures sur les étudiants et les flexi-jobs",
+      "steps": "Suivre le rapport du Premier ministre au Roi le 16 novembre et le contenu d'un éventuel accord budgétaire. Préparer deux scénarios de coût des étudiants jobistes pour 2027 (règles actuelles et pistes évoquées), sans rien modifier avant publication d'un texte.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "Revue le 17 novembre 2026",
+      "legal_date": null,
+      "evidence": "Note de synthèse après le 16 novembre.",
+      "source_ids": [
+        1,
+        2,
+        3
+      ],
+      "action_type": "Veille"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Évaluer l'effet de l'annualisation sur les horaires variables",
+      "steps": "Identifier les contrats à temps partiel variable en magasin et estimer ce que changerait une période de référence d'un an et une petite flexibilité élargie, pour être prêt si l'avant-projet est déposé.",
+      "proposed_owner": "Opérations RH Belgique",
+      "internal_target": "Revue mensuelle",
+      "legal_date": null,
+      "evidence": "Inventaire des contrats à horaire variable par magasin.",
+      "source_ids": [
+        4,
+        5
+      ],
+      "action_type": "Veille"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Encadrer un éventuel geste de fin d'année",
+      "steps": "Si des chèques-cadeaux sont prévus pour la Saint-Nicolas ou Noël, respecter le plafond de 40 EUR par travailleur plus 40 EUR par enfant à charge, un avantage identique pour tous (prorata pour les temps partiels) et des chèques non convertibles en espèces.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "27 novembre 2026",
+      "legal_date": null,
+      "evidence": "Décision écrite précisant montants et bénéficiaires, validée par le secrétariat social.",
+      "source_ids": [
+        17
+      ],
+      "action_type": "Politique/processus"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Contrôler l'enregistrement des présences des flexi-jobbers",
+      "steps": "Si des flexi-jobbers sont occupés, vérifier sur un échantillon que le début et la fin de chaque prestation sont enregistrés électroniquement.",
+      "proposed_owner": "Administration RH du magasin",
+      "internal_target": "30 novembre 2026",
+      "legal_date": null,
+      "evidence": "Échantillon contrôlé et écarts corrigés.",
+      "source_ids": [
+        15
+      ],
+      "action_type": "Contrôle interne"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Préparer les renforts des vacances de Noël et des soldes",
+      "steps": "Les vacances de Noël des écoles francophones et néerlandophones vont du 21 décembre 2026 au 3 janvier 2027 ; les soldes d'hiver devraient débuter le samedi 2 janvier 2027, le 3 janvier tombant un dimanche. Planifier dès maintenant les étudiants jobistes et les congés des parents.",
+      "proposed_owner": "Direction du magasin",
+      "internal_target": "4 décembre 2026",
+      "legal_date": null,
+      "evidence": "Planning de décembre et janvier validé.",
+      "source_ids": [
+        21,
+        22
+      ],
+      "action_type": "Politique/processus"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Suivre le projet de loi Retour au travail",
+      "steps": "Suivre l'adoption du projet de loi 56 1789 et informer les gestionnaires des dossiers d'incapacité de longue durée de l'accès élargi au Fonds Retour au travail une fois publié.",
+      "proposed_owner": "HRBP Belgique",
+      "internal_target": "Revue mensuelle",
+      "legal_date": null,
+      "evidence": "Fiche de suivi mise à jour après publication.",
+      "source_ids": [
+        11,
+        12
+      ],
+      "action_type": "Veille"
+    },
+    {
+      "priority": "GREEN",
+      "title": "Recenser les détachements vers l'étranger",
+      "steps": "Lister les envois ponctuels de personnel belge à l'étranger pour anticiper la règle des trois mois d'affiliation préalable et la demande d'A1 avant le départ applicables en 2028.",
+      "proposed_owner": "Opérations RH Belgique",
+      "internal_target": "Revue annuelle",
+      "legal_date": null,
+      "evidence": "Liste des détachements tenue à jour.",
+      "source_ids": [
+        16
+      ],
+      "action_type": "Veille"
+    }
+  ],
+  "deadlines_90d": [
+    {
+      "date": "2026-11-11",
+      "level": "federal",
+      "description": "Jour férié de l'Armistice (mercredi)",
+      "type": "application_date",
+      "source_id": 19
+    },
+    {
+      "date": "2026-11-30",
+      "level": "brussels",
+      "description": "activa.brussels : date limite d'activation auprès de l'ONEM pour les entrées en service juste avant le 15 juillet 2026",
+      "type": "legal_deadline",
+      "source_id": 20
+    },
+    {
+      "date": "2026-12-15",
+      "level": "federal",
+      "description": "Affichage de l'avis fixant les jours de remplacement des jours fériés 2027, annexé au règlement de travail",
+      "type": "legal_deadline",
+      "source_id": 18
+    },
+    {
+      "date": "2026-12-21",
+      "level": "brussels",
+      "description": "Début des vacances de Noël (écoles francophones et néerlandophones, jusqu'au 3 janvier 2027)",
+      "type": "application_date",
+      "source_id": 22
+    },
+    {
+      "date": "2026-12-25",
+      "level": "federal",
+      "description": "Jour férié de Noël (vendredi)",
+      "type": "application_date",
+      "source_id": 19
+    },
+    {
+      "date": "2026-12-31",
+      "level": "brussels",
+      "description": "Fin du régime transitoire activa.brussels : dernière déduction de l'allocation du salaire",
+      "type": "legal_deadline",
+      "source_id": 20
+    },
+    {
+      "date": "2027-01-01",
+      "level": "federal",
+      "description": "Jour férié du Nouvel An (vendredi)",
+      "type": "application_date",
+      "source_id": 19
+    },
+    {
+      "date": "2027-01-01",
+      "level": "federal",
+      "description": "Nouveaux paramètres de la cotisation de solidarité CO2 des voitures de société (coefficient 1,6942, multiplicateur 5,50), sous réserve de confirmation ONSS",
+      "type": "application_date",
+      "source_id": 13
+    },
+    {
+      "date": "2027-01-02",
+      "level": "federal",
+      "description": "Début des soldes d'hiver (règle du 2 janvier lorsque le 3 janvier tombe un dimanche ; date déduite, à confirmer)",
+      "type": "application_date",
+      "source_id": 21
+    },
+    {
+      "date": "2027-02-01",
+      "level": "federal",
+      "description": "Accès élargi au Fonds Retour au travail (date envisagée, sous réserve d'adoption du projet de loi)",
+      "type": "application_date",
+      "source_id": 11
+    }
+  ],
+  "what_this_means": [
+    {
+      "heading": "Votre première action",
+      "text": "D'ici vendredi 13 novembre, ajuster les plannings du magasin pour les 17 et 23 novembre et obtenir du secrétariat social les codes d'absence à utiliser dans la paie de novembre."
+    },
+    {
+      "heading": "À escalader en priorité",
+      "text": "Tout préavis de grève SNCB, STIB ou interprofessionnel annoncé pour la semaine du 23 novembre, et l'issue du rapport du Premier ministre au Roi le 16 novembre si un accord touche au travail étudiant ou aux flexi-jobs."
+    },
+    {
+      "heading": "Suivi",
+      "text": "Applicabilité confirmée > Changement approuvé > Testé > Communiqué"
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "label": "Budget fédéral : pas d'accord, démission présentée au Roi",
+      "publisher": "L'Avenir",
+      "url": "https://www.lavenir.net/actu/belgique/politique/2026/11/02/budget-federal-le-kern-ne-parvient-pas-a-degager-un-accord-bart-de-wever-se-rendra-lundi-chez-le-roi-NYRAUIN6PRBDNBYR2FXUZ22C4I/"
+    },
+    {
+      "id": 2,
+      "label": "Démission refusée, reprise des discussions",
+      "publisher": "La Libre Belgique",
+      "url": "https://lalibre.be/belgique/politique-belge/2026/11/08/crise-gouvernementale-bart-de-wever-relance-les-discussions-en-bilaterales-des-ce-lundi-DKSAOSUMXBD4REIWQA4YMOHLFM"
+    },
+    {
+      "id": 3,
+      "label": "Pistes sur le travail étudiant et les flexi-jobs",
+      "publisher": "L'Avenir",
+      "url": "https://www.lavenir.net/actu/2026/10/31/flexi-jobs-et-travail-etudiant-le-gouvernement-federal-voudrait-serrer-la-vis-P5H426OT5RCL5BE47W53QUG2PU/"
+    },
+    {
+      "id": 4,
+      "label": "Avis n° 2.505 : annualisation du temps de travail",
+      "publisher": "Conseil national du travail",
+      "url": "https://cnt-nar.be/sites/default/files/documents/fr/avis-2505.pdf"
+    },
+    {
+      "id": 5,
+      "label": "Avis du CNT sur l'annualisation du temps de travail",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/avis-du-conseil-national-du-travail-sur-lannualisation-du-temps-de"
+    },
+    {
+      "id": 6,
+      "label": "Avis n° 2.502 : élections sociales 2028",
+      "publisher": "SPF Emploi, Travail et Concertation sociale",
+      "url": "https://emploi.belgique.be/fr/actualites/avis-du-conseil-national-du-travail-ndeg-2502-du-27-octobre-2026-les-elections-sociales"
+    },
+    {
+      "id": 7,
+      "label": "Élections sociales du 15 au 28 mai 2028",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/les-elections-sociales-devraient-avoir-lieu-du-15-au-28-mai-2028"
+    },
+    {
+      "id": 8,
+      "label": "Élections sociales 2028 : avis du CNT",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/elections-sociales-2028-le-conseil-national-du-travail-rendu-son-avis"
+    },
+    {
+      "id": 9,
+      "label": "Action étudiante du 17 novembre et préavis FGTB",
+      "publisher": "BRUZZ",
+      "url": "https://www.bruzz.be/actua/onderwijs/vakbonden-steunen-studentenactie-op-17-november-abvv-wil-staken-2026-11-06"
+    },
+    {
+      "id": 10,
+      "label": "Manifestation nationale du 23 novembre",
+      "publisher": "CSC",
+      "url": "https://www.lacsc.be/actualite/campagnes/un-budget-dans-lequel-vous-comptez"
+    },
+    {
+      "id": 11,
+      "label": "Fonds Retour au travail : changements annoncés",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/fonds-retour-au-travail-preparez-vous-aux-changements-annonces"
+    },
+    {
+      "id": 12,
+      "label": "Retour au travail : quatrième vague",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/retour-au-travail-preparez-vous-a-la-quatrieme-vague"
+    },
+    {
+      "id": 13,
+      "label": "Cotisation de solidarité voiture de société 2027",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/voiture-de-societe-la-cotisation-de-solidarite-pour-2027-est-connu-e571f7da2c1d8d793d734e9f21036dc7"
+    },
+    {
+      "id": 14,
+      "label": "Cotisation CO2 au 1er janvier 2027",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/node/22698"
+    },
+    {
+      "id": 15,
+      "label": "Flexi-jobs : enregistrement des présences",
+      "publisher": "Securex",
+      "url": "https://www.securex.be/fr/lex4you/employeur/actualites/flexi-jobs-extension-des-systemes-d-enregistrement-des-presences-autorises"
+    },
+    {
+      "id": 16,
+      "label": "Sécurité sociale et travail transfrontalier",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/les-regles-de-securite-sociale-en-cas-de-travail-transfrontalier-sont"
+    },
+    {
+      "id": 17,
+      "label": "Chèques-cadeaux : conditions",
+      "publisher": "Liantis",
+      "url": "https://www.liantis.be/fr/nouvelles/ch%C3%A8ques-cadeaux-pour-vos-collaborateurs-quelles-sont-les-conditions"
+    },
+    {
+      "id": 18,
+      "label": "Jours de remplacement 2027 avant le 15 décembre",
+      "publisher": "Partena Professional",
+      "url": "https://www.partena-professional.be/fr/nos-connaissances/infoflashes/jours-feries-en-2027-fixez-les-dates-des-jours-de-remplacement-avant"
+    },
+    {
+      "id": 19,
+      "label": "Jours fériés en Belgique 2026 et 2027",
+      "publisher": "Observatoire royal de Belgique",
+      "url": "https://robinfo.oma.be/fr/astro-info/calendrier/jours-feries-en-belgique/"
+    },
+    {
+      "id": 20,
+      "label": "Bruxelles réforme les aides à l'emploi (activa.brussels)",
+      "publisher": "Attentia",
+      "url": "https://www.attentia.be/fr/actualites/bruxelles-reforme-les-mesures-demploi/"
+    },
+    {
+      "id": 21,
+      "label": "Soldes en Belgique : dates et période d'attente",
+      "publisher": "Test-Achats",
+      "url": "https://www.test-achats.be/famille-prive/soldes/guide-soldes-belgique"
+    },
+    {
+      "id": 22,
+      "label": "Vacances scolaires 2026-2027",
+      "publisher": "La DH",
+      "url": "https://www.dhnet.be/actu/belgique/2026/07/30/voici-les-vacances-scolaires-2026-2027-a-bruxelles-en-wallonie-et-en-flandre-ZWQBTQRCCNA3XESWPP6K5DGB5M/"
+    }
+  ]
+}

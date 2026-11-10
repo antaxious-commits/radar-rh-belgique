@@ -1,0 +1,397 @@
+{
+  "title": "RH BELGIQUE | ÉCHÉANCES À 90 JOURS",
+  "slug": "deadlines",
+  "date": "2026-11-09",
+  "period": "Du 9 novembre 2026 au 7 février 2027",
+  "summary": "Échéances et dates d'application RH belges du 9 novembre 2026 au 7 février 2027 : activation Activa avant le 30 novembre, manifestation nationale du 23 novembre, jours fériés de remplacement 2027 avant le 15 décembre, prime de fin d'année et indexation possible en CP 311, fin de la DRS accidents du travail, soldes d'hiver et changements du 1er janvier 2027.",
+  "intro": "Ce rapport recense les échéances légales et les dates d'application connues en Belgique (fédéral, Bruxelles, Flandre, Wallonie) entre le 9 novembre 2026 et le 7 février 2027, y compris les mesures annoncées plus tôt, avec une attention particulière pour le commerce de détail (CP 311), les magasins bruxellois, les étudiants et les soldes. Chaque ligne indique si le texte est adopté, en projet ou seulement annoncé. Les priorités ROUGE (action requise), ORANGE (préparer) et VERT (suivre) sont des propositions.",
+  "sections": [
+    {
+      "heading": "CALENDRIER DES ÉCHÉANCES (TRIÉ PAR DATE)",
+      "paragraphs": [
+        "Type : « Échéance légale » = date limite d'une obligation ; « Date d'application » = date à laquelle une règle commence ou cesse de s'appliquer ; « Vigilance » = événement sans portée juridique mais avec un effet sur l'organisation du magasin. Les mentions « Avant-projet », « Annoncé » ou « Prévision » signalent un texte ou un chiffre non encore adopté ou confirmé."
+      ],
+      "table": {
+        "columns": ["Date", "Niveau", "Quoi", "Type"],
+        "rows": [
+          {
+            "cells": [
+              "13 novembre 2026",
+              "Fédéral",
+              "ONSS : date ultime de transfert, par les secrétariats sociaux agréés, de la 1re provision du 4e trimestre 2026 (instruction DGII n° 141 ; art. 34 AR du 28 novembre 1969). L'employeur doit avoir payé son secrétariat avant cette date.",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [4]
+          },
+          {
+            "cells": [
+              "18 novembre 2026",
+              "Fédéral",
+              "ONSS : date ultime de transfert, par les secrétariats sociaux agréés, du solde des cotisations du 3e trimestre 2026.",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [4]
+          },
+          {
+            "cells": [
+              "23 novembre 2026",
+              "Fédéral (Bruxelles)",
+              "Nouvelle manifestation nationale à Bruxelles annoncée par la FGTB, la CSC et Synova (ex-CGSLB). Perturbations des transports (SNCB, STIB) non encore annoncées : risque de retards et d'absences du personnel en magasin.",
+              "Vigilance"
+            ],
+            "priority": "AMBER",
+            "source_ids": [21]
+          },
+          {
+            "cells": [
+              "30 novembre 2026",
+              "Bruxelles",
+              "Activa.brussels et Activa aptitude réduite (abrogés au 15 juillet 2026 par l'ordonnance du 9 juillet 2026, M.B. 14 juillet 2026) : dernier délai pour activer l'allocation de travail [werkuitkering] d'un travailleur entré en service au plus tard le 15 juillet 2026 (activation possible jusqu'à 4 mois après le mois d'entrée en service).",
+              "Échéance légale"
+            ],
+            "priority": "RED",
+            "source_ids": [7]
+          },
+          {
+            "cells": [
+              "2 décembre 2026",
+              "Fédéral (UE)",
+              "Date limite de transposition de la directive (UE) 2024/2831 sur le travail via une plateforme. État de la transposition belge non vérifié (une présomption de relation de travail existe déjà en droit belge).",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [22]
+          },
+          {
+            "cells": [
+              "Décembre 2026",
+              "Fédéral (CP 311)",
+              "Indexation possible de 2 % des barèmes et salaires réels CP 311 : selon la CSC, la CP 311 est liée à l'indice-pivot et indexe le premier mois qui suit son dépassement (dernière indexation : 2 % au 1er juillet 2026). Le Bureau fédéral du Plan prévoit un dépassement de l'indice-pivot en novembre 2026 ; confirmation par Statbel fin novembre. Conditionnel : seuil applicable à la CP 311 à vérifier.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [18, 8, 9]
+          },
+          {
+            "cells": [
+              "Décembre 2026",
+              "Fédéral (CP 311)",
+              "Prime de fin d'année CP 311 : selon la CSC, égale au salaire d'un mois complet, payée en décembre, à partir de 3 mois d'ancienneté. Date exacte de paiement et règles de prorata pour 2026 : non vérifiées.",
+              "Échéance légale"
+            ],
+            "priority": "AMBER",
+            "source_ids": [17]
+          },
+          {
+            "cells": [
+              "Décembre 2026",
+              "Fédéral",
+              "Période d'attente avant les soldes d'hiver : pendant le mois qui précède les soldes, interdiction d'annoncer des réductions de prix pour l'habillement, les chaussures et la maroquinerie. Dates exactes pour 2027 non publiées.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [19]
+          },
+          {
+            "cells": [
+              "11 décembre 2026",
+              "Fédéral",
+              "ONSS : date ultime de transfert, par les secrétariats sociaux agréés, de la 2e provision du 4e trimestre 2026.",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [4]
+          },
+          {
+            "cells": [
+              "Avant le 15 décembre 2026",
+              "Fédéral",
+              "Jours fériés 2027 : afficher un avis daté et signé fixant les jours de remplacement (15 août 2027 tombe un dimanche et doit être remplacé ; 1er mai et 25 décembre 2027 tombent un samedi, à remplacer s'il s'agit d'un jour habituel d'inactivité). Ordre de décision : commission paritaire, conseil d'entreprise, délégation syndicale, travailleurs. Copie annexée au règlement de travail et transmise à l'inspection (loi du 4 janvier 1974).",
+              "Échéance légale"
+            ],
+            "priority": "RED",
+            "source_ids": [2, 3]
+          },
+          {
+            "cells": [
+              "21 décembre 2026",
+              "Communautés",
+              "Début des vacances d'hiver scolaires, identiques en Fédération Wallonie-Bruxelles et en Flandre : du 21 décembre 2026 au 3 janvier 2027. Disponibilité accrue des étudiants ; demandes de congé des parents.",
+              "Vigilance"
+            ],
+            "priority": "GREEN",
+            "source_ids": [20]
+          },
+          {
+            "cells": [
+              "31 décembre 2026",
+              "Fédéral",
+              "Vacances annuelles : les jours de 2026 doivent être pris au 31 décembre ; report de 24 mois uniquement pour 7 motifs (maladie ou accident, maternité, congé prophylactique, naissance, adoption, congé parental d'accueil, missions d'accueil), les jours reportés étant payés au 31 décembre. Les jours reportés de 2024 doivent être pris au plus tard le 31 décembre 2026.",
+              "Échéance légale"
+            ],
+            "priority": "RED",
+            "source_ids": [16]
+          },
+          {
+            "cells": [
+              "31 décembre 2026",
+              "Bruxelles",
+              "Fin de l'allocation de travail Activa pour les travailleurs bénéficiant du régime transitoire : à partir de janvier 2027, le salaire net est versé sans déduction.",
+              "Date d'application"
+            ],
+            "priority": "RED",
+            "source_ids": [7]
+          },
+          {
+            "cells": [
+              "31 décembre 2026",
+              "Fédéral",
+              "Dernier jour pour déclarer un accident du travail (ni bénin ni grave) via la « DRS Accidents du travail » du portail de la sécurité sociale.",
+              "Échéance légale"
+            ],
+            "priority": "AMBER",
+            "source_ids": [1]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Accidents du travail : déclaration directement auprès de l'assureur accidents du travail (application de l'assureur, papier ou intermédiaire) ; fin de la DRS.",
+              "Date d'application"
+            ],
+            "priority": "RED",
+            "source_ids": [1]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Travail étudiant : remise à zéro du contingent de 650 heures par année civile ; vérifier le solde via l'attestation student@work et déclarer en Dimona STU, en particulier pour les renforts de soldes.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [14]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral (CP 200)",
+              "Indexation annuelle CP 200 : première grande application de l'indexation plafonnée [index en centimes] (loi-programme du 30 mai 2026). Prévisions : 4,17 % (SD Worx, 29 octobre 2026), 4,32 % (Securex, 12 octobre 2026). Pourcentage définitif après l'indice de décembre 2026. Concerne uniquement les employés relevant de la CP 200 ; le personnel de magasin CP 311 n'est pas visé.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [10, 8, 11, 12]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Précompte professionnel : facteur de correction de 97 % sur le total des dispenses de versement (travail de nuit et en équipe, heures supplémentaires, etc.) pour les rémunérations payées ou attribuées en 2027 (93,35 % en 2028, 95,90 % ensuite) – loi-programme du 30 mai 2026, M.B. 1er juin 2026.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [12]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Cotisation de solidarité CO2 sur véhicules de société : nouvelle formule et montants indexés ; coefficient de 5,5 pour les véhicules non électriques achetés, loués ou en leasing à partir du 1er juillet 2023 ; véhicules électriques à la cotisation minimale. Montants sous réserve de confirmation par l'ONSS.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [13]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Enregistrement général du temps de travail : avant-projet de loi, avis CNT n° 2.499 divisé (30 septembre 2026) ; délai envisagé jusqu'au 31 mars 2027 pour les employeurs sans système adapté. Non adopté.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [11]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Réforme des pensions (approuvée par le Parlement) : nouvelles règles, dont le seuil de 156 jours par année de carrière et le malus de pension.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [15]
+          },
+          {
+            "cells": [
+              "Au plus tard le 1er janvier 2027",
+              "Fédéral",
+              "Checkinatwork : enregistrement obligatoire aussi à la sortie des chantiers temporaires ou mobiles ; date exacte à fixer par arrêté royal (loi-programme du 30 mai 2026).",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [12]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Fédéral",
+              "Budget mobilité obligatoire pour les employeurs de 50 travailleurs et plus qui octroient des voitures de société (1er janvier 2028 pour 15 à 49). Avant-projet ; non déposé à la Chambre selon la dernière information disponible.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [11]
+          },
+          {
+            "cells": [
+              "1er janvier 2027",
+              "Bruxelles",
+              "Remplacement annoncé des aides Activa par un système plus léger (piste : prime versée directement à l'employeur). Annoncé ; modalités inconnues.",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [7]
+          },
+          {
+            "cells": [
+              "2 janvier 2027",
+              "Fédéral",
+              "Début des soldes d'hiver : fixé au 3 janvier, ou au 2 janvier si le 3 tombe un dimanche, ce qui est le cas en 2027 (règle rapportée par Test-Achats ; confirmation officielle pour 2027 non trouvée). Planning, étudiants et horaires variables à prévoir.",
+              "Date d'application"
+            ],
+            "priority": "AMBER",
+            "source_ids": [19]
+          },
+          {
+            "cells": [
+              "12 janvier 2027",
+              "Fédéral",
+              "ONSS : date ultime de transfert, par les secrétariats sociaux agréés, de la 3e provision du 4e trimestre 2026.",
+              "Échéance légale"
+            ],
+            "priority": "GREEN",
+            "source_ids": [5]
+          },
+          {
+            "cells": [
+              "31 janvier 2027",
+              "Fédéral",
+              "ONSS : DmfA du 4e trimestre 2026 (règle : au plus tard le dernier jour du mois qui suit le trimestre ; date exacte publiée non trouvée, le 31 janvier 2027 est un dimanche). Transfert ultime du solde du 4e trimestre 2026 par les secrétariats : 16 février 2027 (hors période).",
+              "Échéance légale"
+            ],
+            "priority": "AMBER",
+            "source_ids": [6, 5]
+          },
+          {
+            "cells": [
+              "Février 2027 (prévision)",
+              "Fédéral",
+              "Si l'indice-pivot est dépassé en novembre 2026, allocations sociales et traitements publics indexés de 2 % en février 2027 (prévision du Bureau fédéral du Plan, à confirmer par Statbel fin novembre).",
+              "Date d'application"
+            ],
+            "priority": "GREEN",
+            "source_ids": [8, 9]
+          }
+        ]
+      }
+    },
+    {
+      "heading": "POINTS PRIORITAIRES",
+      "cards": [
+        {
+          "title": "FÉDÉRAL / Jours fériés de remplacement 2027",
+          "priority": "RED",
+          "status": "En vigueur (loi du 4 janvier 1974) | Échéance : avant le 15 décembre 2026",
+          "body": "Le 15 août 2027 tombe un dimanche et doit être remplacé ; le 1er mai et le 25 décembre 2027 tombent un samedi et doivent être remplacés s'il s'agit d'un jour habituel d'inactivité, ce qui peut varier d'un travailleur à l'autre. À défaut de décision de la commission paritaire, le conseil d'entreprise, puis la délégation syndicale, puis les travailleurs fixent le jour de remplacement. L'avis daté et signé est affiché avant le 15 décembre 2026, annexé au règlement de travail et transmis à l'inspection.",
+          "impact": "En magasin, le samedi est généralement un jour d'activité : le remplacement du 1er mai et du 25 décembre ne concerne alors que le personnel pour qui le samedi est un jour d'inactivité (temps partiel, horaires variables). Sans avis affiché à temps, le remplacement est fixé par défaut au premier jour habituel d'activité suivant, ce qui peut perturber le planning.",
+          "tags": ["Temps de travail", "CP 311", "Conseil d'entreprise", "Règlement de travail"],
+          "source_ids": [2, 3]
+        },
+        {
+          "title": "BRUXELLES / Activa : activation avant le 30 novembre et fin au 31 décembre",
+          "priority": "RED",
+          "status": "Ordonnance du 9 juillet 2026 (M.B. 14 juillet 2026) | Échéances : 30 novembre et 31 décembre 2026",
+          "body": "Activa.brussels et Activa aptitude réduite sont abrogés depuis le 15 juillet 2026. Les travailleurs entrés en service au plus tard le 15 juillet 2026 conservent l'allocation de travail [werkuitkering] jusqu'au 31 décembre 2026 au plus tard ; l'activation reste possible jusqu'au 30 novembre 2026. Un système de remplacement plus léger est annoncé pour le 1er janvier 2027, sans modalités publiées.",
+          "impact": "Pour les travailleurs concernés, le salaire net de janvier 2027 doit être payé intégralement par l'employeur. Les dossiers non activés au 30 novembre risquent d'être perdus.",
+          "tags": ["Paie", "Aides à l'emploi", "Actiris", "Bruxelles"],
+          "source_ids": [7]
+        },
+        {
+          "title": "CP 311 / Décembre en magasin : prime de fin d'année, indexation possible, période d'attente des soldes",
+          "priority": "AMBER",
+          "status": "CCT sectorielles ; indexation conditionnelle | Date : décembre 2026",
+          "body": "Selon la CSC, la prime de fin d'année CP 311 équivaut au salaire d'un mois complet, payée en décembre, à partir de 3 mois d'ancienneté. La CP 311 est indexée de 2 % le mois qui suit le dépassement de l'indice-pivot ; le Bureau fédéral du Plan prévoit ce dépassement en novembre 2026, ce qui pourrait entraîner une indexation au 1er décembre 2026 si le seuil retenu pour la CP 311 est atteint. Les soldes d'hiver débuteraient le 2 janvier 2027 (le 3 janvier étant un dimanche), précédés d'un mois pendant lequel les réductions de prix sur l'habillement, les chaussures et la maroquinerie ne peuvent être annoncées.",
+          "impact": "Si l'indexation intervient au 1er décembre, elle s'appliquerait aussi à la base de calcul de la prime de fin d'année : à confirmer avec le secrétariat social dès la publication de l'indice de novembre par Statbel. Le pic d'activité des soldes coïncide avec la remise à zéro du contingent étudiant de 650 heures.",
+          "tags": ["CP 311", "Paie", "Soldes", "Étudiants"],
+          "source_ids": [17, 18, 9, 19, 14]
+        },
+        {
+          "title": "FÉDÉRAL / Accidents du travail : fin de la DRS au 31 décembre",
+          "priority": "RED",
+          "status": "Communication Partena Professional (16 octobre 2026) | Date d'effet : 1er janvier 2027",
+          "body": "Jusqu'au 31 décembre 2026, un accident du travail ni bénin ni grave peut encore être déclaré via la « DRS Accidents du travail ». À partir du 1er janvier 2027, les employeurs du secteur privé déclarent directement auprès de leur assureur accidents du travail (application de l'assureur, papier ou intermédiaire).",
+          "impact": "Les procédures de déclaration en magasin, les accès à la plateforme de l'assureur et les instructions aux responsables de magasin devraient être mis à jour avant fin décembre.",
+          "tags": ["Bien-être", "Processus", "Assurance"],
+          "source_ids": [1]
+        },
+        {
+          "title": "BRUXELLES / Manifestation nationale du 23 novembre",
+          "priority": "AMBER",
+          "status": "Annoncé (front commun FGTB, CSC, Synova) | Date : 23 novembre 2026",
+          "body": "Les trois grands syndicats et des organisations de la société civile annoncent une nouvelle manifestation nationale à Bruxelles le 23 novembre 2026. Aucun préavis de grève SNCB ou STIB ni plan de perturbation n'a été trouvé à ce stade.",
+          "impact": "Une manifestation dans le centre de Bruxelles peut retarder le personnel et perturber l'accès au magasin ; un suivi des annonces SNCB et STIB dans la semaine du 16 novembre est recommandé.",
+          "tags": ["Climat social", "Mobilité", "Bruxelles"],
+          "source_ids": [21]
+        },
+        {
+          "title": "FÉDÉRAL / 1er janvier 2027 : paie et projets",
+          "priority": "AMBER",
+          "status": "Mesures adoptées et avant-projets | Date visée : 1er janvier 2027",
+          "body": "Adoptés : facteur de correction de 97 % sur les dispenses de précompte professionnel, nouvelle cotisation CO2 (sous réserve de confirmation ONSS), indexation CP 200 en centimes (prévision 4,17 % à 4,32 %), réforme des pensions. Non adoptés : enregistrement général du temps de travail (avant-projet, avis CNT divisé) et budget mobilité obligatoire (avant-projet).",
+          "impact": "L'enregistrement du temps de travail toucherait directement les plannings des magasins s'il est adopté en décembre ; un inventaire des systèmes de pointage permet de réagir rapidement. Ces dates ne sont pas des obligations légales tant que les textes ne sont pas publiés.",
+          "tags": ["Paie", "Temps de travail", "Précompte professionnel"],
+          "source_ids": [12, 13, 10, 11, 15]
+        }
+      ]
+    },
+    {
+      "heading": "POINTS NON VÉRIFIÉS ET VIGILANCE",
+      "bullets": [
+        "Indexation CP 311 en décembre 2026 : dépend de l'indice de novembre (Statbel, fin novembre) ; la CSC mentionne un seuil de 101,94 pour la CP 311, alors que l'indice-pivot national est de 102,29 (indice santé lissé d'octobre : 101,72). Seuil et date d'application à confirmer.",
+        "Prime de fin d'année CP 311 : seule source trouvée datée de décembre 2025 (CSC) ; date exacte de paiement, prorata et périodes assimilées pour 2026 non vérifiés.",
+        "Jours de remplacement 2027 : aucune décision de la CP 311 fixant les jours de remplacement n'a été trouvée.",
+        "Soldes d'hiver 2027 : début au 2 janvier 2027 déduit de la règle rapportée par Test-Achats ; aucune confirmation officielle du SPF Économie pour 2027 n'a été trouvée, ni les dates exactes de la période d'attente.",
+        "Manifestation du 23 novembre 2026 : impact sur la SNCB, la STIB et la ligne de métro 2/6 non annoncé ; aucun préavis de grève trouvé pour novembre ou décembre 2026.",
+        "DmfA du 4e trimestre 2026 : date publiée par l'ONSS non trouvée (règle générale : 31 janvier 2027, un dimanche).",
+        "Non revérifiés dans ce cycle et donc retirés du tableau : cotisation patronale du pécule de vacances des ouvriers, coût du repas en restaurant d'entreprise, extension de la cotisation de solidarité pour incapacité, abrogation des APE en Wallonie, prévision d'Acerta pour la CP 200.",
+        "Transposition belge de la directive (UE) 2024/2831 : état non vérifié ; flexi-jobs, travail du dimanche et RMMMG : aucune échéance datée trouvée dans la période."
+      ]
+    }
+  ],
+  "sources": [
+    {"id": 1, "label": "Accident du travail : plus de déclaration via la « DRS Accidents du travail » à partir du 1er janvier 2027 (16 octobre 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22692"},
+    {"id": 2, "label": "Jours fériés en 2027 : fixez les dates des jours de remplacement avant le 15 décembre 2026 (7 septembre 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22629"},
+    {"id": 3, "label": "Jours fériés – remplacement et base légale", "publisher": "SPF Emploi, Travail et Concertation sociale", "url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries"},
+    {"id": 4, "label": "Instruction DGII n° 141 – tableau des échéances 2026 (secrétariats sociaux agréés)", "publisher": "ONSS – Portail de la sécurité sociale", "url": "https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2026_F.pdf"},
+    {"id": 5, "label": "Instruction DGII n° 141 – tableau des échéances 2027 (15 septembre 2026)", "publisher": "ONSS – Portail de la sécurité sociale", "url": "https://www.socialsecurity.be/site_fr/employer/general/eventsCalendar/documents/pdf/echeances_2027_F.pdf"},
+    {"id": 6, "label": "DmfA – délais de déclaration", "publisher": "ONSS – Portail de la sécurité sociale", "url": "https://www.socialsecurity.be/site_fr/employer/applics/dmfa/index.htm"},
+    {"id": 7, "label": "Région de Bruxelles-Capitale : plusieurs aides disparaissent en juillet (17 juillet 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22558"},
+    {"id": 8, "label": "L'indice pivot sera-t-il encore une fois dépassé en 2026 (12 octobre 2026)", "publisher": "Securex Lex4You", "url": "https://www.securex.be/fr/lex4you/employeur/actualites/l-indice-pivot-sera-t-il-encore-une-fois-depasse-en-2026"},
+    {"id": 9, "label": "L'indice pivot à un pas d'être dépassé (2 novembre 2026)", "publisher": "Selectra", "url": "https://selectra.be/fr/energie/actualites/indice-pivot-depassement-novembre-allocations-salaires"},
+    {"id": 10, "label": "Six PME sur dix suivent de près l'indexation automatique des salaires : 4,17 % en CP 200 (SD Worx, fin octobre 2026)", "publisher": "Blog OECCBB", "url": "https://blog.oeccbb.be/fr/article/six-pme-sur-dix-suivent-de-pres-lindexation-automatique-des-salaires-417-cp-200/32861"},
+    {"id": 11, "label": "Droit du travail : cap sur le 1er janvier 2027 (TetraLaw)", "publisher": "Forum for the Future (TamTam)", "url": "https://blog.forumforthefuture.be/fr/article/droit-du-travail-cap-sur-le-1er-janvier-2027/32722"},
+    {"id": 12, "label": "Newsletter : nouveautés RH de la loi-programme du 30 mai 2026 (juin 2026)", "publisher": "Claeys & Engels", "url": "https://www.claeysengels.be/sites/default/files/2026-06/newsletter_-_loi-programme_du_30_mai_2026.pdf"},
+    {"id": 13, "label": "Bedrijfsvoertuigen – RSZ : de CO2-bijdrage op 1 januari 2027 [cotisation CO2 au 1er janvier 2027] (23 octobre 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/nl/node/22698"},
+    {"id": 14, "label": "Un job étudiant pendant les vacances : que devez-vous faire (24 juin 2026)", "publisher": "Partena Professional", "url": "https://www.partena-professional.be/fr/node/22522"},
+    {"id": 15, "label": "Réforme des pensions approuvée : qu'est-ce que cela signifie pour votre retraite (16 juin 2026)", "publisher": "Portail de la sécurité sociale", "url": "https://www.socialsecurity.be/citizen/fr/actualites/reforme-des-pensions-approuvee-qu-est-ce-que-cela-signifie-pour-votre-retraite"},
+    {"id": 16, "label": "Vacances annuelles : le droit au report rendu possible depuis le 1er janvier 2024 (14 juin 2024)", "publisher": "CSC", "url": "https://www.lacsc.be/actualite/actualites-et-communiques-de-presse/newsdetail/2024/06/14/vacances-annuelles-en-belgique-le-droit-au-report-rendu-possible-depuis-le-1er-janvier-2024"},
+    {"id": 17, "label": "Prime de fin d'année – Grandes entreprises de vente au détail – CP 311 (2 décembre 2025)", "publisher": "CSC", "url": "https://www.lacsc.be/page-dactualites/2025/12/02/prime-de-fin-d-annee-grandes-entreprises-de-vente-au-detail---cp-311"},
+    {"id": 18, "label": "Indexation des salaires par secteur – CP 311 (mécanisme et dernière indexation)", "publisher": "CNE – CSC", "url": "https://www.lacsc.be/cne/campagnes/indexation"},
+    {"id": 19, "label": "Soldes en Belgique : dates et règles", "publisher": "Test-Achats", "url": "https://www.test-achats.be/famille-prive/soldes/dossier/soldes-belgique"},
+    {"id": 20, "label": "Voici les vacances scolaires 2026-2027 à Bruxelles, en Wallonie et en Flandre (30 juillet 2026)", "publisher": "La DH", "url": "https://www.dhnet.be/actu/belgique/2026/07/30/voici-les-vacances-scolaires-2026-2027-a-bruxelles-en-wallonie-et-en-flandre-ZWQBTQRCCNA3XESWPP6K5DGB5M/"},
+    {"id": 21, "label": "New 'major' national demonstration in Brussels on 23 November [nouvelle manifestation nationale le 23 novembre] (21 octobre 2026)", "publisher": "The Brussels Times", "url": "https://www.brusselstimes.com/brussels/2371977/new-national-demonstration-on-23-november-tbtb/"},
+    {"id": 22, "label": "Nouvelle directive européenne sur le travail fourni par l'intermédiaire d'une plateforme numérique (15 novembre 2024)", "publisher": "LexGO", "url": "https://www.lexgo.be/fr/actualites-et-articles/13832-nouvelle-directive-europeenne-sur-le-travail-fourni-par-l-intermediaire-d-une-plateforme-numerique"}
+  ]
+}

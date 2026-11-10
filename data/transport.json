@@ -1,30 +1,12 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-10",
   "announced": [
     {
       "start": "2026-10-31",
       "end": "2026-11-29",
       "operator": "SNCB",
       "title": "Travaux le week-end entre Anvers-Central, Malines et Bruxelles-Midi",
-      "detail": "Chaque week-end jusqu'au 29 novembre, offre adaptée sur l'axe Anvers–Malines–Bruxelles (trains S1, IC, EC) ; certains samedis, un train S1 sur deux ne circule pas ou seulement sur une partie du parcours. Allongement possible des trajets du samedi pour le personnel venant du nord (Malines, Vilvorde) et de Nivelles.",
-      "status": "Confirmé",
-      "source_id": 9
-    },
-    {
-      "start": "2026-11-06",
-      "end": "2026-11-09",
-      "operator": "SNCB",
-      "title": "Aucun train entre Liedekerke et Jette (travaux urgents)",
-      "detail": "Circulation interrompue entre Liedekerke et Jette en raison de travaux urgents d'Infrabel près de Ternat ; bus de remplacement SNCB et bus De Lijn ou STIB acceptés avec le ticket de train. Fin estimée au plus tôt le 9 novembre : retards probables pour le personnel venant de la vallée de la Dendre et de l'ouest de la périphérie.",
-      "status": "Confirmé",
-      "source_id": 8
-    },
-    {
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "operator": "SNCB",
-      "title": "Bus de remplacement entre Bruxelles-Luxembourg et Ottignies",
-      "detail": "Le week-end des 7 et 8 novembre, tous les trains sont remplacés par des bus SNCB entre Bruxelles-Luxembourg et Ottignies. Trajets nettement plus longs le samedi pour le personnel venant du Brabant wallon par la ligne Ottignies–Bruxelles.",
+      "detail": "Chaque week-end jusqu'au 29 novembre, Infrabel effectue des travaux : le parcours et l'heure de départ des trains IC Anvers–Bruxelles-Central–Charleroi, S1 Anvers–Bruxelles-Central–Nivelles, S5 Malines–Bruxelles-Luxembourg–Hal et L Malines–Louvain sont adaptés. Vérifier les trajets du samedi pour le personnel venant du nord (Malines, Vilvorde) ou de Nivelles.",
       "status": "Confirmé",
       "source_id": 8
     },
@@ -33,27 +15,9 @@
       "end": "2026-11-22",
       "operator": "SNCB",
       "title": "Travaux à Bruxelles-Luxembourg les week-ends",
-      "detail": "Les week-ends du 7 au 22 novembre, le parcours des trains S5 Malines–Bruxelles-Luxembourg–Hal et S19 Landen–Bruxelles-Luxembourg–Nivelles est adapté ; bus et trams STIB et De Lijn acceptés avec le ticket de train. Bruxelles-Luxembourg est la gare la plus proche de Porte de Namur : vérifier les trajets du samedi.",
+      "detail": "Les week-ends jusqu'au 22 novembre, le parcours des trains S5 Malines–Bruxelles-Luxembourg–Hal et S19 Landen–Bruxelles-Luxembourg–Nivelles est adapté ; bus et trams STIB et De Lijn acceptés avec le ticket de train. Bruxelles-Luxembourg est la gare la plus proche de Porte de Namur : vérifier les trajets du samedi.",
       "status": "Confirmé",
       "source_id": 8
-    },
-    {
-      "start": "2026-11-09",
-      "end": "2026-11-09",
-      "operator": "TEC",
-      "title": "Grève de sociétés privées sous-traitantes de LETEC",
-      "detail": "LETEC annonce des perturbations à craindre sur certaines lignes le lundi 9 novembre à la suite d'un mouvement de grève de certaines entreprises privées qui exploitent des lignes pour son compte. Les lignes touchées ne sont pas précisées : impact possible pour le personnel venant du Brabant wallon en bus.",
-      "status": "Annoncé",
-      "source_id": 7
-    },
-    {
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "operator": "STIB",
-      "title": "Bus 71 dévié (activités diplomatiques), de 9 h 30 à 13 h",
-      "detail": "Le 10 novembre de 9 h 30 à 13 h, les arrêts Royale et Gare Centrale du bus 71 sont remplacés. Impact pour le personnel qui rejoint Porte de Namur en bus 71 depuis la gare de Bruxelles-Central.",
-      "status": "Confirmé",
-      "source_id": 11
     },
     {
       "start": "2026-11-11",
@@ -69,25 +33,52 @@
       "end": "2026-11-15",
       "operator": "SNCB",
       "title": "Bus de remplacement entre Bruxelles-Midi et Nivelles",
-      "detail": "Le week-end des 14 et 15 novembre, tous les trains sont remplacés par des bus SNCB entre Bruxelles-Midi et Nivelles ; le parcours des trains S19 est adapté. Trajet du samedi nettement allongé pour le personnel venant de Nivelles, Braine-l'Alleud ou Waterloo.",
+      "detail": "Le week-end des 14 et 15 novembre, tous les trains sont remplacés par des bus SNCB entre Bruxelles-Midi et Nivelles ; le parcours des trains S19 est adapté et l'heure de départ des IC Anvers–Bruxelles-Central–Charleroi change. Trajet du samedi nettement allongé pour le personnel venant de Nivelles, Braine-l'Alleud ou Waterloo.",
       "status": "Confirmé",
       "source_id": 8
     },
     {
       "start": "2026-11-15",
-      "end": "2027-01-31",
+      "end": "2026-11-15",
+      "operator": "STIB",
+      "title": "Métro 5 remplacé par des bus le matin, station Roi Baudouin fermée le soir",
+      "detail": "Le dimanche 15 novembre avant 12 h 30, travaux sur la ligne de métro 5 : bus de remplacement entre Gare de l'Ouest et Erasme. Le même jour, à cause du match Belgique–Italie, la station Roi Baudouin (terminus du métro 6) est fermée à partir de 22 h : retour du soir à prévoir pour le personnel concerné.",
+      "status": "Confirmé",
+      "source_id": 11
+    },
+    {
+      "start": "2026-11-15",
+      "end": "2027-02-08",
       "operator": "STIB",
       "title": "Hôtel des Monnaies (métro 2 et 6) : quais partiellement isolés",
-      "detail": "À partir de la mi-novembre 2026 (date exacte non précisée), une partie du fond des quais est isolée pour les travaux ; la station reste ouverte et toutes les portes du métro restent accessibles. Impact faible sur les lignes 2 et 6 ; les travaux se poursuivent au-delà de janvier 2027.",
+      "detail": "À partir de la mi-novembre 2026 (date exacte non précisée), une partie du fond des quais est isolée pour les travaux ; la station et toutes ses entrées restent ouvertes et toutes les portes du métro restent accessibles. Impact faible sur les lignes 2 et 6 ; premier nouvel accès prévu à l'été 2027.",
       "status": "Annoncé",
       "source_id": 15
+    },
+    {
+      "start": "2026-11-16",
+      "end": "2026-11-27",
+      "operator": "SNCB",
+      "title": "Jonction Nord-Midi : trains adaptés en semaine entre Bruxelles-Midi et Bruxelles-Nord",
+      "detail": "En semaine, du 16 au 27 novembre, Infrabel effectue des travaux entre Schaerbeek et Bruxelles-Midi : le parcours et l'heure de départ de certains trains entre Bruxelles-Midi et Bruxelles-Nord sont adaptés. La SNCB précise que le planificateur n'en tient pas encore compte : retards possibles pour le personnel qui passe par Bruxelles-Central.",
+      "status": "Confirmé",
+      "source_id": 8
+    },
+    {
+      "start": "2026-11-16",
+      "end": "2026-11-20",
+      "operator": "SNCB",
+      "title": "Horaires adaptés entre Braine-l'Alleud et Charleroi",
+      "detail": "En semaine, du 16 au 20 novembre, l'heure de départ des trains IC Anvers–Bruxelles-Central–Charleroi, IC Essen–Bruxelles-Central–Charleroi et S19 Brussels Airport–Bruxelles-Luxembourg–Charleroi est adaptée. Vérifier l'horaire pour le personnel venant du sud du Brabant wallon ou de Charleroi.",
+      "status": "Confirmé",
+      "source_id": 8
     },
     {
       "start": "2026-11-17",
       "end": "2026-11-17",
       "operator": "Tous",
-      "title": "Manifestation des jeunes à Bruxelles, préavis de grève FGTB",
-      "detail": "Les étudiants francophones manifestent à nouveau à Bruxelles le mardi 17 novembre ; la FGTB a déposé un préavis de grève couvrant ses membres qui y participent. Perturbations possibles en surface dans le centre ; aucun préavis propre à la STIB ou à la SNCB n'a été trouvé.",
+      "title": "Manifestation des étudiants à Bruxelles, préavis de grève FGTB",
+      "detail": "Les étudiants de l'enseignement francophone manifestent à nouveau à Bruxelles le mardi 17 novembre ; la FGTB a déposé un préavis de grève couvrant ses membres qui y participent. Perturbations possibles en surface dans le centre ; aucun préavis propre à la STIB ou à la SNCB n'a été trouvé au 10 novembre.",
       "status": "Préavis déposé",
       "source_id": 4
     },
@@ -95,26 +86,26 @@
       "start": "2026-11-21",
       "end": "2026-11-29",
       "operator": "SNCB",
-      "title": "Travaux Malines–Louvain et autour de Bruxelles-Luxembourg (week-ends)",
-      "detail": "Les week-ends des 21-22 et 28-29 novembre, des bus SNCB remplacent les trains L entre Malines et Louvain ; le week-end des 21-22 novembre, la circulation est aussi adaptée entre Bruxelles-Luxembourg et Malines ou Louvain. Vérifier les trajets du samedi pour le personnel venant du Brabant flamand.",
+      "title": "Bus de remplacement entre Malines et Louvain (week-ends)",
+      "detail": "Les week-ends des 21-22 et 28-29 novembre, des bus SNCB remplacent les trains L entre Malines et Louvain ; le parcours et l'heure de départ de certains trains P entre Malines-Nekkerspoel et Louvain sont adaptés. Vérifier les trajets du samedi pour le personnel venant du Brabant flamand.",
       "status": "Confirmé",
-      "source_id": 9
+      "source_id": 8
     },
     {
       "start": "2026-11-23",
       "end": "2026-11-23",
       "operator": "Tous",
-      "title": "Manifestation nationale en front commun syndical à Bruxelles",
-      "detail": "La CSC, la FGTB et Synova appellent à une manifestation nationale à Bruxelles le lundi 23 novembre. Lors de la manifestation nationale du 9 octobre, la STIB avait annoncé des interruptions de lignes ou des fermetures de stations : forte perturbation probable dans le centre, détails et éventuels préavis dans les transports non encore publiés.",
+      "title": "Journée d'action et manifestation nationale en front commun à Bruxelles",
+      "detail": "La CSC, la FGTB et Synova appellent à une manifestation nationale à Bruxelles le lundi 23 novembre ; les absences pour y participer sont traitées comme des absences pour grève (indemnité de grève), y compris pour les équipes qui commencent le 22 au soir ou finissent dans la nuit du 23 au 24. Au 10 novembre, aucune grève générale n'est convoquée et aucun préavis propre à la STIB, à la SNCB ou à De Lijn n'a été trouvé : forte perturbation probable dans le centre, détails non encore publiés.",
       "status": "Annoncé",
       "source_id": 1
     },
     {
       "start": "2026-12-13",
-      "end": "2027-01-31",
+      "end": "2026-12-13",
       "operator": "SNCB",
       "title": "Nouvelle offre de trains (plan de transport 2026-2029, phase 1)",
-      "detail": "À partir du dimanche 13 décembre, de nombreux horaires changent : trains S4 prolongés vers Louvain-la-Neuve, deux S8 par heure le samedi via Bruxelles-Luxembourg, nouvelle gare de Braine-Alliance (S9 et S19), deuxième S5 par heure le samedi entre Vilvorde et Hal. Les horaires de travail fondés sur un train précis doivent être revérifiés.",
+      "detail": "À partir du dimanche 13 décembre, de nombreux horaires changent : trains S4 prolongés vers Louvain-la-Neuve, deux S8 par heure le samedi via Bruxelles-Luxembourg, nouvelle gare de Braine-Alliance (S9 et S19), deuxième S5 par heure le samedi entre Vilvorde et Hal ; travaux à Malines (un S1 sur deux seulement à Eppegem et Weerde vers Anvers). Les horaires de travail fondés sur un train précis doivent être revérifiés.",
       "status": "Confirmé",
       "source_id": 10
     }
@@ -129,13 +120,13 @@
     {
       "mode": "Bus",
       "lines": "34, 54, 64, 71, 80 ; Noctis N06, N08, N09, N10",
-      "note": "Lignes listées à l'arrêt STIB Porte de Namur. Les bus 34, 64 et 80 relient aussi l'arrêt Luxembourg (gare de Bruxelles-Luxembourg) ; le bus 71 dessert l'arrêt Gare Centrale.",
+      "note": "Lignes listées à l'arrêt STIB Porte de Namur. Les bus 34, 64 et 80 relient aussi l'arrêt Luxembourg (gare de Bruxelles-Luxembourg) ; le bus 71 relie De Brouckère et Delta en passant par Porte de Namur.",
       "source_id": 11
     },
     {
       "mode": "Train",
-      "lines": "Bruxelles-Luxembourg : S5, S8, S9 (semaine), S19 (week-end) ; puis bus 34, 64 ou 80",
-      "note": "Gare la plus proche. Depuis l'arrêt STIB Luxembourg, les bus 34, 64 et 80 ont pour destination ou pour passage Porte de Namur. Travaux les week-ends du 7 au 22 novembre 2026.",
+      "lines": "Bruxelles-Luxembourg (trains S) ; puis bus 34, 64 ou 80",
+      "note": "Gare la plus proche. À l'arrêt STIB Luxembourg, les bus 34, 64 et 80 circulent vers Porte de Namur. Travaux à Bruxelles-Luxembourg les week-ends jusqu'au 22 novembre 2026.",
       "source_id": 12
     },
     {
@@ -146,8 +137,8 @@
     },
     {
       "mode": "Train",
-      "lines": "Bruxelles-Central : bus 71, ou métro 1 ou 5 puis 2 ou 6 à Arts-Loi",
-      "note": "Le bus 71 dessert l'arrêt Gare Centrale et Porte de Namur. Alternative : métro 1 ou 5 jusqu'à Arts-Loi, puis métro 2 ou 6 jusqu'à Porte de Namur.",
+      "lines": "Bruxelles-Central : métro 1 ou 5 jusqu'à Arts-Loi, puis métro 2 ou 6",
+      "note": "Correspondance à Arts-Loi, desservie par les métros 1, 2, 5 et 6, puis métro 2 ou 6 jusqu'à Porte de Namur. Le dimanche 15 novembre avant 12 h 30, le métro 5 est remplacé par des bus entre Gare de l'Ouest et Erasme.",
       "source_id": 14
     },
     {
@@ -210,16 +201,59 @@
     }
   ],
   "sources": [
-    {"id": 1, "label": "23 novembre : manifestation nationale à Bruxelles (communiqué du 21 octobre 2026)", "publisher": "ACV-CSC", "url": "https://www.hetacv.be/actualiteit/nieuws-en-persberichten/newsdetail/2026/10/21/we-bouwen-de-toekomst-samen--we-ondergaan-ze-niet--afspraak-op-23-november-in-brussel"},
-    {"id": 4, "label": "La FGTB soutient l'action étudiante du 17 novembre avec un préavis de grève (6 novembre 2026)", "publisher": "La Libre Belgique (Belga)", "url": "https://www.lalibre.be/dernieres-depeches/2026/11/06/mobilisation-de-la-jeunesse-la-fgtb-soutient-laction-etudiante-du-17-novembre-avec-un-preavis-de-greve-FLIF52IHVNCPRJBRTP2VK3ZDJA/"},
-    {"id": 7, "label": "Grève des sociétés privées le lundi 9 novembre 2026", "publisher": "LETEC", "url": "https://www.letec.be/disruptions/619ccfc4-9863-4c6e-d5cb-08df1ef3ae8e"},
-    {"id": 8, "label": "Perturbations et travaux en cours (consulté le 6 novembre 2026)", "publisher": "SNCB", "url": "https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works"},
-    {"id": 9, "label": "Travaux entre Anvers-Central, Malines et Bruxelles-Midi, week-ends du 31 octobre au 29 novembre 2026", "publisher": "SNCB", "url": "https://www.belgiantrain.be/fr/news/works-anvers-central-malines-bruxelles-midi"},
-    {"id": 10, "label": "Dès le 13 décembre : nouvelle offre de trains", "publisher": "SNCB", "url": "https://www.belgiantrain.be/fr/news/new-offer-dec-2026"},
-    {"id": 11, "label": "Arrêt Porte de Namur : lignes, temps réel et perturbations", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749"},
-    {"id": 12, "label": "Arrêt Luxembourg : lignes et temps réel", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90569"},
-    {"id": 13, "label": "Arrêt Gare du Midi : lignes et perturbations", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90366"},
-    {"id": 14, "label": "Arrêt Arts-Loi : lignes de métro 1, 2, 5 et 6", "publisher": "STIB", "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90039"},
-    {"id": 15, "label": "Hôtel des Monnaies fait peau neuve, avec deux ascenseurs (27 octobre 2026)", "publisher": "STIB", "url": "https://www.stib-mivb.be/voyager/chantiers-et-projets/chantiers-en-cours/hotel-des-monnaies-fait-peau-neuve-avec-deux-ascenseurs"}
+    {
+      "id": 1,
+      "label": "Journée d'action syndicale le 23 novembre 2026 (mis à jour le 27 octobre 2026)",
+      "publisher": "CESSoC",
+      "url": "https://cessoc.be/content/article/25366"
+    },
+    {
+      "id": 4,
+      "label": "La FGTB soutient l'action étudiante du 17 novembre avec un préavis de grève (6 novembre 2026)",
+      "publisher": "La Libre Belgique (Belga)",
+      "url": "https://www.lalibre.be/dernieres-depeches/2026/11/06/mobilisation-de-la-jeunesse-la-fgtb-soutient-laction-etudiante-du-17-novembre-avec-un-preavis-de-greve-FLIF52IHVNCPRJBRTP2VK3ZDJA/"
+    },
+    {
+      "id": 8,
+      "label": "Perturbations et travaux en cours (consulté le 10 novembre 2026)",
+      "publisher": "SNCB",
+      "url": "https://www.belgiantrain.be/fr/travel-info/current/ongoing-disturbances-and-works"
+    },
+    {
+      "id": 10,
+      "label": "Dès le 13 décembre : nouvelle offre de trains (mis à jour le 29 septembre 2026)",
+      "publisher": "SNCB",
+      "url": "https://www.belgiantrain.be/fr/news/new-offer-dec-2026"
+    },
+    {
+      "id": 11,
+      "label": "Arrêt Porte de Namur : lignes, temps réel et perturbations (consulté le 10 novembre 2026)",
+      "publisher": "STIB",
+      "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90749"
+    },
+    {
+      "id": 12,
+      "label": "Arrêt Luxembourg : lignes et temps réel (consulté le 10 novembre 2026)",
+      "publisher": "STIB",
+      "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90569"
+    },
+    {
+      "id": 13,
+      "label": "Arrêt Gare du Midi : lignes et perturbations (consulté le 10 novembre 2026)",
+      "publisher": "STIB",
+      "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90366"
+    },
+    {
+      "id": 14,
+      "label": "Arrêt Arts-Loi : métros 1, 2, 5 et 6 et perturbations (consulté le 10 novembre 2026)",
+      "publisher": "STIB",
+      "url": "https://www.stib-mivb.be/accueil/voyager/temps-reel/arrets?stop=90039"
+    },
+    {
+      "id": 15,
+      "label": "Hôtel des Monnaies fait peau neuve, avec deux ascenseurs (27 octobre 2026)",
+      "publisher": "STIB",
+      "url": "https://www.stib-mivb.be/voyager/chantiers-et-projets/chantiers-en-cours/hotel-des-monnaies-fait-peau-neuve-avec-deux-ascenseurs"
+    }
   ]
 }
