@@ -428,12 +428,18 @@ def render(weeks, reports, transport, conges) -> str:
       <a class="tile" href="#conges"><small>Prochain jour férié</small><b>{e(fmt(next_hol['date'], year=False)) if next_hol else '—'}</b><span>{e(next_hol['name']) if next_hol else ''}</span></a>
       <a class="tile" href="#echeances"><small>Prochaine échéance</small><b>{e(fmt(next_dl['date'], year=False)) if next_dl else '—'}</b><span>{e(next_dl['what'][:90] + ('…' if len(next_dl['what']) > 90 else '')) if next_dl else ''}</span></a>
     </div>"""
-    heading = f"Semaine du {e(span(w['window']))}" if w else "Radar RH Belgique"
+    if w:
+        edition = (d(w["window"]["end"]) + dt.timedelta(days=1)).isoformat()
+        heading = f"Édition du lundi {e(fmt(edition))}"
+        covered = f'<p class="covered">Semaine analysée : {e(span(w["window"]))} · prochaine édition lundi {e(fmt((d(edition) + dt.timedelta(days=7)).isoformat()))}</p>'
+    else:
+        heading, covered = "Radar RH Belgique", ""
     built = dt.datetime.now(dt.timezone(dt.timedelta(hours=1))).strftime("%d/%m/%Y")
     body = f"""
   <header class="top">
     <p class="eyebrow">Radar RH Belgique</p>
     <h1>{heading}</h1>
+    {covered}
     <p class="sub">Droit social, paie et RH en Belgique, avec un accent sur le commerce de détail (CP 311) et Bruxelles.</p>
   </header>
   <nav class="tabs" role="tablist">
@@ -559,6 +565,7 @@ main { max-width: 860px; margin: 0 auto; padding: 0 16px 48px; }
 .eyebrow { margin: 0; color: var(--teal); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 h1 { margin: 6px 0 4px; font-size: 24px; line-height: 1.2; }
 .sub { margin: 0; color: #c9d2e3; font-size: 14px; }
+.covered { margin: 0 0 6px; color: var(--teal); font-size: 14px; font-weight: 600; }
 .tabs { position: sticky; top: 0; z-index: 5; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
   margin: 0 -16px; padding: 8px 12px; background: var(--navy); border-bottom: 3px solid var(--teal); }
 .tabs::-webkit-scrollbar { display: none; }
